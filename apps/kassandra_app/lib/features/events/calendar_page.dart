@@ -619,7 +619,8 @@ class _GapBanner extends StatelessWidget {
     final need = formatMoneyCeil(risk.liquidityNeedMinor);
     final text = phone
         ? '${formatDayMonth(gap)} разрыв · не хватит $need'
-        : '${formatDayMonth(gap)} остаток уйдёт в минус — до ${formatDayMonth(forecast.horizonEnd)} не хватит $need. Вероятность ${risk.probability30d == null ? '—' : formatPercent(risk.probability30d!)}, экспериментальная оценка.';
+        : '${formatDayMonth(gap)} остаток уйдёт в минус — до ${formatDayMonth(forecast.horizonEnd)} не хватит $need. Вероятность ${risk.probability30d == null ? '—' : formatPercent(risk.probability30d!)}, '
+              '${risk.calibrationStatus.startsWith('calibrated') ? 'откалибрована' : 'экспериментальная оценка'}.';
     return Material(
       color: colors.warningContainer,
       shape: RoundedRectangleBorder(

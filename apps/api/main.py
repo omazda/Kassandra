@@ -667,7 +667,7 @@ def create_app(service=None, users=None, auth_mode=None, assistant=None):
         return await run_in_threadpool(svc.validate_webhook, hook_id, user, body, content_type)
 
     # Receiving end for outside systems: no user session, the HMAC signature or the webhook
-    # secret proves the sender (nginx lets this path through without basic auth).
+    # secret proves the sender.
     @app.post("/api/v1/hooks/{hook_id}", response_model=WebhookResult)
     async def receive_webhook(hook_id: str, request: Request):
         body = await request.body()

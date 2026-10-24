@@ -259,8 +259,7 @@ class _SecretDialog extends ConsumerWidget {
                 child: Text(
                   'Каждый запрос подписывается: заголовок X-Kassandra-Signature = '
                   'sha256=HMAC-SHA256(ключ, тело запроса); X-Delivery-Id защищает от повторной '
-                  'доставки. Если сайт закрыт паролем (как демо-стенд), передайте и его: '
-                  'curl -u логин:пароль. Без пароля сайта можно и проще — заголовок '
+                  'доставки. Вместо подписи можно передать заголовок '
                   '«Authorization: Bearer <ключ>».',
                   style: golos(13, FontWeight.w400, colors.textMuted),
                 ),

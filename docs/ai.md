@@ -30,7 +30,7 @@ flowchart LR
 
 ## MCP-коннекторы (чтение данных системы)
 
-`src/cashflow_services/mcp_server.py` — MCP-сервер (Model Context Protocol, спецификация 2025-06-18, Streamable HTTP с JSON-ответами): `POST /api/v1/mcp` принимает JSON-RPC 2.0 — `initialize`, `tools/list`, `tools/call`, `ping`; уведомления → 202. Доступ — как у API (Bearer-токен или демо-режим; на стенде ещё basic auth nginx). Все 15 инструментов только читают (`readOnlyHint`), проверяют права на счёт и отдают суммы в рублях:
+`src/cashflow_services/mcp_server.py` — MCP-сервер (Model Context Protocol, спецификация 2025-06-18, Streamable HTTP с JSON-ответами): `POST /api/v1/mcp` принимает JSON-RPC 2.0 — `initialize`, `tools/list`, `tools/call`, `ping`; уведомления → 202. Доступ — как у API (Bearer-токен или демо-режим). Все 15 инструментов только читают (`readOnlyHint`), проверяют права на счёт и отдают суммы в рублях:
 
 `get_accounts`, `get_account_overview`, `get_forecast`, `get_gap_explanation`, `get_payment_calendar`, `get_transactions`, `get_category_summary`, `get_top_clients`, `get_recurring_payments`, `get_tax_calendar`, `get_plan_fact`, `get_alerts`, `get_counterparty_risks`, `get_balance_history`, `get_model_quality`.
 
