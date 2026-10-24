@@ -1,0 +1,12 @@
+{
+  "companies": 150,
+  "operations": 222420,
+  "inconsistent_transitions": 99,
+  "material_transitions_over_one_cent": 55,
+  "one_cent_transitions": 44,
+  "suspicious_duplicate_groups": 21,
+  "first_date": "2024-10-01",
+  "last_date": "2026-09-30",
+  "data_digest": "9fc121200d7faa24d8c41ba3f778b99b19adcc0e13d6b4a6b79ea564150ffffe",
+  "source_sha256": "28d7a2ebc6d4d65f31f93e59e24659a04c76990d20833337b9351316fd445472"
+}

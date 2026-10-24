@@ -1,0 +1,16 @@
+{
+  "known_at": "2026-04-26",
+  "loans": [
+    {"contract": "КЛ-2025/118", "lender": "ПАО «Банк»", "schedule": [
+      {"date": "2026-05-25", "principal_minor": 15000000, "interest_minor": 2150000}
+    ]}
+  ],
+  "payroll": [
+    {"date": "2026-05-04", "amount_minor": 37430100, "kind": "advance"},
+    {"date": "2026-05-18", "amount_minor": 37430100, "kind": "salary"}
+  ],
+  "payment_orders": [
+    {"number": "512", "date": "2026-04-29", "amount_minor": 12000000, "counterparty_inn": "0043270523",
+     "counterparty_name": "ООО «Семена-676»", "purpose": "Оплата по счету №С-71 от 20.04.2026 за семена"}
+  ]
+}

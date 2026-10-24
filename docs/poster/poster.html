@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Kassandra — постер решения</title>
+<!-- Source of docs/poster.png. Render from the repository root:
+     google-chrome --headless --allow-file-access-from-files --hide-scrollbars --window-size=1600,4200 \
+       --force-device-scale-factor=1.5 --screenshot=docs/poster.png docs/poster/poster.html -->
+<style>
+  @font-face { font-family: "Unbounded"; font-weight: 600; src: url(../../apps/kassandra_app/assets/fonts/Unbounded-SemiBold.ttf); }
+  @font-face { font-family: "Unbounded"; font-weight: 700; src: url(../../apps/kassandra_app/assets/fonts/Unbounded-Bold.ttf); }
+  @font-face { font-family: "Golos Text"; font-weight: 400; src: url(../../apps/kassandra_app/assets/fonts/GolosText-Regular.ttf); }
+  @font-face { font-family: "Golos Text"; font-weight: 500; src: url(../../apps/kassandra_app/assets/fonts/GolosText-Medium.ttf); }
+  @font-face { font-family: "Golos Text"; font-weight: 600; src: url(../../apps/kassandra_app/assets/fonts/GolosText-SemiBold.ttf); }
+  @font-face { font-family: "Golos Text"; font-weight: 700; src: url(../../apps/kassandra_app/assets/fonts/GolosText-Bold.ttf); }
+  @font-face { font-family: "JetBrains Mono"; font-weight: 500; src: url(../../apps/kassandra_app/assets/fonts/JetBrainsMono-Medium.ttf); }
+
+  :root {
+    --ink: #0F2B2E; --ink2: #163A3E; --lagoon: #1E6E70; --saffron: #E39B2D; --saffron-tint: #FBEFD9;
+    --coral: #B23E35; --mint: #2F8F62; --mint-tint: #E3F2EA; --fog: #F2F5F4; --card: #FBFCFB;
+    --line: #D5E0DE; --muted: #4A5F61; --on-ink-muted: #BFD8D5;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { width: 1600px; background: var(--fog); color: var(--ink); font: 400 21px/1.45 "Golos Text", Arial, sans-serif; }
+  .wrap { padding: 0 64px 56px; }
+  h2 { font: 600 38px/1.15 "Unbounded", Verdana, sans-serif; margin: 0 0 22px; }
+  h3 { font: 600 23px/1.25 "Golos Text", Arial, sans-serif; }
+  .eyebrow { font: 500 17px/1 "JetBrains Mono", monospace; letter-spacing: 3px; text-transform: uppercase; color: var(--lagoon); margin-bottom: 12px; }
+  .muted { color: var(--muted); }
+  section { margin-top: 52px; }
+
+  /* Header */
+  header { background: var(--ink); color: var(--fog); padding: 56px 64px 52px; position: relative; overflow: hidden; }
+  header .mark { position: absolute; right: 64px; top: 44px; width: 330px; }
+  header .eyebrow { color: var(--saffron); }
+  header h1 { font: 700 96px/1 "Unbounded", Verdana, sans-serif; margin: 6px 0 22px; }
+  header p.lead { font-size: 30px; line-height: 1.35; color: var(--on-ink-muted); max-width: 1060px; }
+  header .facts { display: flex; gap: 14px; margin-top: 30px; flex-wrap: wrap; }
+  header .facts span { border: 1px solid #2E5A5E; border-radius: 999px; padding: 8px 18px; font-size: 19px; color: var(--fog); }
+
+  /* Pipeline */
+  .pipe { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; }
+  .step { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 18px 16px; position: relative; }
+  .step .n { font: 500 16px "JetBrains Mono", monospace; color: var(--lagoon); }
+  .step h3 { font-size: 20px; margin: 6px 0 8px; }
+  .step p { font-size: 16.5px; line-height: 1.4; color: var(--muted); }
+  .step.dark { background: var(--ink); border-color: var(--ink); }
+  .step.dark h3 { color: var(--fog); } .step.dark p { color: var(--on-ink-muted); } .step.dark .n { color: var(--saffron); }
+  .step:not(:last-child)::after { content: ""; position: absolute; right: -9px; top: 50%; width: 8px; height: 8px; border-top: 2px solid var(--lagoon); border-right: 2px solid var(--lagoon); transform: translateY(-50%) rotate(45deg); }
+
+  /* Demo */
+  .demo { display: grid; grid-template-columns: 1.1fr 1fr; gap: 20px; margin-top: 20px; }
+  .banner { background: var(--saffron-tint); border: 1px solid #E8C98F; border-radius: 22px; padding: 26px 28px; }
+  .banner .tag { font: 600 15px/1 "Golos Text"; letter-spacing: 1.5px; text-transform: uppercase; color: #7A4E0E; }
+  .banner .title { font: 600 27px/1.3 "Golos Text"; margin: 12px 0 8px; }
+  .banner .sum { font: 600 52px/1.1 "Unbounded", Verdana, sans-serif; color: var(--coral); }
+  .chips { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+  .chips span { background: var(--card); border: 1px solid #E8C98F; border-radius: 999px; padding: 6px 14px; font-size: 17px; }
+  .fact { background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 24px 28px; }
+  .fact table { width: 100%; border-collapse: collapse; font-size: 19px; margin-top: 10px; }
+  .fact th { text-align: left; font-weight: 600; color: var(--muted); padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .fact td { padding: 8px 0; border-bottom: 1px solid #E6EDEB; vertical-align: top; }
+
+  /* Compliance */
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 24px 26px 18px; }
+  .box h3 { font: 600 21px/1.2 "Unbounded", Verdana, sans-serif; margin-bottom: 12px; }
+  .req { display: grid; grid-template-columns: 30px 1fr; gap: 0 12px; padding: 9px 0; border-top: 1px solid #E6EDEB; }
+  .req:first-of-type { border-top: none; }
+  .ok { width: 26px; height: 26px; border-radius: 50%; background: var(--mint); margin-top: 1px; position: relative; }
+  .ok::after { content: ""; position: absolute; left: 9px; top: 5px; width: 6px; height: 12px; border-right: 3px solid #fff; border-bottom: 3px solid #fff; transform: rotate(45deg); }
+  .req b { font-weight: 600; }
+  .req span { display: block; font-size: 17.5px; color: var(--muted); line-height: 1.4; margin-top: 2px; }
+  code { font: 500 15.5px "JetBrains Mono", monospace; background: #E8EEEC; border-radius: 6px; padding: 1px 6px; color: var(--ink); }
+
+  /* Criteria */
+  .crit { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+  .c { background: var(--ink); color: var(--fog); border-radius: 22px; padding: 22px 20px; display: flex; flex-direction: column; gap: 10px; }
+  .c .k { font: 500 15px "JetBrains Mono", monospace; color: var(--saffron); letter-spacing: 2px; }
+  .c h3 { font-size: 21px; }
+  .c .big { font: 600 40px/1.05 "Unbounded", Verdana, sans-serif; color: var(--saffron); }
+  .c p { font-size: 16.5px; line-height: 1.4; color: var(--on-ink-muted); }
+
+  /* Metrics */
+  .metrics { display: grid; grid-template-columns: 430px 1fr; gap: 20px; }
+  .cm { display: grid; grid-template-columns: 120px 1fr 1fr; gap: 8px; align-items: center; }
+  .cm .h { font-size: 16px; font-weight: 600; color: var(--muted); text-align: center; }
+  .cm .r { font-size: 16px; font-weight: 600; color: var(--muted); }
+  .cell { border-radius: 14px; padding: 14px 6px; text-align: center; }
+  .cell b { display: block; font: 600 34px/1 "Unbounded", Verdana, sans-serif; }
+  .cell i { font-style: normal; font-size: 15px; font-weight: 600; color: var(--muted); }
+  .good { background: var(--mint-tint); } .good b { color: #1F6B48; }
+  .bad { background: var(--saffron-tint); } .bad b { color: #8A5A12; }
+  .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .t { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px 18px; }
+  .t .l { font-size: 16px; font-weight: 600; color: var(--muted); }
+  .t .v { font: 600 30px/1.2 "Unbounded", Verdana, sans-serif; margin: 4px 0 2px; }
+  .t .s { font-size: 15.5px; color: var(--muted); line-height: 1.35; }
+  .note { margin-top: 14px; font-size: 17.5px; color: var(--muted); }
+
+  /* Architecture */
+  .arch { display: grid; gap: 10px; }
+  .row { display: grid; gap: 10px; }
+  .layer { border-radius: 16px; padding: 14px 18px; font-size: 18.5px; }
+  .layer b { font-weight: 600; }
+  .l1 { background: var(--card); border: 1px solid var(--line); }
+  .l2 { background: var(--ink); color: var(--fog); }
+  .l3 { background: var(--lagoon); color: var(--fog); }
+  .l4 { background: var(--saffron); color: var(--ink); }
+
+  footer { margin-top: 48px; background: var(--ink); color: var(--on-ink-muted); padding: 30px 64px; display: flex; justify-content: space-between; font-size: 19px; }
+  footer b { color: var(--fog); font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <svg class="mark" viewBox="8 20 48 25.5" aria-label="Знак Kassandra"><path d="M17 35 A15 15 0 0 1 47 35 Z" fill="#E39B2D"/><path d="M11 35 H53" stroke="#F2F5F4" stroke-width="6" stroke-linecap="round"/><path d="M22 43 H42" stroke="#6CC3BD" stroke-width="5" stroke-linecap="round"/></svg>
+  <div class="eyebrow">Хакатон «Осень 2026» · кейс «Сервис финансового прогнозирования»</div>
+  <h1>Kassandra</h1>
+  <p class="lead">Прогноз денежного потока для малого бизнеса: остаток по дням на 30 дней, кассовый разрыв с датой, суммой и вероятностью, причина и что сделать — языком предпринимателя.</p>
+  <div class="facts"><span>150 компаний · 222 420 операций · 15 отраслей</span><span>Python 3.12 · FastAPI · scikit-learn</span><span>Flutter web</span><span>317 + 51 тест</span></div>
+</header>
+
+<div class="wrap">
+<section>
+  <div class="eyebrow">Как это работает</div>
+  <h2>От выписки — к решению предпринимателя</h2>
+  <div class="pipe">
+    <div class="step"><div class="n">01</div><h3>Данные</h3><p>CSV, ZIP, 1С «Клиент-банк», webhook; маска качества: несверки, пропуски, дубли</p></div>
+    <div class="step"><div class="n">02</div><h3>Категории</h3><p>59 правил «контрагент + назначение», 30 категорий</p></div>
+    <div class="step"><div class="n">03</div><h3>Регулярное</h3><p>зарплата, ЕНП 28-го, аренда, кредиты, эквайринг T+1, календарь РФ</p></div>
+    <div class="step"><div class="n">04</div><h3>Известное</h3><p>договоры, счета, налоги, банк — вытесняют свою долю потока модели</p></div>
+    <div class="step"><div class="n">05</div><h3>ML-ансамбль</h3><p>HGB по потокам + HGB с календарём + профиль месяца, веса по горизонту</p></div>
+    <div class="step"><div class="n">06</div><h3>Риск</h3><p>1000 траекторий ошибок, калибровка X11: дата, сумма, вероятность</p></div>
+    <div class="step dark"><div class="n">07</div><h3>Действие</h3><p>почему разрыв, что сделать, сценарии «что если»</p></div>
+  </div>
+  <div class="demo">
+    <div class="banner">
+      <div class="tag">Кассовый разрыв через 10 дней · пример со стенда</div>
+      <div class="title">ООО «Софт-Решения-771», расчёт на 20.07.2026: 30 июля на счёте не хватит денег на обязательные платежи</div>
+      <div class="sum">−39 304 ₽</div>
+      <div class="chips"><span>Налоги 2,33 млн ₽ (28.07)</span><span>Зарплата 2,12 млн ₽ (29.07)</span><span>Вероятность 51%, откалибрована</span></div>
+    </div>
+    <div class="fact">
+      <h3>Что случилось на самом деле</h3>
+      <table>
+        <tr><th></th><th>Прогноз от 20.07</th><th>Факт</th></tr>
+        <tr><td>Дата</td><td>30 июля</td><td>31 июля</td></tr>
+        <tr><td>Причина</td><td>налоги + зарплата</td><td>налог 2,13 млн ₽, зарплата 2,64 млн ₽</td></tr>
+        <tr><td>Нехватка</td><td>39 тыс. ₽</td><td>551 тыс. ₽ (сумма занижена)</td></tr>
+      </table>
+      <p class="muted" style="font-size:16.5px;margin-top:10px">Прогноз не видел ни одной операции после 20.07. Ссылка: <code>/forecast?account=C124&amp;as_of=2026-07-20</code></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Соответствие ТЗ</div>
+  <h2>Каждое требование — где его проверить</h2>
+  <div class="cols">
+    <div class="box">
+      <h3>Основные задачи</h3>
+      <div class="req"><div class="ok"></div><div><b>1. Разбор и категоризация операций</b><span>accuracy 0,985, macro-F1 0,963 на 400 размеченных; без категории 0,06% оборота · <code>categories.py</code>, «Операции»</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>2. Регулярные платежи, счета, налоги из внешних источников</b><span>механизмы по истории, договоры и счета (ЭДО, 1С, OCR), налоговый календарь: режим по истории, ЕНП, УСН, НДС · <code>mechanisms.py</code>, <code>tax_calendar.py</code></span></div></div>
+      <div class="req"><div class="ok"></div><div><b>3. Прогноз остатка по дням на 30 дней</b><span>ансамбль X10, коридор P10–P90, производственный календарь РФ · <code>POST /api/v1/forecasts</code></span></div></div>
+      <div class="req"><div class="ok"></div><div><b>4. Риск разрыва: дата, сумма, вероятность</b><span>первый день ниже порога, потребность в деньгах, вероятность с калибровкой X11, причины и действия · <code>/explanation</code></span></div></div>
+      <div class="req"><div class="ok"></div><div><b>5. Понятный интерфейс</b><span>«30 июля не хватит 39 тыс. ₽: налоги и зарплата», график, колокольчик предупреждений, чат «Кассандра»</span></div></div>
+    </div>
+    <div class="box">
+      <h3>Задачи со звёздочкой</h3>
+      <div class="req"><div class="ok"></div><div><b>★1. Договоры, счета, налоги</b><span>предоплата, отсрочка, график; задержка клиента по истории; ЕНП до 28-го, авансы УСН, НДС тремя долями — событие на дату</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>★2. План-факт и автообновление</b><span>по дням и неделям, автосверка с выпиской, просроченный платёж — предупреждение, пересчёт и новая проверка риска</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>★3. Негативные сценарии «что если»</b><span>клиент позже на 2–4 недели, выручка −10–30%, внеплановый расход, рост постоянных расходов; база и негатив на одном графике</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>★4. Интеграции и ручной ввод</b><span>банк: кредиты, зарплатный проект, платёжки; 1С, ЭДО, ОФД, маркетплейс, ЕГРЮЛ/ЕГРИП, webhook HMAC; ввод фразой и OCR; источник события виден</span></div></div>
+    </div>
+    <div class="box">
+      <h3>Технические: минимальные</h3>
+      <div class="req"><div class="ok"></div><div><b>1. Прототип: история → прогноз</b><span>загрузка CSV/ZIP/1С, Docker Compose, веб-клиент</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>2. Модуль категоризации</b><span>правила + ручная правка с датой знания</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>3. Модель с проверкой качества</b><span>протокол v3 без утечек; «Отладка»: любой датасет → журнал «Шаг 1…8», MAE, MSE, матрица ошибок, F1, Brier</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>4. График остатка и предупреждения</b><span>факт, прогноз, P10–P90, точка разрыва; список предупреждений</span></div></div>
+    </div>
+    <div class="box">
+      <h3>Технические: дополнительные</h3>
+      <div class="req"><div class="ok"></div><div><b>1. Внешние системы и открытые данные</b><span>ЕГРЮЛ/ЕГРИП через DaData, производственный календарь РФ, адаптеры банка, ОФД, маркетплейса</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>2. Обновление без полного пересчёта</b><span>новое событие — 10–15 мс без модели; новая выписка — только затронутый счёт</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>3. Граничные случаи и пропуски</b><span>несверки не «чинятся», дубли, закрытые счета, история &lt; 7 дней — отказ, &lt; 90 — низкое доверие</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>4–5. Сравнение подходов · схема архитектуры</b><span>11 вариантов на одинаковых окнах (<code>docs/ml_results.md</code>); схема — README</span></div></div>
+      <div class="req"><div class="ok"></div><div><b>6–7. Тесты · безопасность</b><span>317 pytest + 51 Flutter; Bearer-токены, права на счёт, без назначений, ИНН и ключей в логах</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Критерии оценки</div>
+  <h2>Пять критериев — пять доказательств</h2>
+  <div class="crit">
+    <div class="c"><div class="k">1 · ПРОГНОЗ</div><h3>Качество прогноза</h3><div class="big">−21%</div><p>ошибка минимума месяца против «остаток не изменится»; честный бэктест: модель видит только прошлое</p></div>
+    <div class="c"><div class="k">2 · РАЗРЫВЫ</div><h3>Заранее и корректно</h3><div class="big">F1 0,49</div><p>калиброванная тревога на отложенных июле–августе против 0,37 у правила «ниже нуля»; медиана — за 10 дней</p></div>
+    <div class="c"><div class="k">3 · ИСТОЧНИКИ</div><h3>Польза источников</h3><div class="big">+4,3%</div><p>точность минимума от счетов поставщиков; +4,9% траектории от правила «один владелец потока»</p></div>
+    <div class="c"><div class="k">4 · ТЕХНИКА</div><h3>Качество и устойчивость</h3><div class="big">368</div><p>автотестов; 68 путей API с контрактами; деньги в копейках; граничные случаи помечены, а не скрыты</p></div>
+    <div class="c"><div class="k">5 · ДЕМО</div><h3>Реалистичный сценарий</h3><div class="big">10 дней</div><p>до разрыва C124 — предупреждение с причиной и действиями; живой стенд и загрузка своего датасета</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Контрольная проверка на всём датасете</div>
+  <h2>586 окон по 30 дней, после всех подборов</h2>
+  <div class="metrics">
+    <div class="box">
+      <h3>Матрица ошибок по разрывам</h3>
+      <div class="cm">
+        <div></div><div class="h">Разрыв был</div><div class="h">Не было</div>
+        <div class="r">Тревога</div><div class="cell good"><b>40</b><i>TP</i></div><div class="cell bad"><b>52</b><i>FP</i></div>
+        <div class="r">Нет тревоги</div><div class="cell bad"><b>39</b><i>FN</i></div><div class="cell good"><b>430</b><i>TN</i></div>
+      </div>
+    </div>
+    <div>
+      <div class="tiles">
+        <div class="t"><div class="l">Accuracy</div><div class="v">0,838</div><div class="s">specificity 0,892</div></div>
+        <div class="t"><div class="l">Precision · Recall</div><div class="v">0,44 · 0,51</div><div class="s">F1 0,468</div></div>
+        <div class="t"><div class="l">ROC-AUC</div><div class="v">0,880</div><div class="s">ранжирование риска</div></div>
+        <div class="t"><div class="l">Brier</div><div class="v">0,087</div><div class="s">skill +0,22 к частоте</div></div>
+        <div class="t"><div class="l">MAE остатка</div><div class="v">1,50 млн ₽</div><div class="s">«не изменится» 1,46 млн ₽</div></div>
+        <div class="t"><div class="l">MAE минимума</div><div class="v">1,12 млн ₽</div><div class="s">«не изменится» 1,42 млн ₽</div></div>
+        <div class="t"><div class="l">RMSE</div><div class="v">4,23 млн ₽</div><div class="s">WAPE 30% · MSE 1,8·10¹³</div></div>
+        <div class="t"><div class="l">Категоризация</div><div class="v">0,985</div><div class="s">accuracy, 400 операций</div></div>
+      </div>
+      <p class="note">Честно: траектория остатка по дням — на уровне «не изменится» (skill −0,03), дата разрыва ±3 дня — у 20% найденных, сумма нехватки часто занижена. Сильные стороны — минимум месяца, обнаружение разрыва и вероятность.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Архитектура</div>
+  <h2>Слои с чёткими границами</h2>
+  <div class="arch">
+    <div class="row" style="grid-template-columns: 2fr 1fr 2fr">
+      <div class="layer l1"><b>Flutter web «Kassandra»</b> — прогноз, разрыв, что если, календарь, операции, план-факт, источники, отладка, чат</div>
+      <div class="layer l1"><b>Dash</b> — технический режим</div>
+      <div class="layer l1"><b>Внешние системы</b> — 1С, банк, ЭДО, ОФД, маркетплейс, webhook, DaData</div>
+    </div>
+    <div class="layer l2"><b>FastAPI /api/v1</b> — Bearer-токены, права на счёт, ответы по Pydantic-контрактам (<code>docs/openapi.json</code>)</div>
+    <div class="row" style="grid-template-columns: 3fr 2fr">
+      <div class="layer l3"><b>Сервисы</b> — оркестрация, версии данных и событий с датой знания, план-факт, предупреждения, пересчёт без модели</div>
+      <div class="layer l4"><b>ИИ-надстройка</b> — LLM проверяет прогноз, OCR, чат через MCP-инструменты; цифры считает сервис</div>
+    </div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr">
+      <div class="layer l1"><b>cashflow_ml</b> — признаки, HGB, ансамбль, банк ошибок, калибровка</div>
+      <div class="layer l1"><b>cashflow_domain</b> — траектория, риск, сценарии, деньги в копейках</div>
+      <div class="layer l1"><b>SQLite</b> — операции, события, прогнозы, ревизии</div>
+    </div>
+  </div>
+</section>
+</div>
+
+<footer>
+  <div><b>Запуск:</b> <code style="background:#163A3E;color:#F2F5F4">docker compose up --build</code> · <code style="background:#163A3E;color:#F2F5F4">make check</code></div>
+  <div><b>Документы:</b> docs/ml_protocol.md · docs/ml_results.md · docs/contracts.md</div>
+</footer>
+</body>
+</html>

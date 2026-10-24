@@ -1,0 +1,32 @@
+{
+ "archive_range": [
+  "2024-10-01",
+  "2026-09-30"
+ ],
+ "operations_total": 222420,
+ "table_nonworking_weekdays_in_range": 30,
+ "ops_on_table_nonworking_days": 0,
+ "nonworking_days_with_ops": [],
+ "working_saturdays_in_range": {
+  "2024-11-02": 248,
+  "2024-12-28": 414,
+  "2025-11-01": 387
+ },
+ "working_days_in_range": 495,
+ "working_days_without_ops_not_in_table": [],
+ "weekend_days_with_ops_not_working_saturday": [],
+ "provisional_years": [
+  2027
+ ],
+ "not_covered_by_archive": "2024-01-01..2024-09-30 and 2027 (table taken from decrees as known)",
+ "acquiring_credit_is_next_working_day_after_registry": {
+  "checked": 47448,
+  "matched": 47448,
+  "share": 1.0
+ },
+ "sbp_credit_is_next_working_day_after_registry": {
+  "checked": 47435,
+  "matched": 47435,
+  "share": 1.0
+ }
+}

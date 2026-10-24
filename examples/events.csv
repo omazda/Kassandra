@@ -1,0 +1,2 @@
+id;account_id;component_id;category;amount_minor;direction;due_date;expected_date;known_at;status;decision;label
+example-invoice-001;C002;manual-invoice;revenue;30000000;in;2026-09-15;2026-09-15;2026-08-31;confirmed;additional;Демонстрационный счёт от клиента (условный реестр)

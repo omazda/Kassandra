@@ -1,0 +1,20 @@
+{
+  "trained_to": "2025-12-31",
+  "calendar": true,
+  "data_digest": "3fc3d9b1904e92de1ec22992a3470fc59ae3a8af56bac176f32c2250519d9983",
+  "features": "past-flow-v1",
+  "parameters": {
+    "max_iter": 80,
+    "max_leaf_nodes": 15,
+    "learning_rate": 0.06,
+    "l2_regularization": 2.0,
+    "min_samples_leaf": 40
+  },
+  "seed": 42,
+  "training_windows": 1454,
+  "training_rows": 43620,
+  "target": "revenue_in/other_in/out in minor units normalized by past turnover",
+  "model_version": "hgb-2025-12-31-residual-267d6048e9",
+  "max_target_date": "2025-12-31",
+  "max_origin": "2025-12-01"
+}

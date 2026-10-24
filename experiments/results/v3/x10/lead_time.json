@@ -1,0 +1,102 @@
+{
+  "retrospective": {
+    "ens_bal": {
+      "events_detected": 8,
+      "lead_days_median": 14.0,
+      "lead_days_mean": 15.625,
+      "lead_days_min": 8,
+      "lead_days_max": 27,
+      "share_lead_ge_14": 0.625
+    },
+    "ens_traj": {
+      "events_detected": 7,
+      "lead_days_median": 12.0,
+      "lead_days_mean": 14.428571428571429,
+      "lead_days_min": 8,
+      "lead_days_max": 27,
+      "share_lead_ge_14": 0.42857142857142855
+    },
+    "hgb_cal": {
+      "events_detected": 11,
+      "lead_days_median": 14.0,
+      "lead_days_mean": 15.272727272727273,
+      "lead_days_min": 7,
+      "lead_days_max": 27,
+      "share_lead_ge_14": 0.5454545454545454
+    },
+    "hgb_v2": {
+      "events_detected": 6,
+      "lead_days_median": 17.0,
+      "lead_days_mean": 17.5,
+      "lead_days_min": 8,
+      "lead_days_max": 28,
+      "share_lead_ge_14": 0.6666666666666666
+    },
+    "shape_only": {
+      "events_detected": 12,
+      "lead_days_median": 13.0,
+      "lead_days_mean": 14.25,
+      "lead_days_min": 7,
+      "lead_days_max": 27,
+      "share_lead_ge_14": 0.4166666666666667
+    },
+    "weekday": {
+      "events_detected": 7,
+      "lead_days_median": 14.0,
+      "lead_days_mean": 14.285714285714286,
+      "lead_days_min": 7,
+      "lead_days_max": 27,
+      "share_lead_ge_14": 0.5714285714285714
+    }
+  },
+  "selection": {
+    "ens_bal": {
+      "events_detected": 13,
+      "lead_days_median": 22.0,
+      "lead_days_mean": 18.76923076923077,
+      "lead_days_min": 8,
+      "lead_days_max": 29,
+      "share_lead_ge_14": 0.7692307692307693
+    },
+    "ens_traj": {
+      "events_detected": 5,
+      "lead_days_median": 23.0,
+      "lead_days_mean": 19.8,
+      "lead_days_min": 8,
+      "lead_days_max": 29,
+      "share_lead_ge_14": 0.8
+    },
+    "hgb_cal": {
+      "events_detected": 12,
+      "lead_days_median": 15.5,
+      "lead_days_mean": 17.0,
+      "lead_days_min": 8,
+      "lead_days_max": 29,
+      "share_lead_ge_14": 0.5
+    },
+    "hgb_v2": {
+      "events_detected": 17,
+      "lead_days_median": 22.0,
+      "lead_days_mean": 19.058823529411764,
+      "lead_days_min": 8,
+      "lead_days_max": 30,
+      "share_lead_ge_14": 0.7058823529411765
+    },
+    "shape_only": {
+      "events_detected": 15,
+      "lead_days_median": 10.0,
+      "lead_days_mean": 12.0,
+      "lead_days_min": 8,
+      "lead_days_max": 29,
+      "share_lead_ge_14": 0.2
+    },
+    "weekday": {
+      "events_detected": 8,
+      "lead_days_median": 14.0,
+      "lead_days_mean": 16.5,
+      "lead_days_min": 9,
+      "lead_days_max": 30,
+      "share_lead_ge_14": 0.5
+    }
+  }
+}

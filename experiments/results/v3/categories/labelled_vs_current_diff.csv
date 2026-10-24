@@ -1,0 +1,7 @@
+﻿sample_id;company_id;operation_id;operation_date;amount;direction;counterparty_name;payment_purpose;pred_firstpass;rule_firstpass;true_category;amount_minor;pred_current
+1;C024;C024-002183;2026-01-19;18275.06;out;ИП Овощебаза-112;;operating_expense;cp_supplier;supplier;1827506;supplier
+4;C106;C106-001655;2026-07-03;870655.92;out;ООО «Метизы-838»;;operating_expense;cp_supplier;supplier;87065592;supplier
+162;C132;C132-001580;2025-11-05;82991.36;out;ООО «Хлебозавод-974»;;operating_expense;cp_supplier;supplier;8299136;supplier
+204;C103;C103-000121;2025-03-24;63080.84;out;ООО «Электротехника-Снаб-508»;;operating_expense;cp_supplier;supplier;6308084;supplier
+320;C132;C132-000715;2025-03-31;76334.85;out;ИП Заморозка-Дистрибуция-599;;operating_expense;cp_supplier;supplier;7633485;supplier
+321;C106;C106-001419;2026-04-20;738879.1;out;АО «Лакокрасочный завод-315»;;operating_expense;cp_supplier;supplier;73887910;supplier

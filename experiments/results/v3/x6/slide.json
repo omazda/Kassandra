@@ -1,0 +1,499 @@
+{
+ "budget": 1.0,
+ "variants": {
+  "docs": {
+   "status": "experimental_uncalibrated",
+   "coverage": {
+    "selection": {
+     "windows": 1539,
+     "companies": 121,
+     "nominal": 0.8,
+     "coverage_all_days": 0.796816114359974,
+     "coverage_by_company_median": 0.8452380952380952,
+     "coverage_day7": 0.8297595841455491,
+     "coverage_day14": 0.8362573099415205,
+     "coverage_day30": 0.8265107212475633,
+     "below_p10_share": 0.04855967078189301,
+     "above_p90_share": 0.154624214858133
+    },
+    "retrospective": {
+     "windows": 1064,
+     "companies": 125,
+     "nominal": 0.8,
+     "coverage_all_days": 0.8553884711779448,
+     "coverage_by_company_median": 0.911111111111111,
+     "coverage_day7": 0.8543233082706767,
+     "coverage_day14": 0.8374060150375939,
+     "coverage_day30": 0.8768796992481203,
+     "below_p10_share": 0.044141604010025065,
+     "above_p90_share": 0.10046992481203008
+    }
+   },
+   "selection": {
+    "brier": 0.06284531257469704,
+    "brier_skill": 0.4155639229681233,
+    "risk": {
+     "windows_at_risk": 1490,
+     "windows_current_deficit": 49,
+     "events_scorable": 69,
+     "events_detected": 19,
+     "recall_7d": 0.2753623188405797,
+     "recall_7d_ci": [
+      0.18394380762574333,
+      0.39047520568533167
+     ],
+     "alarm_windows": 395,
+     "false_alarm_windows": 331,
+     "account_months": 342.6694045174538,
+     "false_alarms_per_account_month": 0.965945589645254,
+     "date_error_n": 168,
+     "date_within_tolerance": 0.375,
+     "date_error_median_days": 6.0,
+     "deficit_error_n": 168,
+     "deficit_mae_rub": 2243820.975119048,
+     "deficit_median_ae_rub": 1093992.1549999998
+    },
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 1106,
+      "mean_p": 0.01780179285640938,
+      "observed": 0.012658227848101266
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 21,
+      "mean_p": 0.1444522636640863,
+      "observed": 0.14285714285714285
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 1,
+      "mean_p": 0.2768472906403941,
+      "observed": 0.0
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 126,
+      "mean_p": 0.3207487684729064,
+      "observed": 0.19047619047619047
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 136,
+      "mean_p": 0.4902992776057791,
+      "observed": 0.47794117647058826
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 100,
+      "mean_p": 0.5507692307692307,
+      "observed": 0.74
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     }
+    ]
+   },
+   "retrospective": {
+    "brier": 0.07314000287940962,
+    "brier_skill": 0.31391929591236667,
+    "risk": {
+     "windows_at_risk": 1036,
+     "windows_current_deficit": 28,
+     "events_scorable": 49,
+     "events_detected": 18,
+     "recall_7d": 0.3673469387755102,
+     "recall_7d_ci": [
+      0.24664982524781226,
+      0.5073318861311014
+     ],
+     "alarm_windows": 254,
+     "false_alarm_windows": 216,
+     "account_months": 238.258726899384,
+     "false_alarms_per_account_month": 0.9065774958632101,
+     "date_error_n": 102,
+     "date_within_tolerance": 0.3627450980392157,
+     "date_error_median_days": 6.0,
+     "deficit_error_n": 102,
+     "deficit_mae_rub": 1717614.160098039,
+     "deficit_median_ae_rub": 648811.87
+    },
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 788,
+      "mean_p": 0.01827638530662367,
+      "observed": 0.027918781725888325
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 16,
+      "mean_p": 0.14495073891625615,
+      "observed": 0.3125
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 93,
+      "mean_p": 0.31769334348106076,
+      "observed": 0.24731182795698925
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 84,
+      "mean_p": 0.48830923462502407,
+      "observed": 0.36904761904761907
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 55,
+      "mean_p": 0.5503496503496502,
+      "observed": 0.7818181818181819
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     }
+    ]
+   },
+   "central_threshold": {
+    "selection": {
+     "windows_at_risk": 1490,
+     "windows_current_deficit": 49,
+     "events_scorable": 69,
+     "events_detected": 20,
+     "recall_7d": 0.2898550724637681,
+     "recall_7d_ci": [
+      0.19615912140759173,
+      0.40571672975438167
+     ],
+     "alarm_windows": 288,
+     "false_alarm_windows": 224,
+     "account_months": 342.6694045174538,
+     "false_alarms_per_account_month": 0.6536912751677852,
+     "date_error_n": 153,
+     "date_within_tolerance": 0.4117647058823529,
+     "date_error_median_days": 5.0,
+     "deficit_error_n": 153,
+     "deficit_mae_rub": 1762341.847843137,
+     "deficit_median_ae_rub": 682991.52
+    },
+    "retrospective": {
+     "windows_at_risk": 1036,
+     "windows_current_deficit": 28,
+     "events_scorable": 49,
+     "events_detected": 11,
+     "recall_7d": 0.22448979591836735,
+     "recall_7d_ci": [
+      0.1302483771472861,
+      0.35879056187045744
+     ],
+     "alarm_windows": 171,
+     "false_alarm_windows": 142,
+     "account_months": 238.258726899384,
+     "false_alarms_per_account_month": 0.5959907611693326,
+     "date_error_n": 81,
+     "date_within_tolerance": 0.3333333333333333,
+     "date_error_median_days": 6.0,
+     "deficit_error_n": 81,
+     "deficit_mae_rub": 1213577.3781481483,
+     "deficit_median_ae_rub": 494675.1
+    }
+   }
+  },
+  "nodocs": {
+   "status": "experimental_uncalibrated",
+   "coverage": {
+    "selection": {
+     "windows": 1539,
+     "companies": 121,
+     "nominal": 0.8,
+     "coverage_all_days": 0.7666666666666667,
+     "coverage_by_company_median": 0.8023809523809524,
+     "coverage_day7": 0.7979207277452891,
+     "coverage_day14": 0.8089668615984406,
+     "coverage_day30": 0.8005198180636777,
+     "below_p10_share": 0.05832791856183669,
+     "above_p90_share": 0.17500541477149667
+    },
+    "retrospective": {
+     "windows": 1064,
+     "companies": 125,
+     "nominal": 0.8,
+     "coverage_all_days": 0.8329573934837092,
+     "coverage_by_company_median": 0.862962962962963,
+     "coverage_day7": 0.8233082706766918,
+     "coverage_day14": 0.8139097744360902,
+     "coverage_day30": 0.8383458646616542,
+     "below_p10_share": 0.04244987468671679,
+     "above_p90_share": 0.12459273182957394
+    }
+   },
+   "selection": {
+    "brier": 0.07538405657343411,
+    "brier_skill": 0.29895865754249895,
+    "risk": {
+     "windows_at_risk": 1490,
+     "windows_current_deficit": 49,
+     "events_scorable": 69,
+     "events_detected": 29,
+     "recall_7d": 0.42028985507246375,
+     "recall_7d_ci": [
+      0.3110593225861805,
+      0.5379280692338784
+     ],
+     "alarm_windows": 542,
+     "false_alarm_windows": 477,
+     "account_months": 342.6694045174538,
+     "false_alarms_per_account_month": 1.3920122243528283,
+     "date_error_n": 169,
+     "date_within_tolerance": 0.3727810650887574,
+     "date_error_median_days": 6.0,
+     "deficit_error_n": 169,
+     "deficit_mae_rub": 1851047.2301183431,
+     "deficit_median_ae_rub": 926826.81
+    },
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 1105,
+      "mean_p": 0.012204002143651103,
+      "observed": 0.02081447963800905
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 1,
+      "mean_p": 0.1540867093105899,
+      "observed": 0.0
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 1,
+      "mean_p": 0.2956645344705046,
+      "observed": 0.0
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 56,
+      "mean_p": 0.3428571428571429,
+      "observed": 0.125
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 327,
+      "mean_p": 0.43137254901960803,
+      "observed": 0.45871559633027525
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     }
+    ]
+   },
+   "retrospective": {
+    "brier": 0.08089224195560611,
+    "brier_skill": 0.24120038103316233,
+    "risk": {
+     "windows_at_risk": 1036,
+     "windows_current_deficit": 28,
+     "events_scorable": 49,
+     "events_detected": 20,
+     "recall_7d": 0.40816326530612246,
+     "recall_7d_ci": [
+      0.2821503460597105,
+      0.5475293002795374
+     ],
+     "alarm_windows": 343,
+     "false_alarm_windows": 303,
+     "account_months": 238.258726899384,
+     "false_alarms_per_account_month": 1.2717267650303365,
+     "date_error_n": 107,
+     "date_within_tolerance": 0.37383177570093457,
+     "date_error_median_days": 6.0,
+     "deficit_error_n": 107,
+     "deficit_mae_rub": 1276329.5784112148,
+     "deficit_median_ae_rub": 637770.19
+    },
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 782,
+      "mean_p": 0.012524963211963927,
+      "observed": 0.03324808184143223
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 3,
+      "mean_p": 0.13835583984837715,
+      "observed": 0.0
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 1,
+      "mean_p": 0.24847192608386637,
+      "observed": 0.0
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 30,
+      "mean_p": 0.3428571428571429,
+      "observed": 0.16666666666666666
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 220,
+      "mean_p": 0.431372549019608,
+      "observed": 0.42272727272727273
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 0,
+      "mean_p": null,
+      "observed": null
+     }
+    ]
+   },
+   "central_threshold": {
+    "selection": {
+     "windows_at_risk": 1490,
+     "windows_current_deficit": 49,
+     "events_scorable": 69,
+     "events_detected": 20,
+     "recall_7d": 0.2898550724637681,
+     "recall_7d_ci": [
+      0.19615912140759173,
+      0.40571672975438167
+     ],
+     "alarm_windows": 233,
+     "false_alarm_windows": 184,
+     "account_months": 342.6694045174538,
+     "false_alarms_per_account_month": 0.536960690316395,
+     "date_error_n": 121,
+     "date_within_tolerance": 0.371900826446281,
+     "date_error_median_days": 5.0,
+     "deficit_error_n": 121,
+     "deficit_mae_rub": 1194865.9134710743,
+     "deficit_median_ae_rub": 653030.72
+    },
+    "retrospective": {
+     "windows_at_risk": 1036,
+     "windows_current_deficit": 28,
+     "events_scorable": 49,
+     "events_detected": 12,
+     "recall_7d": 0.24489795918367346,
+     "recall_7d_ci": [
+      0.14602203389475285,
+      0.38086587260315785
+     ],
+     "alarm_windows": 150,
+     "false_alarm_windows": 125,
+     "account_months": 238.258726899384,
+     "false_alarms_per_account_month": 0.5246397545504689,
+     "date_error_n": 74,
+     "date_within_tolerance": 0.2972972972972973,
+     "date_error_median_days": 7.0,
+     "deficit_error_n": 74,
+     "deficit_mae_rub": 722885.0932432433,
+     "deficit_median_ae_rub": 515231.12
+    }
+   }
+  }
+ }
+}

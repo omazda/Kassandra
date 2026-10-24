@@ -1,0 +1,7 @@
+Fonts are bundled so the app looks the same offline.
+
+Unbounded — SIL Open Font License 1.1. Copyright 2022 The Unbounded Project Authors.
+Golos Text — SIL Open Font License 1.1. Copyright 2019 The Golos Text Project Authors.
+JetBrains Mono — SIL Open Font License 1.1. Copyright 2020 The JetBrains Mono Project Authors.
+
+See OFL-unbounded.txt, OFL-golos.txt and OFL-jetbrains.txt in this directory.

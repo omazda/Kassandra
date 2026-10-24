@@ -1,0 +1,3373 @@
+{
+ "variants": {
+  "docs": {
+   "method": "structural",
+   "windows": {
+    "calibration": 1668,
+    "selection": 1539,
+    "retrospective": 1064
+   },
+   "calibration_base_rate": 0.084472049689441,
+   "calibration_open_windows": 1610,
+   "calibration_events_windows": 136,
+   "cv_brier": {
+    "bank": {
+     "isotonic": 0.05904509657688422,
+     "platt": 0.0630818144346561,
+     "raw": 0.10672513291925466
+    },
+    "events": {
+     "isotonic": 0.05764074742346898,
+     "platt": 0.060167396002245896,
+     "raw": 0.10525922111801242
+    }
+   },
+   "calibrator_kind": {
+    "bank": "isotonic",
+    "events": "isotonic"
+   },
+   "chosen_simulation": "events",
+   "reliability_status": {
+    "ok": false,
+    "bins_checked": 4,
+    "max_gap": 0.1892307692307693,
+    "tolerance": 0.1,
+    "min_bin_windows": 30
+   },
+   "coverage": {
+    "selection": {
+     "windows": 1539,
+     "companies": 121,
+     "nominal": 0.8,
+     "coverage_all_days": 0.796816114359974,
+     "coverage_by_company_median": 0.8452380952380952,
+     "coverage_day7": 0.8297595841455491,
+     "coverage_day14": 0.8362573099415205,
+     "coverage_day30": 0.8265107212475633,
+     "below_p10_share": 0.04855967078189301,
+     "above_p90_share": 0.154624214858133
+    },
+    "retrospective": {
+     "windows": 1064,
+     "companies": 125,
+     "nominal": 0.8,
+     "coverage_all_days": 0.8553884711779448,
+     "coverage_by_company_median": 0.911111111111111,
+     "coverage_day7": 0.8543233082706767,
+     "coverage_day14": 0.8374060150375939,
+     "coverage_day30": 0.8768796992481203,
+     "below_p10_share": 0.044141604010025065,
+     "above_p90_share": 0.10046992481203008
+    }
+   },
+   "methods": {
+    "sim_raw_bank": {
+     "threshold": 0.305,
+     "thresholds_by_budget": {
+      "0.25": 0.69,
+      "0.5": 0.454,
+      "1.0": 0.305
+     },
+     "calibration": {
+      "risk": {
+       "windows_at_risk": 1610,
+       "windows_current_deficit": 58,
+       "events_scorable": 23,
+       "events_detected": 11,
+       "recall_7d": 0.4782608695652174,
+       "recall_7d_ci": [
+        0.2923686953994572,
+        0.6703757013578151
+       ],
+       "alarm_windows": 489,
+       "false_alarm_windows": 431,
+       "account_months": 370.26694045174537,
+       "false_alarms_per_account_month": 1.1640250665483585,
+       "date_error_n": 120,
+       "date_within_tolerance": 0.44166666666666665,
+       "date_error_median_days": 4.0,
+       "deficit_error_n": 120,
+       "deficit_mae_rub": 2431701.2804166665,
+       "deficit_median_ae_rub": 1342681.105
+      },
+      "probability": {
+       "n": 1610,
+       "brier": 0.10672513291925466,
+       "base_rate_split": 0.084472049689441,
+       "vs_split_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": -0.3800094632452713
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": -0.3800094632452713
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 560,
+         "mean_p": 0.03835714285714287,
+         "observed": 0.0017857142857142857
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 345,
+         "mean_p": 0.14328115942028985,
+         "observed": 0.017391304347826087
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 212,
+         "mean_p": 0.24516037735849058,
+         "observed": 0.04245283018867924
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 149,
+         "mean_p": 0.3509194630872483,
+         "observed": 0.03355704697986577
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 80,
+         "mean_p": 0.4436625,
+         "observed": 0.15
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 50,
+         "mean_p": 0.54624,
+         "observed": 0.3
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 57,
+         "mean_p": 0.6547543859649124,
+         "observed": 0.2807017543859649
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 29,
+         "mean_p": 0.7453793103448273,
+         "observed": 0.5172413793103449
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 25,
+         "mean_p": 0.8514400000000001,
+         "observed": 0.36
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 103,
+         "mean_p": 0.9685145631067961,
+         "observed": 0.46601941747572817
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.391304347826087,
+        "events_scorable": 23,
+        "events_detected": 9,
+        "false_alarms_per_account_month": 0.3267912599822538,
+        "date_within_tolerance": 0.5714285714285714,
+        "deficit_mae_rub": 2657287.633246753
+       },
+       "0.5": {
+        "recall_7d": 0.4782608695652174,
+        "events_scorable": 23,
+        "events_detected": 11,
+        "false_alarms_per_account_month": 0.6454802573203194,
+        "date_within_tolerance": 0.4732142857142857,
+        "deficit_mae_rub": 2498096.301785714
+       },
+       "1.0": {
+        "recall_7d": 0.4782608695652174,
+        "events_scorable": 23,
+        "events_detected": 11,
+        "false_alarms_per_account_month": 1.1640250665483585,
+        "date_within_tolerance": 0.44166666666666665,
+        "deficit_mae_rub": 2431701.2804166665
+       }
+      }
+     },
+     "selection": {
+      "risk": {
+       "windows_at_risk": 1490,
+       "windows_current_deficit": 49,
+       "events_scorable": 69,
+       "events_detected": 28,
+       "recall_7d": 0.4057971014492754,
+       "recall_7d_ci": [
+        0.29788729078613463,
+        0.5236432631830259
+       ],
+       "alarm_windows": 548,
+       "false_alarm_windows": 477,
+       "account_months": 342.6694045174538,
+       "false_alarms_per_account_month": 1.3920122243528283,
+       "date_error_n": 175,
+       "date_within_tolerance": 0.4,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 175,
+       "deficit_mae_rub": 2081323.1838285716,
+       "deficit_median_ae_rub": 950969.31
+      },
+      "probability": {
+       "n": 1490,
+       "brier": 0.12177211073825504,
+       "base_rate_split": 0.12080536912751678,
+       "vs_split_rate": {
+        "brier_base": 0.10621143191748117,
+        "brier_skill": -0.14650662871077214
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10753154201887043,
+        "brier_skill": -0.13243154940422586
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 435,
+         "mean_p": 0.04494712643678161,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 295,
+         "mean_p": 0.1396372881355932,
+         "observed": 0.006779661016949152
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 207,
+         "mean_p": 0.24609661835748795,
+         "observed": 0.00966183574879227
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 113,
+         "mean_p": 0.34395575221238933,
+         "observed": 0.07079646017699115
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 59,
+         "mean_p": 0.44898305084745765,
+         "observed": 0.03389830508474576
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 61,
+         "mean_p": 0.5463770491803279,
+         "observed": 0.09836065573770492
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 46,
+         "mean_p": 0.6465000000000001,
+         "observed": 0.21739130434782608
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 51,
+         "mean_p": 0.7500196078431373,
+         "observed": 0.27450980392156865
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 61,
+         "mean_p": 0.8588032786885246,
+         "observed": 0.47540983606557374
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 162,
+         "mean_p": 0.9736481481481482,
+         "observed": 0.6604938271604939
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.36231884057971014,
+        "events_scorable": 69,
+        "events_detected": 25,
+        "false_alarms_per_account_month": 0.6186720997123681,
+        "date_within_tolerance": 0.4304635761589404,
+        "deficit_mae_rub": 2148320.253046357
+       },
+       "0.5": {
+        "recall_7d": 0.37681159420289856,
+        "events_scorable": 69,
+        "events_detected": 26,
+        "false_alarms_per_account_month": 1.0038830297219559,
+        "date_within_tolerance": 0.40718562874251496,
+        "deficit_mae_rub": 2101784.846826347
+       },
+       "1.0": {
+        "recall_7d": 0.4057971014492754,
+        "events_scorable": 69,
+        "events_detected": 28,
+        "false_alarms_per_account_month": 1.3920122243528283,
+        "date_within_tolerance": 0.4,
+        "deficit_mae_rub": 2081323.1838285716
+       }
+      }
+     },
+     "retrospective": {
+      "risk": {
+       "windows_at_risk": 1036,
+       "windows_current_deficit": 28,
+       "events_scorable": 49,
+       "events_detected": 17,
+       "recall_7d": 0.3469387755102041,
+       "recall_7d_ci": [
+        0.2292420960931444,
+        0.4868906478056021
+       ],
+       "alarm_windows": 368,
+       "false_alarm_windows": 324,
+       "account_months": 238.258726899384,
+       "false_alarms_per_account_month": 1.3598662437948152,
+       "date_error_n": 113,
+       "date_within_tolerance": 0.3805309734513274,
+       "date_error_median_days": 5.0,
+       "deficit_error_n": 113,
+       "deficit_mae_rub": 1742395.8856637168,
+       "deficit_median_ae_rub": 720632.8
+      },
+      "probability": {
+       "n": 1036,
+       "brier": 0.1278151583011583,
+       "base_rate_split": 0.11969111969111969,
+       "vs_split_rate": {
+        "brier_base": 0.10536515555820575,
+        "brier_skill": -0.21306856734578394
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10660553844998887,
+        "brier_skill": -0.19895420218827908
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 289,
+         "mean_p": 0.041415224913494815,
+         "observed": 0.01384083044982699
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 228,
+         "mean_p": 0.14452631578947367,
+         "observed": 0.013157894736842105
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 149,
+         "mean_p": 0.24711409395973155,
+         "observed": 0.026845637583892617
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 80,
+         "mean_p": 0.348575,
+         "observed": 0.0875
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 44,
+         "mean_p": 0.4495681818181818,
+         "observed": 0.18181818181818182
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 48,
+         "mean_p": 0.5501874999999999,
+         "observed": 0.20833333333333334
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 38,
+         "mean_p": 0.6472105263157893,
+         "observed": 0.23684210526315788
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 34,
+         "mean_p": 0.7537058823529412,
+         "observed": 0.2647058823529412
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 36,
+         "mean_p": 0.8508055555555555,
+         "observed": 0.4166666666666667
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 90,
+         "mean_p": 0.9677777777777778,
+         "observed": 0.6111111111111112
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.24489795918367346,
+        "events_scorable": 49,
+        "events_detected": 12,
+        "false_alarms_per_account_month": 0.5540195808052951,
+        "date_within_tolerance": 0.3875,
+        "deficit_mae_rub": 1859530.6237499998
+       },
+       "0.5": {
+        "recall_7d": 0.30612244897959184,
+        "events_scorable": 49,
+        "events_detected": 15,
+        "false_alarms_per_account_month": 0.9695342664092664,
+        "date_within_tolerance": 0.36538461538461536,
+        "deficit_mae_rub": 1657319.4449999998
+       },
+       "1.0": {
+        "recall_7d": 0.3469387755102041,
+        "events_scorable": 49,
+        "events_detected": 17,
+        "false_alarms_per_account_month": 1.3598662437948152,
+        "date_within_tolerance": 0.3805309734513274,
+        "deficit_mae_rub": 1742395.8856637168
+       }
+      }
+     }
+    },
+    "sim_calibrated_bank": {
+     "threshold": 0.058823529411764705,
+     "thresholds_by_budget": {
+      "0.25": 0.36363636363636365,
+      "0.5": 0.125,
+      "1.0": 0.058823529411764705
+     },
+     "calibration": {
+      "risk": {
+       "windows_at_risk": 1610,
+       "windows_current_deficit": 58,
+       "events_scorable": 23,
+       "events_detected": 11,
+       "recall_7d": 0.4782608695652174,
+       "recall_7d_ci": [
+        0.2923686953994572,
+        0.6703757013578151
+       ],
+       "alarm_windows": 439,
+       "false_alarm_windows": 381,
+       "account_months": 370.26694045174537,
+       "false_alarms_per_account_month": 1.02898735581189,
+       "date_error_n": 117,
+       "date_within_tolerance": 0.452991452991453,
+       "date_error_median_days": 4.0,
+       "deficit_error_n": 117,
+       "deficit_mae_rub": 2475408.9055555556,
+       "deficit_median_ae_rub": 1470349.36
+      },
+      "probability": {
+       "n": 1610,
+       "brier": 0.05904509657688422,
+       "base_rate_split": 0.084472049689441,
+       "vs_split_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": 0.23651730566614648
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": 0.23651730566614648
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 1315,
+         "mean_p": 0.01863643628807503,
+         "observed": 0.02053231939163498
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 18,
+         "mean_p": 0.14618097951431286,
+         "observed": 0.3333333333333333
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 63,
+         "mean_p": 0.2602846845934404,
+         "observed": 0.2698412698412698
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 115,
+         "mean_p": 0.34520890805911986,
+         "observed": 0.40869565217391307
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 58,
+         "mean_p": 0.43084009793644684,
+         "observed": 0.20689655172413793
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 17,
+         "mean_p": 0.5833333333333334,
+         "observed": 0.8235294117647058
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 2,
+         "mean_p": 0.6578947368421053,
+         "observed": 1.0
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 21,
+         "mean_p": 0.7374295954941116,
+         "observed": 0.5238095238095238
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 1,
+         "mean_p": 1.0,
+         "observed": 0.0
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.21739130434782608,
+        "events_scorable": 23,
+        "events_detected": 5,
+        "false_alarms_per_account_month": 0.21335958296362023,
+        "date_within_tolerance": 0.6304347826086957,
+        "deficit_mae_rub": 2586243.1510869567
+       },
+       "0.5": {
+        "recall_7d": 0.4782608695652174,
+        "events_scorable": 23,
+        "events_detected": 11,
+        "false_alarms_per_account_month": 0.6400787488908607,
+        "date_within_tolerance": 0.47706422018348627,
+        "deficit_mae_rub": 2564854.6249541286
+       },
+       "1.0": {
+        "recall_7d": 0.4782608695652174,
+        "events_scorable": 23,
+        "events_detected": 11,
+        "false_alarms_per_account_month": 1.02898735581189,
+        "date_within_tolerance": 0.452991452991453,
+        "deficit_mae_rub": 2475408.9055555556
+       }
+      }
+     },
+     "selection": {
+      "risk": {
+       "windows_at_risk": 1490,
+       "windows_current_deficit": 49,
+       "events_scorable": 69,
+       "events_detected": 26,
+       "recall_7d": 0.37681159420289856,
+       "recall_7d_ci": [
+        0.2718335694978672,
+        0.4947833087694965
+       ],
+       "alarm_windows": 463,
+       "false_alarm_windows": 394,
+       "account_months": 342.6694045174538,
+       "false_alarms_per_account_month": 1.1497962607861936,
+       "date_error_n": 171,
+       "date_within_tolerance": 0.39766081871345027,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 171,
+       "deficit_mae_rub": 2065509.649766082,
+       "deficit_median_ae_rub": 950969.31
+      },
+      "probability": {
+       "n": 1490,
+       "brier": 0.0630018400727767,
+       "base_rate_split": 0.12080536912751678,
+       "vs_split_rate": {
+        "brier_base": 0.10621143191748117,
+        "brier_skill": 0.406826186829637
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10753154201887043,
+        "brier_skill": 0.4141082803246634
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 1074,
+         "mean_p": 0.01741974030005484,
+         "observed": 0.012104283054003724
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 10,
+         "mean_p": 0.11111111111111112,
+         "observed": 0.1
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 76,
+         "mean_p": 0.24342105263157895,
+         "observed": 0.07894736842105263
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 244,
+         "mean_p": 0.37048539959016386,
+         "observed": 0.38524590163934425
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 2,
+         "mean_p": 0.5,
+         "observed": 1.0
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 84,
+         "mean_p": 0.6829268292682924,
+         "observed": 0.7619047619047619
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.36231884057971014,
+        "events_scorable": 69,
+        "events_detected": 25,
+        "false_alarms_per_account_month": 0.6274268935762224,
+        "date_within_tolerance": 0.4276315789473684,
+        "deficit_mae_rub": 2135570.522039474
+       },
+       "0.5": {
+        "recall_7d": 0.37681159420289856,
+        "events_scorable": 69,
+        "events_detected": 26,
+        "false_alarms_per_account_month": 0.9834551773729626,
+        "date_within_tolerance": 0.40963855421686746,
+        "deficit_mae_rub": 2113177.35
+       },
+       "1.0": {
+        "recall_7d": 0.37681159420289856,
+        "events_scorable": 69,
+        "events_detected": 26,
+        "false_alarms_per_account_month": 1.1497962607861936,
+        "date_within_tolerance": 0.39766081871345027,
+        "deficit_mae_rub": 2065509.649766082
+       }
+      }
+     },
+     "retrospective": {
+      "risk": {
+       "windows_at_risk": 1036,
+       "windows_current_deficit": 28,
+       "events_scorable": 49,
+       "events_detected": 17,
+       "recall_7d": 0.3469387755102041,
+       "recall_7d_ci": [
+        0.2292420960931444,
+        0.4868906478056021
+       ],
+       "alarm_windows": 310,
+       "false_alarm_windows": 269,
+       "account_months": 238.258726899384,
+       "false_alarms_per_account_month": 1.1290247517926089,
+       "date_error_n": 109,
+       "date_within_tolerance": 0.3669724770642202,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 109,
+       "deficit_mae_rub": 1729607.8093577984,
+       "deficit_median_ae_rub": 725142.21
+      },
+      "probability": {
+       "n": 1036,
+       "brier": 0.07214185337526784,
+       "base_rate_split": 0.11969111969111969,
+       "vs_split_rate": {
+        "brier_base": 0.10536515555820575,
+        "brier_skill": 0.3153158366912363
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10660553844998887,
+        "brier_skill": 0.3232823132438728
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 763,
+         "mean_p": 0.018205543423865534,
+         "observed": 0.02621231979030144
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 9,
+         "mean_p": 0.11684303350970018,
+         "observed": 0.2222222222222222
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 54,
+         "mean_p": 0.2420634920634921,
+         "observed": 0.2222222222222222
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 170,
+         "mean_p": 0.3672859768907563,
+         "observed": 0.3411764705882353
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 40,
+         "mean_p": 0.6829268292682927,
+         "observed": 0.8
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.24489795918367346,
+        "events_scorable": 49,
+        "events_detected": 12,
+        "false_alarms_per_account_month": 0.5666109349145063,
+        "date_within_tolerance": 0.3875,
+        "deficit_mae_rub": 1859530.6237499998
+       },
+       "0.5": {
+        "recall_7d": 0.30612244897959184,
+        "events_scorable": 49,
+        "events_detected": 15,
+        "false_alarms_per_account_month": 0.9485486762272476,
+        "date_within_tolerance": 0.36893203883495146,
+        "deficit_mae_rub": 1669257.811650486
+       },
+       "1.0": {
+        "recall_7d": 0.3469387755102041,
+        "events_scorable": 49,
+        "events_detected": 17,
+        "false_alarms_per_account_month": 1.1290247517926089,
+        "date_within_tolerance": 0.3669724770642202,
+        "deficit_mae_rub": 1729607.8093577984
+       }
+      }
+     }
+    },
+    "sim_raw_events": {
+     "threshold": 0.312,
+     "thresholds_by_budget": {
+      "0.25": 0.707,
+      "0.5": 0.463,
+      "1.0": 0.312
+     },
+     "calibration": {
+      "risk": {
+       "windows_at_risk": 1610,
+       "windows_current_deficit": 58,
+       "events_scorable": 23,
+       "events_detected": 7,
+       "recall_7d": 0.30434782608695654,
+       "recall_7d_ci": [
+        0.15603828020972454,
+        0.5086612906057261
+       ],
+       "alarm_windows": 489,
+       "false_alarm_windows": 441,
+       "account_months": 370.26694045174537,
+       "false_alarms_per_account_month": 1.1910326086956522,
+       "date_error_n": 121,
+       "date_within_tolerance": 0.39669421487603307,
+       "date_error_median_days": 5.0,
+       "deficit_error_n": 121,
+       "deficit_mae_rub": 2910087.1016528923,
+       "deficit_median_ae_rub": 960256.67
+      },
+      "probability": {
+       "n": 1610,
+       "brier": 0.10525922111801242,
+       "base_rate_split": 0.084472049689441,
+       "vs_split_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": -0.3610544888857852
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": -0.3610544888857852
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 539,
+         "mean_p": 0.03707050092764378,
+         "observed": 0.0018552875695732839
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 346,
+         "mean_p": 0.14291329479768783,
+         "observed": 0.017341040462427744
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 216,
+         "mean_p": 0.24466203703703707,
+         "observed": 0.027777777777777776
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 155,
+         "mean_p": 0.3506451612903225,
+         "observed": 0.03870967741935484
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 75,
+         "mean_p": 0.4421066666666667,
+         "observed": 0.05333333333333334
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 45,
+         "mean_p": 0.5413555555555555,
+         "observed": 0.2222222222222222
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 53,
+         "mean_p": 0.6598679245283019,
+         "observed": 0.32075471698113206
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 58,
+         "mean_p": 0.7511206896551724,
+         "observed": 0.41379310344827586
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 39,
+         "mean_p": 0.8573846153846153,
+         "observed": 0.48717948717948717
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 84,
+         "mean_p": 0.9613690476190475,
+         "observed": 0.5119047619047619
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.2608695652173913,
+        "events_scorable": 23,
+        "events_detected": 6,
+        "false_alarms_per_account_month": 0.3673025732031943,
+        "date_within_tolerance": 0.4883720930232558,
+        "deficit_mae_rub": 3173591.9826744185
+       },
+       "0.5": {
+        "recall_7d": 0.30434782608695654,
+        "events_scorable": 23,
+        "events_detected": 7,
+        "false_alarms_per_account_month": 0.6751885536823425,
+        "date_within_tolerance": 0.42105263157894735,
+        "deficit_mae_rub": 2958816.1292105266
+       },
+       "1.0": {
+        "recall_7d": 0.30434782608695654,
+        "events_scorable": 23,
+        "events_detected": 7,
+        "false_alarms_per_account_month": 1.1910326086956522,
+        "date_within_tolerance": 0.39669421487603307,
+        "deficit_mae_rub": 2910087.1016528923
+       }
+      }
+     },
+     "selection": {
+      "risk": {
+       "windows_at_risk": 1490,
+       "windows_current_deficit": 49,
+       "events_scorable": 69,
+       "events_detected": 20,
+       "recall_7d": 0.2898550724637681,
+       "recall_7d_ci": [
+        0.19615912140759173,
+        0.40571672975438167
+       ],
+       "alarm_windows": 559,
+       "false_alarm_windows": 494,
+       "account_months": 342.6694045174538,
+       "false_alarms_per_account_month": 1.4416227229146692,
+       "date_error_n": 175,
+       "date_within_tolerance": 0.3657142857142857,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 175,
+       "deficit_mae_rub": 2228304.983828572,
+       "deficit_median_ae_rub": 1084815.13
+      },
+      "probability": {
+       "n": 1490,
+       "brier": 0.12265076711409395,
+       "base_rate_split": 0.12080536912751678,
+       "vs_split_rate": {
+        "brier_base": 0.10621143191748117,
+        "brier_skill": -0.15477933871925376
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10753154201887043,
+        "brier_skill": -0.1406026995555434
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 412,
+         "mean_p": 0.04344660194174758,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 305,
+         "mean_p": 0.13963606557377048,
+         "observed": 0.006557377049180328
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 191,
+         "mean_p": 0.2456753926701571,
+         "observed": 0.015706806282722512
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 118,
+         "mean_p": 0.3421949152542373,
+         "observed": 0.0423728813559322
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 75,
+         "mean_p": 0.44836000000000004,
+         "observed": 0.05333333333333334
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 61,
+         "mean_p": 0.5472131147540984,
+         "observed": 0.04918032786885246
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 58,
+         "mean_p": 0.6489310344827586,
+         "observed": 0.20689655172413793
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 53,
+         "mean_p": 0.7506981132075472,
+         "observed": 0.3018867924528302
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 68,
+         "mean_p": 0.8514999999999999,
+         "observed": 0.5294117647058824
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 149,
+         "mean_p": 0.961255033557047,
+         "observed": 0.6644295302013423
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.2318840579710145,
+        "events_scorable": 69,
+        "events_detected": 16,
+        "false_alarms_per_account_month": 0.6069990412272291,
+        "date_within_tolerance": 0.3973509933774834,
+        "deficit_mae_rub": 2268406.2154966886
+       },
+       "0.5": {
+        "recall_7d": 0.2753623188405797,
+        "events_scorable": 69,
+        "events_detected": 19,
+        "false_alarms_per_account_month": 1.0330656759348034,
+        "date_within_tolerance": 0.3727810650887574,
+        "deficit_mae_rub": 2231129.9192307694
+       },
+       "1.0": {
+        "recall_7d": 0.2898550724637681,
+        "events_scorable": 69,
+        "events_detected": 20,
+        "false_alarms_per_account_month": 1.4416227229146692,
+        "date_within_tolerance": 0.3657142857142857,
+        "deficit_mae_rub": 2228304.983828572
+       }
+      }
+     },
+     "retrospective": {
+      "risk": {
+       "windows_at_risk": 1036,
+       "windows_current_deficit": 28,
+       "events_scorable": 49,
+       "events_detected": 21,
+       "recall_7d": 0.42857142857142855,
+       "recall_7d_ci": [
+        0.3002310889895705,
+        0.5672975248298444
+       ],
+       "alarm_windows": 375,
+       "false_alarm_windows": 331,
+       "account_months": 238.258726899384,
+       "false_alarms_per_account_month": 1.3892460700496414,
+       "date_error_n": 115,
+       "date_within_tolerance": 0.3739130434782609,
+       "date_error_median_days": 5.0,
+       "deficit_error_n": 115,
+       "deficit_mae_rub": 1774188.3254782606,
+       "deficit_median_ae_rub": 630918.65
+      },
+      "probability": {
+       "n": 1036,
+       "brier": 0.12753851447876446,
+       "base_rate_split": 0.11969111969111969,
+       "vs_split_rate": {
+        "brier_base": 0.10536515555820575,
+        "brier_skill": -0.21044299515421616
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10660553844998887,
+        "brier_skill": -0.19635917920526946
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 280,
+         "mean_p": 0.040271428571428576,
+         "observed": 0.014285714285714285
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 222,
+         "mean_p": 0.14468018018018022,
+         "observed": 0.009009009009009009
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 145,
+         "mean_p": 0.24653103448275862,
+         "observed": 0.013793103448275862
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 85,
+         "mean_p": 0.3421764705882352,
+         "observed": 0.08235294117647059
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 54,
+         "mean_p": 0.4415555555555554,
+         "observed": 0.12962962962962962
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 50,
+         "mean_p": 0.5532199999999999,
+         "observed": 0.28
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 40,
+         "mean_p": 0.6460750000000001,
+         "observed": 0.175
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 41,
+         "mean_p": 0.7548048780487806,
+         "observed": 0.34146341463414637
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 41,
+         "mean_p": 0.8543170731707317,
+         "observed": 0.4146341463414634
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 78,
+         "mean_p": 0.9629743589743586,
+         "observed": 0.6410256410256411
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.2857142857142857,
+        "events_scorable": 49,
+        "events_detected": 14,
+        "false_alarms_per_account_month": 0.5246397545504689,
+        "date_within_tolerance": 0.3924050632911392,
+        "deficit_mae_rub": 1957202.3675949362
+       },
+       "0.5": {
+        "recall_7d": 0.3673469387755102,
+        "events_scorable": 49,
+        "events_detected": 18,
+        "false_alarms_per_account_month": 0.9485486762272476,
+        "date_within_tolerance": 0.3592233009708738,
+        "deficit_mae_rub": 1768843.5945631068
+       },
+       "1.0": {
+        "recall_7d": 0.42857142857142855,
+        "events_scorable": 49,
+        "events_detected": 21,
+        "false_alarms_per_account_month": 1.3892460700496414,
+        "date_within_tolerance": 0.3739130434782609,
+        "deficit_mae_rub": 1774188.3254782606
+       }
+      }
+     }
+    },
+    "sim_calibrated_events": {
+     "threshold": 0.05045871559633028,
+     "thresholds_by_budget": {
+      "0.25": 0.3333333333333333,
+      "0.5": 0.08888888888888889,
+      "1.0": 0.05045871559633028
+     },
+     "calibration": {
+      "risk": {
+       "windows_at_risk": 1610,
+       "windows_current_deficit": 58,
+       "events_scorable": 23,
+       "events_detected": 7,
+       "recall_7d": 0.30434782608695654,
+       "recall_7d_ci": [
+        0.15603828020972454,
+        0.5086612906057261
+       ],
+       "alarm_windows": 477,
+       "false_alarm_windows": 429,
+       "account_months": 370.26694045174537,
+       "false_alarms_per_account_month": 1.1586235581188997,
+       "date_error_n": 116,
+       "date_within_tolerance": 0.41379310344827586,
+       "date_error_median_days": 4.0,
+       "deficit_error_n": 116,
+       "deficit_mae_rub": 2876524.8186206887,
+       "deficit_median_ae_rub": 932912.865
+      },
+      "probability": {
+       "n": 1610,
+       "brier": 0.05764074742346898,
+       "base_rate_split": 0.084472049689441,
+       "vs_split_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": 0.2546762441317445
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": 0.2546762441317445
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 1332,
+         "mean_p": 0.017384445486180868,
+         "observed": 0.017267267267267267
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 14,
+         "mean_p": 0.10769230769230773,
+         "observed": 0.14285714285714285
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 35,
+         "mean_p": 0.2558666886119554,
+         "observed": 0.45714285714285713
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 76,
+         "mean_p": 0.32714884650630277,
+         "observed": 0.3157894736842105
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 54,
+         "mean_p": 0.44421049871783613,
+         "observed": 0.5370370370370371
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 90,
+         "mean_p": 0.5440240548759818,
+         "observed": 0.4444444444444444
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 9,
+         "mean_p": 0.6510721247563352,
+         "observed": 0.2222222222222222
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.2608695652173913,
+        "events_scorable": 23,
+        "events_detected": 6,
+        "false_alarms_per_account_month": 0.3456965394853594,
+        "date_within_tolerance": 0.5064935064935064,
+        "deficit_mae_rub": 3144626.7863636366
+       },
+       "0.5": {
+        "recall_7d": 0.30434782608695654,
+        "events_scorable": 23,
+        "events_detected": 7,
+        "false_alarms_per_account_month": 0.6238742236024845,
+        "date_within_tolerance": 0.4247787610619469,
+        "deficit_mae_rub": 2934527.404247788
+       },
+       "1.0": {
+        "recall_7d": 0.30434782608695654,
+        "events_scorable": 23,
+        "events_detected": 7,
+        "false_alarms_per_account_month": 1.1586235581188997,
+        "date_within_tolerance": 0.41379310344827586,
+        "deficit_mae_rub": 2876524.8186206887
+       }
+      }
+     },
+     "selection": {
+      "risk": {
+       "windows_at_risk": 1490,
+       "windows_current_deficit": 49,
+       "events_scorable": 69,
+       "events_detected": 19,
+       "recall_7d": 0.2753623188405797,
+       "recall_7d_ci": [
+        0.18394380762574333,
+        0.39047520568533167
+       ],
+       "alarm_windows": 395,
+       "false_alarm_windows": 331,
+       "account_months": 342.6694045174538,
+       "false_alarms_per_account_month": 0.965945589645254,
+       "date_error_n": 168,
+       "date_within_tolerance": 0.375,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 168,
+       "deficit_mae_rub": 2243820.975119048,
+       "deficit_median_ae_rub": 1093992.1549999998
+      },
+      "probability": {
+       "n": 1490,
+       "brier": 0.06284531257469704,
+       "base_rate_split": 0.12080536912751678,
+       "vs_split_rate": {
+        "brier_base": 0.10621143191748117,
+        "brier_skill": 0.4082999217680876
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10753154201887043,
+        "brier_skill": 0.4155639229681233
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 1106,
+         "mean_p": 0.01780179285640938,
+         "observed": 0.012658227848101266
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 21,
+         "mean_p": 0.1444522636640863,
+         "observed": 0.14285714285714285
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 1,
+         "mean_p": 0.2768472906403941,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 126,
+         "mean_p": 0.3207487684729064,
+         "observed": 0.19047619047619047
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 136,
+         "mean_p": 0.4902992776057791,
+         "observed": 0.47794117647058826
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 100,
+         "mean_p": 0.5507692307692307,
+         "observed": 0.74
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.2318840579710145,
+        "events_scorable": 69,
+        "events_detected": 16,
+        "false_alarms_per_account_month": 0.5894894534995206,
+        "date_within_tolerance": 0.3959731543624161,
+        "deficit_mae_rub": 2298178.1237583896
+       },
+       "0.5": {
+        "recall_7d": 0.2753623188405797,
+        "events_scorable": 69,
+        "events_detected": 19,
+        "false_alarms_per_account_month": 0.965945589645254,
+        "date_within_tolerance": 0.375,
+        "deficit_mae_rub": 2243820.975119048
+       },
+       "1.0": {
+        "recall_7d": 0.2753623188405797,
+        "events_scorable": 69,
+        "events_detected": 19,
+        "false_alarms_per_account_month": 0.965945589645254,
+        "date_within_tolerance": 0.375,
+        "deficit_mae_rub": 2243820.975119048
+       }
+      }
+     },
+     "retrospective": {
+      "risk": {
+       "windows_at_risk": 1036,
+       "windows_current_deficit": 28,
+       "events_scorable": 49,
+       "events_detected": 18,
+       "recall_7d": 0.3673469387755102,
+       "recall_7d_ci": [
+        0.24664982524781226,
+        0.5073318861311014
+       ],
+       "alarm_windows": 254,
+       "false_alarm_windows": 216,
+       "account_months": 238.258726899384,
+       "false_alarms_per_account_month": 0.9065774958632101,
+       "date_error_n": 102,
+       "date_within_tolerance": 0.3627450980392157,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 102,
+       "deficit_mae_rub": 1717614.160098039,
+       "deficit_median_ae_rub": 648811.87
+      },
+      "probability": {
+       "n": 1036,
+       "brier": 0.07314000287940962,
+       "base_rate_split": 0.11969111969111969,
+       "vs_split_rate": {
+        "brier_base": 0.10536515555820575,
+        "brier_skill": 0.30584259576207173
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10660553844998887,
+        "brier_skill": 0.31391929591236667
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 788,
+         "mean_p": 0.01827638530662367,
+         "observed": 0.027918781725888325
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 16,
+         "mean_p": 0.14495073891625615,
+         "observed": 0.3125
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 93,
+         "mean_p": 0.31769334348106076,
+         "observed": 0.24731182795698925
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 84,
+         "mean_p": 0.48830923462502407,
+         "observed": 0.36904761904761907
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 55,
+         "mean_p": 0.5503496503496502,
+         "observed": 0.7818181818181819
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.2653061224489796,
+        "events_scorable": 49,
+        "events_detected": 13,
+        "false_alarms_per_account_month": 0.5078512824048538,
+        "date_within_tolerance": 0.38461538461538464,
+        "deficit_mae_rub": 1980926.0607692306
+       },
+       "0.5": {
+        "recall_7d": 0.3673469387755102,
+        "events_scorable": 49,
+        "events_detected": 18,
+        "false_alarms_per_account_month": 0.9065774958632101,
+        "date_within_tolerance": 0.3627450980392157,
+        "deficit_mae_rub": 1717614.160098039
+       },
+       "1.0": {
+        "recall_7d": 0.3673469387755102,
+        "events_scorable": 49,
+        "events_detected": 18,
+        "false_alarms_per_account_month": 0.9065774958632101,
+        "date_within_tolerance": 0.3627450980392157,
+        "deficit_mae_rub": 1717614.160098039
+       }
+      }
+     }
+    },
+    "central_threshold": {
+     "calibration": {
+      "risk": {
+       "windows_at_risk": 1610,
+       "windows_current_deficit": 58,
+       "events_scorable": 23,
+       "events_detected": 9,
+       "recall_7d": 0.391304347826087,
+       "recall_7d_ci": [
+        0.22157377982382145,
+        0.5921482039625402
+       ],
+       "alarm_windows": 173,
+       "false_alarm_windows": 124,
+       "account_months": 370.26694045174537,
+       "false_alarms_per_account_month": 0.3348935226264419,
+       "date_error_n": 82,
+       "date_within_tolerance": 0.47560975609756095,
+       "date_error_median_days": 4.0,
+       "deficit_error_n": 82,
+       "deficit_mae_rub": 2400107.648780488,
+       "deficit_median_ae_rub": 1309524.25
+      },
+      "probability": null
+     },
+     "selection": {
+      "risk": {
+       "windows_at_risk": 1490,
+       "windows_current_deficit": 49,
+       "events_scorable": 69,
+       "events_detected": 20,
+       "recall_7d": 0.2898550724637681,
+       "recall_7d_ci": [
+        0.19615912140759173,
+        0.40571672975438167
+       ],
+       "alarm_windows": 288,
+       "false_alarm_windows": 224,
+       "account_months": 342.6694045174538,
+       "false_alarms_per_account_month": 0.6536912751677852,
+       "date_error_n": 153,
+       "date_within_tolerance": 0.4117647058823529,
+       "date_error_median_days": 5.0,
+       "deficit_error_n": 153,
+       "deficit_mae_rub": 1762341.847843137,
+       "deficit_median_ae_rub": 682991.52
+      },
+      "probability": null
+     },
+     "retrospective": {
+      "risk": {
+       "windows_at_risk": 1036,
+       "windows_current_deficit": 28,
+       "events_scorable": 49,
+       "events_detected": 11,
+       "recall_7d": 0.22448979591836735,
+       "recall_7d_ci": [
+        0.1302483771472861,
+        0.35879056187045744
+       ],
+       "alarm_windows": 171,
+       "false_alarm_windows": 142,
+       "account_months": 238.258726899384,
+       "false_alarms_per_account_month": 0.5959907611693326,
+       "date_error_n": 81,
+       "date_within_tolerance": 0.3333333333333333,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 81,
+       "deficit_mae_rub": 1213577.3781481483,
+       "deficit_median_ae_rub": 494675.1
+      },
+      "probability": null
+     }
+    }
+   },
+   "selection_mean_p": 0.13795292977526433
+  },
+  "nodocs": {
+   "method": "structural_nodocs",
+   "windows": {
+    "calibration": 1668,
+    "selection": 1539,
+    "retrospective": 1064
+   },
+   "calibration_base_rate": 0.084472049689441,
+   "calibration_open_windows": 1610,
+   "calibration_events_windows": 136,
+   "cv_brier": {
+    "bank": {
+     "isotonic": 0.05963924001107876,
+     "platt": 0.0655799209415231,
+     "raw": 0.09650303291925467
+    },
+    "events": {
+     "isotonic": 0.056279455865856094,
+     "platt": 0.06543006235754385,
+     "raw": 0.09867512111801241
+    }
+   },
+   "calibrator_kind": {
+    "bank": "isotonic",
+    "events": "isotonic"
+   },
+   "chosen_simulation": "events",
+   "reliability_status": {
+    "ok": false,
+    "bins_checked": 3,
+    "max_gap": 0.21785714285714292,
+    "tolerance": 0.1,
+    "min_bin_windows": 30
+   },
+   "coverage": {
+    "selection": {
+     "windows": 1539,
+     "companies": 121,
+     "nominal": 0.8,
+     "coverage_all_days": 0.7666666666666667,
+     "coverage_by_company_median": 0.8023809523809524,
+     "coverage_day7": 0.7979207277452891,
+     "coverage_day14": 0.8089668615984406,
+     "coverage_day30": 0.8005198180636777,
+     "below_p10_share": 0.05832791856183669,
+     "above_p90_share": 0.17500541477149667
+    },
+    "retrospective": {
+     "windows": 1064,
+     "companies": 125,
+     "nominal": 0.8,
+     "coverage_all_days": 0.8329573934837092,
+     "coverage_by_company_median": 0.862962962962963,
+     "coverage_day7": 0.8233082706766918,
+     "coverage_day14": 0.8139097744360902,
+     "coverage_day30": 0.8383458646616542,
+     "below_p10_share": 0.04244987468671679,
+     "above_p90_share": 0.12459273182957394
+    }
+   },
+   "methods": {
+    "sim_raw_bank": {
+     "threshold": 0.218,
+     "thresholds_by_budget": {
+      "0.25": 0.723,
+      "0.5": 0.443,
+      "1.0": 0.218
+     },
+     "calibration": {
+      "risk": {
+       "windows_at_risk": 1610,
+       "windows_current_deficit": 58,
+       "events_scorable": 23,
+       "events_detected": 13,
+       "recall_7d": 0.5652173913043478,
+       "recall_7d_ci": [
+        0.3681104930501695,
+        0.7436563166780135
+       ],
+       "alarm_windows": 498,
+       "false_alarm_windows": 438,
+       "account_months": 370.26694045174537,
+       "false_alarms_per_account_month": 1.1829303460514642,
+       "date_error_n": 128,
+       "date_within_tolerance": 0.4453125,
+       "date_error_median_days": 4.0,
+       "deficit_error_n": 128,
+       "deficit_mae_rub": 2161565.425546875,
+       "deficit_median_ae_rub": 614665.53
+      },
+      "probability": {
+       "n": 1610,
+       "brier": 0.09650303291925467,
+       "base_rate_split": 0.084472049689441,
+       "vs_split_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": -0.24783258654920615
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": -0.24783258654920615
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 737,
+         "mean_p": 0.04121845318860244,
+         "observed": 0.0013568521031207597
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 335,
+         "mean_p": 0.1462597014925373,
+         "observed": 0.01791044776119403
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 112,
+         "mean_p": 0.2417946428571429,
+         "observed": 0.017857142857142856
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 90,
+         "mean_p": 0.3508888888888889,
+         "observed": 0.05555555555555555
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 61,
+         "mean_p": 0.44421311475409836,
+         "observed": 0.21311475409836064
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 57,
+         "mean_p": 0.5515964912280702,
+         "observed": 0.3333333333333333
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 55,
+         "mean_p": 0.6425090909090908,
+         "observed": 0.4
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 40,
+         "mean_p": 0.752775,
+         "observed": 0.45
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 51,
+         "mean_p": 0.8508235294117646,
+         "observed": 0.37254901960784315
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 72,
+         "mean_p": 0.9525833333333336,
+         "observed": 0.4305555555555556
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.34782608695652173,
+        "events_scorable": 23,
+        "events_detected": 8,
+        "false_alarms_per_account_month": 0.3267912599822538,
+        "date_within_tolerance": 0.4666666666666667,
+        "deficit_mae_rub": 1924536.9378333332
+       },
+       "0.5": {
+        "recall_7d": 0.5652173913043478,
+        "events_scorable": 23,
+        "events_detected": 13,
+        "false_alarms_per_account_month": 0.6589840283939663,
+        "date_within_tolerance": 0.45689655172413796,
+        "deficit_mae_rub": 2275210.292327586
+       },
+       "1.0": {
+        "recall_7d": 0.5652173913043478,
+        "events_scorable": 23,
+        "events_detected": 13,
+        "false_alarms_per_account_month": 1.1829303460514642,
+        "date_within_tolerance": 0.4453125,
+        "deficit_mae_rub": 2161565.425546875
+       }
+      }
+     },
+     "selection": {
+      "risk": {
+       "windows_at_risk": 1490,
+       "windows_current_deficit": 49,
+       "events_scorable": 69,
+       "events_detected": 33,
+       "recall_7d": 0.4782608695652174,
+       "recall_7d_ci": [
+        0.36468525497597737,
+        0.5941294882476751
+       ],
+       "alarm_windows": 634,
+       "false_alarm_windows": 568,
+       "account_months": 342.6694045174538,
+       "false_alarms_per_account_month": 1.6575743048897411,
+       "date_error_n": 177,
+       "date_within_tolerance": 0.3559322033898305,
+       "date_error_median_days": 5.0,
+       "deficit_error_n": 177,
+       "deficit_mae_rub": 1802192.058757062,
+       "deficit_median_ae_rub": 942699.45
+      },
+      "probability": {
+       "n": 1490,
+       "brier": 0.11591292617449665,
+       "base_rate_split": 0.12080536912751678,
+       "vs_split_rate": {
+        "brier_base": 0.10621143191748117,
+        "brier_skill": -0.09134133757421581
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10753154201887043,
+        "brier_skill": -0.07794349451582683
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 576,
+         "mean_p": 0.04427951388888889,
+         "observed": 0.001736111111111111
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 241,
+         "mean_p": 0.14786721991701243,
+         "observed": 0.004149377593360996
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 144,
+         "mean_p": 0.23978472222222225,
+         "observed": 0.05555555555555555
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 98,
+         "mean_p": 0.34401020408163274,
+         "observed": 0.08163265306122448
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 64,
+         "mean_p": 0.440265625,
+         "observed": 0.09375
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 77,
+         "mean_p": 0.5546623376623375,
+         "observed": 0.12987012987012986
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 51,
+         "mean_p": 0.6500392156862745,
+         "observed": 0.29411764705882354
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 63,
+         "mean_p": 0.7525079365079365,
+         "observed": 0.42857142857142855
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 53,
+         "mean_p": 0.8565283018867926,
+         "observed": 0.5283018867924528
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 123,
+         "mean_p": 0.9650325203252033,
+         "observed": 0.6178861788617886
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.34782608695652173,
+        "events_scorable": 69,
+        "events_detected": 24,
+        "false_alarms_per_account_month": 0.5048597794822627,
+        "date_within_tolerance": 0.4126984126984127,
+        "deficit_mae_rub": 1780374.2515873017
+       },
+       "0.5": {
+        "recall_7d": 0.4057971014492754,
+        "events_scorable": 69,
+        "events_detected": 28,
+        "false_alarms_per_account_month": 0.9747003835091083,
+        "date_within_tolerance": 0.36942675159235666,
+        "deficit_mae_rub": 1842220.3910828023
+       },
+       "1.0": {
+        "recall_7d": 0.4782608695652174,
+        "events_scorable": 69,
+        "events_detected": 33,
+        "false_alarms_per_account_month": 1.6575743048897411,
+        "date_within_tolerance": 0.3559322033898305,
+        "deficit_mae_rub": 1802192.058757062
+       }
+      }
+     },
+     "retrospective": {
+      "risk": {
+       "windows_at_risk": 1036,
+       "windows_current_deficit": 28,
+       "events_scorable": 49,
+       "events_detected": 20,
+       "recall_7d": 0.40816326530612246,
+       "recall_7d_ci": [
+        0.2821503460597105,
+        0.5475293002795374
+       ],
+       "alarm_windows": 426,
+       "false_alarm_windows": 384,
+       "account_months": 238.258726899384,
+       "false_alarms_per_account_month": 1.6116933259790402,
+       "date_error_n": 110,
+       "date_within_tolerance": 0.38181818181818183,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 110,
+       "deficit_mae_rub": 1240065.3102727272,
+       "deficit_median_ae_rub": 661171.775
+      },
+      "probability": {
+       "n": 1036,
+       "brier": 0.12246590540540539,
+       "base_rate_split": 0.11969111969111969,
+       "vs_split_rate": {
+        "brier_base": 0.10536515555820575,
+        "brier_skill": -0.16229985858800222
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10660553844998887,
+        "brier_skill": -0.1487762004303088
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 372,
+         "mean_p": 0.042459677419354844,
+         "observed": 0.016129032258064516
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 205,
+         "mean_p": 0.1505268292682927,
+         "observed": 0.03414634146341464
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 120,
+         "mean_p": 0.24208333333333332,
+         "observed": 0.03333333333333333
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 48,
+         "mean_p": 0.3400833333333333,
+         "observed": 0.020833333333333332
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 50,
+         "mean_p": 0.4468999999999999,
+         "observed": 0.18
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 43,
+         "mean_p": 0.5552790697674418,
+         "observed": 0.2558139534883721
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 51,
+         "mean_p": 0.6547647058823528,
+         "observed": 0.21568627450980393
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 36,
+         "mean_p": 0.7480555555555556,
+         "observed": 0.2777777777777778
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 29,
+         "mean_p": 0.8522068965517242,
+         "observed": 0.4482758620689655
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 82,
+         "mean_p": 0.9623902439024393,
+         "observed": 0.6341463414634146
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.22448979591836735,
+        "events_scorable": 49,
+        "events_detected": 11,
+        "false_alarms_per_account_month": 0.4658801020408163,
+        "date_within_tolerance": 0.38028169014084506,
+        "deficit_mae_rub": 1299611.2781690138
+       },
+       "0.5": {
+        "recall_7d": 0.3877551020408163,
+        "events_scorable": 49,
+        "events_detected": 19,
+        "false_alarms_per_account_month": 0.9485486762272476,
+        "date_within_tolerance": 0.39805825242718446,
+        "deficit_mae_rub": 1299095.4284466018
+       },
+       "1.0": {
+        "recall_7d": 0.40816326530612246,
+        "events_scorable": 49,
+        "events_detected": 20,
+        "false_alarms_per_account_month": 1.6116933259790402,
+        "date_within_tolerance": 0.38181818181818183,
+        "deficit_mae_rub": 1240065.3102727272
+       }
+      }
+     }
+    },
+    "sim_calibrated_bank": {
+     "threshold": 0.03225806451612903,
+     "thresholds_by_budget": {
+      "0.25": 0.3956043956043956,
+      "0.5": 0.21739130434782608,
+      "1.0": 0.03225806451612903
+     },
+     "calibration": {
+      "risk": {
+       "windows_at_risk": 1610,
+       "windows_current_deficit": 58,
+       "events_scorable": 23,
+       "events_detected": 13,
+       "recall_7d": 0.5652173913043478,
+       "recall_7d_ci": [
+        0.3681104930501695,
+        0.7436563166780135
+       ],
+       "alarm_windows": 424,
+       "false_alarm_windows": 366,
+       "account_months": 370.26694045174537,
+       "false_alarms_per_account_month": 0.9884760425909495,
+       "date_error_n": 126,
+       "date_within_tolerance": 0.4365079365079365,
+       "date_error_median_days": 4.0,
+       "deficit_error_n": 126,
+       "deficit_mae_rub": 2194895.5190476193,
+       "deficit_median_ae_rub": 701416.52
+      },
+      "probability": {
+       "n": 1610,
+       "brier": 0.05963924001107876,
+       "base_rate_split": 0.084472049689441,
+       "vs_split_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": 0.22883473325526138
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": 0.22883473325526138
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 1270,
+         "mean_p": 0.010531154638252629,
+         "observed": 0.011811023622047244
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 39,
+         "mean_p": 0.13146125081608953,
+         "observed": 0.1794871794871795
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 37,
+         "mean_p": 0.24758102584189548,
+         "observed": 0.2702702702702703
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 180,
+         "mean_p": 0.3819421238174341,
+         "observed": 0.45555555555555555
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 8,
+         "mean_p": 0.4375,
+         "observed": 0.125
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 74,
+         "mean_p": 0.515021543282413,
+         "observed": 0.28378378378378377
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 2,
+         "mean_p": 1.0,
+         "observed": 0.0
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.30434782608695654,
+        "events_scorable": 23,
+        "events_detected": 7,
+        "false_alarms_per_account_month": 0.24846938775510205,
+        "date_within_tolerance": 0.6486486486486487,
+        "deficit_mae_rub": 925937.0691891892
+       },
+       "0.5": {
+        "recall_7d": 0.5652173913043478,
+        "events_scorable": 23,
+        "events_detected": 13,
+        "false_alarms_per_account_month": 0.6427795031055901,
+        "date_within_tolerance": 0.45614035087719296,
+        "deficit_mae_rub": 2314321.05377193
+       },
+       "1.0": {
+        "recall_7d": 0.5652173913043478,
+        "events_scorable": 23,
+        "events_detected": 13,
+        "false_alarms_per_account_month": 0.9884760425909495,
+        "date_within_tolerance": 0.4365079365079365,
+        "deficit_mae_rub": 2194895.5190476193
+       }
+      }
+     },
+     "selection": {
+      "risk": {
+       "windows_at_risk": 1490,
+       "windows_current_deficit": 49,
+       "events_scorable": 69,
+       "events_detected": 29,
+       "recall_7d": 0.42028985507246375,
+       "recall_7d_ci": [
+        0.3110593225861805,
+        0.5379280692338784
+       ],
+       "alarm_windows": 535,
+       "false_alarm_windows": 473,
+       "account_months": 342.6694045174538,
+       "false_alarms_per_account_month": 1.3803391658676893,
+       "date_error_n": 170,
+       "date_within_tolerance": 0.35294117647058826,
+       "date_error_median_days": 5.5,
+       "deficit_error_n": 170,
+       "deficit_mae_rub": 1841406.7715882356,
+       "deficit_median_ae_rub": 944827.25
+      },
+      "probability": {
+       "n": 1490,
+       "brier": 0.0719934281835498,
+       "base_rate_split": 0.12080536912751678,
+       "vs_split_rate": {
+        "brier_base": 0.10621143191748117,
+        "brier_skill": 0.3221687450793089
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10753154201887043,
+        "brier_skill": 0.3304901349697388
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 1049,
+         "mean_p": 0.011126323788355017,
+         "observed": 0.017159199237368923
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 67,
+         "mean_p": 0.13855783119143736,
+         "observed": 0.07462686567164178
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 2,
+         "mean_p": 0.24731182795698925,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 81,
+         "mean_p": 0.3500108295429933,
+         "observed": 0.12345679012345678
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 243,
+         "mean_p": 0.4074114553752029,
+         "observed": 0.4609053497942387
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 48,
+         "mean_p": 0.5668549905838041,
+         "observed": 0.7291666666666666
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.37681159420289856,
+        "events_scorable": 69,
+        "events_detected": 26,
+        "false_alarms_per_account_month": 0.679955656759348,
+        "date_within_tolerance": 0.38095238095238093,
+        "deficit_mae_rub": 1833780.2219047619
+       },
+       "0.5": {
+        "recall_7d": 0.4057971014492754,
+        "events_scorable": 69,
+        "events_detected": 28,
+        "false_alarms_per_account_month": 0.9163350910834132,
+        "date_within_tolerance": 0.36942675159235666,
+        "deficit_mae_rub": 1842220.3910828023
+       },
+       "1.0": {
+        "recall_7d": 0.42028985507246375,
+        "events_scorable": 69,
+        "events_detected": 29,
+        "false_alarms_per_account_month": 1.3803391658676893,
+        "date_within_tolerance": 0.35294117647058826,
+        "deficit_mae_rub": 1841406.7715882356
+       }
+      }
+     },
+     "retrospective": {
+      "risk": {
+       "windows_at_risk": 1036,
+       "windows_current_deficit": 28,
+       "events_scorable": 49,
+       "events_detected": 20,
+       "recall_7d": 0.40816326530612246,
+       "recall_7d_ci": [
+        0.2821503460597105,
+        0.5475293002795374
+       ],
+       "alarm_windows": 343,
+       "false_alarm_windows": 301,
+       "account_months": 238.258726899384,
+       "false_alarms_per_account_month": 1.263332528957529,
+       "date_error_n": 107,
+       "date_within_tolerance": 0.3925233644859813,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 107,
+       "deficit_mae_rub": 1259290.9004672896,
+       "deficit_median_ae_rub": 670749.31
+      },
+      "probability": {
+       "n": 1036,
+       "brier": 0.07707057775027404,
+       "base_rate_split": 0.11969111969111969,
+       "vs_split_rate": {
+        "brier_base": 0.10536515555820575,
+        "brier_skill": 0.2685382815412941
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10660553844998887,
+        "brier_skill": 0.27704902699375566
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 741,
+         "mean_p": 0.01102435754172945,
+         "observed": 0.022941970310391364
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 43,
+         "mean_p": 0.1376190201396503,
+         "observed": 0.23255813953488372
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 2,
+         "mean_p": 0.26881720430107525,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 51,
+         "mean_p": 0.34864121087031297,
+         "observed": 0.19607843137254902
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 169,
+         "mean_p": 0.4073790182004001,
+         "observed": 0.3668639053254438
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 30,
+         "mean_p": 0.5677697067527576,
+         "observed": 0.8333333333333334
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.3673469387755102,
+        "events_scorable": 49,
+        "events_detected": 18,
+        "false_alarms_per_account_month": 0.6925244760066188,
+        "date_within_tolerance": 0.39080459770114945,
+        "deficit_mae_rub": 1409127.7913793102
+       },
+       "0.5": {
+        "recall_7d": 0.3877551020408163,
+        "events_scorable": 49,
+        "events_detected": 19,
+        "false_alarms_per_account_month": 0.8981832597904026,
+        "date_within_tolerance": 0.3917525773195876,
+        "deficit_mae_rub": 1345822.1012371134
+       },
+       "1.0": {
+        "recall_7d": 0.40816326530612246,
+        "events_scorable": 49,
+        "events_detected": 20,
+        "false_alarms_per_account_month": 1.263332528957529,
+        "date_within_tolerance": 0.3925233644859813,
+        "deficit_mae_rub": 1259290.9004672896
+       }
+      }
+     }
+    },
+    "sim_raw_events": {
+     "threshold": 0.232,
+     "thresholds_by_budget": {
+      "0.25": 0.741,
+      "0.5": 0.469,
+      "1.0": 0.232
+     },
+     "calibration": {
+      "risk": {
+       "windows_at_risk": 1610,
+       "windows_current_deficit": 58,
+       "events_scorable": 23,
+       "events_detected": 10,
+       "recall_7d": 0.43478260869565216,
+       "recall_7d_ci": [
+        0.25634368332198654,
+        0.6318895069498304
+       ],
+       "alarm_windows": 498,
+       "false_alarm_windows": 443,
+       "account_months": 370.26694045174537,
+       "false_alarms_per_account_month": 1.196434117125111,
+       "date_error_n": 128,
+       "date_within_tolerance": 0.4296875,
+       "date_error_median_days": 5.0,
+       "deficit_error_n": 128,
+       "deficit_mae_rub": 2172021.2946874998,
+       "deficit_median_ae_rub": 591427.86
+      },
+      "probability": {
+       "n": 1610,
+       "brier": 0.09867512111801241,
+       "base_rate_split": 0.084472049689441,
+       "vs_split_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": -0.27591877569039824
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": -0.27591877569039824
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 717,
+         "mean_p": 0.04158856345885636,
+         "observed": 0.001394700139470014
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 334,
+         "mean_p": 0.14547005988023953,
+         "observed": 0.017964071856287425
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 124,
+         "mean_p": 0.2409274193548387,
+         "observed": 0.008064516129032258
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 81,
+         "mean_p": 0.34667901234567905,
+         "observed": 0.037037037037037035
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 66,
+         "mean_p": 0.4458939393939394,
+         "observed": 0.07575757575757576
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 50,
+         "mean_p": 0.55882,
+         "observed": 0.38
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 62,
+         "mean_p": 0.646241935483871,
+         "observed": 0.45161290322580644
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 41,
+         "mean_p": 0.7492682926829269,
+         "observed": 0.3902439024390244
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 60,
+         "mean_p": 0.8540833333333334,
+         "observed": 0.4666666666666667
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 75,
+         "mean_p": 0.9496133333333335,
+         "observed": 0.38666666666666666
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.21739130434782608,
+        "events_scorable": 23,
+        "events_detected": 5,
+        "false_alarms_per_account_month": 0.3267912599822538,
+        "date_within_tolerance": 0.5606060606060606,
+        "deficit_mae_rub": 1832669.2063636365
+       },
+       "0.5": {
+        "recall_7d": 0.43478260869565216,
+        "events_scorable": 23,
+        "events_detected": 10,
+        "false_alarms_per_account_month": 0.68599157054126,
+        "date_within_tolerance": 0.4344262295081967,
+        "deficit_mae_rub": 2173821.2220491804
+       },
+       "1.0": {
+        "recall_7d": 0.43478260869565216,
+        "events_scorable": 23,
+        "events_detected": 10,
+        "false_alarms_per_account_month": 1.196434117125111,
+        "date_within_tolerance": 0.4296875,
+        "deficit_mae_rub": 2172021.2946874998
+       }
+      }
+     },
+     "selection": {
+      "risk": {
+       "windows_at_risk": 1490,
+       "windows_current_deficit": 49,
+       "events_scorable": 69,
+       "events_detected": 31,
+       "recall_7d": 0.4492753623188406,
+       "recall_7d_ci": [
+        0.3376866594343888,
+        0.5662144080874668
+       ],
+       "alarm_windows": 634,
+       "false_alarm_windows": 567,
+       "account_months": 342.6694045174538,
+       "false_alarms_per_account_month": 1.6546560402684563,
+       "date_error_n": 176,
+       "date_within_tolerance": 0.36363636363636365,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 176,
+       "deficit_mae_rub": 1824651.1026704544,
+       "deficit_median_ae_rub": 950142.915
+      },
+      "probability": {
+       "n": 1490,
+       "brier": 0.12151388724832216,
+       "base_rate_split": 0.12080536912751678,
+       "vs_split_rate": {
+        "brier_base": 0.10621143191748117,
+        "brier_skill": -0.14407540746395275
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10753154201887043,
+        "brier_skill": -0.1300301750252777
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 547,
+         "mean_p": 0.04371115173674589,
+         "observed": 0.0018281535648994515
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 242,
+         "mean_p": 0.14327272727272727,
+         "observed": 0.004132231404958678
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 145,
+         "mean_p": 0.24008275862068965,
+         "observed": 0.034482758620689655
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 113,
+         "mean_p": 0.3510973451327434,
+         "observed": 0.11504424778761062
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 61,
+         "mean_p": 0.44272131147540983,
+         "observed": 0.06557377049180328
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 70,
+         "mean_p": 0.5469857142857141,
+         "observed": 0.11428571428571428
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 62,
+         "mean_p": 0.6445806451612904,
+         "observed": 0.24193548387096775
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 61,
+         "mean_p": 0.7459016393442623,
+         "observed": 0.4098360655737705
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 63,
+         "mean_p": 0.8533492063492064,
+         "observed": 0.49206349206349204
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 126,
+         "mean_p": 0.9608730158730157,
+         "observed": 0.6111111111111112
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.2753623188405797,
+        "events_scorable": 69,
+        "events_detected": 19,
+        "false_alarms_per_account_month": 0.4931867209971237,
+        "date_within_tolerance": 0.40336134453781514,
+        "deficit_mae_rub": 1699664.4921008404
+       },
+       "0.5": {
+        "recall_7d": 0.37681159420289856,
+        "events_scorable": 69,
+        "events_detected": 26,
+        "false_alarms_per_account_month": 0.9717821188878235,
+        "date_within_tolerance": 0.36942675159235666,
+        "deficit_mae_rub": 1861354.736178344
+       },
+       "1.0": {
+        "recall_7d": 0.4492753623188406,
+        "events_scorable": 69,
+        "events_detected": 31,
+        "false_alarms_per_account_month": 1.6546560402684563,
+        "date_within_tolerance": 0.36363636363636365,
+        "deficit_mae_rub": 1824651.1026704544
+       }
+      }
+     },
+     "retrospective": {
+      "risk": {
+       "windows_at_risk": 1036,
+       "windows_current_deficit": 28,
+       "events_scorable": 49,
+       "events_detected": 20,
+       "recall_7d": 0.40816326530612246,
+       "recall_7d_ci": [
+        0.2821503460597105,
+        0.5475293002795374
+       ],
+       "alarm_windows": 425,
+       "false_alarm_windows": 385,
+       "account_months": 238.258726899384,
+       "false_alarms_per_account_month": 1.615890444015444,
+       "date_error_n": 109,
+       "date_within_tolerance": 0.3669724770642202,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 109,
+       "deficit_mae_rub": 1258992.0614678902,
+       "deficit_median_ae_rub": 589014.44
+      },
+      "probability": {
+       "n": 1036,
+       "brier": 0.12630714189189188,
+       "base_rate_split": 0.11969111969111969,
+       "vs_split_rate": {
+        "brier_base": 0.10536515555820575,
+        "brier_skill": -0.1987562797467457
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10660553844998887,
+        "brier_skill": -0.18480844174100297
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 357,
+         "mean_p": 0.04191596638655462,
+         "observed": 0.01680672268907563
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 205,
+         "mean_p": 0.14974634146341465,
+         "observed": 0.03414634146341464
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 115,
+         "mean_p": 0.24481739130434785,
+         "observed": 0.034782608695652174
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 60,
+         "mean_p": 0.33751666666666663,
+         "observed": 0.016666666666666666
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 51,
+         "mean_p": 0.4475490196078431,
+         "observed": 0.1568627450980392
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 42,
+         "mean_p": 0.5530238095238096,
+         "observed": 0.23809523809523808
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 47,
+         "mean_p": 0.6537234042553192,
+         "observed": 0.23404255319148937
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 45,
+         "mean_p": 0.739977777777778,
+         "observed": 0.24444444444444444
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 32,
+         "mean_p": 0.8526874999999999,
+         "observed": 0.40625
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 82,
+         "mean_p": 0.9597804878048782,
+         "observed": 0.6463414634146342
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.20408163265306123,
+        "events_scorable": 49,
+        "events_detected": 10,
+        "false_alarms_per_account_month": 0.4490916298952013,
+        "date_within_tolerance": 0.37142857142857144,
+        "deficit_mae_rub": 1304977.0885714286
+       },
+       "0.5": {
+        "recall_7d": 0.3673469387755102,
+        "events_scorable": 49,
+        "events_detected": 18,
+        "false_alarms_per_account_month": 0.9611400303364589,
+        "date_within_tolerance": 0.3564356435643564,
+        "deficit_mae_rub": 1335838.31009901
+       },
+       "1.0": {
+        "recall_7d": 0.40816326530612246,
+        "events_scorable": 49,
+        "events_detected": 20,
+        "false_alarms_per_account_month": 1.615890444015444,
+        "date_within_tolerance": 0.3669724770642202,
+        "deficit_mae_rub": 1258992.0614678902
+       }
+      }
+     }
+    },
+    "sim_calibrated_events": {
+     "threshold": 0.024271844660194174,
+     "thresholds_by_budget": {
+      "0.25": 0.4166666666666667,
+      "0.5": 0.07547169811320754,
+      "1.0": 0.024271844660194174
+     },
+     "calibration": {
+      "risk": {
+       "windows_at_risk": 1610,
+       "windows_current_deficit": 58,
+       "events_scorable": 23,
+       "events_detected": 10,
+       "recall_7d": 0.43478260869565216,
+       "recall_7d_ci": [
+        0.25634368332198654,
+        0.6318895069498304
+       ],
+       "alarm_windows": 488,
+       "false_alarm_windows": 435,
+       "account_months": 370.26694045174537,
+       "false_alarms_per_account_month": 1.174828083407276,
+       "date_error_n": 126,
+       "date_within_tolerance": 0.42063492063492064,
+       "date_error_median_days": 5.0,
+       "deficit_error_n": 126,
+       "deficit_mae_rub": 2205208.455079365,
+       "deficit_median_ae_rub": 639026.2150000001
+      },
+      "probability": {
+       "n": 1610,
+       "brier": 0.056279455865856094,
+       "base_rate_split": 0.084472049689441,
+       "vs_split_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": 0.2722784263015524
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.0773365225107056,
+        "brier_skill": 0.2722784263015524
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 1319,
+         "mean_p": 0.0110601956097815,
+         "observed": 0.01061410159211524
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 1,
+         "mean_p": 0.16049382716049382,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 10,
+         "mean_p": 0.2800000000000001,
+         "observed": 0.5
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 26,
+         "mean_p": 0.35390106728874227,
+         "observed": 0.3076923076923077
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 190,
+         "mean_p": 0.41647039382929896,
+         "observed": 0.5
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 61,
+         "mean_p": 0.5203252032520326,
+         "observed": 0.22950819672131148
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 1,
+         "mean_p": 0.6666666666666666,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 2,
+         "mean_p": 1.0,
+         "observed": 0.0
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.08695652173913043,
+        "events_scorable": 23,
+        "events_detected": 2,
+        "false_alarms_per_account_month": 0.25657165039929014,
+        "date_within_tolerance": 0.45161290322580644,
+        "deficit_mae_rub": 1705741.2361290322
+       },
+       "0.5": {
+        "recall_7d": 0.43478260869565216,
+        "events_scorable": 23,
+        "events_detected": 10,
+        "false_alarms_per_account_month": 0.6805900621118013,
+        "date_within_tolerance": 0.4344262295081967,
+        "deficit_mae_rub": 2173821.2220491804
+       },
+       "1.0": {
+        "recall_7d": 0.43478260869565216,
+        "events_scorable": 23,
+        "events_detected": 10,
+        "false_alarms_per_account_month": 1.174828083407276,
+        "date_within_tolerance": 0.42063492063492064,
+        "deficit_mae_rub": 2205208.455079365
+       }
+      }
+     },
+     "selection": {
+      "risk": {
+       "windows_at_risk": 1490,
+       "windows_current_deficit": 49,
+       "events_scorable": 69,
+       "events_detected": 29,
+       "recall_7d": 0.42028985507246375,
+       "recall_7d_ci": [
+        0.3110593225861805,
+        0.5379280692338784
+       ],
+       "alarm_windows": 542,
+       "false_alarm_windows": 477,
+       "account_months": 342.6694045174538,
+       "false_alarms_per_account_month": 1.3920122243528283,
+       "date_error_n": 169,
+       "date_within_tolerance": 0.3727810650887574,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 169,
+       "deficit_mae_rub": 1851047.2301183431,
+       "deficit_median_ae_rub": 926826.81
+      },
+      "probability": {
+       "n": 1490,
+       "brier": 0.07538405657343411,
+       "base_rate_split": 0.12080536912751678,
+       "vs_split_rate": {
+        "brier_base": 0.10621143191748117,
+        "brier_skill": 0.29024536048057203
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10753154201887043,
+        "brier_skill": 0.29895865754249895
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 1105,
+         "mean_p": 0.012204002143651103,
+         "observed": 0.02081447963800905
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 1,
+         "mean_p": 0.1540867093105899,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 1,
+         "mean_p": 0.2956645344705046,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 56,
+         "mean_p": 0.3428571428571429,
+         "observed": 0.125
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 327,
+         "mean_p": 0.43137254901960803,
+         "observed": 0.45871559633027525
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.34782608695652173,
+        "events_scorable": 69,
+        "events_detected": 24,
+        "false_alarms_per_account_month": 0.7850131831255992,
+        "date_within_tolerance": 0.37333333333333335,
+        "deficit_mae_rub": 1927595.3918666665
+       },
+       "0.5": {
+        "recall_7d": 0.37681159420289856,
+        "events_scorable": 69,
+        "events_detected": 26,
+        "false_alarms_per_account_month": 0.9484360019175455,
+        "date_within_tolerance": 0.36942675159235666,
+        "deficit_mae_rub": 1861354.736178344
+       },
+       "1.0": {
+        "recall_7d": 0.42028985507246375,
+        "events_scorable": 69,
+        "events_detected": 29,
+        "false_alarms_per_account_month": 1.3920122243528283,
+        "date_within_tolerance": 0.3727810650887574,
+        "deficit_mae_rub": 1851047.2301183431
+       }
+      }
+     },
+     "retrospective": {
+      "risk": {
+       "windows_at_risk": 1036,
+       "windows_current_deficit": 28,
+       "events_scorable": 49,
+       "events_detected": 20,
+       "recall_7d": 0.40816326530612246,
+       "recall_7d_ci": [
+        0.2821503460597105,
+        0.5475293002795374
+       ],
+       "alarm_windows": 343,
+       "false_alarm_windows": 303,
+       "account_months": 238.258726899384,
+       "false_alarms_per_account_month": 1.2717267650303365,
+       "date_error_n": 107,
+       "date_within_tolerance": 0.37383177570093457,
+       "date_error_median_days": 6.0,
+       "deficit_error_n": 107,
+       "deficit_mae_rub": 1276329.5784112148,
+       "deficit_median_ae_rub": 637770.19
+      },
+      "probability": {
+       "n": 1036,
+       "brier": 0.08089224195560611,
+       "base_rate_split": 0.11969111969111969,
+       "vs_split_rate": {
+        "brier_base": 0.10536515555820575,
+        "brier_skill": 0.23226761705942078
+       },
+       "base_rate_calibration": 0.084472049689441,
+       "vs_calibration_rate": {
+        "brier_base": 0.10660553844998887,
+        "brier_skill": 0.24120038103316233
+       },
+       "reliability": [
+        {
+         "bin": "0.0-0.1",
+         "n": 782,
+         "mean_p": 0.012524963211963927,
+         "observed": 0.03324808184143223
+        },
+        {
+         "bin": "0.1-0.2",
+         "n": 3,
+         "mean_p": 0.13835583984837715,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.2-0.3",
+         "n": 1,
+         "mean_p": 0.24847192608386637,
+         "observed": 0.0
+        },
+        {
+         "bin": "0.3-0.4",
+         "n": 30,
+         "mean_p": 0.3428571428571429,
+         "observed": 0.16666666666666666
+        },
+        {
+         "bin": "0.4-0.5",
+         "n": 220,
+         "mean_p": 0.431372549019608,
+         "observed": 0.42272727272727273
+        },
+        {
+         "bin": "0.5-0.6",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.6-0.7",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.7-0.8",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.8-0.9",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        },
+        {
+         "bin": "0.9-1.0",
+         "n": 0,
+         "mean_p": null,
+         "observed": null
+        }
+       ]
+      },
+      "risk_by_budget": {
+       "0.25": {
+        "recall_7d": 0.32653061224489793,
+        "events_scorable": 49,
+        "events_detected": 16,
+        "false_alarms_per_account_month": 0.7806639547710976,
+        "date_within_tolerance": 0.3655913978494624,
+        "deficit_mae_rub": 1360997.7530107526
+       },
+       "0.5": {
+        "recall_7d": 0.3673469387755102,
+        "events_scorable": 49,
+        "events_detected": 18,
+        "false_alarms_per_account_month": 0.9149717319360177,
+        "date_within_tolerance": 0.3673469387755102,
+        "deficit_mae_rub": 1348243.043469388
+       },
+       "1.0": {
+        "recall_7d": 0.40816326530612246,
+        "events_scorable": 49,
+        "events_detected": 20,
+        "false_alarms_per_account_month": 1.2717267650303365,
+        "date_within_tolerance": 0.37383177570093457,
+        "deficit_mae_rub": 1276329.5784112148
+       }
+      }
+     }
+    },
+    "central_threshold": {
+     "calibration": {
+      "risk": {
+       "windows_at_risk": 1610,
+       "windows_current_deficit": 58,
+       "events_scorable": 23,
+       "events_detected": 11,
+       "recall_7d": 0.4782608695652174,
+       "recall_7d_ci": [
+        0.2923686953994572,
+        0.6703757013578151
+       ],
+       "alarm_windows": 165,
+       "false_alarm_windows": 124,
+       "account_months": 370.26694045174537,
+       "false_alarms_per_account_month": 0.3348935226264419,
+       "date_error_n": 71,
+       "date_within_tolerance": 0.39436619718309857,
+       "date_error_median_days": 4.0,
+       "deficit_error_n": 71,
+       "deficit_mae_rub": 1391595.422112676,
+       "deficit_median_ae_rub": 671283.46
+      },
+      "probability": null
+     },
+     "selection": {
+      "risk": {
+       "windows_at_risk": 1490,
+       "windows_current_deficit": 49,
+       "events_scorable": 69,
+       "events_detected": 20,
+       "recall_7d": 0.2898550724637681,
+       "recall_7d_ci": [
+        0.19615912140759173,
+        0.40571672975438167
+       ],
+       "alarm_windows": 233,
+       "false_alarm_windows": 184,
+       "account_months": 342.6694045174538,
+       "false_alarms_per_account_month": 0.536960690316395,
+       "date_error_n": 121,
+       "date_within_tolerance": 0.371900826446281,
+       "date_error_median_days": 5.0,
+       "deficit_error_n": 121,
+       "deficit_mae_rub": 1194865.9134710743,
+       "deficit_median_ae_rub": 653030.72
+      },
+      "probability": null
+     },
+     "retrospective": {
+      "risk": {
+       "windows_at_risk": 1036,
+       "windows_current_deficit": 28,
+       "events_scorable": 49,
+       "events_detected": 12,
+       "recall_7d": 0.24489795918367346,
+       "recall_7d_ci": [
+        0.14602203389475285,
+        0.38086587260315785
+       ],
+       "alarm_windows": 150,
+       "false_alarm_windows": 125,
+       "account_months": 238.258726899384,
+       "false_alarms_per_account_month": 0.5246397545504689,
+       "date_error_n": 74,
+       "date_within_tolerance": 0.2972972972972973,
+       "date_error_median_days": 7.0,
+       "deficit_error_n": 74,
+       "deficit_mae_rub": 722885.0932432433,
+       "deficit_median_ae_rub": 515231.12
+      },
+      "probability": null
+     }
+    }
+   },
+   "selection_mean_p": 0.12692089151649652
+  }
+ },
+ "steps": {
+  "calibration": 7,
+  "selection": 7,
+  "retrospective": 7
+ },
+ "budget": 1.0,
+ "source_params": {
+  "regular": {
+   "half_days": 4,
+   "sigma": 0.1,
+   "fitted_n": 8191
+  },
+  "tax_calendar": {
+   "half_days": 4,
+   "sigma": 0.35,
+   "fitted_n": 45
+  },
+  "documents": {
+   "half_days": 10,
+   "sigma": 0.1,
+   "fitted_n": 19861
+  },
+  "other": {
+   "half_days": 1,
+   "sigma": 0.1
+  }
+ },
+ "dropped_windows": [],
+ "seconds": 168.66662049293518
+}

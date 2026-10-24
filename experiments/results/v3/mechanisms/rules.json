@@ -1,0 +1,33 @@
+{
+ "history_until": "2025-12-31",
+ "per_mechanism": {
+  "fixed_monthly": {
+   "observed_days": 13607,
+   "share_explained_next": 0.4517,
+   "share_explained_prev": 0.3062,
+   "share_explained_none": 0.2598,
+   "chosen": "next"
+  },
+  "salary": {
+   "observed_days": 3807,
+   "share_explained_next": 0.7428,
+   "share_explained_prev": 0.9606,
+   "share_explained_none": 0.7355,
+   "chosen": "prev"
+  },
+  "loan": {
+   "observed_days": 552,
+   "share_explained_next": 0.8967,
+   "share_explained_prev": 0.5978,
+   "share_explained_none": 0.596,
+   "chosen": "next"
+  },
+  "enp": {
+   "observed_days": 2114,
+   "share_explained_next": 0.807,
+   "share_explained_prev": 0.6466,
+   "share_explained_none": 0.6438,
+   "chosen": "next"
+  }
+ }
+}

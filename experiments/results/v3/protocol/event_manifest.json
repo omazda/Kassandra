@@ -1,0 +1,43 @@
+{
+  "until_2025-12-31": {
+    "from": null,
+    "to": "2025-12-31",
+    "events": 255,
+    "companies": 56,
+    "events_negative_eod": 43,
+    "companies_negative_eod": 12,
+    "events_financing_rescue": 212
+  },
+  "2026-01_02": {
+    "from": "2026-01-01",
+    "to": "2026-02-28",
+    "events": 37,
+    "companies": 21,
+    "events_negative_eod": 5,
+    "companies_negative_eod": 4,
+    "events_financing_rescue": 32
+  },
+  "2026-03_06": {
+    "from": "2026-03-01",
+    "to": "2026-06-30",
+    "events": 113,
+    "companies": 41,
+    "events_negative_eod": 18,
+    "companies_negative_eod": 6,
+    "events_financing_rescue": 95
+  },
+  "2026-07_09": {
+    "from": "2026-07-01",
+    "to": null,
+    "events": 76,
+    "companies": 39,
+    "events_negative_eod": 11,
+    "companies_negative_eod": 7,
+    "events_financing_rescue": 65
+  },
+  "total": {
+    "events": 481,
+    "companies": 77,
+    "companies_total": 150
+  }
+}

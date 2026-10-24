@@ -1,0 +1,27 @@
+{
+  "protocol": "v3",
+  "seed": 42,
+  "trained_to": "2025-12-31",
+  "horizon_days": 30,
+  "threshold_minor": 0,
+  "min_history_days": 90,
+  "splits": {
+    "calibration": {"origins": ["2026-01-01", "2026-01-08", "2026-01-15", "2026-01-22", "2026-01-29"]},
+    "selection": {"start": "2026-03-01", "end": "2026-05-31", "step_days": 7},
+    "retrospective": {"start": "2026-07-01", "end": "2026-08-31", "step_days": 7}
+  },
+  "calibration_targets_until": "2026-02-28",
+  "manifest_parts": {
+    "until_2025-12-31": [null, "2025-12-31"],
+    "2026-01_02": ["2026-01-01", "2026-02-28"],
+    "2026-03_06": ["2026-03-01", "2026-06-30"],
+    "2026-07_09": ["2026-07-01", null]
+  },
+  "methods": ["constant", "mean60", "weekday", "hgb_v2", "shape_only"],
+  "min_warning_days": 7,
+  "date_tolerance_days": 3,
+  "alarm_budget_per_account_month": 1.0,
+  "bootstrap": {"resamples": 1000, "seed": 42},
+  "reliability_bins": 10,
+  "n_jobs": 2
+}

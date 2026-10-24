@@ -1,0 +1,14 @@
+{
+  "contract_id": "МЗ-44/2026",
+  "title": "Поставка зерна",
+  "direction": "in",
+  "counterparty_inn": "0093526192",
+  "counterparty_name": "ООО «Маслозавод-431»",
+  "total_minor": 45000000,
+  "signed_date": "2026-04-24",
+  "prepayment_pct": 30,
+  "prepayment_days": 4,
+  "delivery_date": "2026-05-12",
+  "deferral_days": 7,
+  "known_at": "2026-04-26"
+}

@@ -1,0 +1,2878 @@
+{
+ "account": {
+  "id": "C003",
+  "name": "ООО «Агро-191»",
+  "demo": 1,
+  "data_version": 1,
+  "event_version": 0
+ },
+ "forecast": {
+  "run_id": "93014d68-75bd-4b5a-983b-f0941c9b8f11",
+  "account_id": "C003",
+  "as_of": "2026-04-26",
+  "model": "hgb",
+  "model_version": "hgb-2025-12-31-residual-6f7797d141",
+  "trained_to": "2025-12-31",
+  "data_version": 1,
+  "event_version": 0,
+  "calendar": true,
+  "opening_balance_minor": 209902886,
+  "reserve_minor": 0,
+  "credit_limit_minor": 0,
+  "points": [
+   {
+    "date": "2026-04-27",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 36116269,
+    "residual_out_minor": 62626106,
+    "residual_revenue_minor": 34557949,
+    "closing_balance_minor": 183393049,
+    "p10_minor": 128623631,
+    "p90_minor": 206615890
+   },
+   {
+    "date": "2026-04-28",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 9739546,
+    "residual_out_minor": 24328880,
+    "residual_revenue_minor": 8262032,
+    "closing_balance_minor": 168803715,
+    "p10_minor": 112430232,
+    "p90_minor": 192735999
+   },
+   {
+    "date": "2026-04-29",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 9739546,
+    "residual_out_minor": 14154179,
+    "residual_revenue_minor": 8262032,
+    "closing_balance_minor": 164389082,
+    "p10_minor": 107849800,
+    "p90_minor": 196438990
+   },
+   {
+    "date": "2026-04-30",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 9739546,
+    "residual_out_minor": 13162923,
+    "residual_revenue_minor": 8262032,
+    "closing_balance_minor": 160965705,
+    "p10_minor": 50427785,
+    "p90_minor": 237888165
+   },
+   {
+    "date": "2026-05-01",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 21896760,
+    "residual_out_minor": 14116114,
+    "residual_revenue_minor": 20477517,
+    "closing_balance_minor": 168746351,
+    "p10_minor": 66823447,
+    "p90_minor": 265173533
+   },
+   {
+    "date": "2026-05-02",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 787468,
+    "residual_out_minor": 582963,
+    "residual_revenue_minor": 60451,
+    "closing_balance_minor": 168950856,
+    "p10_minor": 28486146,
+    "p90_minor": 260023154
+   },
+   {
+    "date": "2026-05-03",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 787468,
+    "residual_out_minor": 582963,
+    "residual_revenue_minor": 60451,
+    "closing_balance_minor": 169155361,
+    "p10_minor": 38973648,
+    "p90_minor": 266284339
+   },
+   {
+    "date": "2026-05-04",
+    "event_in_minor": 0,
+    "event_out_minor": 37430117,
+    "residual_in_minor": 43702503,
+    "residual_out_minor": 39759674,
+    "residual_revenue_minor": 41883969,
+    "closing_balance_minor": 135668073,
+    "p10_minor": -5734485,
+    "p90_minor": 237479435
+   },
+   {
+    "date": "2026-05-05",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 10784707,
+    "residual_out_minor": 13388896,
+    "residual_revenue_minor": 9046978,
+    "closing_balance_minor": 133063884,
+    "p10_minor": -10859324,
+    "p90_minor": 235113526
+   },
+   {
+    "date": "2026-05-06",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 10784707,
+    "residual_out_minor": 11571043,
+    "residual_revenue_minor": 9046978,
+    "closing_balance_minor": 132277548,
+    "p10_minor": -21380263,
+    "p90_minor": 232158239
+   },
+   {
+    "date": "2026-05-07",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 11176789,
+    "residual_out_minor": 11648181,
+    "residual_revenue_minor": 9439060,
+    "closing_balance_minor": 131806156,
+    "p10_minor": -55662170,
+    "p90_minor": 262897242
+   },
+   {
+    "date": "2026-05-08",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 11337206,
+    "residual_out_minor": 15006191,
+    "residual_revenue_minor": 9599477,
+    "closing_balance_minor": 128137171,
+    "p10_minor": -70854389,
+    "p90_minor": 269989506
+   },
+   {
+    "date": "2026-05-09",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 883716,
+    "residual_out_minor": 1185119,
+    "residual_revenue_minor": 156699,
+    "closing_balance_minor": 127835768,
+    "p10_minor": -98886264,
+    "p90_minor": 256585327
+   },
+   {
+    "date": "2026-05-10",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 883716,
+    "residual_out_minor": 1185119,
+    "residual_revenue_minor": 156699,
+    "closing_balance_minor": 127534365,
+    "p10_minor": -90245486,
+    "p90_minor": 266957952
+   },
+   {
+    "date": "2026-05-11",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 37960332,
+    "residual_out_minor": 51046394,
+    "residual_revenue_minor": 35255177,
+    "closing_balance_minor": 114448303,
+    "p10_minor": -119485706,
+    "p90_minor": 253783791
+   },
+   {
+    "date": "2026-05-12",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 11958506,
+    "residual_out_minor": 15609913,
+    "residual_revenue_minor": 9334157,
+    "closing_balance_minor": 110796896,
+    "p10_minor": -124209399,
+    "p90_minor": 249427179
+   },
+   {
+    "date": "2026-05-13",
+    "event_in_minor": 0,
+    "event_out_minor": 530000,
+    "residual_in_minor": 11958506,
+    "residual_out_minor": 15609913,
+    "residual_revenue_minor": 9334157,
+    "closing_balance_minor": 106615489,
+    "p10_minor": -128885627,
+    "p90_minor": 245980207
+   },
+   {
+    "date": "2026-05-14",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 11958506,
+    "residual_out_minor": 24369786,
+    "residual_revenue_minor": 9334157,
+    "closing_balance_minor": 94204209,
+    "p10_minor": -150875855,
+    "p90_minor": 242359197
+   },
+   {
+    "date": "2026-05-15",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 11648536,
+    "residual_out_minor": 29868194,
+    "residual_revenue_minor": 9024187,
+    "closing_balance_minor": 75984551,
+    "p10_minor": -170228671,
+    "p90_minor": 222077528
+   },
+   {
+    "date": "2026-05-16",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 883716,
+    "residual_out_minor": 1168854,
+    "residual_revenue_minor": 156699,
+    "closing_balance_minor": 75699413,
+    "p10_minor": -160444014,
+    "p90_minor": 224138772
+   },
+   {
+    "date": "2026-05-17",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 733319,
+    "residual_out_minor": 893713,
+    "residual_revenue_minor": 6302,
+    "closing_balance_minor": 75539019,
+    "p10_minor": -154946492,
+    "p90_minor": 238418491
+   },
+   {
+    "date": "2026-05-18",
+    "event_in_minor": 0,
+    "event_out_minor": 37430117,
+    "residual_in_minor": 29204275,
+    "residual_out_minor": 49319465,
+    "residual_revenue_minor": 26499120,
+    "closing_balance_minor": 17993712,
+    "p10_minor": -230159952,
+    "p90_minor": 176192693
+   },
+   {
+    "date": "2026-05-19",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 10191368,
+    "residual_out_minor": 16492135,
+    "residual_revenue_minor": 8279682,
+    "closing_balance_minor": 11692945,
+    "p10_minor": -231872660,
+    "p90_minor": 169062926
+   },
+   {
+    "date": "2026-05-20",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 10191368,
+    "residual_out_minor": 16492135,
+    "residual_revenue_minor": 8279682,
+    "closing_balance_minor": 5392178,
+    "p10_minor": -236443732,
+    "p90_minor": 161055634
+   },
+   {
+    "date": "2026-05-21",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 10191368,
+    "residual_out_minor": 15603901,
+    "residual_revenue_minor": 8279682,
+    "closing_balance_minor": -20355,
+    "p10_minor": -251663565,
+    "p90_minor": 148104716
+   },
+   {
+    "date": "2026-05-22",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 10148185,
+    "residual_out_minor": 19149592,
+    "residual_revenue_minor": 8236499,
+    "closing_balance_minor": -9021762,
+    "p10_minor": -263838536,
+    "p90_minor": 157222849
+   },
+   {
+    "date": "2026-05-23",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 727017,
+    "residual_out_minor": 893713,
+    "residual_revenue_minor": 0,
+    "closing_balance_minor": -9188458,
+    "p10_minor": -268056951,
+    "p90_minor": 154174393
+   },
+   {
+    "date": "2026-05-24",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 727017,
+    "residual_out_minor": 893713,
+    "residual_revenue_minor": 0,
+    "closing_balance_minor": -9355154,
+    "p10_minor": -260214596,
+    "p90_minor": 166266567
+   },
+   {
+    "date": "2026-05-25",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 27881958,
+    "residual_out_minor": 50880955,
+    "residual_revenue_minor": 25889466,
+    "closing_balance_minor": -32354151,
+    "p10_minor": -294117158,
+    "p90_minor": 131140281
+   },
+   {
+    "date": "2026-05-26",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 10191368,
+    "residual_out_minor": 17040070,
+    "residual_revenue_minor": 8279682,
+    "closing_balance_minor": -39202853,
+    "p10_minor": -294329150,
+    "p90_minor": 137633178
+   }
+  ],
+  "events": [
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-04",
+    "account_id": "C003",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "amount_minor": 37430117,
+    "direction": "out",
+    "due_date": "2026-05-04",
+    "expected_date": "2026-05-04",
+    "known_at": "2026-04-26",
+    "source": "regular",
+    "status": "assumption",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Зарплата · повтор по истории",
+    "counterparty_inn": "0068275202",
+    "counterparty_name": "ПАО «Банк»",
+    "document_ref": null
+   },
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-18",
+    "account_id": "C003",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "amount_minor": 37430117,
+    "direction": "out",
+    "due_date": "2026-05-18",
+    "expected_date": "2026-05-18",
+    "known_at": "2026-04-26",
+    "source": "regular",
+    "status": "assumption",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Зарплата · повтор по истории",
+    "counterparty_inn": "0068275202",
+    "counterparty_name": "ПАО «Банк»",
+    "document_ref": null
+   },
+   {
+    "id": "regular:C003:component:4dc0eb2a8062f9b3:2026-05-13",
+    "account_id": "C003",
+    "component_id": "component:4dc0eb2a8062f9b3",
+    "category": "software",
+    "amount_minor": 530000,
+    "direction": "out",
+    "due_date": "2026-05-13",
+    "expected_date": "2026-05-13",
+    "known_at": "2026-04-26",
+    "source": "regular",
+    "status": "assumption",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "ПО и учётные системы · повтор по истории",
+    "counterparty_inn": "0092299998",
+    "counterparty_name": "ООО «Учетные системы-520»",
+    "document_ref": null
+   }
+  ],
+  "risk": {
+   "threshold_minor": 0,
+   "current_gap_minor": 0,
+   "new_risk": true,
+   "first_gap_date": "2026-05-21",
+   "minimum_balance_minor": -39202853,
+   "liquidity_need_minor": 39202853,
+   "probability_30d": 0.769,
+   "calibration_status": "experimental_uncalibrated",
+   "probability_source": "Повторная выборка целых внеобучающих 30-дневных траекторий; нормировка прошлым оборотом",
+   "trajectory_count": 557,
+   "simulations": 1000,
+   "limitation": "Экспериментальная модельная частота; калибровка E06 не выполнена. Зависимые окна и перенос между компаниями ограничивают интерпретацию. Один счёт не отражает всю ликвидность."
+  },
+  "quality_flags": [
+   "Несогласованные переходы в доступной истории: 2; пропуски не исправлены",
+   "Дни без операций внутри покрытия считаются нулевым потоком по допущению; это не подтверждение полноты выписки"
+  ],
+  "confidence": {
+   "level": "high",
+   "history_days": 573,
+   "refuse": false,
+   "label": "Высокое доверие",
+   "limitation": "История не короче года.",
+   "warnings": []
+  },
+  "latest_operation_date": "2026-09-28",
+  "history": [
+   {
+    "date": "2026-02-26",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 305082882,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-02-27",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 305082882,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-02-28",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 305082882,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-01",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 305082882,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-02",
+    "inflow_minor": 0,
+    "outflow_minor": 195459112,
+    "balance_minor": 109623770,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 6
+   },
+   {
+    "date": "2026-03-03",
+    "inflow_minor": 0,
+    "outflow_minor": 570820,
+    "balance_minor": 109052950,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-03-04",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 109052950,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-05",
+    "inflow_minor": 0,
+    "outflow_minor": 37569149,
+    "balance_minor": 71483801,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-03-06",
+    "inflow_minor": 0,
+    "outflow_minor": 64784307,
+    "balance_minor": 6699494,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-03-07",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 6699494,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-08",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 6699494,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-09",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 6699494,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-10",
+    "inflow_minor": 0,
+    "outflow_minor": 530000,
+    "balance_minor": 6169494,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-03-11",
+    "inflow_minor": 1250000000,
+    "outflow_minor": 163835442,
+    "balance_minor": 1092334052,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 3
+   },
+   {
+    "date": "2026-03-12",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 1092334052,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-13",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 1092334052,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-14",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 1092334052,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-15",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 1092334052,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-16",
+    "inflow_minor": 0,
+    "outflow_minor": 19700000,
+    "balance_minor": 1072634052,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-03-17",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 1072634052,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-18",
+    "inflow_minor": 0,
+    "outflow_minor": 80320782,
+    "balance_minor": 992313270,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-03-19",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 992313270,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-20",
+    "inflow_minor": 0,
+    "outflow_minor": 26390000,
+    "balance_minor": 965923270,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-03-21",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 965923270,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-22",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 965923270,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-23",
+    "inflow_minor": 0,
+    "outflow_minor": 122383826,
+    "balance_minor": 843539444,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 2
+   },
+   {
+    "date": "2026-03-24",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 843539444,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-25",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 843539444,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-26",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 843539444,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-27",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 843539444,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-28",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 843539444,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-29",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 843539444,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-03-30",
+    "inflow_minor": 0,
+    "outflow_minor": 179409414,
+    "balance_minor": 664130030,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 3
+   },
+   {
+    "date": "2026-03-31",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 664130030,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-01",
+    "inflow_minor": 0,
+    "outflow_minor": 149000,
+    "balance_minor": 663981030,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-04-02",
+    "inflow_minor": 0,
+    "outflow_minor": 58363020,
+    "balance_minor": 605618010,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-04-03",
+    "inflow_minor": 0,
+    "outflow_minor": 39591727,
+    "balance_minor": 566026283,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-04-04",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 566026283,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-05",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 566026283,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-06",
+    "inflow_minor": 0,
+    "outflow_minor": 77235705,
+    "balance_minor": 488790578,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 2
+   },
+   {
+    "date": "2026-04-07",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 488790578,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-08",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 488790578,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-09",
+    "inflow_minor": 0,
+    "outflow_minor": 581205,
+    "balance_minor": 488209373,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-04-10",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 488209373,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-11",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 488209373,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-12",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 488209373,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-13",
+    "inflow_minor": 0,
+    "outflow_minor": 25500000,
+    "balance_minor": 462709373,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-04-14",
+    "inflow_minor": 0,
+    "outflow_minor": 530000,
+    "balance_minor": 462179373,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 1
+   },
+   {
+    "date": "2026-04-15",
+    "inflow_minor": 0,
+    "outflow_minor": 119568081,
+    "balance_minor": 342611292,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 2
+   },
+   {
+    "date": "2026-04-16",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 342611292,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-17",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 342611292,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-18",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 342611292,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-19",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 342611292,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-20",
+    "inflow_minor": 0,
+    "outflow_minor": 132708406,
+    "balance_minor": 209902886,
+    "coverage": "observed",
+    "valid": true,
+    "operation_count": 3
+   },
+   {
+    "date": "2026-04-21",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 209902886,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-22",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 209902886,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-23",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 209902886,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-24",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 209902886,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-25",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 209902886,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   },
+   {
+    "date": "2026-04-26",
+    "inflow_minor": 0,
+    "outflow_minor": 0,
+    "balance_minor": 209902886,
+    "coverage": "no_operations_unconfirmed",
+    "valid": true,
+    "operation_count": 0
+   }
+  ],
+  "created_at": "2026-10-24T12:21:27.356375+00:00"
+ },
+ "explanation": {
+  "has_gap": true,
+  "gap_date": "2026-05-21",
+  "shortfall_minor": 39202853,
+  "when": "21.05",
+  "shortfall": "393 тыс. ₽",
+  "why": [
+   "Зарплата 749 тыс. ₽ (2 пл., с 04.05)",
+   "ПО и учётные системы 5,3 тыс. ₽ (13.05)",
+   "прочие расходы по среднему потоку 4,60 млн ₽"
+  ],
+  "actions": [
+   {
+    "code": "speed_up_client",
+    "text": "Запросить предоплату у крупных клиентов: в календаре нет поступлений после даты разрыва.",
+    "amount_minor": 0
+   },
+   {
+    "code": "credit_line",
+    "text": "Оформить овердрафт или кредитную линию не менее 393 тыс. ₽.",
+    "amount_minor": 39202853
+   },
+   {
+    "code": "reserve",
+    "text": "Сформировать резерв не менее 393 тыс. ₽, чтобы такие периоды проходить без кредита.",
+    "amount_minor": 39202853
+   }
+  ],
+  "text": "Когда: 21.05. Не хватит: 393 тыс. ₽. Почему: Зарплата 749 тыс. ₽ (2 пл., с 04.05); ПО и учётные системы 5,3 тыс. ₽ (13.05); прочие расходы по среднему потоку 4,60 млн ₽. Что сделать: 1) Запросить предоплату у крупных клиентов: в календаре нет поступлений после даты разрыва. 2) Оформить овердрафт или кредитную линию не менее 393 тыс. ₽. 3) Сформировать резерв не менее 393 тыс. ₽, чтобы такие периоды проходить без кредита."
+ },
+ "top_clients": [
+  {
+   "counterparty_inn": "0003688561",
+   "counterparty_name": "ООО «Мукомольный комбинат-935»",
+   "amount_minor": 360742922,
+   "operations": 1,
+   "last_date": "2026-02-19",
+   "share": 1.0
+  }
+ ],
+ "events": [],
+ "daily_tail": [
+  {
+   "date": "2026-01-01",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-02",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-03",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-04",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-05",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-06",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-07",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-08",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-09",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-10",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-11",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 769517449,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-12",
+   "inflow_minor": 0,
+   "outflow_minor": 53743490,
+   "balance_minor": 715773959,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 7
+  },
+  {
+   "date": "2026-01-13",
+   "inflow_minor": 0,
+   "outflow_minor": 530000,
+   "balance_minor": 715243959,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-01-14",
+   "inflow_minor": 0,
+   "outflow_minor": 263610000,
+   "balance_minor": 451633959,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-01-15",
+   "inflow_minor": 0,
+   "outflow_minor": 12757159,
+   "balance_minor": 438876800,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-01-16",
+   "inflow_minor": 0,
+   "outflow_minor": 21943367,
+   "balance_minor": 416933433,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-01-17",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 416933433,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-18",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 416933433,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-19",
+   "inflow_minor": 0,
+   "outflow_minor": 6700000,
+   "balance_minor": 410233433,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-01-20",
+   "inflow_minor": 0,
+   "outflow_minor": 26110000,
+   "balance_minor": 384123433,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-01-21",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 384123433,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-22",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 384123433,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-23",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 384123433,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-24",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 384123433,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-25",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 384123433,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-26",
+   "inflow_minor": 0,
+   "outflow_minor": 19067381,
+   "balance_minor": 365056052,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 2
+  },
+  {
+   "date": "2026-01-27",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 365056052,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-28",
+   "inflow_minor": 0,
+   "outflow_minor": 25043800,
+   "balance_minor": 340012252,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-01-29",
+   "inflow_minor": 0,
+   "outflow_minor": 12325744,
+   "balance_minor": 327686508,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-01-30",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 327686508,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-01-31",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 327686508,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-01",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 327686508,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-02",
+   "inflow_minor": 0,
+   "outflow_minor": 8249000,
+   "balance_minor": 319437508,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 2
+  },
+  {
+   "date": "2026-02-03",
+   "inflow_minor": 0,
+   "outflow_minor": 31048655,
+   "balance_minor": 288388853,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-02-04",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 288388853,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-05",
+   "inflow_minor": 0,
+   "outflow_minor": 39160993,
+   "balance_minor": 249227860,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-02-06",
+   "inflow_minor": 0,
+   "outflow_minor": 51250972,
+   "balance_minor": 197976888,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-02-07",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 197976888,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-08",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 197976888,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-09",
+   "inflow_minor": 0,
+   "outflow_minor": 26312426,
+   "balance_minor": 171664462,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 3
+  },
+  {
+   "date": "2026-02-10",
+   "inflow_minor": 0,
+   "outflow_minor": 40516356,
+   "balance_minor": 131148106,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-02-11",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 131148106,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-12",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 131148106,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-13",
+   "inflow_minor": 0,
+   "outflow_minor": 530000,
+   "balance_minor": 130618106,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-02-14",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 130618106,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-15",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 130618106,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-16",
+   "inflow_minor": 0,
+   "outflow_minor": 36738244,
+   "balance_minor": 93879862,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 2
+  },
+  {
+   "date": "2026-02-17",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 93879862,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-18",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 93879862,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-19",
+   "inflow_minor": 360742922,
+   "outflow_minor": 117199902,
+   "balance_minor": 337422882,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 3
+  },
+  {
+   "date": "2026-02-20",
+   "inflow_minor": 0,
+   "outflow_minor": 25040000,
+   "balance_minor": 312382882,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-02-21",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 312382882,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-22",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 312382882,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-23",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 312382882,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-24",
+   "inflow_minor": 0,
+   "outflow_minor": 7300000,
+   "balance_minor": 305082882,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-02-25",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 305082882,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-26",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 305082882,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-27",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 305082882,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-02-28",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 305082882,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-01",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 305082882,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-02",
+   "inflow_minor": 0,
+   "outflow_minor": 195459112,
+   "balance_minor": 109623770,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 6
+  },
+  {
+   "date": "2026-03-03",
+   "inflow_minor": 0,
+   "outflow_minor": 570820,
+   "balance_minor": 109052950,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-03-04",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 109052950,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-05",
+   "inflow_minor": 0,
+   "outflow_minor": 37569149,
+   "balance_minor": 71483801,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-03-06",
+   "inflow_minor": 0,
+   "outflow_minor": 64784307,
+   "balance_minor": 6699494,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-03-07",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 6699494,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-08",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 6699494,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-09",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 6699494,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-10",
+   "inflow_minor": 0,
+   "outflow_minor": 530000,
+   "balance_minor": 6169494,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-03-11",
+   "inflow_minor": 1250000000,
+   "outflow_minor": 163835442,
+   "balance_minor": 1092334052,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 3
+  },
+  {
+   "date": "2026-03-12",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 1092334052,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-13",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 1092334052,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-14",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 1092334052,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-15",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 1092334052,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-16",
+   "inflow_minor": 0,
+   "outflow_minor": 19700000,
+   "balance_minor": 1072634052,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-03-17",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 1072634052,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-18",
+   "inflow_minor": 0,
+   "outflow_minor": 80320782,
+   "balance_minor": 992313270,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-03-19",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 992313270,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-20",
+   "inflow_minor": 0,
+   "outflow_minor": 26390000,
+   "balance_minor": 965923270,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-03-21",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 965923270,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-22",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 965923270,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-23",
+   "inflow_minor": 0,
+   "outflow_minor": 122383826,
+   "balance_minor": 843539444,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 2
+  },
+  {
+   "date": "2026-03-24",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 843539444,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-25",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 843539444,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-26",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 843539444,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-27",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 843539444,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-28",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 843539444,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-29",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 843539444,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-03-30",
+   "inflow_minor": 0,
+   "outflow_minor": 179409414,
+   "balance_minor": 664130030,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 3
+  },
+  {
+   "date": "2026-03-31",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 664130030,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-01",
+   "inflow_minor": 0,
+   "outflow_minor": 149000,
+   "balance_minor": 663981030,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-04-02",
+   "inflow_minor": 0,
+   "outflow_minor": 58363020,
+   "balance_minor": 605618010,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-04-03",
+   "inflow_minor": 0,
+   "outflow_minor": 39591727,
+   "balance_minor": 566026283,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-04-04",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 566026283,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-05",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 566026283,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-06",
+   "inflow_minor": 0,
+   "outflow_minor": 77235705,
+   "balance_minor": 488790578,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 2
+  },
+  {
+   "date": "2026-04-07",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 488790578,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-08",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 488790578,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-09",
+   "inflow_minor": 0,
+   "outflow_minor": 581205,
+   "balance_minor": 488209373,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-04-10",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 488209373,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-11",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 488209373,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-12",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 488209373,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-13",
+   "inflow_minor": 0,
+   "outflow_minor": 25500000,
+   "balance_minor": 462709373,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-04-14",
+   "inflow_minor": 0,
+   "outflow_minor": 530000,
+   "balance_minor": 462179373,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-04-15",
+   "inflow_minor": 0,
+   "outflow_minor": 119568081,
+   "balance_minor": 342611292,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 2
+  },
+  {
+   "date": "2026-04-16",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 342611292,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-17",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 342611292,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-18",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 342611292,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-19",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 342611292,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-20",
+   "inflow_minor": 0,
+   "outflow_minor": 132708406,
+   "balance_minor": 209902886,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 3
+  },
+  {
+   "date": "2026-04-21",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 209902886,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-22",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 209902886,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-23",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 209902886,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-24",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 209902886,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-25",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 209902886,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-26",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 209902886,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-04-27",
+   "inflow_minor": 0,
+   "outflow_minor": 114591827,
+   "balance_minor": 95311059,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 2
+  },
+  {
+   "date": "2026-04-28",
+   "inflow_minor": 0,
+   "outflow_minor": 26925000,
+   "balance_minor": 68386059,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-04-29",
+   "inflow_minor": 0,
+   "outflow_minor": 59078735,
+   "balance_minor": 9307324,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-04-30",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 9307324,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-01",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 9307324,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-02",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 9307324,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-03",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 9307324,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-04",
+   "inflow_minor": 401003882,
+   "outflow_minor": 29539721,
+   "balance_minor": 380771485,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 4
+  },
+  {
+   "date": "2026-05-05",
+   "inflow_minor": 0,
+   "outflow_minor": 83743897,
+   "balance_minor": 297027588,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 2
+  },
+  {
+   "date": "2026-05-06",
+   "inflow_minor": 0,
+   "outflow_minor": 53272080,
+   "balance_minor": 243755508,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-05-07",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 243755508,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-08",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 243755508,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-09",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 243755508,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-10",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 243755508,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-11",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 243755508,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-12",
+   "inflow_minor": 0,
+   "outflow_minor": 92894030,
+   "balance_minor": 150861478,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 4
+  },
+  {
+   "date": "2026-05-13",
+   "inflow_minor": 0,
+   "outflow_minor": 4504244,
+   "balance_minor": 146357234,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-05-14",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 146357234,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-15",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 146357234,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-16",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 146357234,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-17",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 146357234,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-18",
+   "inflow_minor": 0,
+   "outflow_minor": 70585938,
+   "balance_minor": 75771296,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 3
+  },
+  {
+   "date": "2026-05-19",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 75771296,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-20",
+   "inflow_minor": 0,
+   "outflow_minor": 53180000,
+   "balance_minor": 22591296,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 1
+  },
+  {
+   "date": "2026-05-21",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 22591296,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-22",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 22591296,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-23",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 22591296,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-24",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 22591296,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  },
+  {
+   "date": "2026-05-25",
+   "inflow_minor": 75000000,
+   "outflow_minor": 47767787,
+   "balance_minor": 49823509,
+   "coverage": "observed",
+   "valid": true,
+   "operation_count": 3
+  },
+  {
+   "date": "2026-05-26",
+   "inflow_minor": 0,
+   "outflow_minor": 0,
+   "balance_minor": 49823509,
+   "coverage": "no_operations_unconfirmed",
+   "valid": true,
+   "operation_count": 0
+  }
+ ],
+ "scenario_request": {
+  "base_run_id": "93014d68-75bd-4b5a-983b-f0941c9b8f11",
+  "kind": "combined",
+  "parts": [
+   {
+    "kind": "revenue_drop",
+    "revenue_drop_pct": 20
+   },
+   {
+    "kind": "extra_expense",
+    "amount_minor": 30000000,
+    "expense_date": "2026-05-08"
+   }
+  ]
+ },
+ "scenario": {
+  "scenario_id": "edb68101-e570-4923-a999-9b43319a3719",
+  "base_run_id": "93014d68-75bd-4b5a-983b-f0941c9b8f11",
+  "spec": {
+   "event_id": null,
+   "delay_days": 14,
+   "revenue_drop_pct": 20.0,
+   "amount_minor": 0,
+   "expense_date": null,
+   "fixed_cost_pct": 10.0,
+   "start_date": null,
+   "categories": null,
+   "counterparty": null,
+   "base_run_id": "93014d68-75bd-4b5a-983b-f0941c9b8f11",
+   "kind": "combined",
+   "parts": [
+    {
+     "event_id": null,
+     "delay_days": 14,
+     "revenue_drop_pct": 20.0,
+     "amount_minor": 0,
+     "expense_date": null,
+     "fixed_cost_pct": 10.0,
+     "start_date": null,
+     "categories": null,
+     "counterparty": null,
+     "kind": "revenue_drop"
+    },
+    {
+     "event_id": null,
+     "delay_days": 14,
+     "revenue_drop_pct": 20.0,
+     "amount_minor": 30000000,
+     "expense_date": "2026-05-08",
+     "fixed_cost_pct": 10.0,
+     "start_date": null,
+     "categories": null,
+     "counterparty": null,
+     "kind": "extra_expense"
+    }
+   ]
+  },
+  "points": [
+   {
+    "date": "2026-04-27",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 29204679,
+    "residual_out_minor": 62626106,
+    "residual_revenue_minor": 27646359,
+    "closing_balance_minor": 176481459,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-04-28",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 8087140,
+    "residual_out_minor": 24328880,
+    "residual_revenue_minor": 6609626,
+    "closing_balance_minor": 160239719,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-04-29",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 8087140,
+    "residual_out_minor": 14154179,
+    "residual_revenue_minor": 6609626,
+    "closing_balance_minor": 154172680,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-04-30",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 8087140,
+    "residual_out_minor": 13162923,
+    "residual_revenue_minor": 6609626,
+    "closing_balance_minor": 149096897,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-01",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 17801257,
+    "residual_out_minor": 14116114,
+    "residual_revenue_minor": 16382014,
+    "closing_balance_minor": 152782040,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-02",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 775378,
+    "residual_out_minor": 582963,
+    "residual_revenue_minor": 48361,
+    "closing_balance_minor": 152974455,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-03",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 775378,
+    "residual_out_minor": 582963,
+    "residual_revenue_minor": 48361,
+    "closing_balance_minor": 153166870,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-04",
+    "event_in_minor": 0,
+    "event_out_minor": 37430117,
+    "residual_in_minor": 35325709,
+    "residual_out_minor": 39759674,
+    "residual_revenue_minor": 33507175,
+    "closing_balance_minor": 111302788,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-05",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 8975311,
+    "residual_out_minor": 13388896,
+    "residual_revenue_minor": 7237582,
+    "closing_balance_minor": 106889203,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-06",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 8975311,
+    "residual_out_minor": 11571043,
+    "residual_revenue_minor": 7237582,
+    "closing_balance_minor": 104293471,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-07",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 9288977,
+    "residual_out_minor": 11648181,
+    "residual_revenue_minor": 7551248,
+    "closing_balance_minor": 101934267,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-08",
+    "event_in_minor": 0,
+    "event_out_minor": 30000000,
+    "residual_in_minor": 9417311,
+    "residual_out_minor": 15006191,
+    "residual_revenue_minor": 7679582,
+    "closing_balance_minor": 66345387,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-09",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 852376,
+    "residual_out_minor": 1185119,
+    "residual_revenue_minor": 125359,
+    "closing_balance_minor": 66012644,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-10",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 852376,
+    "residual_out_minor": 1185119,
+    "residual_revenue_minor": 125359,
+    "closing_balance_minor": 65679901,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-11",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 30909297,
+    "residual_out_minor": 51046394,
+    "residual_revenue_minor": 28204142,
+    "closing_balance_minor": 45542804,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-12",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 10091675,
+    "residual_out_minor": 15609913,
+    "residual_revenue_minor": 7467326,
+    "closing_balance_minor": 40024566,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-13",
+    "event_in_minor": 0,
+    "event_out_minor": 530000,
+    "residual_in_minor": 10091675,
+    "residual_out_minor": 15609913,
+    "residual_revenue_minor": 7467326,
+    "closing_balance_minor": 33976328,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-14",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 10091675,
+    "residual_out_minor": 24369786,
+    "residual_revenue_minor": 7467326,
+    "closing_balance_minor": 19698217,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-15",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 9843699,
+    "residual_out_minor": 29868194,
+    "residual_revenue_minor": 7219350,
+    "closing_balance_minor": -326278,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-16",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 852376,
+    "residual_out_minor": 1168854,
+    "residual_revenue_minor": 125359,
+    "closing_balance_minor": -642756,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-17",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 732059,
+    "residual_out_minor": 893713,
+    "residual_revenue_minor": 5042,
+    "closing_balance_minor": -804410,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-18",
+    "event_in_minor": 0,
+    "event_out_minor": 37430117,
+    "residual_in_minor": 23904451,
+    "residual_out_minor": 49319465,
+    "residual_revenue_minor": 21199296,
+    "closing_balance_minor": -63649541,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-19",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 8535432,
+    "residual_out_minor": 16492135,
+    "residual_revenue_minor": 6623746,
+    "closing_balance_minor": -71606244,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-20",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 8535432,
+    "residual_out_minor": 16492135,
+    "residual_revenue_minor": 6623746,
+    "closing_balance_minor": -79562947,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-21",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 8535432,
+    "residual_out_minor": 15603901,
+    "residual_revenue_minor": 6623746,
+    "closing_balance_minor": -86631416,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-22",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 8500885,
+    "residual_out_minor": 19149592,
+    "residual_revenue_minor": 6589199,
+    "closing_balance_minor": -97280123,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-23",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 727017,
+    "residual_out_minor": 893713,
+    "residual_revenue_minor": 0,
+    "closing_balance_minor": -97446819,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-24",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 727017,
+    "residual_out_minor": 893713,
+    "residual_revenue_minor": 0,
+    "closing_balance_minor": -97613515,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-25",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 22704065,
+    "residual_out_minor": 50880955,
+    "residual_revenue_minor": 20711573,
+    "closing_balance_minor": -125790405,
+    "p10_minor": null,
+    "p90_minor": null
+   },
+   {
+    "date": "2026-05-26",
+    "event_in_minor": 0,
+    "event_out_minor": 0,
+    "residual_in_minor": 8535432,
+    "residual_out_minor": 17040070,
+    "residual_revenue_minor": 6623746,
+    "closing_balance_minor": -134295043,
+    "p10_minor": null,
+    "p90_minor": null
+   }
+  ],
+  "events": [
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-04",
+    "account_id": "C003",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "amount_minor": 37430117,
+    "direction": "out",
+    "due_date": "2026-05-04",
+    "expected_date": "2026-05-04",
+    "known_at": "2026-04-26",
+    "source": "regular",
+    "status": "assumption",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Зарплата · повтор по истории",
+    "counterparty_inn": "0068275202",
+    "counterparty_name": "ПАО «Банк»",
+    "document_ref": null
+   },
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-18",
+    "account_id": "C003",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "amount_minor": 37430117,
+    "direction": "out",
+    "due_date": "2026-05-18",
+    "expected_date": "2026-05-18",
+    "known_at": "2026-04-26",
+    "source": "regular",
+    "status": "assumption",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Зарплата · повтор по истории",
+    "counterparty_inn": "0068275202",
+    "counterparty_name": "ПАО «Банк»",
+    "document_ref": null
+   },
+   {
+    "id": "regular:C003:component:4dc0eb2a8062f9b3:2026-05-13",
+    "account_id": "C003",
+    "component_id": "component:4dc0eb2a8062f9b3",
+    "category": "software",
+    "amount_minor": 530000,
+    "direction": "out",
+    "due_date": "2026-05-13",
+    "expected_date": "2026-05-13",
+    "known_at": "2026-04-26",
+    "source": "regular",
+    "status": "assumption",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "ПО и учётные системы · повтор по истории",
+    "counterparty_inn": "0092299998",
+    "counterparty_name": "ООО «Учетные системы-520»",
+    "document_ref": null
+   },
+   {
+    "id": "scenario:edb68101-e570-4923-a999-9b43319a3719",
+    "account_id": "C003",
+    "component_id": "scenario_extra",
+    "category": "operating_expense",
+    "amount_minor": 30000000,
+    "direction": "out",
+    "due_date": "2026-05-08",
+    "expected_date": "2026-05-08",
+    "known_at": "2026-04-26",
+    "source": "manual",
+    "status": "confirmed",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Внеплановый расход сценария",
+    "counterparty_inn": null,
+    "counterparty_name": null,
+    "document_ref": null
+   }
+  ],
+  "risk": {
+   "threshold_minor": 0,
+   "current_gap_minor": 0,
+   "new_risk": true,
+   "first_gap_date": "2026-05-15",
+   "minimum_balance_minor": -134295043,
+   "liquidity_need_minor": 134295043,
+   "probability_30d": null,
+   "calibration_status": "unavailable",
+   "probability_source": "Нет пригодного банка ошибок",
+   "trajectory_count": 0,
+   "simulations": 0,
+   "limitation": "Для условного сценария вероятность не калибрована и не переносится из базового прогноза."
+  },
+  "delta_end_minor": -95092190,
+  "delta_liquidity_minor": 95092190,
+  "base_first_gap_date": "2026-05-21",
+  "assumptions": [
+   "Условный сценарий; история и сохранённый базовый план не изменены.",
+   "Снижена только операционная выручка; финансирование и собственные переводы сохранены.",
+   "Добавлен внеплановый расход 30000000 коп. на 2026-05-08.",
+   "Комбинированный сценарий: 2 негативных изменения применены одновременно."
+  ]
+ },
+ "scenario_explanation": {
+  "has_gap": true,
+  "gap_date": "2026-05-15",
+  "shortfall_minor": 134295043,
+  "when": "15.05",
+  "shortfall": "1,35 млн ₽",
+  "why": [
+   "Сценарий: Снижена только операционная выручка; финансирование и собственные переводы сохранены.",
+   "Сценарий: Добавлен внеплановый расход 30000000 коп. на 2026-05-08.",
+   "Сценарий: Комбинированный сценарий: 2 негативных изменения применены одновременно.",
+   "Зарплата 374 тыс. ₽ (04.05)",
+   "Основные расходы 300 тыс. ₽ (08.05)",
+   "ПО и учётные системы 5,3 тыс. ₽ (13.05)",
+   "прочие расходы по среднему потоку 3,60 млн ₽"
+  ],
+  "actions": [
+   {
+    "code": "postpone_supplier",
+    "text": "Перенести платёж поставщику «Внеплановый расход сценария» 300 тыс. ₽ с 08.05 на срок после 15.05: закрывает 22% дефицита.",
+    "amount_minor": 30000000
+   },
+   {
+    "code": "speed_up_client",
+    "text": "Запросить предоплату у крупных клиентов: в календаре нет поступлений после даты разрыва.",
+    "amount_minor": 0
+   },
+   {
+    "code": "credit_line",
+    "text": "Оформить овердрафт или кредитную линию не менее 1,35 млн ₽.",
+    "amount_minor": 134295043
+   },
+   {
+    "code": "reserve",
+    "text": "Сформировать резерв не менее 1,35 млн ₽, чтобы такие периоды проходить без кредита.",
+    "amount_minor": 134295043
+   }
+  ],
+  "text": "Когда: 15.05. Не хватит: 1,35 млн ₽. Почему: Сценарий: Снижена только операционная выручка; финансирование и собственные переводы сохранены.; Сценарий: Добавлен внеплановый расход 30000000 коп. на 2026-05-08.; Сценарий: Комбинированный сценарий: 2 негативных изменения применены одновременно.; Зарплата 374 тыс. ₽ (04.05); Основные расходы 300 тыс. ₽ (08.05); ПО и учётные системы 5,3 тыс. ₽ (13.05); прочие расходы по среднему потоку 3,60 млн ₽. Что сделать: 1) Перенести платёж поставщику «Внеплановый расход сценария» 300 тыс. ₽ с 08.05 на срок после 15.05: закрывает 22% дефицита. 2) Запросить предоплату у крупных клиентов: в календаре нет поступлений после даты разрыва. 3) Оформить овердрафт или кредитную линию не менее 1,35 млн ₽. 4) Сформировать резерв не менее 1,35 млн ₽, чтобы такие периоды проходить без кредита."
+ }
+}

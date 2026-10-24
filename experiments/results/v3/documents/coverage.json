@@ -1,0 +1,166 @@
+{
+ "in": {
+  "rows": 144138,
+  "amount_minor": 2102815774429,
+  "classes": {
+   "contract_only": {
+    "rows": 2311,
+    "amount_minor": 175534924198,
+    "row_share": 0.016033245917107218,
+    "amount_share": 0.08347613059240289
+   },
+   "contract_prepay_settle": {
+    "rows": 6277,
+    "amount_minor": 85925239246,
+    "row_share": 0.043548543756677625,
+    "amount_share": 0.04086199099839462
+   },
+   "dated_document": {
+    "rows": 30417,
+    "amount_minor": 1334122124300,
+    "row_share": 0.21102693252299878,
+    "amount_share": 0.6344455565358637
+   },
+   "no_reference": {
+    "rows": 104945,
+    "amount_minor": 431091250987,
+    "row_share": 0.7280869722071903,
+    "amount_share": 0.20500666593299588
+   },
+   "return": {
+    "rows": 123,
+    "amount_minor": 9407895108,
+    "row_share": 0.0008533488739957541,
+    "amount_share": 0.00447395117651456
+   },
+   "undated_document": {
+    "rows": 65,
+    "amount_minor": 66734340590,
+    "row_share": 0.0004509567220302765,
+    "amount_share": 0.031735704763828435
+   }
+  },
+  "by_category": {
+   "customer_payment:dated_document": {
+    "rows": 30417,
+    "amount_minor": 1334122124300,
+    "amount_share": 0.6344455565358637
+   },
+   "contract_prepayment:contract_prepay_settle": {
+    "rows": 3172,
+    "amount_minor": 47898573034,
+    "amount_share": 0.02277830213015518
+   },
+   "contract_settlement:contract_prepay_settle": {
+    "rows": 3105,
+    "amount_minor": 38026666212,
+    "amount_share": 0.01808368886823944
+   }
+  }
+ },
+ "out": {
+  "rows": 78282,
+  "amount_minor": 2082354140731,
+  "classes": {
+   "contract_only": {
+    "rows": 4708,
+    "amount_minor": 93426594272,
+    "row_share": 0.06014153956209601,
+    "amount_share": 0.04486585275989754
+   },
+   "contract_prepay_settle": {
+    "rows": 30,
+    "amount_minor": 5293700000,
+    "row_share": 0.0003832298612707902,
+    "amount_share": 0.002542170851948206
+   },
+   "dated_document": {
+    "rows": 34930,
+    "amount_minor": 1096797427011,
+    "row_share": 0.4462073018062901,
+    "amount_share": 0.5267103253752864
+   },
+   "no_reference": {
+    "rows": 29622,
+    "amount_minor": 803156308996,
+    "row_share": 0.37840116501877824,
+    "amount_share": 0.38569631038554086
+   },
+   "return": {
+    "rows": 374,
+    "amount_minor": 32720000000,
+    "row_share": 0.004777598937175852,
+    "amount_share": 0.01571298529870323
+   },
+   "undated_document": {
+    "rows": 8618,
+    "amount_minor": 50960110452,
+    "row_share": 0.110089164814389,
+    "amount_share": 0.02447235532862374
+   }
+  },
+  "by_category": {
+   "supplier:dated_document": {
+    "rows": 27476,
+    "amount_minor": 1027624619166,
+    "amount_share": 0.4934917644725203
+   },
+   "contractor:dated_document": {
+    "rows": 168,
+    "amount_minor": 34982935029,
+    "amount_share": 0.01679970488435719
+   },
+   "facility_services:dated_document": {
+    "rows": 3552,
+    "amount_minor": 14329498903,
+    "amount_share": 0.006881393814199972
+   },
+   "accounting:dated_document": {
+    "rows": 1829,
+    "amount_minor": 7374951322,
+    "amount_share": 0.0035416412500378345
+   },
+   "utilities:dated_document": {
+    "rows": 1856,
+    "amount_minor": 6870917113,
+    "amount_share": 0.00329959106311667
+   },
+   "logistics:dated_document": {
+    "rows": 49,
+    "amount_minor": 5614505478,
+    "amount_share": 0.002696229891054485
+   },
+   "supplier:contract_prepay_settle": {
+    "rows": 18,
+    "amount_minor": 4126700000,
+    "amount_share": 0.001981747445970618
+   },
+   "contractor:contract_prepay_settle": {
+    "rows": 12,
+    "amount_minor": 1167000000,
+    "amount_share": 0.0005604234059775877
+   }
+  }
+ },
+ "universe": {
+  "documents": 56142,
+  "documents_in": 28521,
+  "documents_out": 27621,
+  "contract_cycles": 3202,
+  "contract_cycles_closed": 2864,
+  "companies_with_documents": 149,
+  "companies_total": 150,
+  "owned_categories": {
+   "in": [
+    "contract_prepayment",
+    "contract_settlement",
+    "customer_payment"
+   ],
+   "out": [
+    "contractor",
+    "logistics",
+    "supplier"
+   ]
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "alpha": 0.0,
+  "phi": 0.9,
+  "grid_normalized_mae": {
+    "0": 3.2433349671916782,
+    "0.25": 3.2846572498869344,
+    "0.5": 3.3373674132396625,
+    "0.75": 3.3994276513913593,
+    "1": 3.471303803058318
+  },
+  "criterion": "macro normalized MAE of the 30-day trajectory, calibration slices only",
+  "calibration_origins": [
+    "2026-01-01",
+    "2026-01-08",
+    "2026-01-15",
+    "2026-01-22",
+    "2026-01-29"
+  ],
+  "windows": 557,
+  "companies": 116
+}

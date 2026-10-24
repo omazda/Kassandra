@@ -1,0 +1,29 @@
+{
+  "residual": "profile",
+  "blend": 1.0,
+  "chosen": "e04_best",
+  "rule": "D1 against structural with weekday profile AND paired selection skill delta > 0",
+  "calibration": {
+    "normalized_mae_profile": 3.2433349671916782,
+    "normalized_mae_by_config": {
+      "hgb_a": 3.008847694413264,
+      "hgb_b": 3.025833450316867,
+      "lgbm_a": 3.0052758625726184,
+      "lgbm_b": 2.975116356852441,
+      "cat_a": 2.9476188367260567,
+      "cat_b": 3.065586403505335
+    },
+    "best_config": "cat_a",
+    "blend_table": {
+      "e04_w0.5": 2.9742332136386143,
+      "e05_w0.5": 3.068051376754562,
+      "e04_w1": 2.9476188367260567,
+      "e05_w1": 3.156122416856681
+    },
+    "blend_e04": 1.0,
+    "blend_e05": 0.5,
+    "windows": 557,
+    "companies": 116
+  },
+  "note": "После исправления метрики recall формальный D1 выбирает cat_a (decision_recomputed_by_d1.json), но GBM работает только с ретро-реестром документов (знание будущих оплат), поэтому как default для продукта отклонена: остаётся профиль по дням недели."
+}

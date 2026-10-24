@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "trained_to": "2025-12-31",
+  "hgb": {"max_iter": 80, "max_leaf_nodes": 15, "learning_rate": 0.06, "l2_regularization": 2.0, "min_samples_leaf": 40},
+  "calibration_origins": ["2026-01-01", "2026-01-08", "2026-01-15", "2026-01-22", "2026-01-29"],
+  "selection_origins": ["2026-03-01", "2026-04-01", "2026-05-01"],
+  "retrospective_origins": ["2026-07-01", "2026-08-01"],
+  "primary_metric": "macro_company_trajectory_mae_rub",
+  "selection_rule": "Keep weekday baseline unless HGB improves selection primary metric by >=5% with no origin >10% worse. Retrospective set is report-only.",
+  "minimum_history_days": 90,
+  "calendar_comparison": "P1 metrics use calendar=false; full 2x2 is the next E03 task",
+  "min_error_paths": 20,
+  "min_error_companies": 5,
+  "simulations": 1000
+}

@@ -1,0 +1,2592 @@
+{
+  "summary": {
+    "companies": 150,
+    "operations": 222420,
+    "inconsistent_transitions": 99,
+    "material_transitions_over_one_cent": 55,
+    "one_cent_transitions": 44,
+    "suspicious_duplicate_groups": 21,
+    "first_date": "2024-10-01",
+    "last_date": "2026-09-30",
+    "data_digest": "9fc121200d7faa24d8c41ba3f778b99b19adcc0e13d6b4a6b79ea564150ffffe",
+    "source_sha256": "28d7a2ebc6d4d65f31f93e59e24659a04c76990d20833337b9351316fd445472"
+  },
+  "accounts": {
+    "C001": {
+      "operations": 1131,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-29",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 729,
+      "unconfirmed_no_operation_days": 304,
+      "invalid_days": 0
+    },
+    "C002": {
+      "operations": 1122,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 305,
+      "invalid_days": 0
+    },
+    "C003": {
+      "operations": 523,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2024-10-01",
+          "date": "2024-10-08",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2025-06-02",
+          "date": "2025-06-10",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 27,
+      "calendar_days": 728,
+      "unconfirmed_no_operation_days": 459,
+      "invalid_days": 15
+    },
+    "C004": {
+      "operations": 1540,
+      "first_date": "2025-01-28",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-06-25",
+          "date": "2025-07-15",
+          "difference_minor": -23467159
+        },
+        {
+          "previous_date": "2026-07-28",
+          "date": "2026-08-26",
+          "difference_minor": -3219016
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 33,
+      "empty_inn": 0,
+      "calendar_days": 611,
+      "unconfirmed_no_operation_days": 180,
+      "invalid_days": 49
+    },
+    "C005": {
+      "operations": 513,
+      "first_date": "2024-10-04",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-10-20",
+          "date": "2025-10-21",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2026-01-12",
+          "date": "2026-01-16",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2026-04-13",
+          "date": "2026-04-21",
+          "difference_minor": 1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 54,
+      "calendar_days": 725,
+      "unconfirmed_no_operation_days": 524,
+      "invalid_days": 13
+    },
+    "C006": {
+      "operations": 1143,
+      "first_date": "2025-05-20",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 2,
+      "calendar_days": 499,
+      "unconfirmed_no_operation_days": 175,
+      "invalid_days": 0
+    },
+    "C007": {
+      "operations": 253,
+      "first_date": "2025-12-01",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 19,
+      "calendar_days": 302,
+      "unconfirmed_no_operation_days": 169,
+      "invalid_days": 0
+    },
+    "C008": {
+      "operations": 2122,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 8,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C009": {
+      "operations": 3223,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 9,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C010": {
+      "operations": 2319,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-09-01",
+          "date": "2025-09-10",
+          "difference_minor": 42634058
+        },
+        {
+          "previous_date": "2026-04-10",
+          "date": "2026-04-23",
+          "difference_minor": 101730867
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 229,
+      "invalid_days": 22
+    },
+    "C011": {
+      "operations": 1643,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 266,
+      "invalid_days": 0
+    },
+    "C012": {
+      "operations": 2819,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-07-07",
+          "date": "2026-07-08",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2026-08-05",
+          "date": "2026-08-06",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 384,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 239,
+      "invalid_days": 2
+    },
+    "C013": {
+      "operations": 495,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-06-23",
+          "date": "2025-08-14",
+          "difference_minor": -438610088
+        },
+        {
+          "previous_date": "2025-11-21",
+          "date": "2025-12-11",
+          "difference_minor": 86793872
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 728,
+      "unconfirmed_no_operation_days": 392,
+      "invalid_days": 72
+    },
+    "C014": {
+      "operations": 2328,
+      "first_date": "2024-10-02",
+      "last_date": "2026-09-29",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 33,
+      "calendar_days": 728,
+      "unconfirmed_no_operation_days": 249,
+      "invalid_days": 0
+    },
+    "C015": {
+      "operations": 2455,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 96,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C016": {
+      "operations": 746,
+      "first_date": "2026-01-12",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 9,
+      "calendar_days": 262,
+      "unconfirmed_no_operation_days": 86,
+      "invalid_days": 0
+    },
+    "C017": {
+      "operations": 2299,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C018": {
+      "operations": 1993,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-11-20",
+          "date": "2025-12-22",
+          "difference_minor": 22296532
+        },
+        {
+          "previous_date": "2026-02-18",
+          "date": "2026-03-24",
+          "difference_minor": 19143447
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 129,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 213,
+      "invalid_days": 66
+    },
+    "C019": {
+      "operations": 2017,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 6,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C020": {
+      "operations": 2438,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 16,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C021": {
+      "operations": 2794,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 239,
+      "invalid_days": 0
+    },
+    "C022": {
+      "operations": 427,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 7,
+      "calendar_days": 728,
+      "unconfirmed_no_operation_days": 450,
+      "invalid_days": 0
+    },
+    "C023": {
+      "operations": 2243,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 193,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 237,
+      "invalid_days": 0
+    },
+    "C024": {
+      "operations": 3354,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 64,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 236,
+      "invalid_days": 0
+    },
+    "C025": {
+      "operations": 1406,
+      "first_date": "2024-10-01",
+      "last_date": "2026-04-10",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 17,
+      "empty_inn": 9,
+      "calendar_days": 557,
+      "unconfirmed_no_operation_days": 182,
+      "invalid_days": 0
+    },
+    "C026": {
+      "operations": 3027,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 241,
+      "invalid_days": 0
+    },
+    "C027": {
+      "operations": 379,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2024-12-06",
+          "date": "2025-01-17",
+          "difference_minor": -651026847
+        },
+        {
+          "previous_date": "2025-10-28",
+          "date": "2025-12-15",
+          "difference_minor": 55592400
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 5,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 416,
+      "invalid_days": 90
+    },
+    "C028": {
+      "operations": 2328,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 7,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C029": {
+      "operations": 396,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-09-12",
+          "date": "2025-09-18",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2025-11-01",
+          "date": "2025-11-21",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2026-01-12",
+          "date": "2026-01-29",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 21,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 464,
+      "invalid_days": 43
+    },
+    "C030": {
+      "operations": 3243,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 64,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C031": {
+      "operations": 3129,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 6,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C032": {
+      "operations": 442,
+      "first_date": "2024-10-03",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-03-16",
+          "date": "2026-03-27",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2026-05-28",
+          "date": "2026-06-08",
+          "difference_minor": 1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 726,
+      "unconfirmed_no_operation_days": 489,
+      "invalid_days": 22
+    },
+    "C033": {
+      "operations": 953,
+      "first_date": "2025-03-31",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 549,
+      "unconfirmed_no_operation_days": 237,
+      "invalid_days": 0
+    },
+    "C034": {
+      "operations": 2165,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-12-30",
+          "date": "2026-01-12",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2026-04-02",
+          "date": "2026-04-03",
+          "difference_minor": 1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 223,
+      "invalid_days": 14
+    },
+    "C035": {
+      "operations": 2837,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-03-26",
+          "date": "2025-04-07",
+          "difference_minor": 3057647
+        },
+        {
+          "previous_date": "2025-11-05",
+          "date": "2025-11-18",
+          "difference_minor": -29616127
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 65,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 227,
+      "invalid_days": 25
+    },
+    "C036": {
+      "operations": 1988,
+      "first_date": "2024-10-01",
+      "last_date": "2025-12-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 25,
+      "empty_inn": 1,
+      "calendar_days": 456,
+      "unconfirmed_no_operation_days": 147,
+      "invalid_days": 0
+    },
+    "C037": {
+      "operations": 864,
+      "first_date": "2025-10-31",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 5,
+      "calendar_days": 335,
+      "unconfirmed_no_operation_days": 110,
+      "invalid_days": 0
+    },
+    "C038": {
+      "operations": 2034,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-06-10",
+          "date": "2025-06-24",
+          "difference_minor": 10708321
+        },
+        {
+          "previous_date": "2025-12-23",
+          "date": "2026-02-03",
+          "difference_minor": -45566222
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 330,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 209,
+      "invalid_days": 56
+    },
+    "C039": {
+      "operations": 178,
+      "first_date": "2026-02-11",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 232,
+      "unconfirmed_no_operation_days": 139,
+      "invalid_days": 0
+    },
+    "C040": {
+      "operations": 553,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2024-11-22",
+          "date": "2024-12-23",
+          "difference_minor": -59781835
+        },
+        {
+          "previous_date": "2025-04-01",
+          "date": "2025-05-07",
+          "difference_minor": 112908950
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 377,
+      "invalid_days": 67
+    },
+    "C041": {
+      "operations": 2318,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 6,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C042": {
+      "operations": 636,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 9,
+      "empty_inn": 48,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 347,
+      "invalid_days": 0
+    },
+    "C043": {
+      "operations": 457,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2024-11-01",
+          "date": "2024-11-11",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2024-12-02",
+          "date": "2024-12-10",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 22,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 464,
+      "invalid_days": 18
+    },
+    "C044": {
+      "operations": 2041,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-01-20",
+          "date": "2025-02-17",
+          "difference_minor": -40856394
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 229,
+      "invalid_days": 28
+    },
+    "C045": {
+      "operations": 2408,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 3,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 251,
+      "invalid_days": 0
+    },
+    "C046": {
+      "operations": 147,
+      "first_date": "2026-05-04",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 12,
+      "calendar_days": 150,
+      "unconfirmed_no_operation_days": 82,
+      "invalid_days": 0
+    },
+    "C047": {
+      "operations": 609,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 413,
+      "invalid_days": 0
+    },
+    "C048": {
+      "operations": 1230,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 8,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 317,
+      "invalid_days": 0
+    },
+    "C049": {
+      "operations": 68,
+      "first_date": "2026-07-13",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 6,
+      "calendar_days": 80,
+      "unconfirmed_no_operation_days": 49,
+      "invalid_days": 0
+    },
+    "C050": {
+      "operations": 2468,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 200,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C051": {
+      "operations": 2194,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 17,
+      "empty_inn": 8,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C052": {
+      "operations": 443,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-09-14",
+          "date": "2026-09-16",
+          "difference_minor": 1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 471,
+      "invalid_days": 2
+    },
+    "C053": {
+      "operations": 2369,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2024-12-28",
+          "date": "2025-01-09",
+          "difference_minor": -1203118
+        },
+        {
+          "previous_date": "2025-04-10",
+          "date": "2025-04-11",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2025-05-07",
+          "date": "2025-05-12",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2025-09-30",
+          "date": "2025-10-01",
+          "difference_minor": -690000
+        },
+        {
+          "previous_date": "2026-02-02",
+          "date": "2026-02-03",
+          "difference_minor": -287198
+        },
+        {
+          "previous_date": "2026-02-27",
+          "date": "2026-03-02",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2026-03-02",
+          "date": "2026-03-03",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2026-03-20",
+          "date": "2026-03-23",
+          "difference_minor": 1426835
+        },
+        {
+          "previous_date": "2026-04-10",
+          "date": "2026-04-13",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [
+        [
+          "C053-000303",
+          "C053-000304"
+        ],
+        [
+          "C053-001187",
+          "C053-001188"
+        ],
+        [
+          "C053-001582",
+          "C053-001583"
+        ],
+        [
+          "C053-001742",
+          "C053-001743"
+        ]
+      ],
+      "empty_purpose": 0,
+      "empty_inn": 395,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 214,
+      "invalid_days": 30
+    },
+    "C054": {
+      "operations": 2192,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 15,
+      "empty_inn": 10,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 238,
+      "invalid_days": 0
+    },
+    "C055": {
+      "operations": 3220,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 21,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C056": {
+      "operations": 509,
+      "first_date": "2026-04-17",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 167,
+      "unconfirmed_no_operation_days": 51,
+      "invalid_days": 0
+    },
+    "C057": {
+      "operations": 2201,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 18,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 238,
+      "invalid_days": 0
+    },
+    "C058": {
+      "operations": 488,
+      "first_date": "2025-06-26",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-07-28",
+          "date": "2025-08-26",
+          "difference_minor": -13398631
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 145,
+      "calendar_days": 462,
+      "unconfirmed_no_operation_days": 216,
+      "invalid_days": 29
+    },
+    "C059": {
+      "operations": 369,
+      "first_date": "2026-06-02",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 121,
+      "unconfirmed_no_operation_days": 35,
+      "invalid_days": 0
+    },
+    "C060": {
+      "operations": 2056,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C061": {
+      "operations": 1525,
+      "first_date": "2024-10-01",
+      "last_date": "2026-04-22",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 569,
+      "unconfirmed_no_operation_days": 186,
+      "invalid_days": 0
+    },
+    "C062": {
+      "operations": 877,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 247,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 407,
+      "invalid_days": 0
+    },
+    "C063": {
+      "operations": 2041,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 24,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C064": {
+      "operations": 1988,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C065": {
+      "operations": 2427,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2024-10-07",
+          "date": "2024-10-08",
+          "difference_minor": -329749
+        },
+        {
+          "previous_date": "2025-11-07",
+          "date": "2025-11-10",
+          "difference_minor": 6980557
+        },
+        {
+          "previous_date": "2025-11-12",
+          "date": "2025-11-13",
+          "difference_minor": 510000
+        },
+        {
+          "previous_date": "2026-01-30",
+          "date": "2026-02-02",
+          "difference_minor": -3681214
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [
+        [
+          "C065-000028",
+          "C065-000029"
+        ],
+        [
+          "C065-001378",
+          "C065-001379"
+        ],
+        [
+          "C065-001390",
+          "C065-001391"
+        ],
+        [
+          "C065-001656",
+          "C065-001657"
+        ]
+      ],
+      "empty_purpose": 0,
+      "empty_inn": 12,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 237,
+      "invalid_days": 8
+    },
+    "C066": {
+      "operations": 313,
+      "first_date": "2025-11-06",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 2,
+      "calendar_days": 329,
+      "unconfirmed_no_operation_days": 185,
+      "invalid_days": 0
+    },
+    "C067": {
+      "operations": 2235,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 6,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C068": {
+      "operations": 81,
+      "first_date": "2026-07-21",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 3,
+      "calendar_days": 72,
+      "unconfirmed_no_operation_days": 36,
+      "invalid_days": 0
+    },
+    "C069": {
+      "operations": 770,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 392,
+      "calendar_days": 728,
+      "unconfirmed_no_operation_days": 455,
+      "invalid_days": 0
+    },
+    "C070": {
+      "operations": 2132,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 24,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C071": {
+      "operations": 614,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 5,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 404,
+      "invalid_days": 0
+    },
+    "C072": {
+      "operations": 2921,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 4,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 242,
+      "invalid_days": 0
+    },
+    "C073": {
+      "operations": 2467,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 31,
+      "empty_inn": 105,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C074": {
+      "operations": 2317,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C075": {
+      "operations": 613,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-29",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 15,
+      "calendar_days": 729,
+      "unconfirmed_no_operation_days": 360,
+      "invalid_days": 0
+    },
+    "C076": {
+      "operations": 2097,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 29,
+      "empty_inn": 1355,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 253,
+      "invalid_days": 0
+    },
+    "C077": {
+      "operations": 500,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-07-09",
+          "date": "2026-07-17",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 22,
+      "calendar_days": 728,
+      "unconfirmed_no_operation_days": 442,
+      "invalid_days": 8
+    },
+    "C078": {
+      "operations": 774,
+      "first_date": "2026-04-06",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 4,
+      "empty_inn": 2,
+      "calendar_days": 178,
+      "unconfirmed_no_operation_days": 53,
+      "invalid_days": 0
+    },
+    "C079": {
+      "operations": 2348,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 192,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C080": {
+      "operations": 523,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-25",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-02-02",
+          "date": "2026-02-06",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 725,
+      "unconfirmed_no_operation_days": 447,
+      "invalid_days": 4
+    },
+    "C081": {
+      "operations": 179,
+      "first_date": "2026-08-07",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 2,
+      "empty_inn": 10,
+      "calendar_days": 55,
+      "unconfirmed_no_operation_days": 16,
+      "invalid_days": 0
+    },
+    "C082": {
+      "operations": 581,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-07-10",
+          "date": "2026-07-20",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 39,
+      "calendar_days": 728,
+      "unconfirmed_no_operation_days": 472,
+      "invalid_days": 10
+    },
+    "C083": {
+      "operations": 2972,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 239,
+      "invalid_days": 0
+    },
+    "C084": {
+      "operations": 3335,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 20,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C085": {
+      "operations": 2514,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 8,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 243,
+      "invalid_days": 0
+    },
+    "C086": {
+      "operations": 2018,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 27,
+      "empty_inn": 5,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C087": {
+      "operations": 619,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 346,
+      "invalid_days": 0
+    },
+    "C088": {
+      "operations": 95,
+      "first_date": "2026-06-15",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 4,
+      "calendar_days": 106,
+      "unconfirmed_no_operation_days": 59,
+      "invalid_days": 0
+    },
+    "C089": {
+      "operations": 523,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-29",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-07-09",
+          "date": "2025-07-15",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2025-07-15",
+          "date": "2025-07-22",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2025-10-16",
+          "date": "2025-10-22",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2025-12-08",
+          "date": "2026-02-12",
+          "difference_minor": -155003992
+        },
+        {
+          "previous_date": "2026-07-08",
+          "date": "2026-07-14",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 7,
+      "empty_inn": 0,
+      "calendar_days": 729,
+      "unconfirmed_no_operation_days": 407,
+      "invalid_days": 91
+    },
+    "C090": {
+      "operations": 2382,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2024-10-07",
+          "date": "2024-10-08",
+          "difference_minor": -71708
+        },
+        {
+          "previous_date": "2024-12-05",
+          "date": "2024-12-06",
+          "difference_minor": -102295
+        },
+        {
+          "previous_date": "2025-07-15",
+          "date": "2025-07-16",
+          "difference_minor": 2109350
+        },
+        {
+          "previous_date": "2025-12-18",
+          "date": "2025-12-19",
+          "difference_minor": -92425
+        },
+        {
+          "previous_date": "2026-03-17",
+          "date": "2026-03-18",
+          "difference_minor": -18741560
+        },
+        {
+          "previous_date": "2026-06-01",
+          "date": "2026-06-02",
+          "difference_minor": 1191099
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [
+        [
+          "C090-000024",
+          "C090-000025"
+        ],
+        [
+          "C090-000220",
+          "C090-000221"
+        ],
+        [
+          "C090-000944",
+          "C090-000945"
+        ],
+        [
+          "C090-001457",
+          "C090-001458"
+        ],
+        [
+          "C090-001746",
+          "C090-001747"
+        ],
+        [
+          "C090-001992",
+          "C090-001993"
+        ]
+      ],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 6
+    },
+    "C091": {
+      "operations": 1498,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 16,
+      "empty_inn": 975,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 317,
+      "invalid_days": 0
+    },
+    "C092": {
+      "operations": 542,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-04-08",
+          "date": "2026-05-12",
+          "difference_minor": -315871968
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 7,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 412,
+      "invalid_days": 34
+    },
+    "C093": {
+      "operations": 403,
+      "first_date": "2024-10-01",
+      "last_date": "2026-03-24",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 71,
+      "calendar_days": 540,
+      "unconfirmed_no_operation_days": 308,
+      "invalid_days": 0
+    },
+    "C094": {
+      "operations": 2022,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-07-31",
+          "date": "2026-08-12",
+          "difference_minor": -1687258
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 6,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 231,
+      "invalid_days": 12
+    },
+    "C095": {
+      "operations": 2108,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 51,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C096": {
+      "operations": 594,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 357,
+      "invalid_days": 0
+    },
+    "C097": {
+      "operations": 429,
+      "first_date": "2025-09-22",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-03-27",
+          "date": "2026-04-28",
+          "difference_minor": -161646997
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 194,
+      "calendar_days": 374,
+      "unconfirmed_no_operation_days": 164,
+      "invalid_days": 32
+    },
+    "C098": {
+      "operations": 373,
+      "first_date": "2024-10-01",
+      "last_date": "2025-10-17",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 2,
+      "empty_inn": 75,
+      "calendar_days": 382,
+      "unconfirmed_no_operation_days": 212,
+      "invalid_days": 0
+    },
+    "C099": {
+      "operations": 1323,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 16,
+      "empty_inn": 7,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 292,
+      "invalid_days": 0
+    },
+    "C100": {
+      "operations": 2267,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C101": {
+      "operations": 651,
+      "first_date": "2024-10-01",
+      "last_date": "2025-12-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 341,
+      "calendar_days": 456,
+      "unconfirmed_no_operation_days": 209,
+      "invalid_days": 0
+    },
+    "C102": {
+      "operations": 2429,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 17,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C103": {
+      "operations": 469,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-28",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2024-11-11",
+          "date": "2024-11-28",
+          "difference_minor": 302049317
+        },
+        {
+          "previous_date": "2025-08-20",
+          "date": "2025-09-10",
+          "difference_minor": -26412475
+        },
+        {
+          "previous_date": "2026-07-10",
+          "date": "2026-07-24",
+          "difference_minor": 1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 7,
+      "empty_inn": 24,
+      "calendar_days": 728,
+      "unconfirmed_no_operation_days": 467,
+      "invalid_days": 52
+    },
+    "C104": {
+      "operations": 2241,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C105": {
+      "operations": 481,
+      "first_date": "2026-04-22",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 4,
+      "empty_inn": 39,
+      "calendar_days": 162,
+      "unconfirmed_no_operation_days": 49,
+      "invalid_days": 0
+    },
+    "C106": {
+      "operations": 1992,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-05-23",
+          "date": "2025-06-19",
+          "difference_minor": -87566557
+        },
+        {
+          "previous_date": "2025-06-30",
+          "date": "2025-07-10",
+          "difference_minor": 25626529
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 18,
+      "empty_inn": 1263,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 241,
+      "invalid_days": 37
+    },
+    "C107": {
+      "operations": 2227,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-02-13",
+          "date": "2026-02-16",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2026-05-08",
+          "date": "2026-05-12",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 13,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 230,
+      "invalid_days": 7
+    },
+    "C108": {
+      "operations": 1473,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 22,
+      "empty_inn": 760,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 289,
+      "invalid_days": 0
+    },
+    "C109": {
+      "operations": 1173,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 5,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 308,
+      "invalid_days": 0
+    },
+    "C110": {
+      "operations": 150,
+      "first_date": "2026-08-12",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 5,
+      "calendar_days": 50,
+      "unconfirmed_no_operation_days": 14,
+      "invalid_days": 0
+    },
+    "C111": {
+      "operations": 511,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 399,
+      "invalid_days": 0
+    },
+    "C112": {
+      "operations": 667,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-29",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 3,
+      "calendar_days": 729,
+      "unconfirmed_no_operation_days": 395,
+      "invalid_days": 0
+    },
+    "C113": {
+      "operations": 2293,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-03-19",
+          "date": "2026-04-07",
+          "difference_minor": -14519876
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 8,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 234,
+      "invalid_days": 19
+    },
+    "C114": {
+      "operations": 493,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-29",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-07-01",
+          "date": "2025-07-21",
+          "difference_minor": 32417471
+        },
+        {
+          "previous_date": "2026-03-13",
+          "date": "2026-03-31",
+          "difference_minor": -42693701
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 5,
+      "empty_inn": 0,
+      "calendar_days": 729,
+      "unconfirmed_no_operation_days": 395,
+      "invalid_days": 38
+    },
+    "C115": {
+      "operations": 480,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 8,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 450,
+      "invalid_days": 0
+    },
+    "C116": {
+      "operations": 2196,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [
+        [
+          "C116-001580",
+          "C116-001582"
+        ]
+      ],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C117": {
+      "operations": 497,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-06-09",
+          "date": "2025-06-16",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2026-02-09",
+          "date": "2026-02-13",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2026-06-15",
+          "date": "2026-06-18",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 478,
+      "invalid_days": 14
+    },
+    "C118": {
+      "operations": 2244,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2024-11-08",
+          "date": "2024-11-11",
+          "difference_minor": -440040
+        },
+        {
+          "previous_date": "2025-02-03",
+          "date": "2025-02-04",
+          "difference_minor": -243479
+        },
+        {
+          "previous_date": "2025-06-04",
+          "date": "2025-06-05",
+          "difference_minor": -5603770
+        },
+        {
+          "previous_date": "2025-08-01",
+          "date": "2025-09-02",
+          "difference_minor": 21658997
+        },
+        {
+          "previous_date": "2025-11-14",
+          "date": "2025-11-17",
+          "difference_minor": 3769327
+        },
+        {
+          "previous_date": "2026-04-24",
+          "date": "2026-04-27",
+          "difference_minor": 5986813
+        },
+        {
+          "previous_date": "2026-06-22",
+          "date": "2026-06-23",
+          "difference_minor": -2984020
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [
+        [
+          "C118-000123",
+          "C118-000124"
+        ],
+        [
+          "C118-000402",
+          "C118-000403"
+        ],
+        [
+          "C118-000792",
+          "C118-000793"
+        ],
+        [
+          "C118-001224",
+          "C118-001225"
+        ],
+        [
+          "C118-001732",
+          "C118-001733"
+        ],
+        [
+          "C118-001921",
+          "C118-001922"
+        ]
+      ],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 219,
+      "invalid_days": 44
+    },
+    "C119": {
+      "operations": 2115,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 25,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C120": {
+      "operations": 2187,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C121": {
+      "operations": 994,
+      "first_date": "2025-10-06",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 3,
+      "empty_inn": 0,
+      "calendar_days": 360,
+      "unconfirmed_no_operation_days": 123,
+      "invalid_days": 0
+    },
+    "C122": {
+      "operations": 317,
+      "first_date": "2024-10-01",
+      "last_date": "2026-01-14",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-07-10",
+          "date": "2025-08-08",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2025-08-19",
+          "date": "2025-08-22",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 3,
+      "empty_inn": 21,
+      "calendar_days": 471,
+      "unconfirmed_no_operation_days": 298,
+      "invalid_days": 32
+    },
+    "C123": {
+      "operations": 1593,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 856,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 274,
+      "invalid_days": 0
+    },
+    "C124": {
+      "operations": 501,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 5,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 447,
+      "invalid_days": 0
+    },
+    "C125": {
+      "operations": 1999,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-04-22",
+          "date": "2025-05-23",
+          "difference_minor": 71964456
+        },
+        {
+          "previous_date": "2026-04-02",
+          "date": "2026-04-27",
+          "difference_minor": 52165779
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 218,
+      "invalid_days": 56
+    },
+    "C126": {
+      "operations": 3231,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C127": {
+      "operations": 1849,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 7,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C128": {
+      "operations": 565,
+      "first_date": "2024-10-02",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 164,
+      "calendar_days": 729,
+      "unconfirmed_no_operation_days": 433,
+      "invalid_days": 0
+    },
+    "C129": {
+      "operations": 1984,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 11,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C130": {
+      "operations": 2340,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 288,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C131": {
+      "operations": 527,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 438,
+      "invalid_days": 0
+    },
+    "C132": {
+      "operations": 2882,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 59,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C133": {
+      "operations": 496,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 410,
+      "invalid_days": 0
+    },
+    "C134": {
+      "operations": 515,
+      "first_date": "2024-10-03",
+      "last_date": "2026-09-29",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-05-05",
+          "date": "2026-05-12",
+          "difference_minor": 1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 727,
+      "unconfirmed_no_operation_days": 438,
+      "invalid_days": 7
+    },
+    "C135": {
+      "operations": 917,
+      "first_date": "2025-12-29",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 16,
+      "calendar_days": 276,
+      "unconfirmed_no_operation_days": 91,
+      "invalid_days": 0
+    },
+    "C136": {
+      "operations": 508,
+      "first_date": "2026-04-30",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 67,
+      "calendar_days": 154,
+      "unconfirmed_no_operation_days": 47,
+      "invalid_days": 0
+    },
+    "C137": {
+      "operations": 3218,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C138": {
+      "operations": 421,
+      "first_date": "2025-08-25",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 122,
+      "calendar_days": 402,
+      "unconfirmed_no_operation_days": 209,
+      "invalid_days": 0
+    },
+    "C139": {
+      "operations": 470,
+      "first_date": "2025-03-12",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-08-27",
+          "date": "2025-09-01",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2025-11-24",
+          "date": "2025-12-01",
+          "difference_minor": -1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 15,
+      "calendar_days": 568,
+      "unconfirmed_no_operation_days": 330,
+      "invalid_days": 12
+    },
+    "C140": {
+      "operations": 2150,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-04-07",
+          "date": "2025-04-08",
+          "difference_minor": 1
+        },
+        {
+          "previous_date": "2025-08-05",
+          "date": "2025-08-06",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2026-06-05",
+          "date": "2026-06-08",
+          "difference_minor": -1
+        },
+        {
+          "previous_date": "2026-07-08",
+          "date": "2026-07-09",
+          "difference_minor": 1
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 29,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 233,
+      "invalid_days": 6
+    },
+    "C141": {
+      "operations": 2112,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 9,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 249,
+      "invalid_days": 0
+    },
+    "C142": {
+      "operations": 431,
+      "first_date": "2026-06-26",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 97,
+      "unconfirmed_no_operation_days": 28,
+      "invalid_days": 0
+    },
+    "C143": {
+      "operations": 998,
+      "first_date": "2025-10-30",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 3,
+      "empty_inn": 15,
+      "calendar_days": 336,
+      "unconfirmed_no_operation_days": 110,
+      "invalid_days": 0
+    },
+    "C144": {
+      "operations": 2397,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C145": {
+      "operations": 484,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 11,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 433,
+      "invalid_days": 0
+    },
+    "C146": {
+      "operations": 1980,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    },
+    "C147": {
+      "operations": 2353,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2026-03-02",
+          "date": "2026-03-24",
+          "difference_minor": -16796445
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 16,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 228,
+      "invalid_days": 22
+    },
+    "C148": {
+      "operations": 1457,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [
+        {
+          "previous_date": "2025-04-04",
+          "date": "2025-04-21",
+          "difference_minor": 565545
+        },
+        {
+          "previous_date": "2025-05-26",
+          "date": "2025-06-24",
+          "difference_minor": 212882670
+        }
+      ],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 30,
+      "empty_inn": 821,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 260,
+      "invalid_days": 46
+    },
+    "C149": {
+      "operations": 893,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 8,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 354,
+      "invalid_days": 0
+    },
+    "C150": {
+      "operations": 2244,
+      "first_date": "2024-10-01",
+      "last_date": "2026-09-30",
+      "inconsistent_transitions": [],
+      "inconsistent_eod_days": [],
+      "suspicious_duplicates": [],
+      "empty_purpose": 0,
+      "empty_inn": 0,
+      "calendar_days": 730,
+      "unconfirmed_no_operation_days": 235,
+      "invalid_days": 0
+    }
+  }
+}

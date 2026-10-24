@@ -1,0 +1,2381 @@
+{
+  "params": {
+    "full_at": 720.0,
+    "k": 0.5,
+    "shrink": 0.25
+  },
+  "summary": {
+    "A|cut14": {
+      "methods": {
+        "constant": {
+          "windows": 1538,
+          "companies": 121,
+          "macro_mae_rub": 1296701.8974345326,
+          "macro_mae_d30_rub": 1599269.716270298,
+          "macro_mae_min_rub": 1821291.3009098629,
+          "normalized_mae": 3.6907309109785884,
+          "observed_macro_mae_rub": 1241248.45761864,
+          "observed_macro_mae_min_rub": 1578211.8744100595,
+          "skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "skill_day30": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "observed_skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "observed_skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "risk": {
+            "windows_at_risk": 1489,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 0,
+            "recall_7d": 0.0,
+            "recall_7d_ci": [
+              0.0,
+              0.05273909414400562
+            ],
+            "alarm_windows": 0,
+            "false_alarm_windows": 0,
+            "account_months": 342.4394250513347,
+            "false_alarms_per_account_month": 0.0,
+            "date_error_n": 0,
+            "date_within_tolerance": null,
+            "date_error_median_days": null,
+            "deficit_error_n": 0,
+            "deficit_mae_rub": null,
+            "deficit_median_ae_rub": null
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "structural_base": {
+          "windows": 1538,
+          "companies": 121,
+          "macro_mae_rub": 1390418.3251444066,
+          "macro_mae_d30_rub": 1754944.393060538,
+          "macro_mae_min_rub": 1679762.2050873446,
+          "normalized_mae": 3.82456432431308,
+          "observed_macro_mae_rub": 1345510.0279379657,
+          "observed_macro_mae_min_rub": 1479861.4094492102,
+          "skill_trajectory": {
+            "median": -0.07200212734790434,
+            "ci_low": -0.08515044218057932,
+            "ci_high": -0.0639096965402397,
+            "n_companies": 121,
+            "share_positive": 0.1487603305785124
+          },
+          "skill_minimum": {
+            "median": 0.07563778607189509,
+            "ci_low": 0.057036404561794596,
+            "ci_high": 0.09211078872793654,
+            "n_companies": 121,
+            "share_positive": 0.8016528925619835
+          },
+          "skill_day30": {
+            "median": -0.12080563336085026,
+            "ci_low": -0.14068523442975733,
+            "ci_high": -0.0892675920592143,
+            "n_companies": 121,
+            "share_positive": 0.18181818181818182
+          },
+          "observed_skill_trajectory": {
+            "median": -0.08515044218057932,
+            "ci_low": -0.09930297426027912,
+            "ci_high": -0.06915778664972083,
+            "n_companies": 121,
+            "share_positive": 0.09917355371900827
+          },
+          "observed_skill_minimum": {
+            "median": 0.06407421264539492,
+            "ci_low": 0.04549920749852421,
+            "ci_high": 0.08195355077942856,
+            "n_companies": 121,
+            "share_positive": 0.7107438016528925
+          },
+          "risk": {
+            "windows_at_risk": 1489,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 6,
+            "recall_7d": 0.08695652173913043,
+            "recall_7d_ci": [
+              0.04046307012090733,
+              0.1770170511284886
+            ],
+            "alarm_windows": 85,
+            "false_alarm_windows": 70,
+            "account_months": 342.4394250513347,
+            "false_alarms_per_account_month": 0.20441571524513097,
+            "date_error_n": 48,
+            "date_within_tolerance": 0.25,
+            "date_error_median_days": 10.5,
+            "deficit_error_n": 48,
+            "deficit_mae_rub": 1536512.1822916667,
+            "deficit_median_ae_rub": 426666.745
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "own_window": {
+          "windows": 1538,
+          "companies": 121,
+          "macro_mae_rub": 1487787.245440999,
+          "macro_mae_d30_rub": 1967917.2489013867,
+          "macro_mae_min_rub": 1672859.140320263,
+          "normalized_mae": 4.006938415263866,
+          "observed_macro_mae_rub": 1449187.430518508,
+          "observed_macro_mae_min_rub": 1508228.8253098342,
+          "skill_trajectory": {
+            "median": -0.14868319133581442,
+            "ci_low": -0.16672162861148387,
+            "ci_high": -0.13912410719708168,
+            "n_companies": 121,
+            "share_positive": 0.09917355371900827
+          },
+          "skill_minimum": {
+            "median": 0.0524410654107067,
+            "ci_low": 0.03139976576788739,
+            "ci_high": 0.08557810356693907,
+            "n_companies": 121,
+            "share_positive": 0.6859504132231405
+          },
+          "skill_day30": {
+            "median": -0.2681309749501326,
+            "ci_low": -0.31970356126277366,
+            "ci_high": -0.2322001834698466,
+            "n_companies": 121,
+            "share_positive": 0.1487603305785124
+          },
+          "observed_skill_trajectory": {
+            "median": -0.16411499416343345,
+            "ci_low": -0.180468327929449,
+            "ci_high": -0.14731467157890354,
+            "n_companies": 121,
+            "share_positive": 0.06611570247933884
+          },
+          "observed_skill_minimum": {
+            "median": 0.03002468452687035,
+            "ci_low": 0.01058404880037167,
+            "ci_high": 0.05367823724739908,
+            "n_companies": 121,
+            "share_positive": 0.5950413223140496
+          },
+          "risk": {
+            "windows_at_risk": 1489,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 12,
+            "recall_7d": 0.17391304347826086,
+            "recall_7d_ci": [
+              0.10238268593034995,
+              0.27983846242443633
+            ],
+            "alarm_windows": 125,
+            "false_alarm_windows": 104,
+            "account_months": 342.4394250513347,
+            "false_alarms_per_account_month": 0.3037033483641946,
+            "date_error_n": 67,
+            "date_within_tolerance": 0.29850746268656714,
+            "date_error_median_days": 9.0,
+            "deficit_error_n": 67,
+            "deficit_mae_rub": 1244070.3895522384,
+            "deficit_median_ae_rub": 643154.39
+          },
+          "probability": null,
+          "coverage_mean": 0.7705895101863893,
+          "coverage_n": 1538,
+          "half_width_rel_mean": 5.9051873647975475
+        },
+        "prior_only": {
+          "windows": 1538,
+          "companies": 121,
+          "macro_mae_rub": 1269959.1895602609,
+          "macro_mae_d30_rub": 1594320.7263615928,
+          "macro_mae_min_rub": 1609879.679511095,
+          "normalized_mae": 3.6344381804747483,
+          "observed_macro_mae_rub": 1223371.3522191157,
+          "observed_macro_mae_min_rub": 1390964.3359863015,
+          "skill_trajectory": {
+            "median": -0.004051092552822988,
+            "ci_low": -0.010217284726457665,
+            "ci_high": 0.0015520466884587636,
+            "n_companies": 121,
+            "share_positive": 0.4297520661157025
+          },
+          "skill_minimum": {
+            "median": 0.06301401751987512,
+            "ci_low": 0.04294719756895882,
+            "ci_high": 0.07584224887414792,
+            "n_companies": 121,
+            "share_positive": 0.9752066115702479
+          },
+          "skill_day30": {
+            "median": -0.023234381473724364,
+            "ci_low": -0.03213989605679224,
+            "ci_high": -0.012107855666397827,
+            "n_companies": 121,
+            "share_positive": 0.2975206611570248
+          },
+          "observed_skill_trajectory": {
+            "median": -0.004051092552822988,
+            "ci_low": -0.012626044532799252,
+            "ci_high": 0.001798600968856201,
+            "n_companies": 121,
+            "share_positive": 0.4380165289256198
+          },
+          "observed_skill_minimum": {
+            "median": 0.06983408133659419,
+            "ci_low": 0.049724502639700026,
+            "ci_high": 0.08450540528356854,
+            "n_companies": 121,
+            "share_positive": 0.9669421487603306
+          },
+          "risk": {
+            "windows_at_risk": 1489,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 9,
+            "recall_7d": 0.13043478260869565,
+            "recall_7d_ci": [
+              0.07016548568804834,
+              0.22968514911404272
+            ],
+            "alarm_windows": 65,
+            "false_alarm_windows": 46,
+            "account_months": 342.4394250513347,
+            "false_alarms_per_account_month": 0.13433032716108606,
+            "date_error_n": 41,
+            "date_within_tolerance": 0.4146341463414634,
+            "date_error_median_days": 8.0,
+            "deficit_error_n": 41,
+            "deficit_mae_rub": 2394515.1858536582,
+            "deficit_median_ae_rub": 1017096.87
+          },
+          "probability": null,
+          "coverage_mean": 0.868335500650195,
+          "coverage_n": 1538,
+          "half_width_rel_mean": 7.291025385950256
+        },
+        "structural": {
+          "windows": 1538,
+          "companies": 121,
+          "macro_mae_rub": 1272076.464624318,
+          "macro_mae_d30_rub": 1596176.3012094044,
+          "macro_mae_min_rub": 1614312.0222583627,
+          "normalized_mae": 3.6379064666377663,
+          "observed_macro_mae_rub": 1225585.9513670767,
+          "observed_macro_mae_min_rub": 1395778.9458278238,
+          "skill_trajectory": {
+            "median": -0.005378519797941017,
+            "ci_low": -0.01113286521213186,
+            "ci_high": 0.000965125019702473,
+            "n_companies": 121,
+            "share_positive": 0.4297520661157025
+          },
+          "skill_minimum": {
+            "median": 0.06132457658455559,
+            "ci_low": 0.045434198395602365,
+            "ci_high": 0.07909243092710294,
+            "n_companies": 121,
+            "share_positive": 0.9752066115702479
+          },
+          "skill_day30": {
+            "median": -0.02492731168142237,
+            "ci_low": -0.03433905956924188,
+            "ci_high": -0.015055802238608695,
+            "n_companies": 121,
+            "share_positive": 0.2975206611570248
+          },
+          "observed_skill_trajectory": {
+            "median": -0.004846237723904689,
+            "ci_low": -0.012133618292918813,
+            "ci_high": 0.000965125019702473,
+            "n_companies": 121,
+            "share_positive": 0.4214876033057851
+          },
+          "observed_skill_minimum": {
+            "median": 0.06614198776057378,
+            "ci_low": 0.048654863935977316,
+            "ci_high": 0.0882850959976752,
+            "n_companies": 121,
+            "share_positive": 0.9669421487603306
+          },
+          "risk": {
+            "windows_at_risk": 1489,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 7,
+            "recall_7d": 0.10144927536231885,
+            "recall_7d_ci": [
+              0.050016002571615495,
+              0.19492095652867886
+            ],
+            "alarm_windows": 66,
+            "false_alarm_windows": 49,
+            "account_months": 342.4394250513347,
+            "false_alarms_per_account_month": 0.14309100067159167,
+            "date_error_n": 41,
+            "date_within_tolerance": 0.36585365853658536,
+            "date_error_median_days": 9.0,
+            "deficit_error_n": 41,
+            "deficit_mae_rub": 2381012.6124390243,
+            "deficit_median_ae_rub": 920148.26
+          },
+          "probability": null,
+          "coverage_mean": 0.8681621153012572,
+          "coverage_n": 1538,
+          "half_width_rel_mean": 7.291025385950256
+        }
+      },
+      "hist_days_median": 14.0,
+      "windows": 1538,
+      "companies": 121
+    },
+    "A|cut30": {
+      "methods": {
+        "constant": {
+          "windows": 1539,
+          "companies": 121,
+          "macro_mae_rub": 1296804.8815788731,
+          "macro_mae_d30_rub": 1599478.4931502363,
+          "macro_mae_min_rub": 1821497.0344149938,
+          "normalized_mae": 3.200117635489207,
+          "observed_macro_mae_rub": 1241351.4417629808,
+          "observed_macro_mae_min_rub": 1578417.6079151907,
+          "skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "skill_day30": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "observed_skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "observed_skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "risk": {
+            "windows_at_risk": 1490,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 0,
+            "recall_7d": 0.0,
+            "recall_7d_ci": [
+              0.0,
+              0.05273909414400562
+            ],
+            "alarm_windows": 0,
+            "false_alarm_windows": 0,
+            "account_months": 342.6694045174538,
+            "false_alarms_per_account_month": 0.0,
+            "date_error_n": 0,
+            "date_within_tolerance": null,
+            "date_error_median_days": null,
+            "deficit_error_n": 0,
+            "deficit_mae_rub": null,
+            "deficit_median_ae_rub": null
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "structural_base": {
+          "windows": 1539,
+          "companies": 121,
+          "macro_mae_rub": 1420480.9816092448,
+          "macro_mae_d30_rub": 1839168.3503134593,
+          "macro_mae_min_rub": 1672654.2857378,
+          "normalized_mae": 3.373825040675887,
+          "observed_macro_mae_rub": 1388205.2106394235,
+          "observed_macro_mae_min_rub": 1505472.6507411452,
+          "skill_trajectory": {
+            "median": -0.09108931069442816,
+            "ci_low": -0.11071081630740154,
+            "ci_high": -0.07392149287867777,
+            "n_companies": 121,
+            "share_positive": 0.19008264462809918
+          },
+          "skill_minimum": {
+            "median": 0.05769357221672666,
+            "ci_low": 0.03663320464892661,
+            "ci_high": 0.0807174971827408,
+            "n_companies": 121,
+            "share_positive": 0.7768595041322314
+          },
+          "skill_day30": {
+            "median": -0.1810947759998971,
+            "ci_low": -0.21623273649078079,
+            "ci_high": -0.1350835054485373,
+            "n_companies": 121,
+            "share_positive": 0.19008264462809918
+          },
+          "observed_skill_trajectory": {
+            "median": -0.11322711764717419,
+            "ci_low": -0.1432154916599422,
+            "ci_high": -0.09125707196543889,
+            "n_companies": 121,
+            "share_positive": 0.1322314049586777
+          },
+          "observed_skill_minimum": {
+            "median": 0.040909684707184146,
+            "ci_low": 0.01988066675681044,
+            "ci_high": 0.05769357221672666,
+            "n_companies": 121,
+            "share_positive": 0.6776859504132231
+          },
+          "risk": {
+            "windows_at_risk": 1490,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 18,
+            "recall_7d": 0.2608695652173913,
+            "recall_7d_ci": [
+              0.17185419574593983,
+              0.3751079797142367
+            ],
+            "alarm_windows": 121,
+            "false_alarm_windows": 88,
+            "account_months": 342.6694045174538,
+            "false_alarms_per_account_month": 0.25680728667305847,
+            "date_error_n": 76,
+            "date_within_tolerance": 0.35526315789473684,
+            "date_error_median_days": 7.0,
+            "deficit_error_n": 76,
+            "deficit_mae_rub": 1136726.3438157893,
+            "deficit_median_ae_rub": 489808.77
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "own_window": {
+          "windows": 1539,
+          "companies": 121,
+          "macro_mae_rub": 1378072.9533255016,
+          "macro_mae_d30_rub": 1746182.4618076545,
+          "macro_mae_min_rub": 1668165.9378206413,
+          "normalized_mae": 3.293797390608011,
+          "observed_macro_mae_rub": 1342937.6294892235,
+          "observed_macro_mae_min_rub": 1489045.5505711331,
+          "skill_trajectory": {
+            "median": -0.048753714883594146,
+            "ci_low": -0.06429836427659764,
+            "ci_high": -0.03533760382243778,
+            "n_companies": 121,
+            "share_positive": 0.256198347107438
+          },
+          "skill_minimum": {
+            "median": 0.0852006303730718,
+            "ci_low": 0.06411632807125467,
+            "ci_high": 0.10033924870261089,
+            "n_companies": 121,
+            "share_positive": 0.8099173553719008
+          },
+          "skill_day30": {
+            "median": -0.0963970362457669,
+            "ci_low": -0.13935147644506474,
+            "ci_high": -0.05456012486455908,
+            "n_companies": 121,
+            "share_positive": 0.256198347107438
+          },
+          "observed_skill_trajectory": {
+            "median": -0.06785237160659507,
+            "ci_low": -0.07902944187044736,
+            "ci_high": -0.05124977190067903,
+            "n_companies": 121,
+            "share_positive": 0.18181818181818182
+          },
+          "observed_skill_minimum": {
+            "median": 0.06031431756477934,
+            "ci_low": 0.03464135376827371,
+            "ci_high": 0.07255122230572786,
+            "n_companies": 121,
+            "share_positive": 0.7603305785123967
+          },
+          "risk": {
+            "windows_at_risk": 1490,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 9,
+            "recall_7d": 0.13043478260869565,
+            "recall_7d_ci": [
+              0.07016548568804834,
+              0.22968514911404272
+            ],
+            "alarm_windows": 108,
+            "false_alarm_windows": 86,
+            "account_months": 342.6694045174538,
+            "false_alarms_per_account_month": 0.25097075743048897,
+            "date_error_n": 67,
+            "date_within_tolerance": 0.26865671641791045,
+            "date_error_median_days": 8.0,
+            "deficit_error_n": 67,
+            "deficit_mae_rub": 857560.3585074627,
+            "deficit_median_ae_rub": 486051.81
+          },
+          "probability": null,
+          "coverage_mean": 0.7951483647390081,
+          "coverage_n": 1539,
+          "half_width_rel_mean": 5.3637363944360725
+        },
+        "prior_only": {
+          "windows": 1539,
+          "companies": 121,
+          "macro_mae_rub": 1272769.9241544995,
+          "macro_mae_d30_rub": 1585182.950441165,
+          "macro_mae_min_rub": 1607863.8241941165,
+          "normalized_mae": 3.147468743165286,
+          "observed_macro_mae_rub": 1228638.8588793322,
+          "observed_macro_mae_min_rub": 1396435.1980642462,
+          "skill_trajectory": {
+            "median": -0.003887085061681672,
+            "ci_low": -0.008881876014965373,
+            "ci_high": 0.0006991875509941847,
+            "n_companies": 121,
+            "share_positive": 0.4462809917355372
+          },
+          "skill_minimum": {
+            "median": 0.06117151851623559,
+            "ci_low": 0.04330818118792956,
+            "ci_high": 0.08359415700295958,
+            "n_companies": 121,
+            "share_positive": 0.9669421487603306
+          },
+          "skill_day30": {
+            "median": -0.01806053700422816,
+            "ci_low": -0.03567429074001893,
+            "ci_high": -0.012337561618986692,
+            "n_companies": 121,
+            "share_positive": 0.3140495867768595
+          },
+          "observed_skill_trajectory": {
+            "median": -0.004598860024814799,
+            "ci_low": -0.012764648564852044,
+            "ci_high": 0.0003028031261809172,
+            "n_companies": 121,
+            "share_positive": 0.4214876033057851
+          },
+          "observed_skill_minimum": {
+            "median": 0.06971030174755921,
+            "ci_low": 0.04617655955392019,
+            "ci_high": 0.08359460441517207,
+            "n_companies": 121,
+            "share_positive": 0.9669421487603306
+          },
+          "risk": {
+            "windows_at_risk": 1490,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 5,
+            "recall_7d": 0.07246376811594203,
+            "recall_7d_ci": [
+              0.03134730921766905,
+              0.15867597418082852
+            ],
+            "alarm_windows": 57,
+            "false_alarm_windows": 41,
+            "account_months": 342.6694045174538,
+            "false_alarms_per_account_month": 0.11964884947267497,
+            "date_error_n": 33,
+            "date_within_tolerance": 0.45454545454545453,
+            "date_error_median_days": 9.0,
+            "deficit_error_n": 33,
+            "deficit_mae_rub": 2363610.408181818,
+            "deficit_median_ae_rub": 896416.19
+          },
+          "probability": null,
+          "coverage_mean": 0.8528265107212476,
+          "coverage_n": 1539,
+          "half_width_rel_mean": 6.13937270429136
+        },
+        "structural": {
+          "windows": 1539,
+          "companies": 121,
+          "macro_mae_rub": 1274898.244912305,
+          "macro_mae_d30_rub": 1586300.2165081664,
+          "macro_mae_min_rub": 1615226.1669071233,
+          "normalized_mae": 3.150047565766864,
+          "observed_macro_mae_rub": 1230884.26779533,
+          "observed_macro_mae_min_rub": 1403945.4064817003,
+          "skill_trajectory": {
+            "median": -0.004010438363290847,
+            "ci_low": -0.010530463764591103,
+            "ci_high": 0.0001467316547191233,
+            "n_companies": 121,
+            "share_positive": 0.4132231404958678
+          },
+          "skill_minimum": {
+            "median": 0.060137961752707025,
+            "ci_low": 0.04451570359362267,
+            "ci_high": 0.07898763770763084,
+            "n_companies": 121,
+            "share_positive": 0.9586776859504132
+          },
+          "skill_day30": {
+            "median": -0.019283255697209567,
+            "ci_low": -0.03289302557970064,
+            "ci_high": -0.014565018639272953,
+            "n_companies": 121,
+            "share_positive": 0.30578512396694213
+          },
+          "observed_skill_trajectory": {
+            "median": -0.006682223825985378,
+            "ci_low": -0.013001870304949037,
+            "ci_high": -0.001618270425991275,
+            "n_companies": 121,
+            "share_positive": 0.3884297520661157
+          },
+          "observed_skill_minimum": {
+            "median": 0.06713057996135074,
+            "ci_low": 0.04726681260870558,
+            "ci_high": 0.08075592832226242,
+            "n_companies": 121,
+            "share_positive": 0.9504132231404959
+          },
+          "risk": {
+            "windows_at_risk": 1490,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 7,
+            "recall_7d": 0.10144927536231885,
+            "recall_7d_ci": [
+              0.050016002571615495,
+              0.19492095652867886
+            ],
+            "alarm_windows": 60,
+            "false_alarm_windows": 42,
+            "account_months": 342.6694045174538,
+            "false_alarms_per_account_month": 0.12256711409395972,
+            "date_error_n": 35,
+            "date_within_tolerance": 0.42857142857142855,
+            "date_error_median_days": 9.0,
+            "deficit_error_n": 35,
+            "deficit_mae_rub": 2250480.5642857137,
+            "deficit_median_ae_rub": 875411.16
+          },
+          "probability": null,
+          "coverage_mean": 0.8530431015811134,
+          "coverage_n": 1539,
+          "half_width_rel_mean": 6.13937270429136
+        }
+      },
+      "hist_days_median": 28.0,
+      "windows": 1539,
+      "companies": 121
+    },
+    "A|cut60": {
+      "methods": {
+        "constant": {
+          "windows": 1539,
+          "companies": 121,
+          "macro_mae_rub": 1296804.8815788731,
+          "macro_mae_d30_rub": 1599478.4931502363,
+          "macro_mae_min_rub": 1821497.0344149938,
+          "normalized_mae": 3.0873671536437115,
+          "observed_macro_mae_rub": 1241351.4417629808,
+          "observed_macro_mae_min_rub": 1578417.6079151907,
+          "skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "skill_day30": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "observed_skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "observed_skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 121,
+            "share_positive": 0.0
+          },
+          "risk": {
+            "windows_at_risk": 1490,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 0,
+            "recall_7d": 0.0,
+            "recall_7d_ci": [
+              0.0,
+              0.05273909414400562
+            ],
+            "alarm_windows": 0,
+            "false_alarm_windows": 0,
+            "account_months": 342.6694045174538,
+            "false_alarms_per_account_month": 0.0,
+            "date_error_n": 0,
+            "date_within_tolerance": null,
+            "date_error_median_days": null,
+            "deficit_error_n": 0,
+            "deficit_mae_rub": null,
+            "deficit_median_ae_rub": null
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "structural_base": {
+          "windows": 1539,
+          "companies": 121,
+          "macro_mae_rub": 1493254.6054683751,
+          "macro_mae_d30_rub": 2013253.4485148564,
+          "macro_mae_min_rub": 1647098.3220190872,
+          "normalized_mae": 3.6019070846767955,
+          "observed_macro_mae_rub": 1477861.393101971,
+          "observed_macro_mae_min_rub": 1523669.3956908698,
+          "skill_trajectory": {
+            "median": -0.16259184766397405,
+            "ci_low": -0.20993269422636973,
+            "ci_high": -0.13606852559229887,
+            "n_companies": 121,
+            "share_positive": 0.14049586776859505
+          },
+          "skill_minimum": {
+            "median": 0.016084522855728922,
+            "ci_low": -0.011357495612207546,
+            "ci_high": 0.04489989291225966,
+            "n_companies": 121,
+            "share_positive": 0.5371900826446281
+          },
+          "skill_day30": {
+            "median": -0.3058695991180118,
+            "ci_low": -0.3634644657858208,
+            "ci_high": -0.24110326425405693,
+            "n_companies": 121,
+            "share_positive": 0.19834710743801653
+          },
+          "observed_skill_trajectory": {
+            "median": -0.20993269422636973,
+            "ci_low": -0.28042683529872936,
+            "ci_high": -0.15184088343983837,
+            "n_companies": 121,
+            "share_positive": 0.08264462809917356
+          },
+          "observed_skill_minimum": {
+            "median": -0.028550560869178954,
+            "ci_low": -0.0655113516376391,
+            "ci_high": 0.013585290997724542,
+            "n_companies": 121,
+            "share_positive": 0.4297520661157025
+          },
+          "risk": {
+            "windows_at_risk": 1490,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 13,
+            "recall_7d": 0.18840579710144928,
+            "recall_7d_ci": [
+              0.11354641477529213,
+              0.2961315714303925
+            ],
+            "alarm_windows": 123,
+            "false_alarm_windows": 93,
+            "account_months": 342.6694045174538,
+            "false_alarms_per_account_month": 0.27139860977948227,
+            "date_error_n": 80,
+            "date_within_tolerance": 0.3375,
+            "date_error_median_days": 7.0,
+            "deficit_error_n": 80,
+            "deficit_mae_rub": 1204251.334625,
+            "deficit_median_ae_rub": 758476.385
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "own_window": {
+          "windows": 1539,
+          "companies": 121,
+          "macro_mae_rub": 1327933.4498812542,
+          "macro_mae_d30_rub": 1658601.187234947,
+          "macro_mae_min_rub": 1697557.1672977174,
+          "normalized_mae": 3.0986146752849955,
+          "observed_macro_mae_rub": 1290423.4728747539,
+          "observed_macro_mae_min_rub": 1501783.9750096416,
+          "skill_trajectory": {
+            "median": -0.028047691868783975,
+            "ci_low": -0.035331679095518743,
+            "ci_high": -0.019471181773421442,
+            "n_companies": 121,
+            "share_positive": 0.24793388429752067
+          },
+          "skill_minimum": {
+            "median": 0.06655287464155069,
+            "ci_low": 0.054320442148876324,
+            "ci_high": 0.07326573532746239,
+            "n_companies": 121,
+            "share_positive": 0.8925619834710744
+          },
+          "skill_day30": {
+            "median": -0.05266887679289156,
+            "ci_low": -0.07544269145698923,
+            "ci_high": -0.03744692300779784,
+            "n_companies": 121,
+            "share_positive": 0.2975206611570248
+          },
+          "observed_skill_trajectory": {
+            "median": -0.03689614936700569,
+            "ci_low": -0.04504009144222154,
+            "ci_high": -0.02869197545795843,
+            "n_companies": 121,
+            "share_positive": 0.1652892561983471
+          },
+          "observed_skill_minimum": {
+            "median": 0.056621691047781586,
+            "ci_low": 0.045091771549182424,
+            "ci_high": 0.0692586850446959,
+            "n_companies": 121,
+            "share_positive": 0.8512396694214877
+          },
+          "risk": {
+            "windows_at_risk": 1490,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 12,
+            "recall_7d": 0.17391304347826086,
+            "recall_7d_ci": [
+              0.10238268593034995,
+              0.27983846242443633
+            ],
+            "alarm_windows": 89,
+            "false_alarm_windows": 63,
+            "account_months": 342.6694045174538,
+            "false_alarms_per_account_month": 0.1838506711409396,
+            "date_error_n": 57,
+            "date_within_tolerance": 0.40350877192982454,
+            "date_error_median_days": 7.0,
+            "deficit_error_n": 57,
+            "deficit_mae_rub": 1231197.0259649123,
+            "deficit_median_ae_rub": 698571.23
+          },
+          "probability": null,
+          "coverage_mean": 0.6374269005847953,
+          "coverage_n": 1539,
+          "half_width_rel_mean": 3.38276630362171
+        },
+        "prior_only": {
+          "windows": 1539,
+          "companies": 121,
+          "macro_mae_rub": 1277966.120429614,
+          "macro_mae_d30_rub": 1595088.8993767216,
+          "macro_mae_min_rub": 1618081.3377170404,
+          "normalized_mae": 3.037231203882612,
+          "observed_macro_mae_rub": 1233726.4958132887,
+          "observed_macro_mae_min_rub": 1409846.4596955923,
+          "skill_trajectory": {
+            "median": -0.004722369926290826,
+            "ci_low": -0.011091385407548282,
+            "ci_high": 2.4277106197567733e-05,
+            "n_companies": 121,
+            "share_positive": 0.4132231404958678
+          },
+          "skill_minimum": {
+            "median": 0.06468906394885943,
+            "ci_low": 0.04038206242918474,
+            "ci_high": 0.07875468879546499,
+            "n_companies": 121,
+            "share_positive": 0.9586776859504132
+          },
+          "skill_day30": {
+            "median": -0.01887845081373607,
+            "ci_low": -0.032896293986514946,
+            "ci_high": -0.007951467297692139,
+            "n_companies": 121,
+            "share_positive": 0.3140495867768595
+          },
+          "observed_skill_trajectory": {
+            "median": -0.004892266997369665,
+            "ci_low": -0.01315051698687908,
+            "ci_high": -0.0002811608244863706,
+            "n_companies": 121,
+            "share_positive": 0.39669421487603307
+          },
+          "observed_skill_minimum": {
+            "median": 0.0671400927209681,
+            "ci_low": 0.04324500937894504,
+            "ci_high": 0.08319605470664104,
+            "n_companies": 121,
+            "share_positive": 0.9504132231404959
+          },
+          "risk": {
+            "windows_at_risk": 1490,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 9,
+            "recall_7d": 0.13043478260869565,
+            "recall_7d_ci": [
+              0.07016548568804834,
+              0.22968514911404272
+            ],
+            "alarm_windows": 62,
+            "false_alarm_windows": 45,
+            "account_months": 342.6694045174538,
+            "false_alarms_per_account_month": 0.13132190795781398,
+            "date_error_n": 36,
+            "date_within_tolerance": 0.3888888888888889,
+            "date_error_median_days": 7.0,
+            "deficit_error_n": 36,
+            "deficit_mae_rub": 2460373.6291666664,
+            "deficit_median_ae_rub": 896219.5549999999
+          },
+          "probability": null,
+          "coverage_mean": 0.6729694606887588,
+          "coverage_n": 1539,
+          "half_width_rel_mean": 3.6409042842162127
+        },
+        "structural": {
+          "windows": 1539,
+          "companies": 121,
+          "macro_mae_rub": 1280352.8188000426,
+          "macro_mae_d30_rub": 1594773.173665781,
+          "macro_mae_min_rub": 1628992.7592951593,
+          "normalized_mae": 3.0386810577615426,
+          "observed_macro_mae_rub": 1236474.539848337,
+          "observed_macro_mae_min_rub": 1420505.5492278629,
+          "skill_trajectory": {
+            "median": -0.0068546615907492114,
+            "ci_low": -0.010323434962205447,
+            "ci_high": -0.0013670121553697179,
+            "n_companies": 121,
+            "share_positive": 0.371900826446281
+          },
+          "skill_minimum": {
+            "median": 0.05654747023918538,
+            "ci_low": 0.043521530311359524,
+            "ci_high": 0.07468102868034976,
+            "n_companies": 121,
+            "share_positive": 0.9669421487603306
+          },
+          "skill_day30": {
+            "median": -0.02565806075202559,
+            "ci_low": -0.031782779501440706,
+            "ci_high": -0.013806231193285834,
+            "n_companies": 121,
+            "share_positive": 0.32231404958677684
+          },
+          "observed_skill_trajectory": {
+            "median": -0.007856477017889718,
+            "ci_low": -0.013521579833995823,
+            "ci_high": -0.0029916545127086636,
+            "n_companies": 121,
+            "share_positive": 0.34710743801652894
+          },
+          "observed_skill_minimum": {
+            "median": 0.05956891473639814,
+            "ci_low": 0.04541132312798746,
+            "ci_high": 0.08755183201752759,
+            "n_companies": 121,
+            "share_positive": 0.9504132231404959
+          },
+          "risk": {
+            "windows_at_risk": 1490,
+            "windows_current_deficit": 49,
+            "events_scorable": 69,
+            "events_detected": 7,
+            "recall_7d": 0.10144927536231885,
+            "recall_7d_ci": [
+              0.050016002571615495,
+              0.19492095652867886
+            ],
+            "alarm_windows": 63,
+            "false_alarm_windows": 46,
+            "account_months": 342.6694045174538,
+            "false_alarms_per_account_month": 0.13424017257909876,
+            "date_error_n": 38,
+            "date_within_tolerance": 0.39473684210526316,
+            "date_error_median_days": 7.0,
+            "deficit_error_n": 38,
+            "deficit_mae_rub": 2174882.9013157897,
+            "deficit_median_ae_rub": 884635.19
+          },
+          "probability": null,
+          "coverage_mean": 0.6730994152046784,
+          "coverage_n": 1539,
+          "half_width_rel_mean": 3.6409042842162127
+        }
+      },
+      "hist_days_median": 60.0,
+      "windows": 1539,
+      "companies": 121
+    },
+    "B|30-89": {
+      "methods": {
+        "constant": {
+          "windows": 119,
+          "companies": 30,
+          "macro_mae_rub": 1643239.357221852,
+          "macro_mae_d30_rub": 2274630.9122444442,
+          "macro_mae_min_rub": 1866131.0065222222,
+          "normalized_mae": 3.241503059904839,
+          "observed_macro_mae_rub": 1587466.654681852,
+          "observed_macro_mae_min_rub": 1285756.7604444444,
+          "skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 30,
+            "share_positive": 0.0
+          },
+          "skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 30,
+            "share_positive": 0.0
+          },
+          "skill_day30": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 30,
+            "share_positive": 0.0
+          },
+          "observed_skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 30,
+            "share_positive": 0.0
+          },
+          "observed_skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 30,
+            "share_positive": 0.0
+          },
+          "risk": {
+            "windows_at_risk": 116,
+            "windows_current_deficit": 3,
+            "events_scorable": 29,
+            "events_detected": 0,
+            "recall_7d": 0.0,
+            "recall_7d_ci": [
+              0.0,
+              0.11697359446555587
+            ],
+            "alarm_windows": 0,
+            "false_alarm_windows": 0,
+            "account_months": 53.35523613963039,
+            "false_alarms_per_account_month": 0.0,
+            "date_error_n": 0,
+            "date_within_tolerance": null,
+            "date_error_median_days": null,
+            "deficit_error_n": 0,
+            "deficit_mae_rub": null,
+            "deficit_median_ae_rub": null
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "structural_base": {
+          "windows": 119,
+          "companies": 30,
+          "macro_mae_rub": 2161752.7229042593,
+          "macro_mae_d30_rub": 2665625.352716666,
+          "macro_mae_min_rub": 1743202.4456166667,
+          "normalized_mae": 3.87259627226706,
+          "observed_macro_mae_rub": 2136157.819582778,
+          "observed_macro_mae_min_rub": 1706528.4981388887,
+          "skill_trajectory": {
+            "median": -0.33991844359165,
+            "ci_low": -0.6518462702607726,
+            "ci_high": -0.13359473943583033,
+            "n_companies": 30,
+            "share_positive": 0.23333333333333334
+          },
+          "skill_minimum": {
+            "median": 0.060408003861964155,
+            "ci_low": -0.4272253060978371,
+            "ci_high": 0.37883884648745575,
+            "n_companies": 30,
+            "share_positive": 0.5666666666666667
+          },
+          "skill_day30": {
+            "median": -0.31382651428373776,
+            "ci_low": -1.04448643995407,
+            "ci_high": 0.012670506034519358,
+            "n_companies": 30,
+            "share_positive": 0.3333333333333333
+          },
+          "observed_skill_trajectory": {
+            "median": -0.5195337249543804,
+            "ci_low": -0.7633436723233619,
+            "ci_high": -0.2828681159145461,
+            "n_companies": 30,
+            "share_positive": 0.16666666666666666
+          },
+          "observed_skill_minimum": {
+            "median": -0.46967297292707966,
+            "ci_low": -1.0141134902214108,
+            "ci_high": -0.010088824668591123,
+            "n_companies": 30,
+            "share_positive": 0.3333333333333333
+          },
+          "risk": {
+            "windows_at_risk": 116,
+            "windows_current_deficit": 3,
+            "events_scorable": 29,
+            "events_detected": 3,
+            "recall_7d": 0.10344827586206896,
+            "recall_7d_ci": [
+              0.035814240381301043,
+              0.26385447247069155
+            ],
+            "alarm_windows": 55,
+            "false_alarm_windows": 40,
+            "account_months": 53.35523613963039,
+            "false_alarms_per_account_month": 0.749692118226601,
+            "date_error_n": 27,
+            "date_within_tolerance": 0.5185185185185185,
+            "date_error_median_days": 3.0,
+            "deficit_error_n": 27,
+            "deficit_mae_rub": 1425742.2974074075,
+            "deficit_median_ae_rub": 525086.32
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "own_window": {
+          "windows": 119,
+          "companies": 30,
+          "macro_mae_rub": 1744959.1777112961,
+          "macro_mae_d30_rub": 2526794.7732277773,
+          "macro_mae_min_rub": 1523157.2610277778,
+          "normalized_mae": 3.3743187686704426,
+          "observed_macro_mae_rub": 1763177.3349912963,
+          "observed_macro_mae_min_rub": 1201012.4485833333,
+          "skill_trajectory": {
+            "median": -0.06830941734320817,
+            "ci_low": -0.16079264837209006,
+            "ci_high": -0.017430620152667275,
+            "n_companies": 30,
+            "share_positive": 0.26666666666666666
+          },
+          "skill_minimum": {
+            "median": 0.21232863260441825,
+            "ci_low": 0.06348754094315096,
+            "ci_high": 0.3512249611585268,
+            "n_companies": 30,
+            "share_positive": 0.7666666666666667
+          },
+          "skill_day30": {
+            "median": -0.13009143778642707,
+            "ci_low": -0.4144879450677039,
+            "ci_high": 0.03990616665570634,
+            "n_companies": 30,
+            "share_positive": 0.4
+          },
+          "observed_skill_trajectory": {
+            "median": -0.1840747259794655,
+            "ci_low": -0.26002937165736417,
+            "ci_high": -0.1047987956016323,
+            "n_companies": 30,
+            "share_positive": 0.13333333333333333
+          },
+          "observed_skill_minimum": {
+            "median": 0.025982413041281016,
+            "ci_low": -0.14917109542307938,
+            "ci_high": 0.21207256717020834,
+            "n_companies": 30,
+            "share_positive": 0.5333333333333333
+          },
+          "risk": {
+            "windows_at_risk": 116,
+            "windows_current_deficit": 3,
+            "events_scorable": 29,
+            "events_detected": 3,
+            "recall_7d": 0.10344827586206896,
+            "recall_7d_ci": [
+              0.035814240381301043,
+              0.26385447247069155
+            ],
+            "alarm_windows": 40,
+            "false_alarm_windows": 32,
+            "account_months": 53.35523613963039,
+            "false_alarms_per_account_month": 0.5997536945812808,
+            "date_error_n": 21,
+            "date_within_tolerance": 0.38095238095238093,
+            "date_error_median_days": 5.0,
+            "deficit_error_n": 21,
+            "deficit_mae_rub": 1094965.688095238,
+            "deficit_median_ae_rub": 1153572.05
+          },
+          "probability": null,
+          "coverage_mean": 0.7128851540616248,
+          "coverage_n": 119,
+          "half_width_rel_mean": 4.266820756215508
+        },
+        "prior_only": {
+          "windows": 119,
+          "companies": 30,
+          "macro_mae_rub": 1759249.6294772225,
+          "macro_mae_d30_rub": 2581059.403938889,
+          "macro_mae_min_rub": 1752356.4439444444,
+          "normalized_mae": 3.306340323956385,
+          "observed_macro_mae_rub": 1726526.7707105556,
+          "observed_macro_mae_min_rub": 1269147.443666667,
+          "skill_trajectory": {
+            "median": -0.009688415598137823,
+            "ci_low": -0.03290825526716757,
+            "ci_high": 0.0064779707278199705,
+            "n_companies": 30,
+            "share_positive": 0.36666666666666664
+          },
+          "skill_minimum": {
+            "median": 0.0582766717975583,
+            "ci_low": 0.02026083329137679,
+            "ci_high": 0.08532477298739988,
+            "n_companies": 30,
+            "share_positive": 0.8666666666666667
+          },
+          "skill_day30": {
+            "median": -0.015069993734730835,
+            "ci_low": -0.036451828364571635,
+            "ci_high": 0.0020448214964540624,
+            "n_companies": 30,
+            "share_positive": 0.3333333333333333
+          },
+          "observed_skill_trajectory": {
+            "median": -0.02166548081514541,
+            "ci_low": -0.04130626193369036,
+            "ci_high": -0.0021189839850503933,
+            "n_companies": 30,
+            "share_positive": 0.3
+          },
+          "observed_skill_minimum": {
+            "median": 0.04891354978393714,
+            "ci_low": 0.007613196105810793,
+            "ci_high": 0.07739560569429224,
+            "n_companies": 30,
+            "share_positive": 0.8
+          },
+          "risk": {
+            "windows_at_risk": 116,
+            "windows_current_deficit": 3,
+            "events_scorable": 29,
+            "events_detected": 0,
+            "recall_7d": 0.0,
+            "recall_7d_ci": [
+              0.0,
+              0.11697359446555587
+            ],
+            "alarm_windows": 18,
+            "false_alarm_windows": 17,
+            "account_months": 53.35523613963039,
+            "false_alarms_per_account_month": 0.3186191502463054,
+            "date_error_n": 10,
+            "date_within_tolerance": 0.1,
+            "date_error_median_days": 13.5,
+            "deficit_error_n": 10,
+            "deficit_mae_rub": 1969314.0959999997,
+            "deficit_median_ae_rub": 1793343.7449999999
+          },
+          "probability": null,
+          "coverage_mean": 0.5823529411764705,
+          "coverage_n": 119,
+          "half_width_rel_mean": 2.9681341159553605
+        },
+        "structural": {
+          "windows": 119,
+          "companies": 30,
+          "macro_mae_rub": 1753855.0631133332,
+          "macro_mae_d30_rub": 2571541.7717055557,
+          "macro_mae_min_rub": 1737727.354072222,
+          "normalized_mae": 3.2946965195055156,
+          "observed_macro_mae_rub": 1724418.4139599996,
+          "observed_macro_mae_min_rub": 1262108.5208944445,
+          "skill_trajectory": {
+            "median": -0.005056027202152924,
+            "ci_low": -0.03614112263026195,
+            "ci_high": 0.02498439011235721,
+            "n_companies": 30,
+            "share_positive": 0.4666666666666667
+          },
+          "skill_minimum": {
+            "median": 0.06428896922471178,
+            "ci_low": 0.032022370488454244,
+            "ci_high": 0.09894599282817895,
+            "n_companies": 30,
+            "share_positive": 0.8666666666666667
+          },
+          "skill_day30": {
+            "median": -0.010730467504333818,
+            "ci_low": -0.07039430520826895,
+            "ci_high": 0.013137332397986423,
+            "n_companies": 30,
+            "share_positive": 0.43333333333333335
+          },
+          "observed_skill_trajectory": {
+            "median": -0.022160647430893854,
+            "ci_low": -0.04320874588216846,
+            "ci_high": 0.007215717760637064,
+            "n_companies": 30,
+            "share_positive": 0.36666666666666664
+          },
+          "observed_skill_minimum": {
+            "median": 0.07182819480973751,
+            "ci_low": 0.022707442466196923,
+            "ci_high": 0.10080195768181477,
+            "n_companies": 30,
+            "share_positive": 0.8
+          },
+          "risk": {
+            "windows_at_risk": 116,
+            "windows_current_deficit": 3,
+            "events_scorable": 29,
+            "events_detected": 2,
+            "recall_7d": 0.06896551724137931,
+            "recall_7d_ci": [
+              0.019120864097994433,
+              0.21964947595851925
+            ],
+            "alarm_windows": 19,
+            "false_alarm_windows": 16,
+            "account_months": 53.35523613963039,
+            "false_alarms_per_account_month": 0.2998768472906404,
+            "date_error_n": 10,
+            "date_within_tolerance": 0.1,
+            "date_error_median_days": 13.5,
+            "deficit_error_n": 10,
+            "deficit_mae_rub": 1938657.3280000002,
+            "deficit_median_ae_rub": 1794032.56
+          },
+          "probability": null,
+          "coverage_mean": 0.5817927170868348,
+          "coverage_n": 119,
+          "half_width_rel_mean": 2.9681341159553605
+        }
+      },
+      "hist_days_median": 59.0,
+      "windows": 119,
+      "companies": 30
+    },
+    "B|7-29": {
+      "methods": {
+        "constant": {
+          "windows": 49,
+          "companies": 31,
+          "macro_mae_rub": 1382603.9767849464,
+          "macro_mae_d30_rub": 1999911.2608064518,
+          "macro_mae_min_rub": 2270370.999193548,
+          "normalized_mae": 2.2045443704631813,
+          "observed_macro_mae_rub": 962870.3444623656,
+          "observed_macro_mae_min_rub": 962379.1958064516,
+          "skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 31,
+            "share_positive": 0.0
+          },
+          "skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 31,
+            "share_positive": 0.0
+          },
+          "skill_day30": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 31,
+            "share_positive": 0.0
+          },
+          "observed_skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 31,
+            "share_positive": 0.0
+          },
+          "observed_skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 31,
+            "share_positive": 0.0
+          },
+          "risk": {
+            "windows_at_risk": 49,
+            "windows_current_deficit": 0,
+            "events_scorable": 24,
+            "events_detected": 0,
+            "recall_7d": 0.0,
+            "recall_7d_ci": [
+              0.0,
+              0.13798057582897535
+            ],
+            "alarm_windows": 0,
+            "false_alarm_windows": 0,
+            "account_months": 22.537987679671456,
+            "false_alarms_per_account_month": 0.0,
+            "date_error_n": 0,
+            "date_within_tolerance": null,
+            "date_error_median_days": null,
+            "deficit_error_n": 0,
+            "deficit_mae_rub": null,
+            "deficit_median_ae_rub": null
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "structural_base": {
+          "windows": 49,
+          "companies": 31,
+          "macro_mae_rub": 1590936.5132473118,
+          "macro_mae_d30_rub": 2023930.5080645161,
+          "macro_mae_min_rub": 1533327.385,
+          "normalized_mae": 2.6006687373839577,
+          "observed_macro_mae_rub": 1576196.0930107527,
+          "observed_macro_mae_min_rub": 1450543.3432258063,
+          "skill_trajectory": {
+            "median": -0.4478617376776284,
+            "ci_low": -1.4018217156404154,
+            "ci_high": 0.07341329034258326,
+            "n_companies": 31,
+            "share_positive": 0.41935483870967744
+          },
+          "skill_minimum": {
+            "median": 0.17642748933263963,
+            "ci_low": -0.18651182870488348,
+            "ci_high": 0.350333029464739,
+            "n_companies": 31,
+            "share_positive": 0.6129032258064516
+          },
+          "skill_day30": {
+            "median": -0.1989897813362136,
+            "ci_low": -3.166336439222892,
+            "ci_high": 0.1114860514017135,
+            "n_companies": 31,
+            "share_positive": 0.45161290322580644
+          },
+          "observed_skill_trajectory": {
+            "median": -0.936436325842676,
+            "ci_low": -1.7453735878898944,
+            "ci_high": -0.43530373764257124,
+            "n_companies": 31,
+            "share_positive": 0.22580645161290322
+          },
+          "observed_skill_minimum": {
+            "median": -0.2801675969773241,
+            "ci_low": -2.2650735286207953,
+            "ci_high": 0.1462990723497476,
+            "n_companies": 31,
+            "share_positive": 0.3870967741935484
+          },
+          "risk": {
+            "windows_at_risk": 49,
+            "windows_current_deficit": 0,
+            "events_scorable": 24,
+            "events_detected": 6,
+            "recall_7d": 0.25,
+            "recall_7d_ci": [
+              0.1199920347934233,
+              0.4489982531210644
+            ],
+            "alarm_windows": 24,
+            "false_alarm_windows": 17,
+            "account_months": 22.537987679671456,
+            "false_alarms_per_account_month": 0.7542820699708456,
+            "date_error_n": 12,
+            "date_within_tolerance": 0.4166666666666667,
+            "date_error_median_days": 5.5,
+            "deficit_error_n": 12,
+            "deficit_mae_rub": 3432786.450833333,
+            "deficit_median_ae_rub": 1736603.5699999998
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "own_window": {
+          "windows": 49,
+          "companies": 31,
+          "macro_mae_rub": 1424862.4920591395,
+          "macro_mae_d30_rub": 2458477.944516129,
+          "macro_mae_min_rub": 1816888.5158064517,
+          "normalized_mae": 2.4890694393484605,
+          "observed_macro_mae_rub": 1353596.160747312,
+          "observed_macro_mae_min_rub": 1225743.3575806452,
+          "skill_trajectory": {
+            "median": -0.17435778882571595,
+            "ci_low": -1.6056221535010966,
+            "ci_high": 0.13458655407354325,
+            "n_companies": 31,
+            "share_positive": 0.3870967741935484
+          },
+          "skill_minimum": {
+            "median": 0.05150407103339083,
+            "ci_low": -0.6414385890753083,
+            "ci_high": 0.3393598837646278,
+            "n_companies": 31,
+            "share_positive": 0.5161290322580645
+          },
+          "skill_day30": {
+            "median": -0.2774695764444901,
+            "ci_low": -2.040529643933285,
+            "ci_high": 0.15579581457661507,
+            "n_companies": 31,
+            "share_positive": 0.3870967741935484
+          },
+          "observed_skill_trajectory": {
+            "median": -0.6150575264790603,
+            "ci_low": -1.9407615345381646,
+            "ci_high": -0.17435778882571595,
+            "n_companies": 31,
+            "share_positive": 0.22580645161290322
+          },
+          "observed_skill_minimum": {
+            "median": -0.6414385890753083,
+            "ci_low": -2.9057477344649443,
+            "ci_high": 0.05150407103339083,
+            "n_companies": 31,
+            "share_positive": 0.3548387096774194
+          },
+          "risk": {
+            "windows_at_risk": 49,
+            "windows_current_deficit": 0,
+            "events_scorable": 24,
+            "events_detected": 7,
+            "recall_7d": 0.2916666666666667,
+            "recall_7d_ci": [
+              0.14914460334164278,
+              0.49168063658709704
+            ],
+            "alarm_windows": 28,
+            "false_alarm_windows": 20,
+            "account_months": 22.537987679671456,
+            "false_alarms_per_account_month": 0.887390670553936,
+            "date_error_n": 13,
+            "date_within_tolerance": 0.5384615384615384,
+            "date_error_median_days": 3.0,
+            "deficit_error_n": 13,
+            "deficit_mae_rub": 3399120.8515384616,
+            "deficit_median_ae_rub": 1364050.93
+          },
+          "probability": null,
+          "coverage_mean": 0.8659863945578232,
+          "coverage_n": 49,
+          "half_width_rel_mean": 5.439275259065979
+        },
+        "prior_only": {
+          "windows": 49,
+          "companies": 31,
+          "macro_mae_rub": 1438057.2523763443,
+          "macro_mae_d30_rub": 2292785.1703225807,
+          "macro_mae_min_rub": 2016442.6770967743,
+          "normalized_mae": 2.1437767851552803,
+          "observed_macro_mae_rub": 1154263.0844516128,
+          "observed_macro_mae_min_rub": 922035.9908064515,
+          "skill_trajectory": {
+            "median": -0.036397934572858004,
+            "ci_low": -0.06362586074492227,
+            "ci_high": -0.0003408066167240875,
+            "n_companies": 31,
+            "share_positive": 0.3225806451612903
+          },
+          "skill_minimum": {
+            "median": 0.06836066679945119,
+            "ci_low": 0.008870019602831736,
+            "ci_high": 0.13276114021441165,
+            "n_companies": 31,
+            "share_positive": 0.8064516129032258
+          },
+          "skill_day30": {
+            "median": -0.03280615448266855,
+            "ci_low": -0.08448891026264405,
+            "ci_high": -0.02537221329511219,
+            "n_companies": 31,
+            "share_positive": 0.25806451612903225
+          },
+          "observed_skill_trajectory": {
+            "median": -0.06362586074492227,
+            "ci_low": -0.1498340019028337,
+            "ci_high": -0.036397934572858004,
+            "n_companies": 31,
+            "share_positive": 0.16129032258064516
+          },
+          "observed_skill_minimum": {
+            "median": 0.025297186587618148,
+            "ci_low": 0.008855928410587133,
+            "ci_high": 0.13069504060432569,
+            "n_companies": 31,
+            "share_positive": 0.7419354838709677
+          },
+          "risk": {
+            "windows_at_risk": 49,
+            "windows_current_deficit": 0,
+            "events_scorable": 24,
+            "events_detected": 5,
+            "recall_7d": 0.20833333333333334,
+            "recall_7d_ci": [
+              0.0924468910478809,
+              0.40470844485235474
+            ],
+            "alarm_windows": 10,
+            "false_alarm_windows": 6,
+            "account_months": 22.537987679671456,
+            "false_alarms_per_account_month": 0.26621720116618075,
+            "date_error_n": 7,
+            "date_within_tolerance": 0.0,
+            "date_error_median_days": 10.0,
+            "deficit_error_n": 7,
+            "deficit_mae_rub": 4906975.741428571,
+            "deficit_median_ae_rub": 3397621.9
+          },
+          "probability": null,
+          "coverage_mean": 0.8326530612244899,
+          "coverage_n": 49,
+          "half_width_rel_mean": 3.715429762012879
+        },
+        "structural": {
+          "windows": 49,
+          "companies": 31,
+          "macro_mae_rub": 1431282.0015268817,
+          "macro_mae_d30_rub": 2283855.459677419,
+          "macro_mae_min_rub": 2004514.9775806451,
+          "normalized_mae": 2.136456750767296,
+          "observed_macro_mae_rub": 1152600.2259354838,
+          "observed_macro_mae_min_rub": 921222.0025806453,
+          "skill_trajectory": {
+            "median": -0.01070356809576034,
+            "ci_low": -0.03665912288536388,
+            "ci_high": 0.007458967015926521,
+            "n_companies": 31,
+            "share_positive": 0.3870967741935484
+          },
+          "skill_minimum": {
+            "median": 0.08897867346033872,
+            "ci_low": 0.022661919920395568,
+            "ci_high": 0.15883619623831002,
+            "n_companies": 31,
+            "share_positive": 0.8387096774193549
+          },
+          "skill_day30": {
+            "median": -0.01707970510642598,
+            "ci_low": -0.18794580075899603,
+            "ci_high": 0.007639513020242905,
+            "n_companies": 31,
+            "share_positive": 0.3548387096774194
+          },
+          "observed_skill_trajectory": {
+            "median": -0.03665912288536388,
+            "ci_low": -0.16449175617260625,
+            "ci_high": -0.01070356809576034,
+            "n_companies": 31,
+            "share_positive": 0.22580645161290322
+          },
+          "observed_skill_minimum": {
+            "median": 0.05312346789300504,
+            "ci_low": 0.020810325422091047,
+            "ci_high": 0.15883619623831002,
+            "n_companies": 31,
+            "share_positive": 0.7741935483870968
+          },
+          "risk": {
+            "windows_at_risk": 49,
+            "windows_current_deficit": 0,
+            "events_scorable": 24,
+            "events_detected": 6,
+            "recall_7d": 0.25,
+            "recall_7d_ci": [
+              0.1199920347934233,
+              0.4489982531210644
+            ],
+            "alarm_windows": 10,
+            "false_alarm_windows": 6,
+            "account_months": 22.537987679671456,
+            "false_alarms_per_account_month": 0.26621720116618075,
+            "date_error_n": 7,
+            "date_within_tolerance": 0.0,
+            "date_error_median_days": 10.0,
+            "deficit_error_n": 7,
+            "deficit_mae_rub": 4857757.877142856,
+            "deficit_median_ae_rub": 3358022.06
+          },
+          "probability": null,
+          "coverage_mean": 0.8346938775510205,
+          "coverage_n": 49,
+          "half_width_rel_mean": 3.715429762012879
+        }
+      },
+      "hist_days_median": 18.0,
+      "windows": 49,
+      "companies": 31
+    },
+    "B|90-364": {
+      "methods": {
+        "constant": {
+          "windows": 2606,
+          "companies": 143,
+          "macro_mae_rub": 1255655.8106453647,
+          "macro_mae_d30_rub": 1658382.0449750659,
+          "macro_mae_min_rub": 1605551.7900427235,
+          "normalized_mae": 3.4610192519841427,
+          "observed_macro_mae_rub": 1195278.5941387508,
+          "observed_macro_mae_min_rub": 1400352.3933156081,
+          "skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 143,
+            "share_positive": 0.0
+          },
+          "skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 143,
+            "share_positive": 0.0
+          },
+          "skill_day30": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 143,
+            "share_positive": 0.0
+          },
+          "observed_skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 143,
+            "share_positive": 0.0
+          },
+          "observed_skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 143,
+            "share_positive": 0.0
+          },
+          "risk": {
+            "windows_at_risk": 2548,
+            "windows_current_deficit": 58,
+            "events_scorable": 173,
+            "events_detected": 0,
+            "recall_7d": 0.0,
+            "recall_7d_ci": [
+              -1.734723475976807e-18,
+              0.021723395400177335
+            ],
+            "alarm_windows": 0,
+            "false_alarm_windows": 0,
+            "account_months": 1171.975359342916,
+            "false_alarms_per_account_month": 0.0,
+            "date_error_n": 0,
+            "date_within_tolerance": null,
+            "date_error_median_days": null,
+            "deficit_error_n": 0,
+            "deficit_mae_rub": null,
+            "deficit_median_ae_rub": null
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "structural_base": {
+          "windows": 2606,
+          "companies": 143,
+          "macro_mae_rub": 1420008.1775054275,
+          "macro_mae_d30_rub": 1867110.146356207,
+          "macro_mae_min_rub": 1253992.818085732,
+          "normalized_mae": 3.742683501544792,
+          "observed_macro_mae_rub": 1434932.3715548413,
+          "observed_macro_mae_min_rub": 1276979.9288597964,
+          "skill_trajectory": {
+            "median": -0.09326752415474582,
+            "ci_low": -0.13670531340614023,
+            "ci_high": -0.05218617963749472,
+            "n_companies": 143,
+            "share_positive": 0.32167832167832167
+          },
+          "skill_minimum": {
+            "median": 0.23526065836875387,
+            "ci_low": 0.19920006956228375,
+            "ci_high": 0.2670335041715186,
+            "n_companies": 143,
+            "share_positive": 0.9020979020979021
+          },
+          "skill_day30": {
+            "median": -0.1758517537713673,
+            "ci_low": -0.2134854081785485,
+            "ci_high": -0.10474256081415656,
+            "n_companies": 143,
+            "share_positive": 0.2727272727272727
+          },
+          "observed_skill_trajectory": {
+            "median": -0.1540415600625824,
+            "ci_low": -0.19895427205549532,
+            "ci_high": -0.11287102104074154,
+            "n_companies": 143,
+            "share_positive": 0.23076923076923078
+          },
+          "observed_skill_minimum": {
+            "median": 0.16810988072788746,
+            "ci_low": 0.1224406718499157,
+            "ci_high": 0.2167148665432509,
+            "n_companies": 143,
+            "share_positive": 0.7832167832167832
+          },
+          "risk": {
+            "windows_at_risk": 2548,
+            "windows_current_deficit": 58,
+            "events_scorable": 173,
+            "events_detected": 27,
+            "recall_7d": 0.15606936416184972,
+            "recall_7d_ci": [
+              0.10953101490588989,
+              0.21755039580290264
+            ],
+            "alarm_windows": 414,
+            "false_alarm_windows": 331,
+            "account_months": 1171.975359342916,
+            "false_alarms_per_account_month": 0.282429146108993,
+            "date_error_n": 201,
+            "date_within_tolerance": 0.3880597014925373,
+            "date_error_median_days": 6.0,
+            "deficit_error_n": 201,
+            "deficit_mae_rub": 1432349.8546268656,
+            "deficit_median_ae_rub": 598053.81
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "structural": {
+          "windows": 2606,
+          "companies": 143,
+          "macro_mae_rub": 1420008.1775054275,
+          "macro_mae_d30_rub": 1867110.146356207,
+          "macro_mae_min_rub": 1253992.818085732,
+          "normalized_mae": 3.742683501544792,
+          "observed_macro_mae_rub": 1434932.3715548413,
+          "observed_macro_mae_min_rub": 1276979.9288597964,
+          "skill_trajectory": {
+            "median": -0.09326752415474582,
+            "ci_low": -0.13670531340614023,
+            "ci_high": -0.05218617963749472,
+            "n_companies": 143,
+            "share_positive": 0.32167832167832167
+          },
+          "skill_minimum": {
+            "median": 0.23526065836875387,
+            "ci_low": 0.19920006956228375,
+            "ci_high": 0.2670335041715186,
+            "n_companies": 143,
+            "share_positive": 0.9020979020979021
+          },
+          "skill_day30": {
+            "median": -0.1758517537713673,
+            "ci_low": -0.2134854081785485,
+            "ci_high": -0.10474256081415656,
+            "n_companies": 143,
+            "share_positive": 0.2727272727272727
+          },
+          "observed_skill_trajectory": {
+            "median": -0.1540415600625824,
+            "ci_low": -0.19895427205549532,
+            "ci_high": -0.11287102104074154,
+            "n_companies": 143,
+            "share_positive": 0.23076923076923078
+          },
+          "observed_skill_minimum": {
+            "median": 0.16810988072788746,
+            "ci_low": 0.1224406718499157,
+            "ci_high": 0.2167148665432509,
+            "n_companies": 143,
+            "share_positive": 0.7832167832167832
+          },
+          "risk": {
+            "windows_at_risk": 2548,
+            "windows_current_deficit": 58,
+            "events_scorable": 173,
+            "events_detected": 27,
+            "recall_7d": 0.15606936416184972,
+            "recall_7d_ci": [
+              0.10953101490588989,
+              0.21755039580290264
+            ],
+            "alarm_windows": 414,
+            "false_alarm_windows": 331,
+            "account_months": 1171.975359342916,
+            "false_alarms_per_account_month": 0.282429146108993,
+            "date_error_n": 201,
+            "date_within_tolerance": 0.3880597014925373,
+            "date_error_median_days": 6.0,
+            "deficit_error_n": 201,
+            "deficit_mae_rub": 1432349.8546268656,
+            "deficit_median_ae_rub": 598053.81
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        }
+      },
+      "hist_days_median": 216.0,
+      "windows": 2606,
+      "companies": 143
+    },
+    "B|<7": {
+      "methods": {
+        "constant": {
+          "windows": 12,
+          "companies": 12,
+          "macro_mae_rub": 3272580.076944445,
+          "macro_mae_d30_rub": 3590348.170833333,
+          "macro_mae_min_rub": 5505878.829166667,
+          "normalized_mae": 5.388730235276196,
+          "observed_macro_mae_rub": 2913403.10688889,
+          "observed_macro_mae_min_rub": 4119585.723333333,
+          "skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 12,
+            "share_positive": 0.0
+          },
+          "skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 12,
+            "share_positive": 0.0
+          },
+          "skill_day30": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 12,
+            "share_positive": 0.0
+          },
+          "observed_skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 12,
+            "share_positive": 0.0
+          },
+          "observed_skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 12,
+            "share_positive": 0.0
+          },
+          "risk": {
+            "windows_at_risk": 12,
+            "windows_current_deficit": 0,
+            "events_scorable": 4,
+            "events_detected": 0,
+            "recall_7d": 0.0,
+            "recall_7d_ci": [
+              0.0,
+              0.48990002040399916
+            ],
+            "alarm_windows": 0,
+            "false_alarm_windows": 0,
+            "account_months": 5.519507186858316,
+            "false_alarms_per_account_month": 0.0,
+            "date_error_n": 0,
+            "date_within_tolerance": null,
+            "date_error_median_days": null,
+            "deficit_error_n": 0,
+            "deficit_mae_rub": null,
+            "deficit_median_ae_rub": null
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "structural_base": {
+          "windows": 12,
+          "companies": 12,
+          "macro_mae_rub": 3391261.405333333,
+          "macro_mae_d30_rub": 5240089.2025,
+          "macro_mae_min_rub": 3515696.5733333332,
+          "normalized_mae": 8.323676275200535,
+          "observed_macro_mae_rub": 3181561.362833333,
+          "observed_macro_mae_min_rub": 2354646.2491666665,
+          "skill_trajectory": {
+            "median": 0.023130860518736363,
+            "ci_low": -0.05594879539811737,
+            "ci_high": 0.17077471158252167,
+            "n_companies": 12,
+            "share_positive": 0.5833333333333334
+          },
+          "skill_minimum": {
+            "median": 0.10595669812135622,
+            "ci_low": 0.009702224010105509,
+            "ci_high": 0.23803876581469313,
+            "n_companies": 12,
+            "share_positive": 0.75
+          },
+          "skill_day30": {
+            "median": 0.008299921068070093,
+            "ci_low": -0.21017646623259978,
+            "ci_high": 0.15615159843792875,
+            "n_companies": 12,
+            "share_positive": 0.5
+          },
+          "observed_skill_trajectory": {
+            "median": 0.008059824051035613,
+            "ci_low": -0.16516386688114215,
+            "ci_high": 0.10819220289387083,
+            "n_companies": 12,
+            "share_positive": 0.5
+          },
+          "observed_skill_minimum": {
+            "median": 0.08014715280778517,
+            "ci_low": 0.0,
+            "ci_high": 0.2698348098697262,
+            "n_companies": 12,
+            "share_positive": 0.6666666666666666
+          },
+          "risk": {
+            "windows_at_risk": 12,
+            "windows_current_deficit": 0,
+            "events_scorable": 4,
+            "events_detected": 0,
+            "recall_7d": 0.0,
+            "recall_7d_ci": [
+              0.0,
+              0.48990002040399916
+            ],
+            "alarm_windows": 2,
+            "false_alarm_windows": 2,
+            "account_months": 5.519507186858316,
+            "false_alarms_per_account_month": 0.36235119047619047,
+            "date_error_n": 2,
+            "date_within_tolerance": 0.0,
+            "date_error_median_days": 5.5,
+            "deficit_error_n": 2,
+            "deficit_mae_rub": 7642030.29,
+            "deficit_median_ae_rub": 7642030.29
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        }
+      },
+      "hist_days_median": 4.0,
+      "windows": 12,
+      "companies": 12
+    },
+    "B|>=365": {
+      "methods": {
+        "constant": {
+          "windows": 2735,
+          "companies": 127,
+          "macro_mae_rub": 1324860.369173367,
+          "macro_mae_d30_rub": 1739621.609135172,
+          "macro_mae_min_rub": 1727391.3590494404,
+          "normalized_mae": 3.3025837847764903,
+          "observed_macro_mae_rub": 1256978.4207704188,
+          "observed_macro_mae_min_rub": 1474764.5090397925,
+          "skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 127,
+            "share_positive": 0.0
+          },
+          "skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 127,
+            "share_positive": 0.0
+          },
+          "skill_day30": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 127,
+            "share_positive": 0.0
+          },
+          "observed_skill_trajectory": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 127,
+            "share_positive": 0.0
+          },
+          "observed_skill_minimum": {
+            "median": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_companies": 127,
+            "share_positive": 0.0
+          },
+          "risk": {
+            "windows_at_risk": 2657,
+            "windows_current_deficit": 78,
+            "events_scorable": 191,
+            "events_detected": 0,
+            "recall_7d": 0.0,
+            "recall_7d_ci": [
+              0.0,
+              0.019716528708448297
+            ],
+            "alarm_windows": 0,
+            "false_alarm_windows": 0,
+            "account_months": 1222.1108829568789,
+            "false_alarms_per_account_month": 0.0,
+            "date_error_n": 0,
+            "date_within_tolerance": null,
+            "date_error_median_days": null,
+            "deficit_error_n": 0,
+            "deficit_mae_rub": null,
+            "deficit_median_ae_rub": null
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "structural_base": {
+          "windows": 2735,
+          "companies": 127,
+          "macro_mae_rub": 1433708.4830205322,
+          "macro_mae_d30_rub": 1910734.8149095115,
+          "macro_mae_min_rub": 1241998.7736324067,
+          "normalized_mae": 3.4219896122779807,
+          "observed_macro_mae_rub": 1444722.9505883271,
+          "observed_macro_mae_min_rub": 1270906.583193014,
+          "skill_trajectory": {
+            "median": -0.03797855130798666,
+            "ci_low": -0.09655182391423556,
+            "ci_high": 0.001957741887209097,
+            "n_companies": 127,
+            "share_positive": 0.4251968503937008
+          },
+          "skill_minimum": {
+            "median": 0.2615883239831688,
+            "ci_low": 0.21071316935681306,
+            "ci_high": 0.29661090316934746,
+            "n_companies": 127,
+            "share_positive": 0.905511811023622
+          },
+          "skill_day30": {
+            "median": -0.0917474807325267,
+            "ci_low": -0.1608722152634703,
+            "ci_high": -0.05079331229573869,
+            "n_companies": 127,
+            "share_positive": 0.3228346456692913
+          },
+          "observed_skill_trajectory": {
+            "median": -0.07594552454275094,
+            "ci_low": -0.13700296716722815,
+            "ci_high": -0.022377485027088362,
+            "n_companies": 127,
+            "share_positive": 0.3700787401574803
+          },
+          "observed_skill_minimum": {
+            "median": 0.20216276496983143,
+            "ci_low": 0.15135841732977307,
+            "ci_high": 0.23064720320639093,
+            "n_companies": 127,
+            "share_positive": 0.7637795275590551
+          },
+          "risk": {
+            "windows_at_risk": 2657,
+            "windows_current_deficit": 78,
+            "events_scorable": 191,
+            "events_detected": 40,
+            "recall_7d": 0.2094240837696335,
+            "recall_7d_ci": [
+              0.15773195758275677,
+              0.2725745067451896
+            ],
+            "alarm_windows": 435,
+            "false_alarm_windows": 332,
+            "account_months": 1222.1108829568789,
+            "false_alarms_per_account_month": 0.2716611108124093,
+            "date_error_n": 224,
+            "date_within_tolerance": 0.42410714285714285,
+            "date_error_median_days": 4.0,
+            "deficit_error_n": 224,
+            "deficit_mae_rub": 1465273.9782589285,
+            "deficit_median_ae_rub": 740177.4299999999
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        },
+        "structural": {
+          "windows": 2735,
+          "companies": 127,
+          "macro_mae_rub": 1433708.4830205322,
+          "macro_mae_d30_rub": 1910734.8149095115,
+          "macro_mae_min_rub": 1241998.7736324067,
+          "normalized_mae": 3.4219896122779807,
+          "observed_macro_mae_rub": 1444722.9505883271,
+          "observed_macro_mae_min_rub": 1270906.583193014,
+          "skill_trajectory": {
+            "median": -0.03797855130798666,
+            "ci_low": -0.09655182391423556,
+            "ci_high": 0.001957741887209097,
+            "n_companies": 127,
+            "share_positive": 0.4251968503937008
+          },
+          "skill_minimum": {
+            "median": 0.2615883239831688,
+            "ci_low": 0.21071316935681306,
+            "ci_high": 0.29661090316934746,
+            "n_companies": 127,
+            "share_positive": 0.905511811023622
+          },
+          "skill_day30": {
+            "median": -0.0917474807325267,
+            "ci_low": -0.1608722152634703,
+            "ci_high": -0.05079331229573869,
+            "n_companies": 127,
+            "share_positive": 0.3228346456692913
+          },
+          "observed_skill_trajectory": {
+            "median": -0.07594552454275094,
+            "ci_low": -0.13700296716722815,
+            "ci_high": -0.022377485027088362,
+            "n_companies": 127,
+            "share_positive": 0.3700787401574803
+          },
+          "observed_skill_minimum": {
+            "median": 0.20216276496983143,
+            "ci_low": 0.15135841732977307,
+            "ci_high": 0.23064720320639093,
+            "n_companies": 127,
+            "share_positive": 0.7637795275590551
+          },
+          "risk": {
+            "windows_at_risk": 2657,
+            "windows_current_deficit": 78,
+            "events_scorable": 191,
+            "events_detected": 40,
+            "recall_7d": 0.2094240837696335,
+            "recall_7d_ci": [
+              0.15773195758275677,
+              0.2725745067451896
+            ],
+            "alarm_windows": 435,
+            "false_alarm_windows": 332,
+            "account_months": 1222.1108829568789,
+            "false_alarms_per_account_month": 0.2716611108124093,
+            "date_error_n": 224,
+            "date_within_tolerance": 0.42410714285714285,
+            "date_error_median_days": 4.0,
+            "deficit_error_n": 224,
+            "deficit_mae_rub": 1465273.9782589285,
+            "deficit_median_ae_rub": 740177.4299999999
+          },
+          "probability": null,
+          "coverage_mean": null,
+          "coverage_n": 0,
+          "half_width_rel_mean": null
+        }
+      },
+      "hist_days_median": 524.0,
+      "windows": 2735,
+      "companies": 127
+    }
+  },
+  "refused": {
+    "A|cut14": 1,
+    "B|<7": 12
+  },
+  "new_companies_with_windows": 32,
+  "runtime_s": 138.28334021568298
+}

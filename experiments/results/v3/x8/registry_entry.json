@@ -1,0 +1,18 @@
+{
+  "id": "E07",
+  "title": "Короткая история и новые компании: отраслевой prior, группы <30 / 30-89 / 90-364 / >=365",
+  "status": "completed",
+  "task": "X8",
+  "protocol": "v3, срезы выбора (обрезка 14/30/60 дней, 121 компания, 1538-1539 окон) и естественные группы (32 новые компании)",
+  "params": {"full_at": 720, "shrink": 0.25, "k": 0.5, "calibration_windows": 1561},
+  "result": {
+    "prior_vs_structural_no_prior_norm_mae": {"14d": [3.638, 3.825], "28d": [3.150, 3.374], "60d": [3.039, 3.602]},
+    "skill_trajectory_prior": {"14d": -0.005, "28d": -0.004, "60d": -0.007},
+    "skill_trajectory_structural_no_prior": {"14d": -0.072, "28d": -0.091, "60d": -0.163},
+    "recall_7d_prior_vs_structural": {"14d": [0.391, 0.551], "28d": [0.348, 0.638], "60d": [0.333, 0.623]},
+    "interval_coverage_p10_p90": {"14d": 0.868, "28d": 0.853, "60d": 0.673, "7-29": 0.835, "30-89": 0.582},
+    "refusal_below_days": 7,
+    "conclusion": "Prior снижает ошибку траектории до уровня constant, но теряет recall; skill траектории к constant не положителен ни в одной группе."
+  },
+  "artifacts": "experiments/results/v3/x8/"
+}

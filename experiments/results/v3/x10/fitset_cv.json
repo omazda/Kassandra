@@ -1,0 +1,90 @@
+{
+  "fitset": {
+    "fold_trained_to": "2025-06-30",
+    "fold_origins": [
+      "2025-07-01",
+      "2025-11-25",
+      22
+    ],
+    "january_origins": [
+      "2026-01-01",
+      "2026-01-29",
+      15
+    ],
+    "windows": 4093,
+    "companies": 130,
+    "targets_until": "2026-02-28"
+  },
+  "base": {
+    "shape": {
+      "fold": {
+        "trajectory": -0.01273333968002488,
+        "minimum": 0.30186572250046545
+      },
+      "jan": {
+        "trajectory": -0.06805870050011065,
+        "minimum": 0.3131323176088079
+      }
+    },
+    "hgb_v2": {
+      "fold": {
+        "trajectory": -0.07066652853514055,
+        "minimum": 0.1206010264122826
+      },
+      "jan": {
+        "trajectory": -0.024207734386499258,
+        "minimum": 0.3381072009086722
+      }
+    },
+    "hgb_cal": {
+      "fold": {
+        "trajectory": -0.2002228246730996,
+        "minimum": 0.12729796098737478
+      },
+      "jan": {
+        "trajectory": -0.04466897471768261,
+        "minimum": 0.22876089125074595
+      }
+    },
+    "weekday": {
+      "fold": {
+        "trajectory": -0.07180280123144966,
+        "minimum": 0.09368776981508359
+      },
+      "jan": {
+        "trajectory": -0.12338339509876195,
+        "minimum": 0.07606199705172967
+      }
+    }
+  },
+  "variants": {
+    "traj": {
+      "fold->jan": {
+        "trajectory": 0.01716573048664105,
+        "minimum": 0.23741992191276218
+      },
+      "jan->fold": {
+        "trajectory": 0.028585945209393393,
+        "minimum": 0.13783668170888846
+      },
+      "companies_2fold_x3": {
+        "trajectory": 0.02958740174129511,
+        "minimum": 0.18788638932528443
+      }
+    },
+    "bal": {
+      "fold->jan": {
+        "trajectory": -0.0037647893566401525,
+        "minimum": 0.3025311997020288
+      },
+      "jan->fold": {
+        "trajectory": 0.031785532166313746,
+        "minimum": 0.21094482155629946
+      },
+      "companies_2fold_x3": {
+        "trajectory": 0.015451292730341478,
+        "minimum": 0.2643938780020356
+      }
+    }
+  }
+}

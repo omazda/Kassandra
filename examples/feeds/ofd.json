@@ -1,0 +1,8 @@
+{
+  "register_id": "ККТ 0001",
+  "acquiring_fee_pct": 1.8,
+  "days": [
+    {"date": "2026-04-27", "card_minor": 18450000, "sbp_minor": 2300000, "cash_minor": 4100000},
+    {"date": "2026-04-28", "card_minor": 17320000, "sbp_minor": 1950000, "cash_minor": 3800000}
+  ]
+}

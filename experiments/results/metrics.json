@@ -1,0 +1,152 @@
+{
+  "protocol": {
+    "seed": 42,
+    "trained_to": "2025-12-31",
+    "hgb": {
+      "max_iter": 80,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.06,
+      "l2_regularization": 2.0,
+      "min_samples_leaf": 40
+    },
+    "calibration_origins": [
+      "2026-01-01",
+      "2026-01-08",
+      "2026-01-15",
+      "2026-01-22",
+      "2026-01-29"
+    ],
+    "selection_origins": [
+      "2026-03-01",
+      "2026-04-01",
+      "2026-05-01"
+    ],
+    "retrospective_origins": [
+      "2026-07-01",
+      "2026-08-01"
+    ],
+    "primary_metric": "macro_company_trajectory_mae_rub",
+    "selection_rule": "Keep weekday baseline unless HGB improves selection primary metric by >=5% with no origin >10% worse. Retrospective set is report-only.",
+    "minimum_history_days": 90,
+    "calendar_comparison": "P1 metrics use calendar=false; full 2x2 is the next E03 task",
+    "min_error_paths": 20,
+    "min_error_companies": 5,
+    "simulations": 1000
+  },
+  "summary": {
+    "selection": {
+      "constant": {
+        "trajectory_mae_rub": 1217642.9375124522,
+        "day30_mae_rub": 1374999.4252586209,
+        "inflow_mae_rub": 240827.84097030654,
+        "outflow_mae_rub": 253075.38548563217,
+        "minimum_mae_rub": 1510856.3477873562,
+        "normalized_mae": 2.8939304798325973,
+        "windows": 328,
+        "companies": 116,
+        "new_gap_windows": 4,
+        "detected_gap_windows": 0,
+        "false_alarm_windows": 0
+      },
+      "mean": {
+        "trajectory_mae_rub": 1359025.7943611112,
+        "day30_mae_rub": 1794926.185545977,
+        "inflow_mae_rub": 280682.2014166667,
+        "outflow_mae_rub": 345425.3980354406,
+        "minimum_mae_rub": 1377637.2812500005,
+        "normalized_mae": 3.259682195287023,
+        "windows": 328,
+        "companies": 116,
+        "new_gap_windows": 4,
+        "detected_gap_windows": 1,
+        "false_alarm_windows": 22
+      },
+      "weekday": {
+        "trajectory_mae_rub": 1337466.2126202106,
+        "day30_mae_rub": 1700226.318965517,
+        "inflow_mae_rub": 200126.69670929114,
+        "outflow_mae_rub": 289039.6037447318,
+        "minimum_mae_rub": 1394260.26658046,
+        "normalized_mae": 3.1642624516374633,
+        "windows": 328,
+        "companies": 116,
+        "new_gap_windows": 4,
+        "detected_gap_windows": 1,
+        "false_alarm_windows": 30
+      },
+      "hgb": {
+        "trajectory_mae_rub": 1291782.7664099615,
+        "day30_mae_rub": 1628009.895071839,
+        "inflow_mae_rub": 221297.9947442529,
+        "outflow_mae_rub": 293767.55097461684,
+        "minimum_mae_rub": 1194640.808261494,
+        "normalized_mae": 3.1649923039451875,
+        "windows": 328,
+        "companies": 116,
+        "new_gap_windows": 4,
+        "detected_gap_windows": 0,
+        "false_alarm_windows": 22
+      }
+    },
+    "retrospective": {
+      "constant": {
+        "trajectory_mae_rub": 1417430.7392418033,
+        "day30_mae_rub": 2116958.6622540983,
+        "inflow_mae_rub": 268127.4048387978,
+        "outflow_mae_rub": 265965.1006980875,
+        "minimum_mae_rub": 1404414.4725000001,
+        "normalized_mae": 2.715350608462502,
+        "windows": 231,
+        "companies": 122,
+        "new_gap_windows": 4,
+        "detected_gap_windows": 0,
+        "false_alarm_windows": 0
+      },
+      "mean": {
+        "trajectory_mae_rub": 1646139.256887978,
+        "day30_mae_rub": 2610598.1953688525,
+        "inflow_mae_rub": 300501.98944808746,
+        "outflow_mae_rub": 351540.83452049183,
+        "minimum_mae_rub": 1405925.9209016392,
+        "normalized_mae": 3.0935792152403767,
+        "windows": 231,
+        "companies": 122,
+        "new_gap_windows": 4,
+        "detected_gap_windows": 1,
+        "false_alarm_windows": 20
+      },
+      "weekday": {
+        "trajectory_mae_rub": 1525896.239327869,
+        "day30_mae_rub": 2430558.2956967214,
+        "inflow_mae_rub": 208765.89719945358,
+        "outflow_mae_rub": 291793.6464521858,
+        "minimum_mae_rub": 1338159.8784836065,
+        "normalized_mae": 2.8691959379117713,
+        "windows": 231,
+        "companies": 122,
+        "new_gap_windows": 4,
+        "detected_gap_windows": 1,
+        "false_alarm_windows": 22
+      },
+      "hgb": {
+        "trajectory_mae_rub": 1311699.7361571037,
+        "day30_mae_rub": 2293047.5225,
+        "inflow_mae_rub": 228269.5163319672,
+        "outflow_mae_rub": 304390.4974726776,
+        "minimum_mae_rub": 1120352.126762295,
+        "normalized_mae": 2.688175401230255,
+        "windows": 231,
+        "companies": 122,
+        "new_gap_windows": 4,
+        "detected_gap_windows": 3,
+        "false_alarm_windows": 29
+      }
+    }
+  },
+  "limitations": [
+    "Ретроспективная проверка на доступной синтетике; не скрытый тест",
+    "Оконные рисковые метрики зависимы и не являются событийным recall",
+    "Календарь в основном сравнении выключен; матрица 2x2 остаётся E03",
+    "Категории не имеют ручного эталона; CatBoost не обучался"
+  ]
+}

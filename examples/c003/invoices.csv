@@ -1,0 +1,3 @@
+number;issue_date;due_date;payment_terms_days;amount;direction;counterparty_inn;counterparty_name
+214;2026-04-20;;14;380000.00;выставлен;0003688561;ООО «Мукомольный комбинат-935»
+С-77;2026-04-22;2026-05-06;;96500.00;получен;0043270523;ООО «Семена-676»

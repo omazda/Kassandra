@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cashflow-pro"
+version = "0.1.0"
+description = "Reproducible cash-flow forecasts, calendar and scenarios"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "pandas>=2.2,<3",
+  "numpy>=2,<3",
+  "scikit-learn>=1.6,<2",
+  "joblib>=1.4,<2",
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "pydantic>=2.10,<3",
+  "python-multipart>=0.0.20,<1",
+  "dash>=3,<4",
+  "plotly>=6,<7",
+  "dash-bootstrap-components>=2,<3",
+  "dash-ag-grid>=32,<34",
+  "httpx>=0.28,<1",
+  "python-dotenv>=1,<2",
+  "lightgbm>=4.7.0",
+  "catboost>=1.2.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
+
+[project.scripts]
+cashflow = "cashflow_services.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cashflow_domain", "src/cashflow_ml", "src/cashflow_services", "apps"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]

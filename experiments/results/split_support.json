@@ -1,0 +1,25 @@
+{
+  "splits": {
+    "calibration": {
+      "eligible_windows": 557,
+      "eligible_companies": 116,
+      "new_gap_windows": 6,
+      "distinct_new_segments": 3
+    },
+    "selection": {
+      "eligible_windows": 328,
+      "eligible_companies": 116,
+      "new_gap_windows": 4,
+      "distinct_new_segments": 5
+    },
+    "retrospective": {
+      "eligible_windows": 231,
+      "eligible_companies": 122,
+      "new_gap_windows": 4,
+      "distinct_new_segments": 4
+    }
+  },
+  "negative_segments_total": 86,
+  "companies_with_negative_segments": 16,
+  "limitation": "Invalid coverage breaks a segment. Segment count is not a calibrated count of independent risk episodes."
+}

@@ -1,0 +1,2278 @@
+{
+ "x0": {
+  "summary": {
+   "calibration": {
+    "constant": {
+     "skill_trajectory": 0.0,
+     "skill_minimum": 0.0,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 0,
+      "recall_7d": 0.0,
+      "recall_7d_ci": [
+       1.3877787807814457e-17,
+       0.14865952572596125
+      ],
+      "alarm_windows": 0,
+      "false_alarm_windows": 0,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.0,
+      "date_error_n": 0,
+      "date_within_tolerance": null,
+      "date_error_median_days": null,
+      "deficit_error_n": 0,
+      "deficit_mae_rub": null,
+      "deficit_median_ae_rub": null
+     }
+    },
+    "hgb_v2": {
+     "skill_trajectory": -0.07190318150601849,
+     "skill_minimum": 0.2912443923547243,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 5,
+      "recall_7d": 0.22727272727272727,
+      "recall_7d_ci": [
+       0.10122890794820358,
+       0.4344035606295935
+      ],
+      "alarm_windows": 37,
+      "false_alarm_windows": 23,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.18658382196162046,
+      "date_error_n": 18,
+      "date_within_tolerance": 0.5,
+      "date_error_median_days": 5.5,
+      "deficit_error_n": 18,
+      "deficit_mae_rub": 1368357.5672222225,
+      "deficit_median_ae_rub": 551853.9
+     }
+    },
+    "mean60": {
+     "skill_trajectory": -0.23055497146912807,
+     "skill_minimum": -0.009806411343015409,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 5,
+      "recall_7d": 0.22727272727272727,
+      "recall_7d_ci": [
+       0.10122890794820358,
+       0.4344035606295935
+      ],
+      "alarm_windows": 29,
+      "false_alarm_windows": 23,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.18658382196162046,
+      "date_error_n": 15,
+      "date_within_tolerance": 0.26666666666666666,
+      "date_error_median_days": 10.0,
+      "deficit_error_n": 15,
+      "deficit_mae_rub": 2026080.5699999998,
+      "deficit_median_ae_rub": 803292.12
+     }
+    },
+    "shape_only": {
+     "skill_trajectory": -0.06769803777817518,
+     "skill_minimum": 0.31147637882421897,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 6,
+      "recall_7d": 0.2727272727272727,
+      "recall_7d_ci": [
+       0.1315058201581444,
+       0.4815212369900198
+      ],
+      "alarm_windows": 41,
+      "false_alarm_windows": 29,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.23525786247334754,
+      "date_error_n": 19,
+      "date_within_tolerance": 0.47368421052631576,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 19,
+      "deficit_mae_rub": 1344843.5136842104,
+      "deficit_median_ae_rub": 640563.08
+     }
+    },
+    "weekday": {
+     "skill_trajectory": -0.1186493062451709,
+     "skill_minimum": 0.10227948944264953,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 2,
+      "recall_7d": 0.09090909090909091,
+      "recall_7d_ci": [
+       0.025294896282837792,
+       0.2781538065838578
+      ],
+      "alarm_windows": 33,
+      "false_alarm_windows": 30,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.2433702025586354,
+      "date_error_n": 12,
+      "date_within_tolerance": 0.16666666666666666,
+      "date_error_median_days": 7.5,
+      "deficit_error_n": 12,
+      "deficit_mae_rub": 1147910.0933333333,
+      "deficit_median_ae_rub": 252684.835
+     }
+    }
+   },
+   "selection": {
+    "constant": {
+     "skill_trajectory": 0.0,
+     "skill_minimum": 0.0,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 0,
+      "recall_7d": 0.0,
+      "recall_7d_ci": [
+       0.0,
+       0.05273909414400562
+      ],
+      "alarm_windows": 0,
+      "false_alarm_windows": 0,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.0,
+      "date_error_n": 0,
+      "date_within_tolerance": null,
+      "date_error_median_days": null,
+      "deficit_error_n": 0,
+      "deficit_mae_rub": null,
+      "deficit_median_ae_rub": null
+     }
+    },
+    "hgb_v2": {
+     "skill_trajectory": -0.0030159493625989686,
+     "skill_minimum": 0.15730074434980024,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 17,
+      "recall_7d": 0.2463768115942029,
+      "recall_7d_ci": [
+       0.15989647451132608,
+       0.35960886309795215
+      ],
+      "alarm_windows": 99,
+      "false_alarm_windows": 64,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.18676893576222434,
+      "date_error_n": 68,
+      "date_within_tolerance": 0.39705882352941174,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 68,
+      "deficit_mae_rub": 1562441.1610294117,
+      "deficit_median_ae_rub": 1118039.63
+     }
+    },
+    "mean60": {
+     "skill_trajectory": -0.1407839931989614,
+     "skill_minimum": 0.04557077555084643,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 10,
+      "recall_7d": 0.14492753623188406,
+      "recall_7d_ci": [
+       0.08067008672383712,
+       0.24663738592915235
+      ],
+      "alarm_windows": 117,
+      "false_alarm_windows": 95,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.27723513902205177,
+      "date_error_n": 71,
+      "date_within_tolerance": 0.2676056338028169,
+      "date_error_median_days": 9.0,
+      "deficit_error_n": 71,
+      "deficit_mae_rub": 1062227.3842253522,
+      "deficit_median_ae_rub": 482161.58
+     }
+    },
+    "shape_only": {
+     "skill_trajectory": -0.014046241873222565,
+     "skill_minimum": 0.30447464746873987,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 15,
+      "recall_7d": 0.21739130434782608,
+      "recall_7d_ci": [
+       0.13640646957336042,
+       0.328185192334121
+      ],
+      "alarm_windows": 164,
+      "false_alarm_windows": 132,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.3852109300095877,
+      "date_error_n": 90,
+      "date_within_tolerance": 0.3333333333333333,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 90,
+      "deficit_mae_rub": 1216057.426777778,
+      "deficit_median_ae_rub": 550403.685
+     }
+    },
+    "weekday": {
+     "skill_trajectory": -0.08755922922114467,
+     "skill_minimum": 0.0758593300447572,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 8,
+      "recall_7d": 0.11594202898550725,
+      "recall_7d_ci": [
+       0.05993426545958408,
+       0.21245953149160868
+      ],
+      "alarm_windows": 119,
+      "false_alarm_windows": 96,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.2801534036433365,
+      "date_error_n": 67,
+      "date_within_tolerance": 0.31343283582089554,
+      "date_error_median_days": 7.0,
+      "deficit_error_n": 67,
+      "deficit_mae_rub": 1380882.0316417909,
+      "deficit_median_ae_rub": 613927.69
+     }
+    }
+   },
+   "retrospective": {
+    "constant": {
+     "skill_trajectory": 0.0,
+     "skill_minimum": 0.0,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 0,
+      "recall_7d": 0.0,
+      "recall_7d_ci": [
+       0.0,
+       0.07270029673590504
+      ],
+      "alarm_windows": 0,
+      "false_alarm_windows": 0,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.0,
+      "date_error_n": 0,
+      "date_within_tolerance": null,
+      "date_error_median_days": null,
+      "deficit_error_n": 0,
+      "deficit_mae_rub": null,
+      "deficit_median_ae_rub": null
+     }
+    },
+    "hgb_v2": {
+     "skill_trajectory": -0.08955428858399195,
+     "skill_minimum": 0.3008558861862346,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 6,
+      "recall_7d": 0.12244897959183673,
+      "recall_7d_ci": [
+       0.057347477598098245,
+       0.2424466240188096
+      ],
+      "alarm_windows": 143,
+      "false_alarm_windows": 130,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5456253447324876,
+      "date_error_n": 67,
+      "date_within_tolerance": 0.13432835820895522,
+      "date_error_median_days": 9.0,
+      "deficit_error_n": 67,
+      "deficit_mae_rub": 1050715.647313433,
+      "deficit_median_ae_rub": 593304.21
+     }
+    },
+    "mean60": {
+     "skill_trajectory": -0.1434677062200569,
+     "skill_minimum": 0.015103438691459137,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 7,
+      "recall_7d": 0.14285714285714285,
+      "recall_7d_ci": [
+       0.07096333720544586,
+       0.2666797318916292
+      ],
+      "alarm_windows": 74,
+      "false_alarm_windows": 64,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.26861555432984,
+      "date_error_n": 39,
+      "date_within_tolerance": 0.23076923076923078,
+      "date_error_median_days": 8.0,
+      "deficit_error_n": 39,
+      "deficit_mae_rub": 1147955.011025641,
+      "deficit_median_ae_rub": 714893.53
+     }
+    },
+    "shape_only": {
+     "skill_trajectory": -0.002027243252620714,
+     "skill_minimum": 0.32231232466811477,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 12,
+      "recall_7d": 0.24489795918367346,
+      "recall_7d_ci": [
+       0.14602203389475285,
+       0.38086587260315785
+      ],
+      "alarm_windows": 105,
+      "false_alarm_windows": 84,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.35255791505791506,
+      "date_error_n": 56,
+      "date_within_tolerance": 0.30357142857142855,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 56,
+      "deficit_mae_rub": 807238.0519642857,
+      "deficit_median_ae_rub": 565314.38
+     }
+    },
+    "weekday": {
+     "skill_trajectory": -0.05919823806500735,
+     "skill_minimum": 0.11239531715974205,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 7,
+      "recall_7d": 0.14285714285714285,
+      "recall_7d_ci": [
+       0.07096333720544586,
+       0.2666797318916292
+      ],
+      "alarm_windows": 89,
+      "false_alarm_windows": 76,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.318980970766685,
+      "date_error_n": 50,
+      "date_within_tolerance": 0.24,
+      "date_error_median_days": 13.0,
+      "deficit_error_n": 50,
+      "deficit_mae_rub": 856943.4112000001,
+      "deficit_median_ae_rub": 556270.85
+     }
+    }
+   }
+  },
+  "d1": {}
+ },
+ "x4": {
+  "summary": {
+   "calibration": {
+    "constant": {
+     "skill_trajectory": 0.0,
+     "skill_minimum": 0.0,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 0,
+      "recall_7d": 0.0,
+      "recall_7d_ci": [
+       1.3877787807814457e-17,
+       0.14865952572596125
+      ],
+      "alarm_windows": 0,
+      "false_alarm_windows": 0,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.0,
+      "date_error_n": 0,
+      "date_within_tolerance": null,
+      "date_error_median_days": null,
+      "deficit_error_n": 0,
+      "deficit_mae_rub": null,
+      "deficit_median_ae_rub": null
+     }
+    },
+    "hgb_full": {
+     "skill_trajectory": -0.03159676444793835,
+     "skill_minimum": 0.2920215515307554,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 6,
+      "recall_7d": 0.2727272727272727,
+      "recall_7d_ci": [
+       0.1315058201581444,
+       0.4815212369900198
+      ],
+      "alarm_windows": 48,
+      "false_alarm_windows": 32,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.2595948827292111,
+      "date_error_n": 19,
+      "date_within_tolerance": 0.47368421052631576,
+      "date_error_median_days": 9.0,
+      "deficit_error_n": 19,
+      "deficit_mae_rub": 1708955.0305263156,
+      "deficit_median_ae_rub": 745946.25
+     }
+    },
+    "hgb_mech": {
+     "skill_trajectory": -0.08759209849419469,
+     "skill_minimum": 0.21040363916676263,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 4,
+      "recall_7d": 0.18181818181818182,
+      "recall_7d_ci": [
+       0.07306766024105121,
+       0.38517021976637866
+      ],
+      "alarm_windows": 35,
+      "false_alarm_windows": 24,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.19469616204690832,
+      "date_error_n": 18,
+      "date_within_tolerance": 0.3888888888888889,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 18,
+      "deficit_mae_rub": 2008410.5077777782,
+      "deficit_median_ae_rub": 646843.16
+     }
+    },
+    "hgb_v2": {
+     "skill_trajectory": -0.07190318150601849,
+     "skill_minimum": 0.2912443923547243,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 5,
+      "recall_7d": 0.22727272727272727,
+      "recall_7d_ci": [
+       0.10122890794820358,
+       0.4344035606295935
+      ],
+      "alarm_windows": 37,
+      "false_alarm_windows": 23,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.18658382196162046,
+      "date_error_n": 18,
+      "date_within_tolerance": 0.5,
+      "date_error_median_days": 5.5,
+      "deficit_error_n": 18,
+      "deficit_mae_rub": 1368357.5672222225,
+      "deficit_median_ae_rub": 551853.9
+     }
+    },
+    "mech_weekday": {
+     "skill_trajectory": -0.17453153791234277,
+     "skill_minimum": 0.13097487443928413,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 5,
+      "recall_7d": 0.22727272727272727,
+      "recall_7d_ci": [
+       0.10122890794820358,
+       0.4344035606295935
+      ],
+      "alarm_windows": 50,
+      "false_alarm_windows": 41,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.3326059434968017,
+      "date_error_n": 19,
+      "date_within_tolerance": 0.3684210526315789,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 19,
+      "deficit_mae_rub": 1548320.8747368422,
+      "deficit_median_ae_rub": 1307419.9
+     }
+    },
+    "shape_only": {
+     "skill_trajectory": -0.06769803777817518,
+     "skill_minimum": 0.31147637882421897,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 6,
+      "recall_7d": 0.2727272727272727,
+      "recall_7d_ci": [
+       0.1315058201581444,
+       0.4815212369900198
+      ],
+      "alarm_windows": 41,
+      "false_alarm_windows": 29,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.23525786247334754,
+      "date_error_n": 19,
+      "date_within_tolerance": 0.47368421052631576,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 19,
+      "deficit_mae_rub": 1344843.5136842104,
+      "deficit_median_ae_rub": 640563.08
+     }
+    },
+    "structural": {
+     "skill_trajectory": -0.16923882971801152,
+     "skill_minimum": 0.19497571793119028,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 5,
+      "recall_7d": 0.22727272727272727,
+      "recall_7d_ci": [
+       0.10122890794820358,
+       0.4344035606295935
+      ],
+      "alarm_windows": 55,
+      "false_alarm_windows": 43,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.3488306236673774,
+      "date_error_n": 24,
+      "date_within_tolerance": 0.375,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 24,
+      "deficit_mae_rub": 2408336.8070833334,
+      "deficit_median_ae_rub": 1544654.855
+     }
+    },
+    "structural_base": {
+     "skill_trajectory": -0.17453153791234277,
+     "skill_minimum": 0.13097487443928413,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 5,
+      "recall_7d": 0.22727272727272727,
+      "recall_7d_ci": [
+       0.10122890794820358,
+       0.4344035606295935
+      ],
+      "alarm_windows": 50,
+      "false_alarm_windows": 41,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.3326059434968017,
+      "date_error_n": 19,
+      "date_within_tolerance": 0.3684210526315789,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 19,
+      "deficit_mae_rub": 1548320.8747368422,
+      "deficit_median_ae_rub": 1307419.9
+     }
+    },
+    "structural_docs": {
+     "skill_trajectory": -0.17454237639956494,
+     "skill_minimum": 0.182794826106093,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 5,
+      "recall_7d": 0.22727272727272727,
+      "recall_7d_ci": [
+       0.10122890794820358,
+       0.4344035606295935
+      ],
+      "alarm_windows": 52,
+      "false_alarm_windows": 41,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.3326059434968017,
+      "date_error_n": 22,
+      "date_within_tolerance": 0.45454545454545453,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 22,
+      "deficit_mae_rub": 2552690.695454546,
+      "deficit_median_ae_rub": 2027051.9000000001
+     }
+    },
+    "structural_tax": {
+     "skill_trajectory": -0.17454708304938982,
+     "skill_minimum": 0.1319443659552234,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 6,
+      "recall_7d": 0.2727272727272727,
+      "recall_7d_ci": [
+       0.1315058201581444,
+       0.4815212369900198
+      ],
+      "alarm_windows": 52,
+      "false_alarm_windows": 41,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.3326059434968017,
+      "date_error_n": 21,
+      "date_within_tolerance": 0.3333333333333333,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 21,
+      "deficit_mae_rub": 1380633.580952381,
+      "deficit_median_ae_rub": 1055986.72
+     }
+    },
+    "weekday": {
+     "skill_trajectory": -0.1186493062451709,
+     "skill_minimum": 0.10227948944264953,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 2,
+      "recall_7d": 0.09090909090909091,
+      "recall_7d_ci": [
+       0.025294896282837792,
+       0.2781538065838578
+      ],
+      "alarm_windows": 33,
+      "false_alarm_windows": 30,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.2433702025586354,
+      "date_error_n": 12,
+      "date_within_tolerance": 0.16666666666666666,
+      "date_error_median_days": 7.5,
+      "deficit_error_n": 12,
+      "deficit_mae_rub": 1147910.0933333333,
+      "deficit_median_ae_rub": 252684.835
+     }
+    }
+   },
+   "selection": {
+    "constant": {
+     "skill_trajectory": 0.0,
+     "skill_minimum": 0.0,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 0,
+      "recall_7d": 0.0,
+      "recall_7d_ci": [
+       0.0,
+       0.05273909414400562
+      ],
+      "alarm_windows": 0,
+      "false_alarm_windows": 0,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.0,
+      "date_error_n": 0,
+      "date_within_tolerance": null,
+      "date_error_median_days": null,
+      "deficit_error_n": 0,
+      "deficit_mae_rub": null,
+      "deficit_median_ae_rub": null
+     }
+    },
+    "hgb_full": {
+     "skill_trajectory": -0.014365890627947131,
+     "skill_minimum": 0.22441753605765524,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 13,
+      "recall_7d": 0.18840579710144928,
+      "recall_7d_ci": [
+       0.11354641477529213,
+       0.2961315714303925
+      ],
+      "alarm_windows": 116,
+      "false_alarm_windows": 82,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.23929769894534994,
+      "date_error_n": 73,
+      "date_within_tolerance": 0.3972602739726027,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 73,
+      "deficit_mae_rub": 2031049.3594520548,
+      "deficit_median_ae_rub": 1113354.47
+     }
+    },
+    "hgb_mech": {
+     "skill_trajectory": -0.004194396766510344,
+     "skill_minimum": 0.2250730728752166,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 16,
+      "recall_7d": 0.2318840579710145,
+      "recall_7d_ci": [
+       0.14807779670568114,
+       0.3439707030526986
+      ],
+      "alarm_windows": 186,
+      "false_alarm_windows": 145,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.4231483700862895,
+      "date_error_n": 98,
+      "date_within_tolerance": 0.3877551020408163,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 98,
+      "deficit_mae_rub": 1046994.3329591836,
+      "deficit_median_ae_rub": 552350.1950000001
+     }
+    },
+    "hgb_v2": {
+     "skill_trajectory": -0.0030159493625989686,
+     "skill_minimum": 0.15730074434980024,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 17,
+      "recall_7d": 0.2463768115942029,
+      "recall_7d_ci": [
+       0.15989647451132608,
+       0.35960886309795215
+      ],
+      "alarm_windows": 99,
+      "false_alarm_windows": 64,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.18676893576222434,
+      "date_error_n": 68,
+      "date_within_tolerance": 0.39705882352941174,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 68,
+      "deficit_mae_rub": 1562441.1610294117,
+      "deficit_median_ae_rub": 1118039.63
+     }
+    },
+    "mech_weekday": {
+     "skill_trajectory": -0.06833215638843515,
+     "skill_minimum": 0.18605520692616506,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 21,
+      "recall_7d": 0.30434782608695654,
+      "recall_7d_ci": [
+       0.2084947626304856,
+       0.42083792638238626
+      ],
+      "alarm_windows": 220,
+      "false_alarm_windows": 172,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5019415148609779,
+      "date_error_n": 119,
+      "date_within_tolerance": 0.3949579831932773,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 119,
+      "deficit_mae_rub": 1087909.4950420167,
+      "deficit_median_ae_rub": 532031.29
+     }
+    },
+    "shape_only": {
+     "skill_trajectory": -0.014046241873222565,
+     "skill_minimum": 0.30447464746873987,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 15,
+      "recall_7d": 0.21739130434782608,
+      "recall_7d_ci": [
+       0.13640646957336042,
+       0.328185192334121
+      ],
+      "alarm_windows": 164,
+      "false_alarm_windows": 132,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.3852109300095877,
+      "date_error_n": 90,
+      "date_within_tolerance": 0.3333333333333333,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 90,
+      "deficit_mae_rub": 1216057.426777778,
+      "deficit_median_ae_rub": 550403.685
+     }
+    },
+    "structural": {
+     "skill_trajectory": 0.0040051110273156,
+     "skill_minimum": 0.3627831448941292,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 20,
+      "recall_7d": 0.2898550724637681,
+      "recall_7d_ci": [
+       0.19615912140759173,
+       0.40571672975438167
+      ],
+      "alarm_windows": 288,
+      "false_alarm_windows": 224,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.6536912751677852,
+      "date_error_n": 153,
+      "date_within_tolerance": 0.4117647058823529,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 153,
+      "deficit_mae_rub": 1762341.847843137,
+      "deficit_median_ae_rub": 682991.52
+     }
+    },
+    "structural_base": {
+     "skill_trajectory": -0.06833215638843515,
+     "skill_minimum": 0.18605520692616506,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 21,
+      "recall_7d": 0.30434782608695654,
+      "recall_7d_ci": [
+       0.2084947626304856,
+       0.42083792638238626
+      ],
+      "alarm_windows": 220,
+      "false_alarm_windows": 172,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5019415148609779,
+      "date_error_n": 119,
+      "date_within_tolerance": 0.3949579831932773,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 119,
+      "deficit_mae_rub": 1087909.4950420167,
+      "deficit_median_ae_rub": 532031.29
+     }
+    },
+    "structural_docs": {
+     "skill_trajectory": -0.004640950826058976,
+     "skill_minimum": 0.32777428715665735,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 23,
+      "recall_7d": 0.3333333333333333,
+      "recall_7d_ci": [
+       0.23350891006988278,
+       0.4507374546447857
+      ],
+      "alarm_windows": 267,
+      "false_alarm_windows": 199,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5807346596356663,
+      "date_error_n": 149,
+      "date_within_tolerance": 0.44966442953020136,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 149,
+      "deficit_mae_rub": 1738633.9292617447,
+      "deficit_median_ae_rub": 728928.54
+     }
+    },
+    "structural_tax": {
+     "skill_trajectory": -0.05790400978731425,
+     "skill_minimum": 0.20285718139155473,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 20,
+      "recall_7d": 0.2898550724637681,
+      "recall_7d_ci": [
+       0.19615912140759173,
+       0.40571672975438167
+      ],
+      "alarm_windows": 233,
+      "false_alarm_windows": 184,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.536960690316395,
+      "date_error_n": 121,
+      "date_within_tolerance": 0.371900826446281,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 121,
+      "deficit_mae_rub": 1194865.9134710743,
+      "deficit_median_ae_rub": 653030.72
+     }
+    },
+    "weekday": {
+     "skill_trajectory": -0.08755922922114467,
+     "skill_minimum": 0.0758593300447572,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 8,
+      "recall_7d": 0.11594202898550725,
+      "recall_7d_ci": [
+       0.05993426545958408,
+       0.21245953149160868
+      ],
+      "alarm_windows": 119,
+      "false_alarm_windows": 96,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.2801534036433365,
+      "date_error_n": 67,
+      "date_within_tolerance": 0.31343283582089554,
+      "date_error_median_days": 7.0,
+      "deficit_error_n": 67,
+      "deficit_mae_rub": 1380882.0316417909,
+      "deficit_median_ae_rub": 613927.69
+     }
+    }
+   },
+   "retrospective": {
+    "constant": {
+     "skill_trajectory": 0.0,
+     "skill_minimum": 0.0,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 0,
+      "recall_7d": 0.0,
+      "recall_7d_ci": [
+       0.0,
+       0.07270029673590504
+      ],
+      "alarm_windows": 0,
+      "false_alarm_windows": 0,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.0,
+      "date_error_n": 0,
+      "date_within_tolerance": null,
+      "date_error_median_days": null,
+      "deficit_error_n": 0,
+      "deficit_mae_rub": null,
+      "deficit_median_ae_rub": null
+     }
+    },
+    "hgb_full": {
+     "skill_trajectory": -0.15446869365880178,
+     "skill_minimum": 0.27388103453975576,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 7,
+      "recall_7d": 0.14285714285714285,
+      "recall_7d_ci": [
+       0.07096333720544586,
+       0.2666797318916292
+      ],
+      "alarm_windows": 145,
+      "false_alarm_windows": 129,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5414282266960838,
+      "date_error_n": 65,
+      "date_within_tolerance": 0.16923076923076924,
+      "date_error_median_days": 7.0,
+      "deficit_error_n": 65,
+      "deficit_mae_rub": 1041396.9498461537,
+      "deficit_median_ae_rub": 620226.95
+     }
+    },
+    "hgb_mech": {
+     "skill_trajectory": -0.006011460668478241,
+     "skill_minimum": 0.22877050271905353,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 11,
+      "recall_7d": 0.22448979591836735,
+      "recall_7d_ci": [
+       0.1302483771472861,
+       0.35879056187045744
+      ],
+      "alarm_windows": 173,
+      "false_alarm_windows": 145,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.6085821152785439,
+      "date_error_n": 77,
+      "date_within_tolerance": 0.33766233766233766,
+      "date_error_median_days": 7.0,
+      "deficit_error_n": 77,
+      "deficit_mae_rub": 821859.1157142858,
+      "deficit_median_ae_rub": 297265.38
+     }
+    },
+    "hgb_v2": {
+     "skill_trajectory": -0.08955428858399195,
+     "skill_minimum": 0.3008558861862346,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 6,
+      "recall_7d": 0.12244897959183673,
+      "recall_7d_ci": [
+       0.057347477598098245,
+       0.2424466240188096
+      ],
+      "alarm_windows": 143,
+      "false_alarm_windows": 130,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5456253447324876,
+      "date_error_n": 67,
+      "date_within_tolerance": 0.13432835820895522,
+      "date_error_median_days": 9.0,
+      "deficit_error_n": 67,
+      "deficit_mae_rub": 1050715.647313433,
+      "deficit_median_ae_rub": 593304.21
+     }
+    },
+    "mech_weekday": {
+     "skill_trajectory": -0.04068387942012697,
+     "skill_minimum": 0.2217271319664189,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 13,
+      "recall_7d": 0.2653061224489796,
+      "recall_7d_ci": [
+       0.1621113124514944,
+       0.4026255615265835
+      ],
+      "alarm_windows": 161,
+      "false_alarm_windows": 135,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5666109349145063,
+      "date_error_n": 77,
+      "date_within_tolerance": 0.3116883116883117,
+      "date_error_median_days": 7.0,
+      "deficit_error_n": 77,
+      "deficit_mae_rub": 724436.1685714285,
+      "deficit_median_ae_rub": 472871.64
+     }
+    },
+    "shape_only": {
+     "skill_trajectory": -0.002027243252620714,
+     "skill_minimum": 0.32231232466811477,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 12,
+      "recall_7d": 0.24489795918367346,
+      "recall_7d_ci": [
+       0.14602203389475285,
+       0.38086587260315785
+      ],
+      "alarm_windows": 105,
+      "false_alarm_windows": 84,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.35255791505791506,
+      "date_error_n": 56,
+      "date_within_tolerance": 0.30357142857142855,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 56,
+      "deficit_mae_rub": 807238.0519642857,
+      "deficit_median_ae_rub": 565314.38
+     }
+    },
+    "structural": {
+     "skill_trajectory": 0.006477366537358975,
+     "skill_minimum": 0.3561184365247715,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 11,
+      "recall_7d": 0.22448979591836735,
+      "recall_7d_ci": [
+       0.1302483771472861,
+       0.35879056187045744
+      ],
+      "alarm_windows": 171,
+      "false_alarm_windows": 142,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5959907611693326,
+      "date_error_n": 81,
+      "date_within_tolerance": 0.3333333333333333,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 81,
+      "deficit_mae_rub": 1213577.3781481483,
+      "deficit_median_ae_rub": 494675.1
+     }
+    },
+    "structural_base": {
+     "skill_trajectory": -0.04068387942012697,
+     "skill_minimum": 0.2217271319664189,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 13,
+      "recall_7d": 0.2653061224489796,
+      "recall_7d_ci": [
+       0.1621113124514944,
+       0.4026255615265835
+      ],
+      "alarm_windows": 161,
+      "false_alarm_windows": 135,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5666109349145063,
+      "date_error_n": 77,
+      "date_within_tolerance": 0.3116883116883117,
+      "date_error_median_days": 7.0,
+      "deficit_error_n": 77,
+      "deficit_mae_rub": 724436.1685714285,
+      "deficit_median_ae_rub": 472871.64
+     }
+    },
+    "structural_docs": {
+     "skill_trajectory": 0.006645248177817198,
+     "skill_minimum": 0.3307037031454274,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 12,
+      "recall_7d": 0.24489795918367346,
+      "recall_7d_ci": [
+       0.14602203389475285,
+       0.38086587260315785
+      ],
+      "alarm_windows": 176,
+      "false_alarm_windows": 146,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.6127792333149475,
+      "date_error_n": 82,
+      "date_within_tolerance": 0.35365853658536583,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 82,
+      "deficit_mae_rub": 1127832.9741463417,
+      "deficit_median_ae_rub": 432673.01
+     }
+    },
+    "structural_tax": {
+     "skill_trajectory": -0.017249247325325623,
+     "skill_minimum": 0.26114552179119144,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 12,
+      "recall_7d": 0.24489795918367346,
+      "recall_7d_ci": [
+       0.14602203389475285,
+       0.38086587260315785
+      ],
+      "alarm_windows": 150,
+      "false_alarm_windows": 125,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5246397545504689,
+      "date_error_n": 74,
+      "date_within_tolerance": 0.2972972972972973,
+      "date_error_median_days": 7.0,
+      "deficit_error_n": 74,
+      "deficit_mae_rub": 722885.0932432433,
+      "deficit_median_ae_rub": 515231.12
+     }
+    },
+    "weekday": {
+     "skill_trajectory": -0.05919823806500735,
+     "skill_minimum": 0.11239531715974205,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 7,
+      "recall_7d": 0.14285714285714285,
+      "recall_7d_ci": [
+       0.07096333720544586,
+       0.2666797318916292
+      ],
+      "alarm_windows": 89,
+      "false_alarm_windows": 76,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.318980970766685,
+      "date_error_n": 50,
+      "date_within_tolerance": 0.24,
+      "date_error_median_days": 13.0,
+      "deficit_error_n": 50,
+      "deficit_mae_rub": 856943.4112000001,
+      "deficit_median_ae_rub": 556270.85
+     }
+    }
+   }
+  },
+  "d1": {
+   "hgb_full": {
+    "candidate": "hgb_full",
+    "default": "weekday",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "hgb_mech": {
+    "candidate": "hgb_mech",
+    "default": "weekday",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "hgb_v2": {
+    "candidate": "hgb_v2",
+    "default": "weekday",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "mech_weekday": {
+    "candidate": "mech_weekday",
+    "default": "weekday",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": false,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": false
+   },
+   "shape_only": {
+    "candidate": "shape_only",
+    "default": "weekday",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "structural": {
+    "candidate": "structural",
+    "default": "weekday",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "structural_base": {
+    "candidate": "structural_base",
+    "default": "weekday",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": false,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": false
+   },
+   "structural_docs": {
+    "candidate": "structural_docs",
+    "default": "weekday",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "structural_tax": {
+    "candidate": "structural_tax",
+    "default": "weekday",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": false,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": false
+   }
+  }
+ },
+ "x5": {
+  "summary": {
+   "calibration": {
+    "constant": {
+     "skill_trajectory": 0.0,
+     "skill_minimum": 0.0,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 0,
+      "recall_7d": 0.0,
+      "recall_7d_ci": [
+       1.3877787807814457e-17,
+       0.14865952572596125
+      ],
+      "alarm_windows": 0,
+      "false_alarm_windows": 0,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.0,
+      "date_error_n": 0,
+      "date_within_tolerance": null,
+      "date_error_median_days": null,
+      "deficit_error_n": 0,
+      "deficit_mae_rub": null,
+      "deficit_median_ae_rub": null
+     }
+    },
+    "e04_best": {
+     "skill_trajectory": -0.0681212047139168,
+     "skill_minimum": 0.25683124918366584,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 6,
+      "recall_7d": 0.2727272727272727,
+      "recall_7d_ci": [
+       0.1315058201581444,
+       0.4815212369900198
+      ],
+      "alarm_windows": 55,
+      "false_alarm_windows": 40,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.32449360341151384,
+      "date_error_n": 22,
+      "date_within_tolerance": 0.5454545454545454,
+      "date_error_median_days": 3.0,
+      "deficit_error_n": 22,
+      "deficit_mae_rub": 2301044.015454545,
+      "deficit_median_ae_rub": 923805.6300000001
+     }
+    },
+    "e05_best": {
+     "skill_trajectory": -0.12981024786955087,
+     "skill_minimum": 0.23307961390978338,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 5,
+      "recall_7d": 0.22727272727272727,
+      "recall_7d_ci": [
+       0.10122890794820358,
+       0.4344035606295935
+      ],
+      "alarm_windows": 45,
+      "false_alarm_windows": 32,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.2595948827292111,
+      "date_error_n": 20,
+      "date_within_tolerance": 0.5,
+      "date_error_median_days": 3.5,
+      "deficit_error_n": 20,
+      "deficit_mae_rub": 2441705.9645,
+      "deficit_median_ae_rub": 1750681.805
+     }
+    },
+    "gbm_cat_a": {
+     "skill_trajectory": -0.0681212047139168,
+     "skill_minimum": 0.25683124918366584,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 6,
+      "recall_7d": 0.2727272727272727,
+      "recall_7d_ci": [
+       0.1315058201581444,
+       0.4815212369900198
+      ],
+      "alarm_windows": 55,
+      "false_alarm_windows": 40,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.32449360341151384,
+      "date_error_n": 22,
+      "date_within_tolerance": 0.5454545454545454,
+      "date_error_median_days": 3.0,
+      "deficit_error_n": 22,
+      "deficit_mae_rub": 2301044.015454545,
+      "deficit_median_ae_rub": 923805.6300000001
+     }
+    },
+    "gbm_cat_b": {
+     "skill_trajectory": -0.09550471206889866,
+     "skill_minimum": 0.2413271041324273,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 6,
+      "recall_7d": 0.2727272727272727,
+      "recall_7d_ci": [
+       0.1315058201581444,
+       0.4815212369900198
+      ],
+      "alarm_windows": 46,
+      "false_alarm_windows": 33,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.26770722281449894,
+      "date_error_n": 21,
+      "date_within_tolerance": 0.5238095238095238,
+      "date_error_median_days": 3.0,
+      "deficit_error_n": 21,
+      "deficit_mae_rub": 2562055.6942857145,
+      "deficit_median_ae_rub": 732282.67
+     }
+    },
+    "gbm_hgb_a": {
+     "skill_trajectory": -0.1043555862710811,
+     "skill_minimum": 0.2340183475983717,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 6,
+      "recall_7d": 0.2727272727272727,
+      "recall_7d_ci": [
+       0.1315058201581444,
+       0.4815212369900198
+      ],
+      "alarm_windows": 59,
+      "false_alarm_windows": 44,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.35694296375266527,
+      "date_error_n": 25,
+      "date_within_tolerance": 0.48,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 25,
+      "deficit_mae_rub": 2021753.8464,
+      "deficit_median_ae_rub": 895508.72
+     }
+    },
+    "gbm_hgb_b": {
+     "skill_trajectory": -0.04082295243924272,
+     "skill_minimum": 0.2735099169962323,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 6,
+      "recall_7d": 0.2727272727272727,
+      "recall_7d_ci": [
+       0.1315058201581444,
+       0.4815212369900198
+      ],
+      "alarm_windows": 47,
+      "false_alarm_windows": 35,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.28393190298507465,
+      "date_error_n": 20,
+      "date_within_tolerance": 0.5,
+      "date_error_median_days": 3.5,
+      "deficit_error_n": 20,
+      "deficit_mae_rub": 1975043.4844999998,
+      "deficit_median_ae_rub": 1018565.2150000001
+     }
+    },
+    "gbm_lgbm_a": {
+     "skill_trajectory": -0.056542461330981175,
+     "skill_minimum": 0.28625049153772975,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 5,
+      "recall_7d": 0.22727272727272727,
+      "recall_7d_ci": [
+       0.10122890794820358,
+       0.4344035606295935
+      ],
+      "alarm_windows": 55,
+      "false_alarm_windows": 45,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.3650553038379531,
+      "date_error_n": 21,
+      "date_within_tolerance": 0.42857142857142855,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 21,
+      "deficit_mae_rub": 2963632.5976190474,
+      "deficit_median_ae_rub": 2047943.37
+     }
+    },
+    "gbm_lgbm_b": {
+     "skill_trajectory": -0.10389633427635137,
+     "skill_minimum": 0.267142910886522,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 4,
+      "recall_7d": 0.18181818181818182,
+      "recall_7d_ci": [
+       0.07306766024105121,
+       0.38517021976637866
+      ],
+      "alarm_windows": 50,
+      "false_alarm_windows": 40,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.32449360341151384,
+      "date_error_n": 18,
+      "date_within_tolerance": 0.5,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 18,
+      "deficit_mae_rub": 2367379.8688888885,
+      "deficit_median_ae_rub": 1701826.935
+     }
+    },
+    "structural_profile": {
+     "skill_trajectory": -0.16923882971801152,
+     "skill_minimum": 0.19497571793119028,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 5,
+      "recall_7d": 0.22727272727272727,
+      "recall_7d_ci": [
+       0.10122890794820358,
+       0.4344035606295935
+      ],
+      "alarm_windows": 55,
+      "false_alarm_windows": 43,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.3488306236673774,
+      "date_error_n": 24,
+      "date_within_tolerance": 0.375,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 24,
+      "deficit_mae_rub": 2408336.8070833334,
+      "deficit_median_ae_rub": 1544654.855
+     }
+    },
+    "weekday": {
+     "skill_trajectory": -0.1186493062451709,
+     "skill_minimum": 0.10227948944264953,
+     "risk": {
+      "windows_at_risk": 536,
+      "windows_current_deficit": 21,
+      "events_scorable": 22,
+      "events_detected": 2,
+      "recall_7d": 0.09090909090909091,
+      "recall_7d_ci": [
+       0.025294896282837792,
+       0.2781538065838578
+      ],
+      "alarm_windows": 33,
+      "false_alarm_windows": 30,
+      "account_months": 123.26899383983573,
+      "false_alarms_per_account_month": 0.2433702025586354,
+      "date_error_n": 12,
+      "date_within_tolerance": 0.16666666666666666,
+      "date_error_median_days": 7.5,
+      "deficit_error_n": 12,
+      "deficit_mae_rub": 1147910.0933333333,
+      "deficit_median_ae_rub": 252684.835
+     }
+    }
+   },
+   "selection": {
+    "constant": {
+     "skill_trajectory": 0.0,
+     "skill_minimum": 0.0,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 0,
+      "recall_7d": 0.0,
+      "recall_7d_ci": [
+       0.0,
+       0.05273909414400562
+      ],
+      "alarm_windows": 0,
+      "false_alarm_windows": 0,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.0,
+      "date_error_n": 0,
+      "date_within_tolerance": null,
+      "date_error_median_days": null,
+      "deficit_error_n": 0,
+      "deficit_mae_rub": null,
+      "deficit_median_ae_rub": null
+     }
+    },
+    "e04_best": {
+     "skill_trajectory": 0.06944010076935858,
+     "skill_minimum": 0.3600031824765412,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 24,
+      "recall_7d": 0.34782608695652173,
+      "recall_7d_ci": [
+       0.24617977948252023,
+       0.46552342308304673
+      ],
+      "alarm_windows": 262,
+      "false_alarm_windows": 198,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5778163950143815,
+      "date_error_n": 146,
+      "date_within_tolerance": 0.4246575342465753,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 146,
+      "deficit_mae_rub": 1229034.885,
+      "deficit_median_ae_rub": 532128.105
+     }
+    },
+    "e05_best": {
+     "skill_trajectory": 0.034503689041305075,
+     "skill_minimum": 0.3731529367164004,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 22,
+      "recall_7d": 0.3188405797101449,
+      "recall_7d_ci": [
+       0.2209460520472577,
+       0.4358434748165124
+      ],
+      "alarm_windows": 257,
+      "false_alarm_windows": 194,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5661433365292425,
+      "date_error_n": 141,
+      "date_within_tolerance": 0.4397163120567376,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 141,
+      "deficit_mae_rub": 1336638.5661702128,
+      "deficit_median_ae_rub": 528400.47
+     }
+    },
+    "gbm_cat_a": {
+     "skill_trajectory": 0.06944010076935858,
+     "skill_minimum": 0.3600031824765412,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 24,
+      "recall_7d": 0.34782608695652173,
+      "recall_7d_ci": [
+       0.24617977948252023,
+       0.46552342308304673
+      ],
+      "alarm_windows": 262,
+      "false_alarm_windows": 198,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5778163950143815,
+      "date_error_n": 146,
+      "date_within_tolerance": 0.4246575342465753,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 146,
+      "deficit_mae_rub": 1229034.885,
+      "deficit_median_ae_rub": 532128.105
+     }
+    },
+    "gbm_cat_b": {
+     "skill_trajectory": 0.05001084283886881,
+     "skill_minimum": 0.35397425194036336,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 23,
+      "recall_7d": 0.3333333333333333,
+      "recall_7d_ci": [
+       0.23350891006988278,
+       0.4507374546447857
+      ],
+      "alarm_windows": 248,
+      "false_alarm_windows": 186,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5427972195589645,
+      "date_error_n": 141,
+      "date_within_tolerance": 0.41843971631205673,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 141,
+      "deficit_mae_rub": 1158264.3973049647,
+      "deficit_median_ae_rub": 486308.42
+     }
+    },
+    "gbm_hgb_a": {
+     "skill_trajectory": 0.021321001989463628,
+     "skill_minimum": 0.37981174091500436,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 26,
+      "recall_7d": 0.37681159420289856,
+      "recall_7d_ci": [
+       0.2718335694978672,
+       0.4947833087694965
+      ],
+      "alarm_windows": 255,
+      "false_alarm_windows": 185,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5398789549376798,
+      "date_error_n": 139,
+      "date_within_tolerance": 0.4892086330935252,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 139,
+      "deficit_mae_rub": 1395440.4816546761,
+      "deficit_median_ae_rub": 468093.21
+     }
+    },
+    "gbm_hgb_b": {
+     "skill_trajectory": 0.03997304660142653,
+     "skill_minimum": 0.36740868283768147,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 24,
+      "recall_7d": 0.34782608695652173,
+      "recall_7d_ci": [
+       0.24617977948252023,
+       0.46552342308304673
+      ],
+      "alarm_windows": 248,
+      "false_alarm_windows": 182,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5311241610738254,
+      "date_error_n": 135,
+      "date_within_tolerance": 0.48148148148148145,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 135,
+      "deficit_mae_rub": 1258577.457925926,
+      "deficit_median_ae_rub": 614592.97
+     }
+    },
+    "gbm_lgbm_a": {
+     "skill_trajectory": 0.06266953093800942,
+     "skill_minimum": 0.37699009718525367,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 24,
+      "recall_7d": 0.34782608695652173,
+      "recall_7d_ci": [
+       0.24617977948252023,
+       0.46552342308304673
+      ],
+      "alarm_windows": 248,
+      "false_alarm_windows": 181,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5282058964525407,
+      "date_error_n": 139,
+      "date_within_tolerance": 0.4676258992805755,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 139,
+      "deficit_mae_rub": 1275237.4966187053,
+      "deficit_median_ae_rub": 496215.21
+     }
+    },
+    "gbm_lgbm_b": {
+     "skill_trajectory": 0.027903300654742336,
+     "skill_minimum": 0.40338993024269154,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 24,
+      "recall_7d": 0.34782608695652173,
+      "recall_7d_ci": [
+       0.24617977948252023,
+       0.46552342308304673
+      ],
+      "alarm_windows": 250,
+      "false_alarm_windows": 185,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.5398789549376798,
+      "date_error_n": 137,
+      "date_within_tolerance": 0.4744525547445255,
+      "date_error_median_days": 4.0,
+      "deficit_error_n": 137,
+      "deficit_mae_rub": 1303470.3099270074,
+      "deficit_median_ae_rub": 533751.66
+     }
+    },
+    "structural_profile": {
+     "skill_trajectory": 0.0040051110273156,
+     "skill_minimum": 0.3627831448941292,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 20,
+      "recall_7d": 0.2898550724637681,
+      "recall_7d_ci": [
+       0.19615912140759173,
+       0.40571672975438167
+      ],
+      "alarm_windows": 288,
+      "false_alarm_windows": 224,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.6536912751677852,
+      "date_error_n": 153,
+      "date_within_tolerance": 0.4117647058823529,
+      "date_error_median_days": 5.0,
+      "deficit_error_n": 153,
+      "deficit_mae_rub": 1762341.847843137,
+      "deficit_median_ae_rub": 682991.52
+     }
+    },
+    "weekday": {
+     "skill_trajectory": -0.08755922922114467,
+     "skill_minimum": 0.0758593300447572,
+     "risk": {
+      "windows_at_risk": 1490,
+      "windows_current_deficit": 49,
+      "events_scorable": 69,
+      "events_detected": 8,
+      "recall_7d": 0.11594202898550725,
+      "recall_7d_ci": [
+       0.05993426545958408,
+       0.21245953149160868
+      ],
+      "alarm_windows": 119,
+      "false_alarm_windows": 96,
+      "account_months": 342.6694045174538,
+      "false_alarms_per_account_month": 0.2801534036433365,
+      "date_error_n": 67,
+      "date_within_tolerance": 0.31343283582089554,
+      "date_error_median_days": 7.0,
+      "deficit_error_n": 67,
+      "deficit_mae_rub": 1380882.0316417909,
+      "deficit_median_ae_rub": 613927.69
+     }
+    }
+   },
+   "retrospective": {
+    "constant": {
+     "skill_trajectory": 0.0,
+     "skill_minimum": 0.0,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 0,
+      "recall_7d": 0.0,
+      "recall_7d_ci": [
+       0.0,
+       0.07270029673590504
+      ],
+      "alarm_windows": 0,
+      "false_alarm_windows": 0,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.0,
+      "date_error_n": 0,
+      "date_within_tolerance": null,
+      "date_error_median_days": null,
+      "deficit_error_n": 0,
+      "deficit_mae_rub": null,
+      "deficit_median_ae_rub": null
+     }
+    },
+    "e04_best": {
+     "skill_trajectory": 0.03421018855485891,
+     "skill_minimum": 0.34706579479678923,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 13,
+      "recall_7d": 0.2653061224489796,
+      "recall_7d_ci": [
+       0.1621113124514944,
+       0.4026255615265835
+      ],
+      "alarm_windows": 172,
+      "false_alarm_windows": 140,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.587596525096525,
+      "date_error_n": 85,
+      "date_within_tolerance": 0.36470588235294116,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 85,
+      "deficit_mae_rub": 1107562.1112941178,
+      "deficit_median_ae_rub": 438588.16
+     }
+    },
+    "e05_best": {
+     "skill_trajectory": -0.004339893868926525,
+     "skill_minimum": 0.384896766560352,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 12,
+      "recall_7d": 0.24489795918367346,
+      "recall_7d_ci": [
+       0.14602203389475285,
+       0.38086587260315785
+      ],
+      "alarm_windows": 141,
+      "false_alarm_windows": 114,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.47847145615002756,
+      "date_error_n": 78,
+      "date_within_tolerance": 0.34615384615384615,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 78,
+      "deficit_mae_rub": 1112924.213076923,
+      "deficit_median_ae_rub": 438825.93
+     }
+    },
+    "gbm_cat_a": {
+     "skill_trajectory": 0.03421018855485891,
+     "skill_minimum": 0.34706579479678923,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 13,
+      "recall_7d": 0.2653061224489796,
+      "recall_7d_ci": [
+       0.1621113124514944,
+       0.4026255615265835
+      ],
+      "alarm_windows": 172,
+      "false_alarm_windows": 140,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.587596525096525,
+      "date_error_n": 85,
+      "date_within_tolerance": 0.36470588235294116,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 85,
+      "deficit_mae_rub": 1107562.1112941178,
+      "deficit_median_ae_rub": 438588.16
+     }
+    },
+    "gbm_cat_b": {
+     "skill_trajectory": 0.046272210388038526,
+     "skill_minimum": 0.34642015544549587,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 13,
+      "recall_7d": 0.2653061224489796,
+      "recall_7d_ci": [
+       0.1621113124514944,
+       0.4026255615265835
+      ],
+      "alarm_windows": 160,
+      "false_alarm_windows": 125,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5246397545504689,
+      "date_error_n": 81,
+      "date_within_tolerance": 0.41975308641975306,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 81,
+      "deficit_mae_rub": 909710.3675308643,
+      "deficit_median_ae_rub": 431228.41
+     }
+    },
+    "gbm_hgb_a": {
+     "skill_trajectory": 0.04341392208192418,
+     "skill_minimum": 0.31496949351283365,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 18,
+      "recall_7d": 0.3673469387755102,
+      "recall_7d_ci": [
+       0.24664982524781226,
+       0.5073318861311014
+      ],
+      "alarm_windows": 167,
+      "false_alarm_windows": 129,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5414282266960838,
+      "date_error_n": 86,
+      "date_within_tolerance": 0.4069767441860465,
+      "date_error_median_days": 5.5,
+      "deficit_error_n": 86,
+      "deficit_mae_rub": 1023295.4681395348,
+      "deficit_median_ae_rub": 396289.685
+     }
+    },
+    "gbm_hgb_b": {
+     "skill_trajectory": 0.057985496736186914,
+     "skill_minimum": 0.3030573025728691,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 15,
+      "recall_7d": 0.30612244897959184,
+      "recall_7d_ci": [
+       0.1951532349314748,
+       0.4452815740069374
+      ],
+      "alarm_windows": 167,
+      "false_alarm_windows": 131,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5498224627688914,
+      "date_error_n": 81,
+      "date_within_tolerance": 0.43209876543209874,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 81,
+      "deficit_mae_rub": 1294771.2220987657,
+      "deficit_median_ae_rub": 484042.31
+     }
+    },
+    "gbm_lgbm_a": {
+     "skill_trajectory": 0.03825857312746572,
+     "skill_minimum": 0.3247457587102033,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 16,
+      "recall_7d": 0.32653061224489793,
+      "recall_7d_ci": [
+       0.21207321329264214,
+       0.4662105631259371
+      ],
+      "alarm_windows": 158,
+      "false_alarm_windows": 122,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5120484004412575,
+      "date_error_n": 83,
+      "date_within_tolerance": 0.39759036144578314,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 83,
+      "deficit_mae_rub": 961207.9553012049,
+      "deficit_median_ae_rub": 433040.42
+     }
+    },
+    "gbm_lgbm_b": {
+     "skill_trajectory": 0.0057232882908127,
+     "skill_minimum": 0.31920072718048864,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 16,
+      "recall_7d": 0.32653061224489793,
+      "recall_7d_ci": [
+       0.21207321329264214,
+       0.4662105631259371
+      ],
+      "alarm_windows": 165,
+      "false_alarm_windows": 129,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5414282266960838,
+      "date_error_n": 86,
+      "date_within_tolerance": 0.38372093023255816,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 86,
+      "deficit_mae_rub": 1161737.2969767442,
+      "deficit_median_ae_rub": 469529.095
+     }
+    },
+    "structural_profile": {
+     "skill_trajectory": 0.006477366537358975,
+     "skill_minimum": 0.3561184365247715,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 11,
+      "recall_7d": 0.22448979591836735,
+      "recall_7d_ci": [
+       0.1302483771472861,
+       0.35879056187045744
+      ],
+      "alarm_windows": 171,
+      "false_alarm_windows": 142,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.5959907611693326,
+      "date_error_n": 81,
+      "date_within_tolerance": 0.3333333333333333,
+      "date_error_median_days": 6.0,
+      "deficit_error_n": 81,
+      "deficit_mae_rub": 1213577.3781481483,
+      "deficit_median_ae_rub": 494675.1
+     }
+    },
+    "weekday": {
+     "skill_trajectory": -0.05919823806500735,
+     "skill_minimum": 0.11239531715974205,
+     "risk": {
+      "windows_at_risk": 1036,
+      "windows_current_deficit": 28,
+      "events_scorable": 49,
+      "events_detected": 7,
+      "recall_7d": 0.14285714285714285,
+      "recall_7d_ci": [
+       0.07096333720544586,
+       0.2666797318916292
+      ],
+      "alarm_windows": 89,
+      "false_alarm_windows": 76,
+      "account_months": 238.258726899384,
+      "false_alarms_per_account_month": 0.318980970766685,
+      "date_error_n": 50,
+      "date_within_tolerance": 0.24,
+      "date_error_median_days": 13.0,
+      "deficit_error_n": 50,
+      "deficit_mae_rub": 856943.4112000001,
+      "deficit_median_ae_rub": 556270.85
+     }
+    }
+   }
+  },
+  "d1": {
+   "e04_best": {
+    "candidate": "e04_best",
+    "default": "structural_profile",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "e05_best": {
+    "candidate": "e05_best",
+    "default": "structural_profile",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "gbm_cat_a": {
+    "candidate": "gbm_cat_a",
+    "default": "structural_profile",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "gbm_cat_b": {
+    "candidate": "gbm_cat_b",
+    "default": "structural_profile",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "gbm_hgb_a": {
+    "candidate": "gbm_hgb_a",
+    "default": "structural_profile",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "gbm_hgb_b": {
+    "candidate": "gbm_hgb_b",
+    "default": "structural_profile",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "gbm_lgbm_a": {
+    "candidate": "gbm_lgbm_a",
+    "default": "structural_profile",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "gbm_lgbm_b": {
+    "candidate": "gbm_lgbm_b",
+    "default": "structural_profile",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": true,
+     "false_alarm_budget": true,
+     "recall_not_worse": true,
+     "candidate_not_constant": true
+    },
+    "pass": true
+   },
+   "weekday": {
+    "candidate": "weekday",
+    "default": "structural_profile",
+    "checks": {
+     "skill_minimum_positive": true,
+     "skill_trajectory_ge_minus_2pct": false,
+     "false_alarm_budget": true,
+     "recall_not_worse": false,
+     "candidate_not_constant": true
+    },
+    "pass": false
+   }
+  }
+ }
+}

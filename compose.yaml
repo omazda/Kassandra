@@ -1,0 +1,54 @@
+services:
+  initialize:
+    build: .
+    command: ["python", "scripts/initialize.py"]
+    environment:
+      CASHFLOW_DB: /state/data/cashflow.sqlite
+      CASHFLOW_ARTIFACTS: /state/artifacts
+      CASHFLOW_COMPANIES: /input/dataset/companies.csv
+    volumes:
+      - cashflow-state:/state
+      - ./dataset:/input/dataset:ro
+  api:
+    build: .
+    command: ["python", "scripts/container_start.py", "api"]
+    restart: unless-stopped
+    environment:
+      CASHFLOW_COMPANIES: /input/dataset/companies.csv
+      # demo: the web client works without a token (only demo accounts); the site sits behind nginx auth.
+      CASHFLOW_AUTH_MODE: ${API_AUTH_MODE:-token}
+      # Debug page uploads (hackathon-format datasets under dbgN- ids); on for the demo stand.
+      CASHFLOW_DEBUG_DATASETS: ${DEBUG_DATASETS:-false}
+      # LLM (Xiaomi MiMo: review, recommendations, OCR, chat agent); the key stays in .env.deploy.
+      LLM_ENABLED: ${LLM_ENABLED:-false}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+      LLM_MODEL_ID: ${LLM_MODEL_ID:-}
+      LLM_DAILY_TOKENS: ${LLM_DAILY_TOKENS:-3000000}
+    ports: ["127.0.0.1:${API_PORT:-8000}:8000"]
+    volumes:
+      - cashflow-state:/state
+      - ./dataset/companies.csv:/input/dataset/companies.csv:ro
+    depends_on:
+      initialize:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+  dashboard:
+    build: .
+    command: ["python", "scripts/container_start.py", "dashboard"]
+    restart: unless-stopped
+    environment:
+      API_URL: http://api:8000
+      DASH_HOST: 0.0.0.0
+      DASH_PASSWORD: ${DASH_PASSWORD:-}
+    ports: ["127.0.0.1:${DASH_PORT:-8050}:8050"]
+    volumes: ["cashflow-state:/state:ro"]
+    depends_on:
+      api:
+        condition: service_healthy
+volumes:
+  cashflow-state:

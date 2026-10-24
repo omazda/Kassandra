@@ -1,0 +1,3690 @@
+{
+ "note": "Ответы API v1.1 для C003, срез 26.04.2026. События договора, счетов и банка — из examples/c003 (демо).",
+ "base_run_id": "85fcb376-d5c4-4021-9074-97475d4d8ac0",
+ "dictionaries": {
+  "categories": [
+   {
+    "code": "revenue",
+    "label": "Выручка",
+    "group": "revenue",
+    "is_revenue": true,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "operating_expense",
+    "label": "Основные расходы",
+    "group": "other",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "tax",
+    "label": "Налоги",
+    "group": "tax",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "salary",
+    "label": "Зарплата",
+    "group": "payroll",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "rent",
+    "label": "Аренда",
+    "group": "fixed",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": true
+   },
+   {
+    "code": "debt_service",
+    "label": "Обслуживание долга",
+    "group": "other",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "owner_funding",
+    "label": "Финансирование владельцем",
+    "group": "financing",
+    "is_revenue": false,
+    "is_financing": true,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "own_transfer",
+    "label": "Собственные переводы",
+    "group": "financing",
+    "is_revenue": false,
+    "is_financing": true,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "refund",
+    "label": "Возвраты",
+    "group": "other",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "bank_fee",
+    "label": "Банковские комиссии",
+    "group": "fixed",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": true
+   },
+   {
+    "code": "unknown",
+    "label": "Не определено",
+    "group": "unknown",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "acquiring",
+    "label": "Эквайринг",
+    "group": "revenue",
+    "is_revenue": true,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "sbp",
+    "label": "СБП",
+    "group": "revenue",
+    "is_revenue": true,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "cash_in",
+    "label": "Инкассация и взнос наличных",
+    "group": "revenue",
+    "is_revenue": true,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "customer_payment",
+    "label": "Оплата клиентов",
+    "group": "revenue",
+    "is_revenue": true,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "marketplace_payout",
+    "label": "Выплаты маркетплейса",
+    "group": "revenue",
+    "is_revenue": true,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "contract_prepayment",
+    "label": "Предоплата по договору",
+    "group": "revenue",
+    "is_revenue": true,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "contract_settlement",
+    "label": "Окончательный расчёт по договору",
+    "group": "revenue",
+    "is_revenue": true,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "other_income",
+    "label": "Прочие доходы (субсидии, страховые выплаты)",
+    "group": "other",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "loan_in",
+    "label": "Кредит и заём (поступление)",
+    "group": "financing",
+    "is_revenue": false,
+    "is_financing": true,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "owner_withdrawal",
+    "label": "Выводы владельца",
+    "group": "financing",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "supplier",
+    "label": "Поставщики и закупки",
+    "group": "other",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "contractor",
+    "label": "Подрядчики и самозанятые",
+    "group": "other",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "utilities",
+    "label": "Коммунальные услуги",
+    "group": "fixed",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": true
+   },
+   {
+    "code": "telecom",
+    "label": "Связь",
+    "group": "fixed",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": true
+   },
+   {
+    "code": "software",
+    "label": "ПО и учётные системы",
+    "group": "fixed",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": true
+   },
+   {
+    "code": "accounting",
+    "label": "Бухгалтерия (аутсорс)",
+    "group": "fixed",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": true
+   },
+   {
+    "code": "facility_services",
+    "label": "Охрана и клининг",
+    "group": "fixed",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": true
+   },
+   {
+    "code": "marketing",
+    "label": "Реклама",
+    "group": "other",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "logistics",
+    "label": "Логистика и топливо",
+    "group": "other",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   },
+   {
+    "code": "legal_claim",
+    "label": "Судебные взыскания",
+    "group": "other",
+    "is_revenue": false,
+    "is_financing": false,
+    "is_fixed_cost": false
+   }
+  ],
+  "sources": [
+   {
+    "code": "regular",
+    "label": "Повтор по истории",
+    "kind": "assumption"
+   },
+   {
+    "code": "tax_calendar",
+    "label": "Налоговый календарь (расчёт)",
+    "kind": "assumption"
+   },
+   {
+    "code": "documents",
+    "label": "Счета и договоры из выписки",
+    "kind": "assumption"
+   },
+   {
+    "code": "manual",
+    "label": "Ручной ввод",
+    "kind": "confirmed"
+   },
+   {
+    "code": "csv",
+    "label": "Импорт реестра",
+    "kind": "confirmed"
+   },
+   {
+    "code": "contract",
+    "label": "Договор",
+    "kind": "confirmed"
+   },
+   {
+    "code": "invoice",
+    "label": "Счёт",
+    "kind": "confirmed"
+   },
+   {
+    "code": "tax",
+    "label": "Налоговый платёж (подтверждён)",
+    "kind": "confirmed"
+   },
+   {
+    "code": "bank",
+    "label": "Банк: кредиты, зарплатный проект, платёжки",
+    "kind": "confirmed"
+   },
+   {
+    "code": "accounting",
+    "label": "1С / учётная система",
+    "kind": "confirmed"
+   },
+   {
+    "code": "marketplace",
+    "label": "Маркетплейс",
+    "kind": "confirmed"
+   },
+   {
+    "code": "ofd",
+    "label": "Онлайн-касса (ОФД)",
+    "kind": "confirmed"
+   }
+  ],
+  "certainty": [
+   {
+    "code": "promised",
+    "label": "Обещание (устная договорённость)"
+   },
+   {
+    "code": "agreed",
+    "label": "Подписан договор"
+   },
+   {
+    "code": "documented",
+    "label": "Выставлен счёт / платёжный документ"
+   }
+  ]
+ },
+ "categories_summary": {
+  "date_from": "2026-01-27",
+  "date_to": "2026-04-26",
+  "inflow_minor": 1610742922,
+  "outflow_minor": 1765896088,
+  "rows": [
+   {
+    "direction": "in",
+    "category": "loan_in",
+    "label": "Кредит и заём (поступление)",
+    "group": "financing",
+    "amount_minor": 1250000000,
+    "operations": 1,
+    "share": 0.776
+   },
+   {
+    "direction": "in",
+    "category": "customer_payment",
+    "label": "Оплата клиентов",
+    "group": "revenue",
+    "amount_minor": 360742922,
+    "operations": 1,
+    "share": 0.224
+   },
+   {
+    "direction": "out",
+    "category": "supplier",
+    "label": "Поставщики и закупки",
+    "group": "other",
+    "amount_minor": 1118211120,
+    "operations": 19,
+    "share": 0.6332
+   },
+   {
+    "direction": "out",
+    "category": "salary",
+    "label": "Зарплата",
+    "group": "payroll",
+    "amount_minor": 220281869,
+    "operations": 6,
+    "share": 0.1247
+   },
+   {
+    "direction": "out",
+    "category": "logistics",
+    "label": "Логистика и топливо",
+    "group": "other",
+    "amount_minor": 198200000,
+    "operations": 12,
+    "share": 0.1122
+   },
+   {
+    "direction": "out",
+    "category": "tax",
+    "label": "Налоги",
+    "group": "tax",
+    "amount_minor": 188880100,
+    "operations": 4,
+    "share": 0.107
+   },
+   {
+    "direction": "out",
+    "category": "owner_withdrawal",
+    "label": "Выводы владельца",
+    "group": "financing",
+    "amount_minor": 36540000,
+    "operations": 1,
+    "share": 0.0207
+   },
+   {
+    "direction": "out",
+    "category": "telecom",
+    "label": "Связь",
+    "group": "fixed",
+    "amount_minor": 1745999,
+    "operations": 3,
+    "share": 0.001
+   },
+   {
+    "direction": "out",
+    "category": "software",
+    "label": "ПО и учётные системы",
+    "group": "fixed",
+    "amount_minor": 1590000,
+    "operations": 3,
+    "share": 0.0009
+   },
+   {
+    "direction": "out",
+    "category": "bank_fee",
+    "label": "Банковские комиссии",
+    "group": "fixed",
+    "amount_minor": 447000,
+    "operations": 3,
+    "share": 0.0003
+   }
+  ]
+ },
+ "recurring": {
+  "as_of": "2026-04-26",
+  "method": "regular-v1: повтор по контрагенту и категории за 180 дней",
+  "components": [
+   {
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "label": "Зарплата",
+    "direction": "out",
+    "rhythm": "fortnight",
+    "rhythm_label": "раз в две недели",
+    "amount_minor": 37430117,
+    "last_date": "2026-04-20",
+    "counterparty_inn": "0068275202",
+    "counterparty_name": "ПАО «Банк»",
+    "next_dates": [
+     "2026-05-04",
+     "2026-05-18"
+    ]
+   },
+   {
+    "component_id": "component:4dc0eb2a8062f9b3",
+    "category": "software",
+    "label": "ПО и учётные системы",
+    "direction": "out",
+    "rhythm": "monthly",
+    "rhythm_label": "ежемесячно, около 13-го",
+    "amount_minor": 530000,
+    "last_date": "2026-04-14",
+    "counterparty_inn": "0092299998",
+    "counterparty_name": "ООО «Учетные системы-520»",
+    "next_dates": [
+     "2026-05-13"
+    ]
+   }
+  ]
+ },
+ "tax_calendar": {
+  "as_of": "2026-04-26",
+  "regime": {
+   "regime": "osno",
+   "confidence": 0.5,
+   "evidence": {
+    "history_days": 573,
+    "ordinary_months": 6,
+    "ratio_by_month": {
+     "1": 0.6,
+     "2": 1.58,
+     "3": 2.34,
+     "4": 0.52,
+     "5": 0.98,
+     "6": 1.02,
+     "7": 0.95,
+     "8": 1.02,
+     "9": 1.03,
+     "10": 1.04,
+     "11": 2.72,
+     "12": 9.19
+    },
+    "quarter_months_observed": [
+     4,
+     7,
+     10
+    ],
+    "quarter_months_with_charge": [],
+    "enp_to_payroll_ratio": 0.738,
+    "rule": "no quarterly charges, ENP above payroll"
+   },
+   "label": "ОСНО"
+  },
+  "rules": [
+   "ЕНП — до 28-го числа каждого месяца: НДФЛ и страховые взносы за прошлый месяц.",
+   "ОСНО: НДС за квартал — тремя равными частями до 28-го числа каждого из трёх следующих месяцев; авансы по налогу на прибыль — до 28-го."
+  ],
+  "events": [
+   {
+    "date": "2026-04-28",
+    "amount_minor": 66086300,
+    "label": "Единый налоговый платёж",
+    "method": "налоговый календарь режима",
+    "window": null,
+    "in_horizon_30d": true,
+    "replaces_event_id": null
+   },
+   {
+    "date": "2026-05-28",
+    "amount_minor": 66086300,
+    "label": "Единый налоговый платёж",
+    "method": "налоговый календарь режима",
+    "window": null,
+    "in_horizon_30d": false,
+    "replaces_event_id": null
+   },
+   {
+    "date": "2026-06-29",
+    "amount_minor": 66086300,
+    "label": "Единый налоговый платёж",
+    "method": "налоговый календарь режима",
+    "window": null,
+    "in_horizon_30d": false,
+    "replaces_event_id": null
+   }
+  ],
+  "note": "Режим и суммы выведены по истории ЕНП и выручки до даты расчёта; подтвердите их, чтобы добавить в прогноз как налоговые платежи."
+ },
+ "counterparty_risks": {
+  "as_of": "2026-04-26",
+  "checked": 10,
+  "flagged": 2,
+  "counterparties": [
+   {
+    "role": "client",
+    "counterparty_inn": "0003688561",
+    "counterparty_name": "ООО «Мукомольный комбинат-935»",
+    "amount_minor": 360742922,
+    "check": {
+     "inn": "0003688561",
+     "status": "liquidating",
+     "status_label": "В процессе ликвидации",
+     "risk": "critical",
+     "name": "ООО «Мукомольный комбинат-935»",
+     "source": "demo_registry",
+     "note": "Демо-статус для синтетических данных хакатона: показывает, как Kassandra предупреждает о рискованном крупном клиенте. Для настоящих ИНН статус берётся из ЕГРЮЛ/ЕГРИП (DaData).",
+     "checked_at": "2026-10-24T13:27:46+00:00",
+     "cached": false
+    },
+    "suggested_scenario": {
+     "kind": "client_delay",
+     "counterparty": "0003688561",
+     "delay_days": 28
+    }
+   },
+   {
+    "role": "supplier",
+    "counterparty_inn": "0043270523",
+    "counterparty_name": "ООО «Семена-676»",
+    "amount_minor": 261056932,
+    "check": {
+     "inn": "0043270523",
+     "status": "unknown",
+     "status_label": "Нет данных в реестре",
+     "risk": "unknown",
+     "name": null,
+     "source": "offline",
+     "note": "Вымышленный ИНН обезличенных данных: во внешнем реестре не ищем",
+     "checked_at": "2026-10-24T13:27:46+00:00",
+     "cached": false
+    }
+   },
+   {
+    "role": "supplier",
+    "counterparty_inn": "0097362153",
+    "counterparty_name": "ООО «Семена-076»",
+    "amount_minor": 209043087,
+    "check": {
+     "inn": "0097362153",
+     "status": "unknown",
+     "status_label": "Нет данных в реестре",
+     "risk": "unknown",
+     "name": null,
+     "source": "offline",
+     "note": "Вымышленный ИНН обезличенных данных: во внешнем реестре не ищем",
+     "checked_at": "2026-10-24T13:27:46+00:00",
+     "cached": false
+    }
+   },
+   {
+    "role": "supplier",
+    "counterparty_inn": "0075143084",
+    "counterparty_name": "ООО «Элеватор-Услуги-017»",
+    "amount_minor": 203898462,
+    "check": {
+     "inn": "0075143084",
+     "status": "reorganizing",
+     "status_label": "В процессе реорганизации",
+     "risk": "warning",
+     "name": "ООО «Элеватор-Услуги-017»",
+     "source": "demo_registry",
+     "note": "Демо-статус для синтетических данных хакатона.",
+     "checked_at": "2026-10-24T13:27:46+00:00",
+     "cached": false
+    }
+   },
+   {
+    "role": "supplier",
+    "counterparty_inn": "0062343230",
+    "counterparty_name": "ООО «Топливная компания-660»",
+    "amount_minor": 198200000,
+    "check": {
+     "inn": "0062343230",
+     "status": "unknown",
+     "status_label": "Нет данных в реестре",
+     "risk": "unknown",
+     "name": null,
+     "source": "offline",
+     "note": "Вымышленный ИНН обезличенных данных: во внешнем реестре не ищем",
+     "checked_at": "2026-10-24T13:27:46+00:00",
+     "cached": false
+    }
+   },
+   {
+    "role": "supplier",
+    "counterparty_inn": "0027687831",
+    "counterparty_name": "ООО «Запчасти для сельхозтехники-056»",
+    "amount_minor": 190941591,
+    "check": {
+     "inn": "0027687831",
+     "status": "unknown",
+     "status_label": "Нет данных в реестре",
+     "risk": "unknown",
+     "name": null,
+     "source": "offline",
+     "note": "Вымышленный ИНН обезличенных данных: во внешнем реестре не ищем",
+     "checked_at": "2026-10-24T13:27:46+00:00",
+     "cached": false
+    }
+   },
+   {
+    "role": "supplier",
+    "counterparty_inn": "0067371263",
+    "counterparty_name": "АО «Агрохимия-448»",
+    "amount_minor": 154672252,
+    "check": {
+     "inn": "0067371263",
+     "status": "unknown",
+     "status_label": "Нет данных в реестре",
+     "risk": "unknown",
+     "name": null,
+     "source": "offline",
+     "note": "Вымышленный ИНН обезличенных данных: во внешнем реестре не ищем",
+     "checked_at": "2026-10-24T13:27:46+00:00",
+     "cached": false
+    }
+   },
+   {
+    "role": "supplier",
+    "counterparty_inn": "0052973970",
+    "counterparty_name": "АО «Семена-078»",
+    "amount_minor": 52842100,
+    "check": {
+     "inn": "0052973970",
+     "status": "unknown",
+     "status_label": "Нет данных в реестре",
+     "risk": "unknown",
+     "name": null,
+     "source": "offline",
+     "note": "Вымышленный ИНН обезличенных данных: во внешнем реестре не ищем",
+     "checked_at": "2026-10-24T13:27:46+00:00",
+     "cached": false
+    }
+   },
+   {
+    "role": "supplier",
+    "counterparty_inn": "0077597975",
+    "counterparty_name": "ООО «Удобрения-205»",
+    "amount_minor": 29638244,
+    "check": {
+     "inn": "0077597975",
+     "status": "unknown",
+     "status_label": "Нет данных в реестре",
+     "risk": "unknown",
+     "name": null,
+     "source": "offline",
+     "note": "Вымышленный ИНН обезличенных данных: во внешнем реестре не ищем",
+     "checked_at": "2026-10-24T13:27:46+00:00",
+     "cached": false
+    }
+   },
+   {
+    "role": "supplier",
+    "counterparty_inn": "0027105667",
+    "counterparty_name": "ООО «Запчасти для сельхозтехники-371»",
+    "amount_minor": 16118452,
+    "check": {
+     "inn": "0027105667",
+     "status": "unknown",
+     "status_label": "Нет данных в реестре",
+     "risk": "unknown",
+     "name": null,
+     "source": "offline",
+     "note": "Вымышленный ИНН обезличенных данных: во внешнем реестре не ищем",
+     "checked_at": "2026-10-24T13:27:46+00:00",
+     "cached": false
+    }
+   }
+  ]
+ },
+ "alerts_before": {
+  "run_id": "85fcb376-d5c4-4021-9074-97475d4d8ac0",
+  "as_of": "2026-04-26",
+  "alerts": [
+   {
+    "kind": "new_gap",
+    "severity": "warning",
+    "date": "2026-05-21",
+    "amount_minor": 39202853,
+    "title": "21.05 не хватит 393 тыс. ₽",
+    "text": "Кассовый разрыв через 25 дн., вероятность 77%.",
+    "action": {
+     "type": "explanation",
+     "run_id": "85fcb376-d5c4-4021-9074-97475d4d8ac0"
+    }
+   }
+  ]
+ },
+ "events_parse": {
+  "request": {
+   "text": "Клиент обещал заплатить 300 000 рублей 20-го",
+   "today": "2026-04-26"
+  },
+  "response": {
+   "draft": {
+    "direction": "in",
+    "amount_minor": 30000000,
+    "expected_date": "2026-05-20",
+    "category": "customer_payment",
+    "label": "Клиент обещал заплатить 300 000 рублей 20-го",
+    "certainty": "promised",
+    "counterparty_name": null
+   },
+   "missing": [],
+   "complete": true,
+   "notes": []
+  }
+ },
+ "contract": {
+  "created": 2,
+  "revised": 0,
+  "unchanged": 0,
+  "replaced_assumptions": [],
+  "events": [
+   {
+    "id": "contract:C003:5126a9f44299",
+    "account_id": "C003",
+    "component_id": "contract:МЗ-44/2026",
+    "category": "contract_prepayment",
+    "amount_minor": 13500000,
+    "direction": "in",
+    "due_date": "2026-04-28",
+    "expected_date": "2026-04-28",
+    "known_at": "2026-04-26",
+    "source": "contract",
+    "status": "confirmed",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Поставка зерна №МЗ-44/2026 · предоплата",
+    "counterparty_inn": "0093526192",
+    "counterparty_name": "ООО «Маслозавод-431»",
+    "document_ref": "Договор №МЗ-44/2026 от 24.04.2026",
+    "certainty": "agreed"
+   },
+   {
+    "id": "contract:C003:11bf9d24295d",
+    "account_id": "C003",
+    "component_id": "contract:МЗ-44/2026",
+    "category": "contract_settlement",
+    "amount_minor": 31500000,
+    "direction": "in",
+    "due_date": "2026-05-19",
+    "expected_date": "2026-05-19",
+    "known_at": "2026-04-26",
+    "source": "contract",
+    "status": "confirmed",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Поставка зерна №МЗ-44/2026 · окончательный расчёт",
+    "counterparty_inn": "0093526192",
+    "counterparty_name": "ООО «Маслозавод-431»",
+    "document_ref": "Договор №МЗ-44/2026 от 24.04.2026",
+    "certainty": "agreed"
+   }
+  ],
+  "skipped_past_due": []
+ },
+ "invoices_import": {
+  "created": 2,
+  "revised": 0,
+  "unchanged": 0,
+  "replaced_assumptions": [],
+  "events": [
+   {
+    "id": "invoice:C003:adaca3ed03ea",
+    "account_id": "C003",
+    "component_id": "invoice:0003688561",
+    "category": "customer_payment",
+    "amount_minor": 38000000,
+    "direction": "in",
+    "due_date": "2026-05-04",
+    "expected_date": "2026-05-04",
+    "known_at": "2026-04-26",
+    "source": "invoice",
+    "status": "confirmed",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Счёт №214 · ООО «Мукомольный комбинат-935»",
+    "counterparty_inn": "0003688561",
+    "counterparty_name": "ООО «Мукомольный комбинат-935»",
+    "document_ref": "Счёт №214 от 20.04.2026",
+    "certainty": "documented"
+   },
+   {
+    "id": "invoice:C003:9ca870aba28d",
+    "account_id": "C003",
+    "component_id": "invoice:0043270523",
+    "category": "supplier",
+    "amount_minor": 9650000,
+    "direction": "out",
+    "due_date": "2026-05-06",
+    "expected_date": "2026-05-06",
+    "known_at": "2026-04-26",
+    "source": "invoice",
+    "status": "confirmed",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Счёт №С-77 · ООО «Семена-676»",
+    "counterparty_inn": "0043270523",
+    "counterparty_name": "ООО «Семена-676»",
+    "document_ref": "Счёт №С-77 от 22.04.2026",
+    "certainty": "documented"
+   }
+  ],
+  "payment_dates": [
+   {
+    "number": "214",
+    "event_id": "invoice:C003:adaca3ed03ea",
+    "level": "due_date",
+    "n": 0,
+    "median_days": null,
+    "due_date": "2026-05-04",
+    "expected_date": "2026-05-04",
+    "overdue": false
+   },
+   {
+    "number": "С-77",
+    "event_id": "invoice:C003:9ca870aba28d",
+    "level": "due_date",
+    "n": 0,
+    "median_days": null,
+    "due_date": "2026-05-06",
+    "expected_date": "2026-05-06",
+    "overdue": false
+   }
+  ]
+ },
+ "bank": {
+  "created": 4,
+  "revised": 0,
+  "unchanged": 0,
+  "replaced_assumptions": [
+   {
+    "event_id": "bank-payroll:C003:6e37416f2c52",
+    "replaced_id": "regular:C003:component:475c003c562563be:2026-05-04",
+    "label": "Зарплата · повтор по истории"
+   },
+   {
+    "event_id": "bank-payroll:C003:44c9c84ee67c",
+    "replaced_id": "regular:C003:component:475c003c562563be:2026-05-18",
+    "label": "Зарплата · повтор по истории"
+   }
+  ],
+  "events": [
+   {
+    "id": "bank-loan:C003:ca7135365874",
+    "account_id": "C003",
+    "component_id": "loan:КЛ-2025/118",
+    "category": "debt_service",
+    "amount_minor": 17150000,
+    "direction": "out",
+    "due_date": "2026-05-25",
+    "expected_date": "2026-05-25",
+    "known_at": "2026-04-26",
+    "source": "bank",
+    "status": "confirmed",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Кредит КЛ-2025/118: тело 150 000,00 ₽, проценты 21 500,00 ₽",
+    "counterparty_inn": null,
+    "counterparty_name": "ПАО «Банк»",
+    "document_ref": "Кредитный договор КЛ-2025/118",
+    "certainty": "documented"
+   },
+   {
+    "id": "bank-payroll:C003:6e37416f2c52",
+    "account_id": "C003",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "amount_minor": 37430100,
+    "direction": "out",
+    "due_date": "2026-05-04",
+    "expected_date": "2026-05-04",
+    "known_at": "2026-04-26",
+    "source": "bank",
+    "status": "confirmed",
+    "paid_minor": 0,
+    "replacement_id": "regular:C003:component:475c003c562563be:2026-05-04",
+    "decision": "replace",
+    "label": "Зарплатный проект: аванс",
+    "counterparty_inn": null,
+    "counterparty_name": null,
+    "document_ref": null,
+    "certainty": "documented"
+   },
+   {
+    "id": "bank-payroll:C003:44c9c84ee67c",
+    "account_id": "C003",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "amount_minor": 37430100,
+    "direction": "out",
+    "due_date": "2026-05-18",
+    "expected_date": "2026-05-18",
+    "known_at": "2026-04-26",
+    "source": "bank",
+    "status": "confirmed",
+    "paid_minor": 0,
+    "replacement_id": "regular:C003:component:475c003c562563be:2026-05-18",
+    "decision": "replace",
+    "label": "Зарплатный проект: зарплата",
+    "counterparty_inn": null,
+    "counterparty_name": null,
+    "document_ref": null,
+    "certainty": "documented"
+   },
+   {
+    "id": "bank-order:C003:d169aef29ab9",
+    "account_id": "C003",
+    "component_id": "order:512",
+    "category": "supplier",
+    "amount_minor": 12000000,
+    "direction": "out",
+    "due_date": "2026-04-29",
+    "expected_date": "2026-04-29",
+    "known_at": "2026-04-26",
+    "source": "bank",
+    "status": "confirmed",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Платёжное поручение №512: Оплата по счету №С-71 от 20.04.2026 за семена",
+    "counterparty_inn": "0043270523",
+    "counterparty_name": "ООО «Семена-676»",
+    "document_ref": "П/п №512 от 29.04.2026",
+    "certainty": "documented"
+   }
+  ]
+ },
+ "refresh": {
+  "mode": "events_only",
+  "elapsed_ms": 92.9,
+  "previous": {
+   "run_id": "85fcb376-d5c4-4021-9074-97475d4d8ac0",
+   "as_of": "2026-04-26",
+   "first_gap_date": "2026-05-21",
+   "liquidity_need_minor": 39202853
+  },
+  "changes": {
+   "gap_appeared": false,
+   "gap_resolved": false,
+   "gap_shift_days": -3,
+   "need_delta_minor": 17149963,
+   "minimum_delta_minor": -17149963
+  },
+  "forecast": {
+   "run_id": "aa915baa-c4a8-4769-87fe-b909410b0ccb",
+   "account_id": "C003",
+   "as_of": "2026-04-26",
+   "model": "hgb",
+   "model_version": "hgb-2025-12-31-residual-ca7d360845",
+   "trained_to": "2025-12-31",
+   "data_version": 1,
+   "event_version": 8,
+   "calendar": true,
+   "opening_balance_minor": 209902886,
+   "reserve_minor": 0,
+   "credit_limit_minor": 0,
+   "points": [
+    {
+     "date": "2026-04-27",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 27303201,
+     "residual_out_minor": 60154762,
+     "residual_revenue_minor": 25744881,
+     "closing_balance_minor": 177051325,
+     "p10_minor": 122281907,
+     "p90_minor": 200274166
+    },
+    {
+     "date": "2026-04-28",
+     "event_in_minor": 13500000,
+     "event_out_minor": 0,
+     "residual_in_minor": 7632539,
+     "residual_out_minor": 23368817,
+     "residual_revenue_minor": 6155025,
+     "closing_balance_minor": 174815047,
+     "p10_minor": 118441564,
+     "p90_minor": 198747331
+    },
+    {
+     "date": "2026-04-29",
+     "event_in_minor": 0,
+     "event_out_minor": 12000000,
+     "residual_in_minor": 7632539,
+     "residual_out_minor": 13595629,
+     "residual_revenue_minor": 6155025,
+     "closing_balance_minor": 156851957,
+     "p10_minor": 100312675,
+     "p90_minor": 188901865
+    },
+    {
+     "date": "2026-04-30",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 7632539,
+     "residual_out_minor": 12643489,
+     "residual_revenue_minor": 6155025,
+     "closing_balance_minor": 151841007,
+     "p10_minor": 41303087,
+     "p90_minor": 228763467
+    },
+    {
+     "date": "2026-05-01",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 16674524,
+     "residual_out_minor": 13559066,
+     "residual_revenue_minor": 15255281,
+     "closing_balance_minor": 154956465,
+     "p10_minor": 53033561,
+     "p90_minor": 251383647
+    },
+    {
+     "date": "2026-05-02",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 772052,
+     "residual_out_minor": 559958,
+     "residual_revenue_minor": 45035,
+     "closing_balance_minor": 155168559,
+     "p10_minor": 14703849,
+     "p90_minor": 246240857
+    },
+    {
+     "date": "2026-05-03",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 772052,
+     "residual_out_minor": 559958,
+     "residual_revenue_minor": 45035,
+     "closing_balance_minor": 155380653,
+     "p10_minor": 25198940,
+     "p90_minor": 252509631
+    },
+    {
+     "date": "2026-05-04",
+     "event_in_minor": 38000000,
+     "event_out_minor": 37430100,
+     "residual_in_minor": 33021132,
+     "residual_out_minor": 38190683,
+     "residual_revenue_minor": 31202598,
+     "closing_balance_minor": 150781002,
+     "p10_minor": 9378443,
+     "p90_minor": 252592364
+    },
+    {
+     "date": "2026-05-05",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8477520,
+     "residual_out_minor": 12860545,
+     "residual_revenue_minor": 6739791,
+     "closing_balance_minor": 146397977,
+     "p10_minor": 2474768,
+     "p90_minor": 248447619
+    },
+    {
+     "date": "2026-05-06",
+     "event_in_minor": 0,
+     "event_out_minor": 9650000,
+     "residual_in_minor": 8477520,
+     "residual_out_minor": 11114428,
+     "residual_revenue_minor": 6739791,
+     "closing_balance_minor": 134111069,
+     "p10_minor": -19546742,
+     "p90_minor": 233991760
+    },
+    {
+     "date": "2026-05-07",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8769613,
+     "residual_out_minor": 11188522,
+     "residual_revenue_minor": 7031884,
+     "closing_balance_minor": 131692160,
+     "p10_minor": -55776166,
+     "p90_minor": 262783246
+    },
+    {
+     "date": "2026-05-08",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8889120,
+     "residual_out_minor": 14414019,
+     "residual_revenue_minor": 7151391,
+     "closing_balance_minor": 126167261,
+     "p10_minor": -72824299,
+     "p90_minor": 268019596
+    },
+    {
+     "date": "2026-05-09",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 843754,
+     "residual_out_minor": 1138352,
+     "residual_revenue_minor": 116737,
+     "closing_balance_minor": 125872663,
+     "p10_minor": -100849369,
+     "p90_minor": 254622222
+    },
+    {
+     "date": "2026-05-10",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 843754,
+     "residual_out_minor": 1138352,
+     "residual_revenue_minor": 116737,
+     "closing_balance_minor": 125578065,
+     "p10_minor": -92201786,
+     "p90_minor": 265001652
+    },
+    {
+     "date": "2026-05-11",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 28969455,
+     "residual_out_minor": 49032008,
+     "residual_revenue_minor": 26264300,
+     "closing_balance_minor": 105515512,
+     "p10_minor": -128418497,
+     "p90_minor": 244851000
+    },
+    {
+     "date": "2026-05-12",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 9578082,
+     "residual_out_minor": 14993917,
+     "residual_revenue_minor": 6953733,
+     "closing_balance_minor": 100099677,
+     "p10_minor": -134906618,
+     "p90_minor": 238729960
+    },
+    {
+     "date": "2026-05-13",
+     "event_in_minor": 0,
+     "event_out_minor": 530000,
+     "residual_in_minor": 9578082,
+     "residual_out_minor": 14993917,
+     "residual_revenue_minor": 6953733,
+     "closing_balance_minor": 94153842,
+     "p10_minor": -141347274,
+     "p90_minor": 233518560
+    },
+    {
+     "date": "2026-05-14",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 9578082,
+     "residual_out_minor": 23408109,
+     "residual_revenue_minor": 6953733,
+     "closing_balance_minor": 80323815,
+     "p10_minor": -164756249,
+     "p90_minor": 228478803
+    },
+    {
+     "date": "2026-05-15",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 9347162,
+     "residual_out_minor": 28689539,
+     "residual_revenue_minor": 6722813,
+     "closing_balance_minor": 60981438,
+     "p10_minor": -185231784,
+     "p90_minor": 207074415
+    },
+    {
+     "date": "2026-05-16",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 843754,
+     "residual_out_minor": 1122729,
+     "residual_revenue_minor": 116737,
+     "closing_balance_minor": 60702463,
+     "p10_minor": -175440964,
+     "p90_minor": 209141822
+    },
+    {
+     "date": "2026-05-17",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 731712,
+     "residual_out_minor": 858445,
+     "residual_revenue_minor": 4695,
+     "closing_balance_minor": 60575730,
+     "p10_minor": -169909781,
+     "p90_minor": 223455202
+    },
+    {
+     "date": "2026-05-18",
+     "event_in_minor": 0,
+     "event_out_minor": 37430100,
+     "residual_in_minor": 22446393,
+     "residual_out_minor": 47373226,
+     "residual_revenue_minor": 19741238,
+     "closing_balance_minor": -1781203,
+     "p10_minor": -249934867,
+     "p90_minor": 156417778
+    },
+    {
+     "date": "2026-05-19",
+     "event_in_minor": 31500000,
+     "event_out_minor": 0,
+     "residual_in_minor": 8079860,
+     "residual_out_minor": 15841324,
+     "residual_revenue_minor": 6168174,
+     "closing_balance_minor": 21957333,
+     "p10_minor": -221608272,
+     "p90_minor": 179327314
+    },
+    {
+     "date": "2026-05-20",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8079860,
+     "residual_out_minor": 15841324,
+     "residual_revenue_minor": 6168174,
+     "closing_balance_minor": 14195869,
+     "p10_minor": -227640041,
+     "p90_minor": 169859325
+    },
+    {
+     "date": "2026-05-21",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8079860,
+     "residual_out_minor": 14988142,
+     "residual_revenue_minor": 6168174,
+     "closing_balance_minor": 7287587,
+     "p10_minor": -244355623,
+     "p90_minor": 155412658
+    },
+    {
+     "date": "2026-05-22",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8047689,
+     "residual_out_minor": 18393913,
+     "residual_revenue_minor": 6136003,
+     "closing_balance_minor": -3058637,
+     "p10_minor": -257875411,
+     "p90_minor": 163185974
+    },
+    {
+     "date": "2026-05-23",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 727017,
+     "residual_out_minor": 858445,
+     "residual_revenue_minor": 0,
+     "closing_balance_minor": -3190065,
+     "p10_minor": -262058558,
+     "p90_minor": 160172786
+    },
+    {
+     "date": "2026-05-24",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 727017,
+     "residual_out_minor": 858445,
+     "residual_revenue_minor": 0,
+     "closing_balance_minor": -3321493,
+     "p10_minor": -254180935,
+     "p90_minor": 172300228
+    },
+    {
+     "date": "2026-05-25",
+     "event_in_minor": 0,
+     "event_out_minor": 17150000,
+     "residual_in_minor": 21279551,
+     "residual_out_minor": 48873097,
+     "residual_revenue_minor": 19287059,
+     "closing_balance_minor": -48065039,
+     "p10_minor": -309828046,
+     "p90_minor": 115429393
+    },
+    {
+     "date": "2026-05-26",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8079860,
+     "residual_out_minor": 16367637,
+     "residual_revenue_minor": 6168174,
+     "closing_balance_minor": -56352816,
+     "p10_minor": -311479113,
+     "p90_minor": 120483215
+    }
+   ],
+   "events": [
+    {
+     "id": "regular:C003:component:4dc0eb2a8062f9b3:2026-05-13",
+     "account_id": "C003",
+     "component_id": "component:4dc0eb2a8062f9b3",
+     "category": "software",
+     "amount_minor": 530000,
+     "direction": "out",
+     "due_date": "2026-05-13",
+     "expected_date": "2026-05-13",
+     "known_at": "2026-04-26",
+     "source": "regular",
+     "status": "assumption",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "ПО и учётные системы · повтор по истории",
+     "counterparty_inn": "0092299998",
+     "counterparty_name": "ООО «Учетные системы-520»",
+     "document_ref": null,
+     "certainty": null
+    },
+    {
+     "id": "contract:C003:5126a9f44299",
+     "account_id": "C003",
+     "component_id": "contract:МЗ-44/2026",
+     "category": "contract_prepayment",
+     "amount_minor": 13500000,
+     "direction": "in",
+     "due_date": "2026-04-28",
+     "expected_date": "2026-04-28",
+     "known_at": "2026-04-26",
+     "source": "contract",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Поставка зерна №МЗ-44/2026 · предоплата",
+     "counterparty_inn": "0093526192",
+     "counterparty_name": "ООО «Маслозавод-431»",
+     "document_ref": "Договор №МЗ-44/2026 от 24.04.2026",
+     "certainty": "agreed"
+    },
+    {
+     "id": "contract:C003:11bf9d24295d",
+     "account_id": "C003",
+     "component_id": "contract:МЗ-44/2026",
+     "category": "contract_settlement",
+     "amount_minor": 31500000,
+     "direction": "in",
+     "due_date": "2026-05-19",
+     "expected_date": "2026-05-19",
+     "known_at": "2026-04-26",
+     "source": "contract",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Поставка зерна №МЗ-44/2026 · окончательный расчёт",
+     "counterparty_inn": "0093526192",
+     "counterparty_name": "ООО «Маслозавод-431»",
+     "document_ref": "Договор №МЗ-44/2026 от 24.04.2026",
+     "certainty": "agreed"
+    },
+    {
+     "id": "invoice:C003:adaca3ed03ea",
+     "account_id": "C003",
+     "component_id": "invoice:0003688561",
+     "category": "customer_payment",
+     "amount_minor": 38000000,
+     "direction": "in",
+     "due_date": "2026-05-04",
+     "expected_date": "2026-05-04",
+     "known_at": "2026-04-26",
+     "source": "invoice",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Счёт №214 · ООО «Мукомольный комбинат-935»",
+     "counterparty_inn": "0003688561",
+     "counterparty_name": "ООО «Мукомольный комбинат-935»",
+     "document_ref": "Счёт №214 от 20.04.2026",
+     "certainty": "documented"
+    },
+    {
+     "id": "invoice:C003:9ca870aba28d",
+     "account_id": "C003",
+     "component_id": "invoice:0043270523",
+     "category": "supplier",
+     "amount_minor": 9650000,
+     "direction": "out",
+     "due_date": "2026-05-06",
+     "expected_date": "2026-05-06",
+     "known_at": "2026-04-26",
+     "source": "invoice",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Счёт №С-77 · ООО «Семена-676»",
+     "counterparty_inn": "0043270523",
+     "counterparty_name": "ООО «Семена-676»",
+     "document_ref": "Счёт №С-77 от 22.04.2026",
+     "certainty": "documented"
+    },
+    {
+     "id": "bank-loan:C003:ca7135365874",
+     "account_id": "C003",
+     "component_id": "loan:КЛ-2025/118",
+     "category": "debt_service",
+     "amount_minor": 17150000,
+     "direction": "out",
+     "due_date": "2026-05-25",
+     "expected_date": "2026-05-25",
+     "known_at": "2026-04-26",
+     "source": "bank",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Кредит КЛ-2025/118: тело 150 000,00 ₽, проценты 21 500,00 ₽",
+     "counterparty_inn": null,
+     "counterparty_name": "ПАО «Банк»",
+     "document_ref": "Кредитный договор КЛ-2025/118",
+     "certainty": "documented"
+    },
+    {
+     "id": "bank-payroll:C003:6e37416f2c52",
+     "account_id": "C003",
+     "component_id": "component:475c003c562563be",
+     "category": "salary",
+     "amount_minor": 37430100,
+     "direction": "out",
+     "due_date": "2026-05-04",
+     "expected_date": "2026-05-04",
+     "known_at": "2026-04-26",
+     "source": "bank",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": "regular:C003:component:475c003c562563be:2026-05-04",
+     "decision": "replace",
+     "label": "Зарплатный проект: аванс",
+     "counterparty_inn": null,
+     "counterparty_name": null,
+     "document_ref": null,
+     "certainty": "documented"
+    },
+    {
+     "id": "bank-payroll:C003:44c9c84ee67c",
+     "account_id": "C003",
+     "component_id": "component:475c003c562563be",
+     "category": "salary",
+     "amount_minor": 37430100,
+     "direction": "out",
+     "due_date": "2026-05-18",
+     "expected_date": "2026-05-18",
+     "known_at": "2026-04-26",
+     "source": "bank",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": "regular:C003:component:475c003c562563be:2026-05-18",
+     "decision": "replace",
+     "label": "Зарплатный проект: зарплата",
+     "counterparty_inn": null,
+     "counterparty_name": null,
+     "document_ref": null,
+     "certainty": "documented"
+    },
+    {
+     "id": "bank-order:C003:d169aef29ab9",
+     "account_id": "C003",
+     "component_id": "order:512",
+     "category": "supplier",
+     "amount_minor": 12000000,
+     "direction": "out",
+     "due_date": "2026-04-29",
+     "expected_date": "2026-04-29",
+     "known_at": "2026-04-26",
+     "source": "bank",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Платёжное поручение №512: Оплата по счету №С-71 от 20.04.2026 за семена",
+     "counterparty_inn": "0043270523",
+     "counterparty_name": "ООО «Семена-676»",
+     "document_ref": "П/п №512 от 29.04.2026",
+     "certainty": "documented"
+    }
+   ],
+   "risk": {
+    "threshold_minor": 0,
+    "current_gap_minor": 0,
+    "new_risk": true,
+    "first_gap_date": "2026-05-18",
+    "minimum_balance_minor": -56352816,
+    "liquidity_need_minor": 56352816,
+    "probability_30d": 0.805,
+    "calibration_status": "experimental_uncalibrated",
+    "probability_source": "Повторная выборка целых внеобучающих 30-дневных траекторий; нормировка прошлым оборотом; события реестра учтены как надёжные",
+    "trajectory_count": 557,
+    "simulations": 1000,
+    "limitation": "События реестра считаются надёжными: банк ошибок описывает только ошибку модели, поэтому при сдвиге событий риск выше — смотрите стресс-оценку. Экспериментальная модельная частота; калибровка E06 не выполнена. Зависимые окна и перенос между компаниями ограничивают интерпретацию. Один счёт не отражает всю ликвидность.",
+    "stress": {
+     "description": "Если обещанные поступления и деньги от рискованных контрагентов не придут",
+     "excluded": [
+      {
+       "event_id": "invoice:C003:adaca3ed03ea",
+       "label": "Счёт №214 · ООО «Мукомольный комбинат-935»",
+       "expected_date": "2026-05-04",
+       "amount_minor": 38000000,
+       "reason": "контрагент с риском в реестре"
+      }
+     ],
+     "excluded_minor": 38000000,
+     "first_gap_date": "2026-05-18",
+     "liquidity_need_minor": 94352816,
+     "minimum_balance_minor": -94352816
+    }
+   },
+   "quality_flags": [
+    "Несогласованные переходы в доступной истории: 2; пропуски не исправлены",
+    "Дни без операций внутри покрытия считаются нулевым потоком по допущению; это не подтверждение полноты выписки",
+    "Событие contract:C003:5126a9f44299: пользователь выбрал дополнительное движение",
+    "Событие contract:C003:11bf9d24295d: пользователь выбрал дополнительное движение",
+    "Событие invoice:C003:adaca3ed03ea: пользователь выбрал дополнительное движение",
+    "Событие invoice:C003:9ca870aba28d: пользователь выбрал дополнительное движение",
+    "Событие bank-loan:C003:ca7135365874: пользователь выбрал дополнительное движение",
+    "Событие bank-order:C003:d169aef29ab9: пользователь выбрал дополнительное движение",
+    "Подтверждённые события заменили 104650000 коп. среднего потока модели, чтобы одни и те же деньги не учитывались дважды",
+    "Обновлено без запуска модели: изменились только события реестра"
+   ],
+   "confidence": {
+    "level": "high",
+    "history_days": 573,
+    "refuse": false,
+    "label": "Высокое доверие",
+    "limitation": "История не короче года.",
+    "warnings": []
+   },
+   "latest_operation_date": "2026-09-28",
+   "history": [
+    {
+     "date": "2026-03-28",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 843539444,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-03-29",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 843539444,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-03-30",
+     "inflow_minor": 0,
+     "outflow_minor": 179409414,
+     "balance_minor": 664130030,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 3
+    },
+    {
+     "date": "2026-03-31",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 664130030,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-01",
+     "inflow_minor": 0,
+     "outflow_minor": 149000,
+     "balance_minor": 663981030,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-02",
+     "inflow_minor": 0,
+     "outflow_minor": 58363020,
+     "balance_minor": 605618010,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-03",
+     "inflow_minor": 0,
+     "outflow_minor": 39591727,
+     "balance_minor": 566026283,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-04",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 566026283,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-05",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 566026283,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-06",
+     "inflow_minor": 0,
+     "outflow_minor": 77235705,
+     "balance_minor": 488790578,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 2
+    },
+    {
+     "date": "2026-04-07",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 488790578,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-08",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 488790578,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-09",
+     "inflow_minor": 0,
+     "outflow_minor": 581205,
+     "balance_minor": 488209373,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-10",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 488209373,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-11",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 488209373,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-12",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 488209373,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-13",
+     "inflow_minor": 0,
+     "outflow_minor": 25500000,
+     "balance_minor": 462709373,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-14",
+     "inflow_minor": 0,
+     "outflow_minor": 530000,
+     "balance_minor": 462179373,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-15",
+     "inflow_minor": 0,
+     "outflow_minor": 119568081,
+     "balance_minor": 342611292,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 2
+    },
+    {
+     "date": "2026-04-16",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 342611292,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-17",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 342611292,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-18",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 342611292,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-19",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 342611292,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-20",
+     "inflow_minor": 0,
+     "outflow_minor": 132708406,
+     "balance_minor": 209902886,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 3
+    },
+    {
+     "date": "2026-04-21",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-22",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-23",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-24",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-25",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-26",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    }
+   ],
+   "created_at": "2026-10-24T13:27:46+00:00",
+   "netting": {
+    "factors": [
+     0.7449771035988392,
+     1.0,
+     0.9605381248767192
+    ],
+    "displaced_minor": 104650000,
+    "groups": [
+     {
+      "stream": "revenue",
+      "group": "clients",
+      "events_minor": 83000000,
+      "capacity_minor": 325460973,
+      "displaced_minor": 83000000
+     },
+     {
+      "stream": "out",
+      "group": "debt",
+      "events_minor": 17150000,
+      "capacity_minor": 0,
+      "displaced_minor": 0
+     },
+     {
+      "stream": "out",
+      "group": "suppliers",
+      "events_minor": 21650000,
+      "capacity_minor": 408984247,
+      "displaced_minor": 21650000
+     }
+    ],
+    "rule": "Известные события вытесняют свою долю среднего потока модели (доля группы за 90 дней)"
+   },
+   "overdue_events": []
+  }
+ },
+ "sources": {
+  "statement": {
+   "operations": 523,
+   "first_date": "2024-10-01",
+   "last_date": "2026-09-28",
+   "data_version": 1,
+   "label": "Банковская выписка"
+  },
+  "registered_events": [
+   {
+    "source": "bank",
+    "label": "Банк: кредиты, зарплатный проект, платёжки",
+    "events": 4,
+    "amount_in_minor": 0,
+    "amount_out_minor": 104010200
+   },
+   {
+    "source": "contract",
+    "label": "Договор",
+    "events": 2,
+    "amount_in_minor": 45000000,
+    "amount_out_minor": 0
+   },
+   {
+    "source": "invoice",
+    "label": "Счёт",
+    "events": 2,
+    "amount_in_minor": 38000000,
+    "amount_out_minor": 9650000
+   }
+  ],
+  "system_sources": [
+   {
+    "source": "documents",
+    "label": "Счета и договоры из выписки",
+    "note": "строится автоматически по истории до даты расчёта"
+   },
+   {
+    "source": "regular",
+    "label": "Повтор по истории",
+    "note": "строится автоматически по истории до даты расчёта"
+   },
+   {
+    "source": "tax_calendar",
+    "label": "Налоговый календарь (расчёт)",
+    "note": "строится автоматически по истории до даты расчёта"
+   }
+  ],
+  "syncs": [
+   {
+    "provider": "bank",
+    "last_sync": "2026-10-24T13:27:46+00:00",
+    "count": 1
+   },
+   {
+    "provider": "contract",
+    "last_sync": "2026-10-24T13:27:46+00:00",
+    "count": 1
+   },
+   {
+    "provider": "invoice_import",
+    "last_sync": "2026-10-24T13:27:46+00:00",
+    "count": 1
+   }
+  ]
+ },
+ "plan_fact_week": {
+  "run_id": "85fcb376-d5c4-4021-9074-97475d4d8ac0",
+  "data_version": 1,
+  "rows": [
+   {
+    "date": "2026-04-27",
+    "planned_minor": 183393049,
+    "actual_minor": 95311059,
+    "delta_minor": -88081990,
+    "planned_in_minor": 36116269,
+    "planned_out_minor": 62626106,
+    "actual_in_minor": 0,
+    "actual_out_minor": 114591827,
+    "coverage": "observed",
+    "deviation": true
+   },
+   {
+    "date": "2026-04-28",
+    "planned_minor": 168803715,
+    "actual_minor": 68386059,
+    "delta_minor": -100417656,
+    "planned_in_minor": 9739546,
+    "planned_out_minor": 24328880,
+    "actual_in_minor": 0,
+    "actual_out_minor": 26925000,
+    "coverage": "observed",
+    "deviation": true
+   },
+   {
+    "date": "2026-04-29",
+    "planned_minor": 164389082,
+    "actual_minor": 9307324,
+    "delta_minor": -155081758,
+    "planned_in_minor": 9739546,
+    "planned_out_minor": 14154179,
+    "actual_in_minor": 0,
+    "actual_out_minor": 59078735,
+    "coverage": "observed",
+    "deviation": true
+   },
+   {
+    "date": "2026-04-30",
+    "planned_minor": 160965705,
+    "actual_minor": 9307324,
+    "delta_minor": -151658381,
+    "planned_in_minor": 9739546,
+    "planned_out_minor": 13162923,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-01",
+    "planned_minor": 168746351,
+    "actual_minor": 9307324,
+    "delta_minor": -159439027,
+    "planned_in_minor": 21896760,
+    "planned_out_minor": 14116114,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-02",
+    "planned_minor": 168950856,
+    "actual_minor": 9307324,
+    "delta_minor": -159643532,
+    "planned_in_minor": 787468,
+    "planned_out_minor": 582963,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-03",
+    "planned_minor": 169155361,
+    "actual_minor": 9307324,
+    "delta_minor": -159848037,
+    "planned_in_minor": 787468,
+    "planned_out_minor": 582963,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-04",
+    "planned_minor": 135668073,
+    "actual_minor": 380771485,
+    "delta_minor": 245103412,
+    "planned_in_minor": 43702503,
+    "planned_out_minor": 77189791,
+    "actual_in_minor": 401003882,
+    "actual_out_minor": 29539721,
+    "coverage": "observed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-05",
+    "planned_minor": 133063884,
+    "actual_minor": 297027588,
+    "delta_minor": 163963704,
+    "planned_in_minor": 10784707,
+    "planned_out_minor": 13388896,
+    "actual_in_minor": 0,
+    "actual_out_minor": 83743897,
+    "coverage": "observed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-06",
+    "planned_minor": 132277548,
+    "actual_minor": 243755508,
+    "delta_minor": 111477960,
+    "planned_in_minor": 10784707,
+    "planned_out_minor": 11571043,
+    "actual_in_minor": 0,
+    "actual_out_minor": 53272080,
+    "coverage": "observed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-07",
+    "planned_minor": 131806156,
+    "actual_minor": 243755508,
+    "delta_minor": 111949352,
+    "planned_in_minor": 11176789,
+    "planned_out_minor": 11648181,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-08",
+    "planned_minor": 128137171,
+    "actual_minor": 243755508,
+    "delta_minor": 115618337,
+    "planned_in_minor": 11337206,
+    "planned_out_minor": 15006191,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-09",
+    "planned_minor": 127835768,
+    "actual_minor": 243755508,
+    "delta_minor": 115919740,
+    "planned_in_minor": 883716,
+    "planned_out_minor": 1185119,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-10",
+    "planned_minor": 127534365,
+    "actual_minor": 243755508,
+    "delta_minor": 116221143,
+    "planned_in_minor": 883716,
+    "planned_out_minor": 1185119,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-11",
+    "planned_minor": 114448303,
+    "actual_minor": 243755508,
+    "delta_minor": 129307205,
+    "planned_in_minor": 37960332,
+    "planned_out_minor": 51046394,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-12",
+    "planned_minor": 110796896,
+    "actual_minor": 150861478,
+    "delta_minor": 40064582,
+    "planned_in_minor": 11958506,
+    "planned_out_minor": 15609913,
+    "actual_in_minor": 0,
+    "actual_out_minor": 92894030,
+    "coverage": "observed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-13",
+    "planned_minor": 106615489,
+    "actual_minor": 146357234,
+    "delta_minor": 39741745,
+    "planned_in_minor": 11958506,
+    "planned_out_minor": 16139913,
+    "actual_in_minor": 0,
+    "actual_out_minor": 4504244,
+    "coverage": "observed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-14",
+    "planned_minor": 94204209,
+    "actual_minor": 146357234,
+    "delta_minor": 52153025,
+    "planned_in_minor": 11958506,
+    "planned_out_minor": 24369786,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-15",
+    "planned_minor": 75984551,
+    "actual_minor": 146357234,
+    "delta_minor": 70372683,
+    "planned_in_minor": 11648536,
+    "planned_out_minor": 29868194,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-16",
+    "planned_minor": 75699413,
+    "actual_minor": 146357234,
+    "delta_minor": 70657821,
+    "planned_in_minor": 883716,
+    "planned_out_minor": 1168854,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-17",
+    "planned_minor": 75539019,
+    "actual_minor": 146357234,
+    "delta_minor": 70818215,
+    "planned_in_minor": 733319,
+    "planned_out_minor": 893713,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-18",
+    "planned_minor": 17993712,
+    "actual_minor": 75771296,
+    "delta_minor": 57777584,
+    "planned_in_minor": 29204275,
+    "planned_out_minor": 86749582,
+    "actual_in_minor": 0,
+    "actual_out_minor": 70585938,
+    "coverage": "observed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-19",
+    "planned_minor": 11692945,
+    "actual_minor": 75771296,
+    "delta_minor": 64078351,
+    "planned_in_minor": 10191368,
+    "planned_out_minor": 16492135,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-20",
+    "planned_minor": 5392178,
+    "actual_minor": 22591296,
+    "delta_minor": 17199118,
+    "planned_in_minor": 10191368,
+    "planned_out_minor": 16492135,
+    "actual_in_minor": 0,
+    "actual_out_minor": 53180000,
+    "coverage": "observed",
+    "deviation": false
+   },
+   {
+    "date": "2026-05-21",
+    "planned_minor": -20355,
+    "actual_minor": 22591296,
+    "delta_minor": 22611651,
+    "planned_in_minor": 10191368,
+    "planned_out_minor": 15603901,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-22",
+    "planned_minor": -9021762,
+    "actual_minor": 22591296,
+    "delta_minor": 31613058,
+    "planned_in_minor": 10148185,
+    "planned_out_minor": 19149592,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-23",
+    "planned_minor": -9188458,
+    "actual_minor": 22591296,
+    "delta_minor": 31779754,
+    "planned_in_minor": 727017,
+    "planned_out_minor": 893713,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-24",
+    "planned_minor": -9355154,
+    "actual_minor": 22591296,
+    "delta_minor": 31946450,
+    "planned_in_minor": 727017,
+    "planned_out_minor": 893713,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-25",
+    "planned_minor": -32354151,
+    "actual_minor": 49823509,
+    "delta_minor": 82177660,
+    "planned_in_minor": 27881958,
+    "planned_out_minor": 50880955,
+    "actual_in_minor": 75000000,
+    "actual_out_minor": 47767787,
+    "coverage": "observed",
+    "deviation": true
+   },
+   {
+    "date": "2026-05-26",
+    "planned_minor": -39202853,
+    "actual_minor": 49823509,
+    "delta_minor": 89026362,
+    "planned_in_minor": 10191368,
+    "planned_out_minor": 17040070,
+    "actual_in_minor": 0,
+    "actual_out_minor": 0,
+    "coverage": "no_operations_unconfirmed",
+    "deviation": true
+   }
+  ],
+  "matching_review": [
+   {
+    "event_id": "invoice:C003:adaca3ed03ea",
+    "candidate_operation_ids": [
+     "C003-000414"
+    ],
+    "status": "needs_review",
+    "reason": "Совпадение категории/даты не доказывает оплату"
+   },
+   {
+    "event_id": "invoice:C003:9ca870aba28d",
+    "candidate_operation_ids": [
+     "C003-000418",
+     "C003-000420"
+    ],
+    "status": "needs_review",
+    "reason": "Совпадение категории/даты не доказывает оплату"
+   },
+   {
+    "event_id": "bank-payroll:C003:6e37416f2c52",
+    "candidate_operation_ids": [
+     "C003-000419"
+    ],
+    "status": "needs_review",
+    "reason": "Совпадение категории/даты не доказывает оплату"
+   },
+   {
+    "event_id": "bank-payroll:C003:44c9c84ee67c",
+    "candidate_operation_ids": [
+     "C003-000429"
+    ],
+    "status": "needs_review",
+    "reason": "Совпадение категории/даты не доказывает оплату"
+   },
+   {
+    "event_id": "bank-order:C003:d169aef29ab9",
+    "candidate_operation_ids": [
+     "C003-000410",
+     "C003-000413"
+    ],
+    "status": "needs_review",
+    "reason": "Совпадение категории/даты не доказывает оплату"
+   }
+  ],
+  "overdue": [
+   {
+    "event_id": "contract:C003:5126a9f44299",
+    "label": "Поставка зерна №МЗ-44/2026 · предоплата",
+    "source": "contract",
+    "direction": "in",
+    "expected_date": "2026-04-28",
+    "days_overdue": 153,
+    "remaining_minor": 13500000,
+    "counterparty_name": "ООО «Маслозавод-431»",
+    "warning": "Ожидаемый платёж 135 тыс. ₽ от 28.04 не поступил"
+   },
+   {
+    "event_id": "contract:C003:11bf9d24295d",
+    "label": "Поставка зерна №МЗ-44/2026 · окончательный расчёт",
+    "source": "contract",
+    "direction": "in",
+    "expected_date": "2026-05-19",
+    "days_overdue": 132,
+    "remaining_minor": 31500000,
+    "counterparty_name": "ООО «Маслозавод-431»",
+    "warning": "Ожидаемый платёж 315 тыс. ₽ от 19.05 не поступил"
+   },
+   {
+    "event_id": "invoice:C003:adaca3ed03ea",
+    "label": "Счёт №214 · ООО «Мукомольный комбинат-935»",
+    "source": "invoice",
+    "direction": "in",
+    "expected_date": "2026-05-04",
+    "days_overdue": 147,
+    "remaining_minor": 38000000,
+    "counterparty_name": "ООО «Мукомольный комбинат-935»",
+    "warning": "Ожидаемый платёж 380 тыс. ₽ от 04.05 не поступил"
+   },
+   {
+    "event_id": "invoice:C003:9ca870aba28d",
+    "label": "Счёт №С-77 · ООО «Семена-676»",
+    "source": "invoice",
+    "direction": "out",
+    "expected_date": "2026-05-06",
+    "days_overdue": 145,
+    "remaining_minor": 9650000,
+    "counterparty_name": "ООО «Семена-676»",
+    "warning": "Запланированный платёж 97 тыс. ₽ от 06.05 не проведён"
+   },
+   {
+    "event_id": "bank-loan:C003:ca7135365874",
+    "label": "Кредит КЛ-2025/118: тело 150 000,00 ₽, проценты 21 500,00 ₽",
+    "source": "bank",
+    "direction": "out",
+    "expected_date": "2026-05-25",
+    "days_overdue": 126,
+    "remaining_minor": 17150000,
+    "counterparty_name": "ПАО «Банк»",
+    "warning": "Запланированный платёж 172 тыс. ₽ от 25.05 не проведён"
+   },
+   {
+    "event_id": "bank-payroll:C003:6e37416f2c52",
+    "label": "Зарплатный проект: аванс",
+    "source": "bank",
+    "direction": "out",
+    "expected_date": "2026-05-04",
+    "days_overdue": 147,
+    "remaining_minor": 37430100,
+    "counterparty_name": null,
+    "warning": "Запланированный платёж 374 тыс. ₽ от 04.05 не проведён"
+   },
+   {
+    "event_id": "bank-payroll:C003:44c9c84ee67c",
+    "label": "Зарплатный проект: зарплата",
+    "source": "bank",
+    "direction": "out",
+    "expected_date": "2026-05-18",
+    "days_overdue": 133,
+    "remaining_minor": 37430100,
+    "counterparty_name": null,
+    "warning": "Запланированный платёж 374 тыс. ₽ от 18.05 не проведён"
+   },
+   {
+    "event_id": "bank-order:C003:d169aef29ab9",
+    "label": "Платёжное поручение №512: Оплата по счету №С-71 от 20.04.2026 за семена",
+    "source": "bank",
+    "direction": "out",
+    "expected_date": "2026-04-29",
+    "days_overdue": 152,
+    "remaining_minor": 12000000,
+    "counterparty_name": "ООО «Семена-676»",
+    "warning": "Запланированный платёж 120 тыс. ₽ от 29.04 не проведён"
+   }
+  ],
+  "summary": {
+   "days_compared": 30,
+   "deviation_threshold_minor": 20990288,
+   "deviation_days": 29,
+   "mean_abs_delta_minor": 95191643,
+   "max_abs_delta_minor": 245103412,
+   "latest_data_date": "2026-09-28"
+  },
+  "granularity": "week",
+  "weeks": [
+   {
+    "week_start": "2026-04-27",
+    "week_end": "2026-05-03",
+    "planned_in_minor": 88806603,
+    "planned_out_minor": 129554128,
+    "actual_in_minor": 0,
+    "actual_out_minor": 200595562,
+    "days": 7,
+    "days_with_fact": 7,
+    "planned_minor": 169155361,
+    "actual_minor": 9307324,
+    "complete": true,
+    "delta_minor": -159848037,
+    "deviation": true
+   },
+   {
+    "week_start": "2026-05-04",
+    "week_end": "2026-05-10",
+    "planned_in_minor": 89553344,
+    "planned_out_minor": 131174340,
+    "actual_in_minor": 401003882,
+    "actual_out_minor": 166555698,
+    "days": 7,
+    "days_with_fact": 7,
+    "planned_minor": 127534365,
+    "actual_minor": 243755508,
+    "complete": true,
+    "delta_minor": 116221143,
+    "deviation": true
+   },
+   {
+    "week_start": "2026-05-11",
+    "week_end": "2026-05-17",
+    "planned_in_minor": 87101421,
+    "planned_out_minor": 139096767,
+    "actual_in_minor": 0,
+    "actual_out_minor": 97398274,
+    "days": 7,
+    "days_with_fact": 7,
+    "planned_minor": 75539019,
+    "actual_minor": 146357234,
+    "complete": true,
+    "delta_minor": 70818215,
+    "deviation": true
+   },
+   {
+    "week_start": "2026-05-18",
+    "week_end": "2026-05-24",
+    "planned_in_minor": 71380598,
+    "planned_out_minor": 156274771,
+    "actual_in_minor": 0,
+    "actual_out_minor": 123765938,
+    "days": 7,
+    "days_with_fact": 7,
+    "planned_minor": -9355154,
+    "actual_minor": 22591296,
+    "complete": true,
+    "delta_minor": 31946450,
+    "deviation": true
+   },
+   {
+    "week_start": "2026-05-25",
+    "week_end": "2026-05-31",
+    "planned_in_minor": 38073326,
+    "planned_out_minor": 67921025,
+    "actual_in_minor": 75000000,
+    "actual_out_minor": 47767787,
+    "days": 2,
+    "days_with_fact": 2,
+    "planned_minor": -39202853,
+    "actual_minor": 49823509,
+    "complete": true,
+    "delta_minor": 89026362,
+    "deviation": true
+   }
+  ]
+ },
+ "supplier_invoice": {
+  "created": 1,
+  "revised": 0,
+  "unchanged": 0,
+  "replaced_assumptions": [],
+  "events": [
+   {
+    "id": "invoice:C003:4edb7387233c",
+    "account_id": "C003",
+    "component_id": "invoice:0043270523",
+    "category": "supplier",
+    "amount_minor": 80091827,
+    "direction": "out",
+    "due_date": "2026-04-30",
+    "expected_date": "2026-04-30",
+    "known_at": "2026-04-26",
+    "source": "invoice",
+    "status": "confirmed",
+    "paid_minor": 0,
+    "replacement_id": null,
+    "decision": "additional",
+    "label": "Счёт №1506 · ООО «Семена-676»",
+    "counterparty_inn": "0043270523",
+    "counterparty_name": "ООО «Семена-676»",
+    "document_ref": "Счёт №1506 от 25.04.2026",
+    "certainty": "documented"
+   }
+  ],
+  "payment_dates": [
+   {
+    "number": "1506",
+    "event_id": "invoice:C003:4edb7387233c",
+    "level": "due_date",
+    "n": 0,
+    "median_days": null,
+    "due_date": "2026-04-30",
+    "expected_date": "2026-04-30",
+    "overdue": false
+   }
+  ]
+ },
+ "refresh_with_netting_and_stress": {
+  "mode": "events_only",
+  "elapsed_ms": 90.4,
+  "previous": {
+   "run_id": "85fcb376-d5c4-4021-9074-97475d4d8ac0",
+   "as_of": "2026-04-26",
+   "first_gap_date": "2026-05-21",
+   "liquidity_need_minor": 39202853
+  },
+  "changes": {
+   "gap_appeared": false,
+   "gap_resolved": false,
+   "gap_shift_days": -3,
+   "need_delta_minor": 17149963,
+   "minimum_delta_minor": -17149963
+  },
+  "forecast": {
+   "run_id": "4ea40f41-eea7-4372-a313-be4f0fe729f1",
+   "account_id": "C003",
+   "as_of": "2026-04-26",
+   "model": "hgb",
+   "model_version": "hgb-2025-12-31-residual-ca7d360845",
+   "trained_to": "2025-12-31",
+   "data_version": 1,
+   "event_version": 9,
+   "calendar": true,
+   "opening_balance_minor": 209902886,
+   "reserve_minor": 0,
+   "credit_limit_minor": 0,
+   "points": [
+    {
+     "date": "2026-04-27",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 27303201,
+     "residual_out_minor": 51012295,
+     "residual_revenue_minor": 25744881,
+     "closing_balance_minor": 186193792,
+     "p10_minor": 131424374,
+     "p90_minor": 209416633
+    },
+    {
+     "date": "2026-04-28",
+     "event_in_minor": 13500000,
+     "event_out_minor": 0,
+     "residual_in_minor": 7632539,
+     "residual_out_minor": 19817167,
+     "residual_revenue_minor": 6155025,
+     "closing_balance_minor": 187509164,
+     "p10_minor": 131135681,
+     "p90_minor": 211441448
+    },
+    {
+     "date": "2026-04-29",
+     "event_in_minor": 0,
+     "event_out_minor": 12000000,
+     "residual_in_minor": 7632539,
+     "residual_out_minor": 11529332,
+     "residual_revenue_minor": 6155025,
+     "closing_balance_minor": 171612371,
+     "p10_minor": 115073089,
+     "p90_minor": 203662279
+    },
+    {
+     "date": "2026-04-30",
+     "event_in_minor": 0,
+     "event_out_minor": 80091827,
+     "residual_in_minor": 7632539,
+     "residual_out_minor": 10721901,
+     "residual_revenue_minor": 6155025,
+     "closing_balance_minor": 88431182,
+     "p10_minor": -22106737,
+     "p90_minor": 165353642
+    },
+    {
+     "date": "2026-05-01",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 16674524,
+     "residual_out_minor": 11498326,
+     "residual_revenue_minor": 15255281,
+     "closing_balance_minor": 93607380,
+     "p10_minor": -8315523,
+     "p90_minor": 190034562
+    },
+    {
+     "date": "2026-05-02",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 772052,
+     "residual_out_minor": 474854,
+     "residual_revenue_minor": 45035,
+     "closing_balance_minor": 93904578,
+     "p10_minor": -46560131,
+     "p90_minor": 184976876
+    },
+    {
+     "date": "2026-05-03",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 772052,
+     "residual_out_minor": 474854,
+     "residual_revenue_minor": 45035,
+     "closing_balance_minor": 94201776,
+     "p10_minor": -35979936,
+     "p90_minor": 191330754
+    },
+    {
+     "date": "2026-05-04",
+     "event_in_minor": 38000000,
+     "event_out_minor": 37430100,
+     "residual_in_minor": 33021132,
+     "residual_out_minor": 32386370,
+     "residual_revenue_minor": 31202598,
+     "closing_balance_minor": 95406438,
+     "p10_minor": -45996120,
+     "p90_minor": 197217800
+    },
+    {
+     "date": "2026-05-05",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8477520,
+     "residual_out_minor": 10905968,
+     "residual_revenue_minor": 6739791,
+     "closing_balance_minor": 92977990,
+     "p10_minor": -50945218,
+     "p90_minor": 195027632
+    },
+    {
+     "date": "2026-05-06",
+     "event_in_minor": 0,
+     "event_out_minor": 9650000,
+     "residual_in_minor": 8477520,
+     "residual_out_minor": 9425230,
+     "residual_revenue_minor": 6739791,
+     "closing_balance_minor": 82380280,
+     "p10_minor": -71277531,
+     "p90_minor": 182260971
+    },
+    {
+     "date": "2026-05-07",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8769613,
+     "residual_out_minor": 9488063,
+     "residual_revenue_minor": 7031884,
+     "closing_balance_minor": 81661830,
+     "p10_minor": -105806496,
+     "p90_minor": 212752916
+    },
+    {
+     "date": "2026-05-08",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8889120,
+     "residual_out_minor": 12223341,
+     "residual_revenue_minor": 7151391,
+     "closing_balance_minor": 78327609,
+     "p10_minor": -120663951,
+     "p90_minor": 220179944
+    },
+    {
+     "date": "2026-05-09",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 843754,
+     "residual_out_minor": 965342,
+     "residual_revenue_minor": 116737,
+     "closing_balance_minor": 78206021,
+     "p10_minor": -148516011,
+     "p90_minor": 206955580
+    },
+    {
+     "date": "2026-05-10",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 843754,
+     "residual_out_minor": 965342,
+     "residual_revenue_minor": 116737,
+     "closing_balance_minor": 78084433,
+     "p10_minor": -139695418,
+     "p90_minor": 217508020
+    },
+    {
+     "date": "2026-05-11",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 28969455,
+     "residual_out_minor": 41580003,
+     "residual_revenue_minor": 26264300,
+     "closing_balance_minor": 65473885,
+     "p10_minor": -168460124,
+     "p90_minor": 204809373
+    },
+    {
+     "date": "2026-05-12",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 9578082,
+     "residual_out_minor": 12715105,
+     "residual_revenue_minor": 6953733,
+     "closing_balance_minor": 62336862,
+     "p10_minor": -172669433,
+     "p90_minor": 200967145
+    },
+    {
+     "date": "2026-05-13",
+     "event_in_minor": 0,
+     "event_out_minor": 530000,
+     "residual_in_minor": 9578082,
+     "residual_out_minor": 12715105,
+     "residual_revenue_minor": 6953733,
+     "closing_balance_minor": 58669839,
+     "p10_minor": -176831277,
+     "p90_minor": 198034557
+    },
+    {
+     "date": "2026-05-14",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 9578082,
+     "residual_out_minor": 19850487,
+     "residual_revenue_minor": 6953733,
+     "closing_balance_minor": 48397434,
+     "p10_minor": -196682630,
+     "p90_minor": 196552422
+    },
+    {
+     "date": "2026-05-15",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 9347162,
+     "residual_out_minor": 24329233,
+     "residual_revenue_minor": 6722813,
+     "closing_balance_minor": 33415363,
+     "p10_minor": -212797859,
+     "p90_minor": 179508340
+    },
+    {
+     "date": "2026-05-16",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 843754,
+     "residual_out_minor": 952094,
+     "residual_revenue_minor": 116737,
+     "closing_balance_minor": 33307023,
+     "p10_minor": -202836404,
+     "p90_minor": 181746382
+    },
+    {
+     "date": "2026-05-17",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 731712,
+     "residual_out_minor": 727977,
+     "residual_revenue_minor": 4695,
+     "closing_balance_minor": 33310758,
+     "p10_minor": -197174753,
+     "p90_minor": 196190230
+    },
+    {
+     "date": "2026-05-18",
+     "event_in_minor": 0,
+     "event_out_minor": 37430100,
+     "residual_in_minor": 22446393,
+     "residual_out_minor": 40173328,
+     "residual_revenue_minor": 19741238,
+     "closing_balance_minor": -21846277,
+     "p10_minor": -269999941,
+     "p90_minor": 136352704
+    },
+    {
+     "date": "2026-05-19",
+     "event_in_minor": 31500000,
+     "event_out_minor": 0,
+     "residual_in_minor": 8079860,
+     "residual_out_minor": 13433721,
+     "residual_revenue_minor": 6168174,
+     "closing_balance_minor": 4299862,
+     "p10_minor": -239265743,
+     "p90_minor": 161669843
+    },
+    {
+     "date": "2026-05-20",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8079860,
+     "residual_out_minor": 13433721,
+     "residual_revenue_minor": 6168174,
+     "closing_balance_minor": -1053999,
+     "p10_minor": -242889909,
+     "p90_minor": 154609457
+    },
+    {
+     "date": "2026-05-21",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8079860,
+     "residual_out_minor": 12710207,
+     "residual_revenue_minor": 6168174,
+     "closing_balance_minor": -5684346,
+     "p10_minor": -257327556,
+     "p90_minor": 142440725
+    },
+    {
+     "date": "2026-05-22",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8047689,
+     "residual_out_minor": 15598361,
+     "residual_revenue_minor": 6136003,
+     "closing_balance_minor": -13235018,
+     "p10_minor": -268051792,
+     "p90_minor": 153009593
+    },
+    {
+     "date": "2026-05-23",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 727017,
+     "residual_out_minor": 727977,
+     "residual_revenue_minor": 0,
+     "closing_balance_minor": -13235978,
+     "p10_minor": -272104471,
+     "p90_minor": 150126873
+    },
+    {
+     "date": "2026-05-24",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 727017,
+     "residual_out_minor": 727977,
+     "residual_revenue_minor": 0,
+     "closing_balance_minor": -13236938,
+     "p10_minor": -264096380,
+     "p90_minor": 162384783
+    },
+    {
+     "date": "2026-05-25",
+     "event_in_minor": 0,
+     "event_out_minor": 17150000,
+     "residual_in_minor": 21279551,
+     "residual_out_minor": 41445245,
+     "residual_revenue_minor": 19287059,
+     "closing_balance_minor": -50552632,
+     "p10_minor": -312315639,
+     "p90_minor": 112941800
+    },
+    {
+     "date": "2026-05-26",
+     "event_in_minor": 0,
+     "event_out_minor": 0,
+     "residual_in_minor": 8079860,
+     "residual_out_minor": 13880044,
+     "residual_revenue_minor": 6168174,
+     "closing_balance_minor": -56352816,
+     "p10_minor": -311479113,
+     "p90_minor": 120483215
+    }
+   ],
+   "events": [
+    {
+     "id": "regular:C003:component:4dc0eb2a8062f9b3:2026-05-13",
+     "account_id": "C003",
+     "component_id": "component:4dc0eb2a8062f9b3",
+     "category": "software",
+     "amount_minor": 530000,
+     "direction": "out",
+     "due_date": "2026-05-13",
+     "expected_date": "2026-05-13",
+     "known_at": "2026-04-26",
+     "source": "regular",
+     "status": "assumption",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "ПО и учётные системы · повтор по истории",
+     "counterparty_inn": "0092299998",
+     "counterparty_name": "ООО «Учетные системы-520»",
+     "document_ref": null,
+     "certainty": null
+    },
+    {
+     "id": "contract:C003:5126a9f44299",
+     "account_id": "C003",
+     "component_id": "contract:МЗ-44/2026",
+     "category": "contract_prepayment",
+     "amount_minor": 13500000,
+     "direction": "in",
+     "due_date": "2026-04-28",
+     "expected_date": "2026-04-28",
+     "known_at": "2026-04-26",
+     "source": "contract",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Поставка зерна №МЗ-44/2026 · предоплата",
+     "counterparty_inn": "0093526192",
+     "counterparty_name": "ООО «Маслозавод-431»",
+     "document_ref": "Договор №МЗ-44/2026 от 24.04.2026",
+     "certainty": "agreed"
+    },
+    {
+     "id": "contract:C003:11bf9d24295d",
+     "account_id": "C003",
+     "component_id": "contract:МЗ-44/2026",
+     "category": "contract_settlement",
+     "amount_minor": 31500000,
+     "direction": "in",
+     "due_date": "2026-05-19",
+     "expected_date": "2026-05-19",
+     "known_at": "2026-04-26",
+     "source": "contract",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Поставка зерна №МЗ-44/2026 · окончательный расчёт",
+     "counterparty_inn": "0093526192",
+     "counterparty_name": "ООО «Маслозавод-431»",
+     "document_ref": "Договор №МЗ-44/2026 от 24.04.2026",
+     "certainty": "agreed"
+    },
+    {
+     "id": "invoice:C003:adaca3ed03ea",
+     "account_id": "C003",
+     "component_id": "invoice:0003688561",
+     "category": "customer_payment",
+     "amount_minor": 38000000,
+     "direction": "in",
+     "due_date": "2026-05-04",
+     "expected_date": "2026-05-04",
+     "known_at": "2026-04-26",
+     "source": "invoice",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Счёт №214 · ООО «Мукомольный комбинат-935»",
+     "counterparty_inn": "0003688561",
+     "counterparty_name": "ООО «Мукомольный комбинат-935»",
+     "document_ref": "Счёт №214 от 20.04.2026",
+     "certainty": "documented"
+    },
+    {
+     "id": "invoice:C003:9ca870aba28d",
+     "account_id": "C003",
+     "component_id": "invoice:0043270523",
+     "category": "supplier",
+     "amount_minor": 9650000,
+     "direction": "out",
+     "due_date": "2026-05-06",
+     "expected_date": "2026-05-06",
+     "known_at": "2026-04-26",
+     "source": "invoice",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Счёт №С-77 · ООО «Семена-676»",
+     "counterparty_inn": "0043270523",
+     "counterparty_name": "ООО «Семена-676»",
+     "document_ref": "Счёт №С-77 от 22.04.2026",
+     "certainty": "documented"
+    },
+    {
+     "id": "bank-loan:C003:ca7135365874",
+     "account_id": "C003",
+     "component_id": "loan:КЛ-2025/118",
+     "category": "debt_service",
+     "amount_minor": 17150000,
+     "direction": "out",
+     "due_date": "2026-05-25",
+     "expected_date": "2026-05-25",
+     "known_at": "2026-04-26",
+     "source": "bank",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Кредит КЛ-2025/118: тело 150 000,00 ₽, проценты 21 500,00 ₽",
+     "counterparty_inn": null,
+     "counterparty_name": "ПАО «Банк»",
+     "document_ref": "Кредитный договор КЛ-2025/118",
+     "certainty": "documented"
+    },
+    {
+     "id": "bank-payroll:C003:6e37416f2c52",
+     "account_id": "C003",
+     "component_id": "component:475c003c562563be",
+     "category": "salary",
+     "amount_minor": 37430100,
+     "direction": "out",
+     "due_date": "2026-05-04",
+     "expected_date": "2026-05-04",
+     "known_at": "2026-04-26",
+     "source": "bank",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": "regular:C003:component:475c003c562563be:2026-05-04",
+     "decision": "replace",
+     "label": "Зарплатный проект: аванс",
+     "counterparty_inn": null,
+     "counterparty_name": null,
+     "document_ref": null,
+     "certainty": "documented"
+    },
+    {
+     "id": "bank-payroll:C003:44c9c84ee67c",
+     "account_id": "C003",
+     "component_id": "component:475c003c562563be",
+     "category": "salary",
+     "amount_minor": 37430100,
+     "direction": "out",
+     "due_date": "2026-05-18",
+     "expected_date": "2026-05-18",
+     "known_at": "2026-04-26",
+     "source": "bank",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": "regular:C003:component:475c003c562563be:2026-05-18",
+     "decision": "replace",
+     "label": "Зарплатный проект: зарплата",
+     "counterparty_inn": null,
+     "counterparty_name": null,
+     "document_ref": null,
+     "certainty": "documented"
+    },
+    {
+     "id": "bank-order:C003:d169aef29ab9",
+     "account_id": "C003",
+     "component_id": "order:512",
+     "category": "supplier",
+     "amount_minor": 12000000,
+     "direction": "out",
+     "due_date": "2026-04-29",
+     "expected_date": "2026-04-29",
+     "known_at": "2026-04-26",
+     "source": "bank",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Платёжное поручение №512: Оплата по счету №С-71 от 20.04.2026 за семена",
+     "counterparty_inn": "0043270523",
+     "counterparty_name": "ООО «Семена-676»",
+     "document_ref": "П/п №512 от 29.04.2026",
+     "certainty": "documented"
+    },
+    {
+     "id": "invoice:C003:4edb7387233c",
+     "account_id": "C003",
+     "component_id": "invoice:0043270523",
+     "category": "supplier",
+     "amount_minor": 80091827,
+     "direction": "out",
+     "due_date": "2026-04-30",
+     "expected_date": "2026-04-30",
+     "known_at": "2026-04-26",
+     "source": "invoice",
+     "status": "confirmed",
+     "paid_minor": 0,
+     "replacement_id": null,
+     "decision": "additional",
+     "label": "Счёт №1506 · ООО «Семена-676»",
+     "counterparty_inn": "0043270523",
+     "counterparty_name": "ООО «Семена-676»",
+     "document_ref": "Счёт №1506 от 25.04.2026",
+     "certainty": "documented"
+    }
+   ],
+   "risk": {
+    "threshold_minor": 0,
+    "current_gap_minor": 0,
+    "new_risk": true,
+    "first_gap_date": "2026-05-18",
+    "minimum_balance_minor": -56352816,
+    "liquidity_need_minor": 56352816,
+    "probability_30d": 0.826,
+    "calibration_status": "experimental_uncalibrated",
+    "probability_source": "Повторная выборка целых внеобучающих 30-дневных траекторий; нормировка прошлым оборотом; события реестра учтены как надёжные",
+    "trajectory_count": 557,
+    "simulations": 1000,
+    "limitation": "События реестра считаются надёжными: банк ошибок описывает только ошибку модели, поэтому при сдвиге событий риск выше — смотрите стресс-оценку. Экспериментальная модельная частота; калибровка E06 не выполнена. Зависимые окна и перенос между компаниями ограничивают интерпретацию. Один счёт не отражает всю ликвидность.",
+    "stress": {
+     "description": "Если обещанные поступления и деньги от рискованных контрагентов не придут",
+     "excluded": [
+      {
+       "event_id": "invoice:C003:adaca3ed03ea",
+       "label": "Счёт №214 · ООО «Мукомольный комбинат-935»",
+       "expected_date": "2026-05-04",
+       "amount_minor": 38000000,
+       "reason": "контрагент с риском в реестре"
+      }
+     ],
+     "excluded_minor": 38000000,
+     "first_gap_date": "2026-05-15",
+     "liquidity_need_minor": 94352816,
+     "minimum_balance_minor": -94352816
+    }
+   },
+   "quality_flags": [
+    "Несогласованные переходы в доступной истории: 2; пропуски не исправлены",
+    "Дни без операций внутри покрытия считаются нулевым потоком по допущению; это не подтверждение полноты выписки",
+    "Событие contract:C003:5126a9f44299: пользователь выбрал дополнительное движение",
+    "Событие contract:C003:11bf9d24295d: пользователь выбрал дополнительное движение",
+    "Событие invoice:C003:adaca3ed03ea: пользователь выбрал дополнительное движение",
+    "Событие invoice:C003:9ca870aba28d: пользователь выбрал дополнительное движение",
+    "Событие bank-loan:C003:ca7135365874: пользователь выбрал дополнительное движение",
+    "Событие bank-order:C003:d169aef29ab9: пользователь выбрал дополнительное движение",
+    "Событие invoice:C003:4edb7387233c: пользователь выбрал дополнительное движение",
+    "Подтверждённые события заменили 184741827 коп. среднего потока модели, чтобы одни и те же деньги не учитывались дважды",
+    "Обновлено без запуска модели: изменились только события реестра"
+   ],
+   "confidence": {
+    "level": "high",
+    "history_days": 573,
+    "refuse": false,
+    "label": "Высокое доверие",
+    "limitation": "История не короче года.",
+    "warnings": []
+   },
+   "latest_operation_date": "2026-09-28",
+   "history": [
+    {
+     "date": "2026-03-28",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 843539444,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-03-29",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 843539444,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-03-30",
+     "inflow_minor": 0,
+     "outflow_minor": 179409414,
+     "balance_minor": 664130030,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 3
+    },
+    {
+     "date": "2026-03-31",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 664130030,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-01",
+     "inflow_minor": 0,
+     "outflow_minor": 149000,
+     "balance_minor": 663981030,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-02",
+     "inflow_minor": 0,
+     "outflow_minor": 58363020,
+     "balance_minor": 605618010,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-03",
+     "inflow_minor": 0,
+     "outflow_minor": 39591727,
+     "balance_minor": 566026283,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-04",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 566026283,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-05",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 566026283,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-06",
+     "inflow_minor": 0,
+     "outflow_minor": 77235705,
+     "balance_minor": 488790578,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 2
+    },
+    {
+     "date": "2026-04-07",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 488790578,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-08",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 488790578,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-09",
+     "inflow_minor": 0,
+     "outflow_minor": 581205,
+     "balance_minor": 488209373,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-10",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 488209373,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-11",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 488209373,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-12",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 488209373,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-13",
+     "inflow_minor": 0,
+     "outflow_minor": 25500000,
+     "balance_minor": 462709373,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-14",
+     "inflow_minor": 0,
+     "outflow_minor": 530000,
+     "balance_minor": 462179373,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 1
+    },
+    {
+     "date": "2026-04-15",
+     "inflow_minor": 0,
+     "outflow_minor": 119568081,
+     "balance_minor": 342611292,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 2
+    },
+    {
+     "date": "2026-04-16",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 342611292,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-17",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 342611292,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-18",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 342611292,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-19",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 342611292,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-20",
+     "inflow_minor": 0,
+     "outflow_minor": 132708406,
+     "balance_minor": 209902886,
+     "coverage": "observed",
+     "valid": true,
+     "operation_count": 3
+    },
+    {
+     "date": "2026-04-21",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-22",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-23",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-24",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-25",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    },
+    {
+     "date": "2026-04-26",
+     "inflow_minor": 0,
+     "outflow_minor": 0,
+     "balance_minor": 209902886,
+     "coverage": "no_operations_unconfirmed",
+     "valid": true,
+     "operation_count": 0
+    }
+   ],
+   "created_at": "2026-10-24T13:27:46+00:00",
+   "netting": {
+    "factors": [
+     0.7449771035988392,
+     1.0,
+     0.8145531976033056
+    ],
+    "displaced_minor": 184741827,
+    "groups": [
+     {
+      "stream": "revenue",
+      "group": "clients",
+      "events_minor": 83000000,
+      "capacity_minor": 325460973,
+      "displaced_minor": 83000000
+     },
+     {
+      "stream": "out",
+      "group": "debt",
+      "events_minor": 17150000,
+      "capacity_minor": 0,
+      "displaced_minor": 0
+     },
+     {
+      "stream": "out",
+      "group": "suppliers",
+      "events_minor": 101741827,
+      "capacity_minor": 408984247,
+      "displaced_minor": 101741827
+     }
+    ],
+    "rule": "Известные события вытесняют свою долю среднего потока модели (доля группы за 90 дней)"
+   },
+   "overdue_events": []
+  }
+ },
+ "alerts_after": {
+  "run_id": "4ea40f41-eea7-4372-a313-be4f0fe729f1",
+  "as_of": "2026-04-26",
+  "alerts": [
+   {
+    "kind": "risky_counterparty",
+    "severity": "critical",
+    "date": "2026-05-04",
+    "amount_minor": 38000000,
+    "title": "ООО «Мукомольный комбинат-935»: в процессе ликвидации",
+    "text": "От контрагента ожидается 380 тыс. ₽ с 04.05. Проверьте прогноз без этой оплаты.",
+    "action": {
+     "type": "scenario",
+     "scenario": {
+      "kind": "client_delay",
+      "counterparty": "0003688561",
+      "delay_days": 28
+     }
+    }
+   },
+   {
+    "kind": "stress_gap",
+    "severity": "warning",
+    "date": "2026-05-15",
+    "amount_minor": 94352816,
+    "title": "Без ненадёжных поступлений разрыв 15.05",
+    "text": "Если не придут 380 тыс. ₽ обещанных или рискованных оплат, не хватит 944 тыс. ₽.",
+    "action": {
+     "type": "stress",
+     "run_id": "4ea40f41-eea7-4372-a313-be4f0fe729f1"
+    }
+   },
+   {
+    "kind": "new_gap",
+    "severity": "warning",
+    "date": "2026-05-18",
+    "amount_minor": 56352816,
+    "title": "18.05 не хватит 564 тыс. ₽",
+    "text": "Кассовый разрыв через 22 дн., вероятность 83%.",
+    "action": {
+     "type": "explanation",
+     "run_id": "4ea40f41-eea7-4372-a313-be4f0fe729f1"
+    }
+   }
+  ]
+ },
+ "reconcile": {
+  "checked_events": 9,
+  "linked": [
+   {
+    "event_id": "invoice:C003:4edb7387233c",
+    "label": "Счёт №1506 · ООО «Семена-676»",
+    "operation_id": "C003-000410",
+    "operation_date": "2026-04-27",
+    "amount_minor": 80091827,
+    "fully_paid": true,
+    "score": 11,
+    "reasons": [
+     "ИНН",
+     "номер документа",
+     "сумма",
+     "дата",
+     "категория"
+    ]
+   }
+  ],
+  "needs_review": [
+   {
+    "event_id": "bank-order:C003:d169aef29ab9",
+    "label": "Платёжное поручение №512: Оплата по счету №С-71 от 20.04.2026 за семена",
+    "candidates": [
+     {
+      "operation_id": "C003-000410",
+      "operation_date": "2026-04-27",
+      "amount_minor": 80091827,
+      "score": 5,
+      "reasons": [
+       "ИНН",
+       "дата",
+       "категория"
+      ]
+     },
+     {
+      "operation_id": "C003-000413",
+      "operation_date": "2026-04-29",
+      "amount_minor": 59078735,
+      "score": 5,
+      "reasons": [
+       "ИНН",
+       "дата",
+       "категория"
+      ]
+     },
+     {
+      "operation_id": "C003-000435",
+      "operation_date": "2026-06-01",
+      "amount_minor": 22766307,
+      "score": 4,
+      "reasons": [
+       "ИНН",
+       "категория"
+      ]
+     }
+    ]
+   },
+   {
+    "event_id": "invoice:C003:9ca870aba28d",
+    "label": "Счёт №С-77 · ООО «Семена-676»",
+    "candidates": [
+     {
+      "operation_id": "C003-000413",
+      "operation_date": "2026-04-29",
+      "amount_minor": 59078735,
+      "score": 4,
+      "reasons": [
+       "ИНН",
+       "категория"
+      ]
+     },
+     {
+      "operation_id": "C003-000435",
+      "operation_date": "2026-06-01",
+      "amount_minor": 22766307,
+      "score": 4,
+      "reasons": [
+       "ИНН",
+       "категория"
+      ]
+     },
+     {
+      "operation_id": "C003-000440",
+      "operation_date": "2026-06-02",
+      "amount_minor": 20865851,
+      "score": 4,
+      "reasons": [
+       "ИНН",
+       "категория"
+      ]
+     }
+    ]
+   },
+   {
+    "event_id": "bank-loan:C003:ca7135365874",
+    "label": "Кредит КЛ-2025/118: тело 150 000,00 ₽, проценты 21 500,00 ₽",
+    "candidates": [
+     {
+      "operation_id": "C003-000438",
+      "operation_date": "2026-06-01",
+      "amount_minor": 273288,
+      "score": 4,
+      "reasons": [
+       "название контрагента",
+       "частичная оплата",
+       "категория"
+      ]
+     },
+     {
+      "operation_id": "C003-000463",
+      "operation_date": "2026-07-01",
+      "amount_minor": 4760411,
+      "score": 4,
+      "reasons": [
+       "название контрагента",
+       "частичная оплата",
+       "категория"
+      ]
+     }
+    ]
+   }
+  ],
+  "dry_run": false
+ }
+}

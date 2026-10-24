@@ -1,0 +1,1709 @@
+{
+ "config": "guard=0,cond=1,min_client=5",
+ "horizon_days": 30,
+ "main": {
+  "retrospective": {
+   "windows_total": 1350,
+   "windows_eligible": 1064,
+   "companies_eligible": 125,
+   "origins": 9,
+   "in": {
+    "flow_minor": 862498960433,
+    "flow_ex_financing_minor": 838318960433,
+    "ceiling_share": 0.4402285541658868,
+    "ceiling_share_median_window": 0.0,
+    "predicted_in_window_share": 0.443923824220937,
+    "hit_share": 0.3922257887512887,
+    "hit_share_median_window": 0.0,
+    "hit_share_of_ex_financing": 0.40353892852222695,
+    "precision_amount": 0.8835430029907144,
+    "recall_vs_ceiling": 0.8909594460414995,
+    "windows_with_flow": 1051,
+    "n_windows_ceiling_positive": 487,
+    "events": 10016,
+    "events_unique_documents": 3033,
+    "date_error_all": {
+     "n": 10016,
+     "amount_minor": 485055973739,
+     "bias_days_median": 1.0,
+     "abs_err_median": 7.0,
+     "abs_err_mean": 8.998801916932907,
+     "abs_err_p90": 20.0,
+     "within_3d_count": 0.28154952076677314,
+     "within_7d_count": 0.5703873801916933,
+     "within_3d_amount": 0.266349451109981,
+     "within_7d_amount": 0.5516608803523023,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "date_error_actual_in_window": {
+     "n": 7755,
+     "amount_minor": 381121283197,
+     "bias_days_median": 3.0,
+     "abs_err_median": 6.0,
+     "abs_err_mean": 7.513346228239845,
+     "abs_err_p90": 16.0,
+     "within_3d_count": 0.3152804642166344,
+     "within_7d_count": 0.6317214700193423,
+     "within_3d_amount": 0.2928022950382384,
+     "within_7d_amount": 0.6083008689156956,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "date_error_expected_in_window": {
+     "n": 8000,
+     "amount_minor": 382883836902,
+     "bias_days_median": 0.0,
+     "abs_err_median": 6.0,
+     "abs_err_mean": 8.0645,
+     "abs_err_p90": 17.0,
+     "within_3d_count": 0.3065,
+     "within_7d_count": 0.613625,
+     "within_3d_amount": 0.29300176491836133,
+     "within_7d_amount": 0.6026414582474497,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "share_actual_inside_q10_q90": 0.8304712460063898,
+    "by_level": {
+     "client": {
+      "n": 9011,
+      "amount_minor": 386761253772,
+      "bias_days_median": 1.0,
+      "abs_err_median": 7.0,
+      "abs_err_mean": 8.902452557984686,
+      "abs_err_p90": 20.0,
+      "within_3d_count": 0.2915325713017423,
+      "within_7d_count": 0.5847297747197869,
+      "within_3d_amount": 0.27735036167618765,
+      "within_7d_amount": 0.5595254894446376,
+      "abs_err_median_amount_weighted": 7.0
+     },
+     "industry": {
+      "n": 956,
+      "amount_minor": 90663221490,
+      "bias_days_median": 4.0,
+      "abs_err_median": 9.0,
+      "abs_err_mean": 9.938284518828452,
+      "abs_err_p90": 18.0,
+      "within_3d_count": 0.1903765690376569,
+      "within_7d_count": 0.4372384937238494,
+      "within_3d_amount": 0.2294829940087098,
+      "within_7d_amount": 0.5423487801326747,
+      "abs_err_median_amount_weighted": 7.0
+     },
+     "global": {
+      "n": 40,
+      "amount_minor": 7345525968,
+      "bias_days_median": 3.0,
+      "abs_err_median": 8.0,
+      "abs_err_mean": 9.125,
+      "abs_err_p90": 18.0,
+      "within_3d_count": 0.2,
+      "within_7d_count": 0.475,
+      "within_3d_amount": 0.13524630167096022,
+      "within_7d_amount": 0.23975741446864898,
+      "abs_err_median_amount_weighted": 12.0
+     },
+     "fallback": {
+      "n": 9,
+      "amount_minor": 285972509,
+      "bias_days_median": 0.0,
+      "abs_err_median": 6.0,
+      "abs_err_mean": 5.111111111111111,
+      "abs_err_p90": 8.8,
+      "within_3d_count": 0.3333333333333333,
+      "within_7d_count": 0.7777777777777778,
+      "within_3d_amount": 0.4437350025138255,
+      "within_7d_amount": 0.8790837513685625,
+      "abs_err_median_amount_weighted": 6.0
+     }
+    },
+    "by_mechanism": {
+     "invoice": {
+      "n": 8633,
+      "amount_minor": 462684408169,
+      "bias_days_median": 1.0,
+      "abs_err_median": 7.0,
+      "abs_err_mean": 9.451523224834936,
+      "abs_err_p90": 21.0,
+      "within_3d_count": 0.2759179891115487,
+      "within_7d_count": 0.5561218579867948,
+      "within_3d_amount": 0.2732420553640573,
+      "within_7d_amount": 0.5441612606146796,
+      "abs_err_median_amount_weighted": 7.0
+     },
+     "contract_settlement": {
+      "n": 1383,
+      "amount_minor": 22371565570,
+      "bias_days_median": 0.0,
+      "abs_err_median": 6.0,
+      "abs_err_mean": 6.172812725958062,
+      "abs_err_p90": 12.0,
+      "within_3d_count": 0.31670281995661603,
+      "within_7d_count": 0.6594360086767896,
+      "within_3d_amount": 0.12379793811631754,
+      "within_7d_amount": 0.7067665706061714,
+      "abs_err_median_amount_weighted": 5.0
+     }
+    }
+   },
+   "out": {
+    "flow_minor": 834515268627,
+    "flow_ex_financing_minor": null,
+    "ceiling_share": 0.21358519053252611,
+    "ceiling_share_median_window": 0.014120769104157653,
+    "predicted_in_window_share": 0.21568148465052134,
+    "hit_share": 0.21358519053252611,
+    "hit_share_median_window": 0.014120769104157653,
+    "hit_share_of_ex_financing": null,
+    "precision_amount": 0.9902806023363945,
+    "recall_vs_ceiling": 1.0,
+    "windows_with_flow": 1064,
+    "n_windows_ceiling_positive": 561,
+    "events": 2768,
+    "events_unique_documents": 1516,
+    "date_error_all": {
+     "n": 2768,
+     "amount_minor": 189302504556,
+     "bias_days_median": 0.0,
+     "abs_err_median": 0.0,
+     "abs_err_mean": 0.4963872832369942,
+     "abs_err_p90": 1.0,
+     "within_3d_count": 0.9562861271676301,
+     "within_7d_count": 0.983742774566474,
+     "within_3d_amount": 0.8106701701012227,
+     "within_7d_amount": 0.9084922384432819,
+     "abs_err_median_amount_weighted": 0.0
+    },
+    "date_error_actual_in_window": {
+     "n": 2706,
+     "amount_minor": 178240102652,
+     "bias_days_median": 0.0,
+     "abs_err_median": 0.0,
+     "abs_err_mean": 0.40613451589061345,
+     "abs_err_p90": 1.0,
+     "within_3d_count": 0.9600886917960089,
+     "within_7d_count": 0.9878048780487805,
+     "within_3d_amount": 0.8087342801605064,
+     "within_7d_amount": 0.9105357269562756,
+     "abs_err_median_amount_weighted": 0.0
+    },
+    "date_error_expected_in_window": {
+     "n": 2719,
+     "amount_minor": 179989492101,
+     "bias_days_median": 0.0,
+     "abs_err_median": 0.0,
+     "abs_err_mean": 0.5053328429569695,
+     "abs_err_p90": 1.0,
+     "within_3d_count": 0.9554983449797719,
+     "within_7d_count": 0.9834497977197499,
+     "within_3d_amount": 0.8008738700874367,
+     "within_7d_amount": 0.9037574457997831,
+     "abs_err_median_amount_weighted": 0.0
+    },
+    "share_actual_inside_q10_q90": 0.9703757225433526,
+    "by_level": {
+     "client": {
+      "n": 2689,
+      "amount_minor": 172611905720,
+      "bias_days_median": 0.0,
+      "abs_err_median": 0.0,
+      "abs_err_mean": 0.27036072889550017,
+      "abs_err_p90": 0.0,
+      "within_3d_count": 0.9728523614726664,
+      "within_7d_count": 0.9940498326515433,
+      "within_3d_amount": 0.8665843015813962,
+      "within_7d_amount": 0.9531439029986744,
+      "abs_err_median_amount_weighted": 0.0
+     },
+     "industry": {
+      "n": 76,
+      "amount_minor": 16635324325,
+      "bias_days_median": 0.0,
+      "abs_err_median": 5.5,
+      "abs_err_mean": 8.25,
+      "abs_err_p90": 20.0,
+      "within_3d_count": 0.39473684210526316,
+      "within_7d_count": 0.631578947368421,
+      "within_3d_amount": 0.23207849114177098,
+      "within_7d_amount": 0.4459799379955882,
+      "abs_err_median_amount_weighted": 11.0
+     },
+     "global": {
+      "n": 1,
+      "amount_minor": 18424837,
+      "bias_days_median": -13.0,
+      "abs_err_median": 13.0,
+      "abs_err_mean": 13.0,
+      "abs_err_p90": 13.0,
+      "within_3d_count": 0.0,
+      "within_7d_count": 0.0,
+      "within_3d_amount": 0.0,
+      "within_7d_amount": 0.0,
+      "abs_err_median_amount_weighted": 13.0
+     },
+     "fallback": {
+      "n": 2,
+      "amount_minor": 36849674,
+      "bias_days_median": 2.5,
+      "abs_err_median": 3.5,
+      "abs_err_mean": 3.5,
+      "abs_err_p90": 5.5,
+      "within_3d_count": 0.5,
+      "within_7d_count": 1.0,
+      "within_3d_amount": 0.5,
+      "within_7d_amount": 1.0,
+      "abs_err_median_amount_weighted": 1.0
+     }
+    },
+    "by_mechanism": {
+     "invoice": {
+      "n": 2768,
+      "amount_minor": 189302504556,
+      "bias_days_median": 0.0,
+      "abs_err_median": 0.0,
+      "abs_err_mean": 0.4963872832369942,
+      "abs_err_p90": 1.0,
+      "within_3d_count": 0.9562861271676301,
+      "within_7d_count": 0.983742774566474,
+      "within_3d_amount": 0.8106701701012227,
+      "within_7d_amount": 0.9084922384432819,
+      "abs_err_median_amount_weighted": 0.0
+     },
+     "contract_settlement": {
+      "n": 0
+     }
+    }
+   },
+   "contract_amount_error": {
+    "n": 1383,
+    "median_abs_rel": 0.333333197342092,
+    "mean_abs_rel": 0.3424092210855429,
+    "median_signed_rel": 0.0,
+    "within_10pct": 0.35357917570498915,
+    "p90_abs_rel": 0.883783629486657
+   },
+   "by_industry_in": {
+    "IT-услуги и разработка": {
+     "flow_minor": 40431592551,
+     "ceiling_share": 0.42555585497396997,
+     "hit_share": 0.4007349420521222
+    },
+    "Автосервис": {
+     "flow_minor": 11116440245,
+     "ceiling_share": 0.15086160173930752,
+     "hit_share": 0.14475256858631186
+    },
+    "Гостиница / база отдыха": {
+     "flow_minor": 26802207229,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Грузоперевозки": {
+     "flow_minor": 40810197657,
+     "ceiling_share": 0.7002386167345193,
+     "hit_share": 0.6221721837126362
+    },
+    "Медицинская клиника / стоматология": {
+     "flow_minor": 26313816878,
+     "ceiling_share": 0.15422915838534398,
+     "hit_share": 0.1257109880081913
+    },
+    "Образовательный центр для детей": {
+     "flow_minor": 7244849951,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Общепит (кофейня, кафе)": {
+     "flow_minor": 23647322226,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Оптовая торговля": {
+     "flow_minor": 416929556824,
+     "ceiling_share": 0.5760303056959364,
+     "hit_share": 0.49221390044704755
+    },
+    "Продажи на маркетплейсах": {
+     "flow_minor": 25899106184,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Производство мебели на заказ": {
+     "flow_minor": 39329835635,
+     "ceiling_share": 0.4903325469491248,
+     "hit_share": 0.453490024355145
+    },
+    "Розница: одежда и обувь": {
+     "flow_minor": 17470856566,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Розница: продуктовый магазин": {
+     "flow_minor": 45409002211,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Салон красоты": {
+     "flow_minor": 9949382523,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Сельское хозяйство (растениеводство)": {
+     "flow_minor": 52521812577,
+     "ceiling_share": 0.28094649019142515,
+     "hit_share": 0.28094649019142515
+    },
+    "Строительство и ремонт": {
+     "flow_minor": 78622981176,
+     "ceiling_share": 0.6864902978580487,
+     "hit_share": 0.6864902978580487
+    }
+   }
+  },
+  "selection": {
+   "windows_total": 2100,
+   "windows_eligible": 1539,
+   "companies_eligible": 121,
+   "origins": 14,
+   "in": {
+    "flow_minor": 1212745817026,
+    "flow_ex_financing_minor": 1173625817026,
+    "ceiling_share": 0.4608254980969508,
+    "ceiling_share_median_window": 0.0,
+    "predicted_in_window_share": 0.5070879290798789,
+    "hit_share": 0.4195083023799807,
+    "hit_share_median_window": 0.0,
+    "hit_share_of_ex_financing": 0.433491604852562,
+    "precision_amount": 0.8272890722151224,
+    "recall_vs_ceiling": 0.9103409080278854,
+    "windows_with_flow": 1532,
+    "n_windows_ceiling_positive": 705,
+    "events": 17399,
+    "events_unique_documents": 4679,
+    "date_error_all": {
+     "n": 17399,
+     "amount_minor": 795559522109,
+     "bias_days_median": 1.0,
+     "abs_err_median": 7.0,
+     "abs_err_mean": 11.353008793608828,
+     "abs_err_p90": 26.0,
+     "within_3d_count": 0.2462785217541238,
+     "within_7d_count": 0.508132651301799,
+     "within_3d_amount": 0.2309493083986072,
+     "within_7d_amount": 0.4957412222425316,
+     "abs_err_median_amount_weighted": 8.0
+    },
+    "date_error_actual_in_window": {
+     "n": 12749,
+     "amount_minor": 563127664355,
+     "bias_days_median": 4.0,
+     "abs_err_median": 7.0,
+     "abs_err_mean": 7.893952466860146,
+     "abs_err_p90": 16.0,
+     "within_3d_count": 0.29539571731116165,
+     "within_7d_count": 0.5965958114361911,
+     "within_3d_amount": 0.28003871159593086,
+     "within_7d_amount": 0.5858309776058702,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "date_error_expected_in_window": {
+     "n": 13774,
+     "amount_minor": 614968764856,
+     "bias_days_median": 1.0,
+     "abs_err_median": 7.0,
+     "abs_err_mean": 9.852548279366923,
+     "abs_err_p90": 21.0,
+     "within_3d_count": 0.27334107739218816,
+     "within_7d_count": 0.5540148105125599,
+     "within_3d_amount": 0.25621782135698445,
+     "within_7d_amount": 0.533768304892465,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "share_actual_inside_q10_q90": 0.7642967986665901,
+    "by_level": {
+     "client": {
+      "n": 15320,
+      "amount_minor": 628990553036,
+      "bias_days_median": 0.0,
+      "abs_err_median": 7.0,
+      "abs_err_mean": 11.2911227154047,
+      "abs_err_p90": 26.0,
+      "within_3d_count": 0.2574412532637076,
+      "within_7d_count": 0.525065274151436,
+      "within_3d_amount": 0.2468528742833333,
+      "within_7d_amount": 0.516089125606344,
+      "abs_err_median_amount_weighted": 7.0
+     },
+     "industry": {
+      "n": 1993,
+      "amount_minor": 162488713308,
+      "bias_days_median": 5.0,
+      "abs_err_median": 10.0,
+      "abs_err_mean": 11.59959859508279,
+      "abs_err_p90": 21.0,
+      "within_3d_count": 0.16457601605619668,
+      "within_7d_count": 0.3833416959357752,
+      "within_3d_amount": 0.17384510104068404,
+      "within_7d_amount": 0.42605002322700775,
+      "abs_err_median_amount_weighted": 9.0
+     },
+     "global": {
+      "n": 64,
+      "amount_minor": 3813184064,
+      "bias_days_median": 0.5,
+      "abs_err_median": 11.5,
+      "abs_err_mean": 15.515625,
+      "abs_err_p90": 38.80000000000001,
+      "within_3d_count": 0.15625,
+      "within_7d_count": 0.359375,
+      "within_3d_amount": 0.049026387885376416,
+      "within_7d_amount": 0.1102686995809285,
+      "abs_err_median_amount_weighted": 13.0
+     },
+     "fallback": {
+      "n": 22,
+      "amount_minor": 267071701,
+      "bias_days_median": -8.0,
+      "abs_err_median": 8.0,
+      "abs_err_mean": 20.0,
+      "abs_err_p90": 55.30000000000001,
+      "within_3d_count": 0.13636363636363635,
+      "within_7d_count": 0.45454545454545453,
+      "within_3d_amount": 0.11600661127327751,
+      "within_7d_amount": 0.4780379146197897,
+      "abs_err_median_amount_weighted": 8.0
+     }
+    },
+    "by_mechanism": {
+     "invoice": {
+      "n": 15271,
+      "amount_minor": 782153355248,
+      "bias_days_median": 1.0,
+      "abs_err_median": 8.0,
+      "abs_err_mean": 11.94316023836029,
+      "abs_err_p90": 28.0,
+      "within_3d_count": 0.2386877087289634,
+      "within_7d_count": 0.4959072752275555,
+      "within_3d_amount": 0.22949147242497747,
+      "within_7d_amount": 0.49389667912824287,
+      "abs_err_median_amount_weighted": 8.0
+     },
+     "contract_settlement": {
+      "n": 2128,
+      "amount_minor": 13406166861,
+      "bias_days_median": 0.0,
+      "abs_err_median": 7.0,
+      "abs_err_mean": 7.117951127819549,
+      "abs_err_p90": 13.0,
+      "within_3d_count": 0.3007518796992481,
+      "within_7d_count": 0.5958646616541353,
+      "within_3d_amount": 0.31600354575058576,
+      "within_7d_amount": 0.6033570382098499,
+      "abs_err_median_amount_weighted": 6.0
+     }
+    }
+   },
+   "out": {
+    "flow_minor": 1219066467631,
+    "flow_ex_financing_minor": null,
+    "ceiling_share": 0.2346783657177882,
+    "ceiling_share_median_window": 0.05387544796423559,
+    "predicted_in_window_share": 0.2385627151825077,
+    "hit_share": 0.234399225804555,
+    "hit_share_median_window": 0.05387544796423559,
+    "hit_share_of_ex_financing": null,
+    "precision_amount": 0.9825476106994863,
+    "recall_vs_ceiling": 0.9988105426233926,
+    "windows_with_flow": 1539,
+    "n_windows_ceiling_positive": 967,
+    "events": 4934,
+    "events_unique_documents": 2540,
+    "date_error_all": {
+     "n": 4934,
+     "amount_minor": 304299162735,
+     "bias_days_median": 0.0,
+     "abs_err_median": 0.0,
+     "abs_err_mean": 0.7590190514795297,
+     "abs_err_p90": 1.0,
+     "within_3d_count": 0.9385893798135387,
+     "within_7d_count": 0.9712201053911633,
+     "within_3d_amount": 0.7929176417193207,
+     "within_7d_amount": 0.9430904878562515,
+     "abs_err_median_amount_weighted": 0.0
+    },
+    "date_error_actual_in_window": {
+     "n": 4865,
+     "amount_minor": 286088526325,
+     "bias_days_median": 0.0,
+     "abs_err_median": 0.0,
+     "abs_err_mean": 0.7492291880781089,
+     "abs_err_p90": 1.0,
+     "within_3d_count": 0.9389516957862282,
+     "within_7d_count": 0.9716341212744091,
+     "within_3d_amount": 0.7893917107477694,
+     "within_7d_amount": 0.9426890239234064,
+     "abs_err_median_amount_weighted": 0.0
+    },
+    "date_error_expected_in_window": {
+     "n": 4872,
+     "amount_minor": 290823806506,
+     "bias_days_median": 0.0,
+     "abs_err_median": 0.0,
+     "abs_err_mean": 0.7668308702791461,
+     "abs_err_p90": 1.0,
+     "within_3d_count": 0.9380131362889984,
+     "within_7d_count": 0.9708538587848933,
+     "within_3d_amount": 0.7844925458923634,
+     "within_7d_amount": 0.9404535787318955,
+     "abs_err_median_amount_weighted": 0.0
+    },
+    "share_actual_inside_q10_q90": 0.96149169031212,
+    "by_level": {
+     "client": {
+      "n": 4638,
+      "amount_minor": 271360402214,
+      "bias_days_median": 0.0,
+      "abs_err_median": 0.0,
+      "abs_err_mean": 0.3298835705045278,
+      "abs_err_p90": 1.0,
+      "within_3d_count": 0.9767141009055628,
+      "within_7d_count": 0.9948253557567918,
+      "within_3d_amount": 0.8562417386998279,
+      "within_7d_amount": 0.98806038589431,
+      "abs_err_median_amount_weighted": 0.0
+     },
+     "industry": {
+      "n": 284,
+      "amount_minor": 32200134427,
+      "bias_days_median": 4.0,
+      "abs_err_median": 7.0,
+      "abs_err_mean": 7.591549295774648,
+      "abs_err_p90": 15.0,
+      "within_3d_count": 0.34507042253521125,
+      "within_7d_count": 0.5880281690140845,
+      "within_3d_amount": 0.27458967287993924,
+      "within_7d_amount": 0.5628820560078838,
+      "abs_err_median_amount_weighted": 7.0
+     },
+     "global": {
+      "n": 9,
+      "amount_minor": 403819617,
+      "bias_days_median": 5.0,
+      "abs_err_median": 5.0,
+      "abs_err_mean": 5.0,
+      "abs_err_p90": 7.2,
+      "within_3d_count": 0.2222222222222222,
+      "within_7d_count": 0.8888888888888888,
+      "within_3d_amount": 0.0726621386498913,
+      "within_7d_amount": 0.9942502694216562,
+      "abs_err_median_amount_weighted": 4.0
+     },
+     "fallback": {
+      "n": 3,
+      "amount_minor": 334806477,
+      "bias_days_median": 5.0,
+      "abs_err_median": 5.0,
+      "abs_err_mean": 4.666666666666667,
+      "abs_err_p90": 6.6,
+      "within_3d_count": 0.3333333333333333,
+      "within_7d_count": 1.0,
+      "within_3d_amount": 0.18788498825845595,
+      "within_7d_amount": 1.0,
+      "abs_err_median_amount_weighted": 7.0
+     }
+    },
+    "by_mechanism": {
+     "invoice": {
+      "n": 4934,
+      "amount_minor": 304299162735,
+      "bias_days_median": 0.0,
+      "abs_err_median": 0.0,
+      "abs_err_mean": 0.7590190514795297,
+      "abs_err_p90": 1.0,
+      "within_3d_count": 0.9385893798135387,
+      "within_7d_count": 0.9712201053911633,
+      "within_3d_amount": 0.7929176417193207,
+      "within_7d_amount": 0.9430904878562515,
+      "abs_err_median_amount_weighted": 0.0
+     },
+     "contract_settlement": {
+      "n": 0
+     }
+    }
+   },
+   "contract_amount_error": {
+    "n": 2128,
+    "median_abs_rel": 0.3333333333333333,
+    "mean_abs_rel": 0.4640179587312576,
+    "median_signed_rel": 0.0,
+    "within_10pct": 0.3717105263157895,
+    "p90_abs_rel": 1.3333333333333333
+   },
+   "by_industry_in": {
+    "IT-услуги и разработка": {
+     "flow_minor": 66455284668,
+     "ceiling_share": 0.4374996823239851,
+     "hit_share": 0.41049971115594347
+    },
+    "Автосервис": {
+     "flow_minor": 12882081883,
+     "ceiling_share": 0.12947810417205372,
+     "hit_share": 0.11337603201602006
+    },
+    "Гостиница / база отдыха": {
+     "flow_minor": 12487625768,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Грузоперевозки": {
+     "flow_minor": 64835815856,
+     "ceiling_share": 0.61970896632562,
+     "hit_share": 0.5546519093994263
+    },
+    "Медицинская клиника / стоматология": {
+     "flow_minor": 42280708772,
+     "ceiling_share": 0.13901288932252623,
+     "hit_share": 0.11162988270730306
+    },
+    "Образовательный центр для детей": {
+     "flow_minor": 15416605810,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Общепит (кофейня, кафе)": {
+     "flow_minor": 31913822982,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Оптовая торговля": {
+     "flow_minor": 587601468151,
+     "ceiling_share": 0.6116849250207039,
+     "hit_share": 0.54179388630661
+    },
+    "Продажи на маркетплейсах": {
+     "flow_minor": 36592460509,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Производство мебели на заказ": {
+     "flow_minor": 60190762015,
+     "ceiling_share": 0.47769327041971327,
+     "hit_share": 0.4500867077284833
+    },
+    "Розница: одежда и обувь": {
+     "flow_minor": 26260668715,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Розница: продуктовый магазин": {
+     "flow_minor": 70860975451,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Салон красоты": {
+     "flow_minor": 16897805636,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Сельское хозяйство (растениеводство)": {
+     "flow_minor": 12210616999,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Строительство и ремонт": {
+     "flow_minor": 155859113811,
+     "ceiling_share": 0.6023741414367896,
+     "hit_share": 0.6023741414367896
+    }
+   }
+  }
+ },
+ "ceiling_check_in": {
+  "selection": 558864195196,
+  "retrospective": 379696670321
+ },
+ "global_only": {
+  "retrospective": {
+   "windows_total": 1350,
+   "windows_eligible": 1064,
+   "companies_eligible": 125,
+   "origins": 9,
+   "in": {
+    "flow_minor": 862498960433,
+    "flow_ex_financing_minor": 838318960433,
+    "ceiling_share": 0.4402285541658868,
+    "ceiling_share_median_window": 0.0,
+    "predicted_in_window_share": 0.5515612293088145,
+    "hit_share": 0.42817246538546705,
+    "hit_share_median_window": 0.0,
+    "hit_share_of_ex_financing": 0.4405224308540675,
+    "precision_amount": 0.7762918106517905,
+    "recall_vs_ceiling": 0.972614023633104,
+    "windows_with_flow": 1051,
+    "n_windows_ceiling_positive": 487,
+    "events": 10016,
+    "events_unique_documents": 3033,
+    "date_error_all": {
+     "n": 10016,
+     "amount_minor": 478461476926,
+     "bias_days_median": 1.0,
+     "abs_err_median": 10.0,
+     "abs_err_mean": 11.39876198083067,
+     "abs_err_p90": 22.0,
+     "within_3d_count": 0.18480431309904152,
+     "within_7d_count": 0.41373801916932906,
+     "within_3d_amount": 0.1660668447844317,
+     "within_7d_amount": 0.37236626019017016,
+     "abs_err_median_amount_weighted": 10.0
+    },
+    "date_error_actual_in_window": {
+     "n": 7755,
+     "amount_minor": 374221864630,
+     "bias_days_median": 5.0,
+     "abs_err_median": 7.0,
+     "abs_err_mean": 7.91244358478401,
+     "abs_err_p90": 15.0,
+     "within_3d_count": 0.2331399097356544,
+     "within_7d_count": 0.5206963249516441,
+     "within_3d_amount": 0.21150928086807122,
+     "within_7d_amount": 0.47415325851800966,
+     "abs_err_median_amount_weighted": 8.0
+    },
+    "date_error_expected_in_window": {
+     "n": 9840,
+     "amount_minor": 475720986894,
+     "bias_days_median": 1.0,
+     "abs_err_median": 10.0,
+     "abs_err_mean": 11.473882113821139,
+     "abs_err_p90": 22.0,
+     "within_3d_count": 0.1839430894308943,
+     "within_7d_count": 0.41077235772357723,
+     "within_3d_amount": 0.16644201904559416,
+     "within_7d_amount": 0.37313437525839543,
+     "abs_err_median_amount_weighted": 10.0
+    },
+    "share_actual_inside_q10_q90": 0.8975638977635783,
+    "by_level": {
+     "client": {
+      "n": 0
+     },
+     "industry": {
+      "n": 0
+     },
+     "global": {
+      "n": 10007,
+      "amount_minor": 478174834951,
+      "bias_days_median": 1.0,
+      "abs_err_median": 10.0,
+      "abs_err_mean": 11.404416908164285,
+      "abs_err_p90": 22.0,
+      "within_3d_count": 0.18467073048865795,
+      "within_7d_count": 0.41341061257120015,
+      "within_3d_amount": 0.1658996177708287,
+      "within_7d_amount": 0.37206233902758823,
+      "abs_err_median_amount_weighted": 10.0
+     },
+     "fallback": {
+      "n": 9,
+      "amount_minor": 286641975,
+      "bias_days_median": 0.0,
+      "abs_err_median": 6.0,
+      "abs_err_mean": 5.111111111111111,
+      "abs_err_p90": 8.8,
+      "within_3d_count": 0.3333333333333333,
+      "within_7d_count": 0.7777777777777778,
+      "within_3d_amount": 0.44503418593874816,
+      "within_7d_amount": 0.8793661570326538,
+      "abs_err_median_amount_weighted": 6.0
+     }
+    },
+    "by_mechanism": {
+     "invoice": {
+      "n": 8633,
+      "amount_minor": 462684408169,
+      "bias_days_median": 1.0,
+      "abs_err_median": 10.0,
+      "abs_err_mean": 12.238155913355728,
+      "abs_err_p90": 24.0,
+      "within_3d_count": 0.16321093478512683,
+      "within_7d_count": 0.37426155450017373,
+      "within_3d_amount": 0.16415208624721647,
+      "within_7d_amount": 0.3703626935196154,
+      "abs_err_median_amount_weighted": 10.0
+     },
+     "contract_settlement": {
+      "n": 1383,
+      "amount_minor": 15777068757,
+      "bias_days_median": 0.0,
+      "abs_err_median": 6.0,
+      "abs_err_mean": 6.159074475777296,
+      "abs_err_p90": 12.0,
+      "within_3d_count": 0.3195950831525669,
+      "within_7d_count": 0.6601590744757773,
+      "within_3d_amount": 0.22221979272572173,
+      "within_7d_amount": 0.43112362972888324,
+      "abs_err_median_amount_weighted": 10.0
+     }
+    }
+   },
+   "out": {
+    "flow_minor": 834515268627,
+    "flow_ex_financing_minor": null,
+    "ceiling_share": 0.21358519053252611,
+    "ceiling_share_median_window": 0.014120769104157653,
+    "predicted_in_window_share": 0.22684127142149604,
+    "hit_share": 0.21358519053252611,
+    "hit_share_median_window": 0.014120769104157653,
+    "hit_share_of_ex_financing": null,
+    "precision_amount": 0.9415623056337985,
+    "recall_vs_ceiling": 1.0,
+    "windows_with_flow": 1064,
+    "n_windows_ceiling_positive": 561,
+    "events": 2768,
+    "events_unique_documents": 1516,
+    "date_error_all": {
+     "n": 2768,
+     "amount_minor": 189302504556,
+     "bias_days_median": 0.0,
+     "abs_err_median": 4.0,
+     "abs_err_mean": 5.093208092485549,
+     "abs_err_p90": 11.0,
+     "within_3d_count": 0.44328034682080925,
+     "within_7d_count": 0.8507947976878613,
+     "within_3d_amount": 0.2768883640337376,
+     "within_7d_amount": 0.4863682074199044,
+     "abs_err_median_amount_weighted": 8.0
+    },
+    "date_error_actual_in_window": {
+     "n": 2706,
+     "amount_minor": 178240102652,
+     "bias_days_median": 0.0,
+     "abs_err_median": 4.0,
+     "abs_err_mean": 4.588691796008869,
+     "abs_err_p90": 10.0,
+     "within_3d_count": 0.4534368070953437,
+     "within_7d_count": 0.8702882483370288,
+     "within_3d_amount": 0.29407333150125886,
+     "within_7d_amount": 0.5165544590195897,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "date_error_expected_in_window": {
+     "n": 2768,
+     "amount_minor": 189302504556,
+     "bias_days_median": 0.0,
+     "abs_err_median": 4.0,
+     "abs_err_mean": 5.093208092485549,
+     "abs_err_p90": 11.0,
+     "within_3d_count": 0.44328034682080925,
+     "within_7d_count": 0.8507947976878613,
+     "within_3d_amount": 0.2768883640337376,
+     "within_7d_amount": 0.4863682074199044,
+     "abs_err_median_amount_weighted": 8.0
+    },
+    "share_actual_inside_q10_q90": 0.875,
+    "by_level": {
+     "client": {
+      "n": 0
+     },
+     "industry": {
+      "n": 0
+     },
+     "global": {
+      "n": 2766,
+      "amount_minor": 189265654882,
+      "bias_days_median": 0.0,
+      "abs_err_median": 4.0,
+      "abs_err_mean": 5.094360086767896,
+      "abs_err_p90": 11.0,
+      "within_3d_count": 0.4432393347794649,
+      "within_7d_count": 0.8506869125090383,
+      "within_3d_amount": 0.27684492460963245,
+      "within_7d_amount": 0.4862682042570251,
+      "abs_err_median_amount_weighted": 8.0
+     },
+     "fallback": {
+      "n": 2,
+      "amount_minor": 36849674,
+      "bias_days_median": 2.5,
+      "abs_err_median": 3.5,
+      "abs_err_mean": 3.5,
+      "abs_err_p90": 5.5,
+      "within_3d_count": 0.5,
+      "within_7d_count": 1.0,
+      "within_3d_amount": 0.5,
+      "within_7d_amount": 1.0,
+      "abs_err_median_amount_weighted": 1.0
+     }
+    },
+    "by_mechanism": {
+     "invoice": {
+      "n": 2768,
+      "amount_minor": 189302504556,
+      "bias_days_median": 0.0,
+      "abs_err_median": 4.0,
+      "abs_err_mean": 5.093208092485549,
+      "abs_err_p90": 11.0,
+      "within_3d_count": 0.44328034682080925,
+      "within_7d_count": 0.8507947976878613,
+      "within_3d_amount": 0.2768883640337376,
+      "within_7d_amount": 0.4863682074199044,
+      "abs_err_median_amount_weighted": 8.0
+     },
+     "contract_settlement": {
+      "n": 0
+     }
+    }
+   },
+   "contract_amount_error": {
+    "n": 1383,
+    "median_abs_rel": 0.0,
+    "mean_abs_rel": 0.41988686556261523,
+    "median_signed_rel": 0.0,
+    "within_10pct": 0.532176428054953,
+    "p90_abs_rel": 1.3333333333333333
+   },
+   "by_industry_in": {
+    "IT-услуги и разработка": {
+     "flow_minor": 40431592551,
+     "ceiling_share": 0.42555585497396997,
+     "hit_share": 0.42555585497396997
+    },
+    "Автосервис": {
+     "flow_minor": 11116440245,
+     "ceiling_share": 0.15086160173930752,
+     "hit_share": 0.15086160173930752
+    },
+    "Гостиница / база отдыха": {
+     "flow_minor": 26802207229,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Грузоперевозки": {
+     "flow_minor": 40810197657,
+     "ceiling_share": 0.7002386167345193,
+     "hit_share": 0.7002386167345193
+    },
+    "Медицинская клиника / стоматология": {
+     "flow_minor": 26313816878,
+     "ceiling_share": 0.15422915838534398,
+     "hit_share": 0.15422915838534398
+    },
+    "Образовательный центр для детей": {
+     "flow_minor": 7244849951,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Общепит (кофейня, кафе)": {
+     "flow_minor": 23647322226,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Оптовая торговля": {
+     "flow_minor": 416929556824,
+     "ceiling_share": 0.5760303056959364,
+     "hit_share": 0.5760303056959364
+    },
+    "Продажи на маркетплейсах": {
+     "flow_minor": 25899106184,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Производство мебели на заказ": {
+     "flow_minor": 39329835635,
+     "ceiling_share": 0.4903325469491248,
+     "hit_share": 0.4807147430887045
+    },
+    "Розница: одежда и обувь": {
+     "flow_minor": 17470856566,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Розница: продуктовый магазин": {
+     "flow_minor": 45409002211,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Салон красоты": {
+     "flow_minor": 9949382523,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Сельское хозяйство (растениеводство)": {
+     "flow_minor": 52521812577,
+     "ceiling_share": 0.28094649019142515,
+     "hit_share": 0.09016675690804006
+    },
+    "Строительство и ремонт": {
+     "flow_minor": 78622981176,
+     "ceiling_share": 0.6864902978580487,
+     "hit_share": 0.6864902978580487
+    }
+   }
+  },
+  "selection": {
+   "windows_total": 2100,
+   "windows_eligible": 1539,
+   "companies_eligible": 121,
+   "origins": 14,
+   "in": {
+    "flow_minor": 1212745817026,
+    "flow_ex_financing_minor": 1173625817026,
+    "ceiling_share": 0.4608254980969508,
+    "ceiling_share_median_window": 0.0,
+    "predicted_in_window_share": 0.6562090623273109,
+    "hit_share": 0.46061894441564083,
+    "hit_share_median_window": 0.0,
+    "hit_share_of_ex_financing": 0.4759725714781415,
+    "precision_amount": 0.7019393221757861,
+    "recall_vs_ceiling": 0.9995517746258334,
+    "windows_with_flow": 1532,
+    "n_windows_ceiling_positive": 705,
+    "events": 17399,
+    "events_unique_documents": 4679,
+    "date_error_all": {
+     "n": 17399,
+     "amount_minor": 796593894446,
+     "bias_days_median": 0.0,
+     "abs_err_median": 11.0,
+     "abs_err_mean": 15.05023277199839,
+     "abs_err_p90": 32.0,
+     "within_3d_count": 0.15362951893787,
+     "within_7d_count": 0.3499626415311225,
+     "within_3d_amount": 0.13453024123732427,
+     "within_7d_amount": 0.3142149255274861,
+     "abs_err_median_amount_weighted": 12.0
+    },
+    "date_error_actual_in_window": {
+     "n": 12749,
+     "amount_minor": 563965970865,
+     "bias_days_median": 6.0,
+     "abs_err_median": 8.0,
+     "abs_err_mean": 8.792689622715507,
+     "abs_err_p90": 17.0,
+     "within_3d_count": 0.2073103772844929,
+     "within_7d_count": 0.4699192093497529,
+     "within_3d_amount": 0.18963636140486376,
+     "within_7d_amount": 0.44269614725170003,
+     "abs_err_median_amount_weighted": 9.0
+    },
+    "date_error_expected_in_window": {
+     "n": 17285,
+     "amount_minor": 795814795432,
+     "bias_days_median": 0.0,
+     "abs_err_median": 11.0,
+     "abs_err_mean": 15.094937807347412,
+     "abs_err_p90": 32.0,
+     "within_3d_count": 0.15354353485681227,
+     "within_7d_count": 0.3494937807347411,
+     "within_3d_amount": 0.13448143967203327,
+     "within_7d_amount": 0.3140864156393507,
+     "abs_err_median_amount_weighted": 12.0
+    },
+    "share_actual_inside_q10_q90": 0.7874590493706535,
+    "by_level": {
+     "client": {
+      "n": 0
+     },
+     "industry": {
+      "n": 0
+     },
+     "global": {
+      "n": 17377,
+      "amount_minor": 796320595125,
+      "bias_days_median": 0.0,
+      "abs_err_median": 11.0,
+      "abs_err_mean": 15.043966162168383,
+      "abs_err_p90": 32.0,
+      "within_3d_count": 0.15365137825861772,
+      "within_7d_count": 0.34983023536859065,
+      "within_3d_amount": 0.13453594172606198,
+      "within_7d_amount": 0.314157747243408,
+      "abs_err_median_amount_weighted": 12.0
+     },
+     "fallback": {
+      "n": 22,
+      "amount_minor": 273299321,
+      "bias_days_median": -8.0,
+      "abs_err_median": 8.0,
+      "abs_err_mean": 20.0,
+      "abs_err_p90": 55.30000000000001,
+      "within_3d_count": 0.13636363636363635,
+      "within_7d_count": 0.45454545454545453,
+      "within_3d_amount": 0.11792055275541646,
+      "within_7d_amount": 0.4808170416200924,
+      "abs_err_median_amount_weighted": 8.0
+     }
+    },
+    "by_mechanism": {
+     "invoice": {
+      "n": 15271,
+      "amount_minor": 782153355248,
+      "bias_days_median": 1.0,
+      "abs_err_median": 12.0,
+      "abs_err_mean": 16.157553532840023,
+      "abs_err_p90": 35.0,
+      "within_3d_count": 0.13352105297622946,
+      "within_7d_count": 0.3158928688363565,
+      "within_3d_amount": 0.1312347902892442,
+      "within_7d_amount": 0.3088962743263995,
+      "abs_err_median_amount_weighted": 13.0
+     },
+     "contract_settlement": {
+      "n": 2128,
+      "amount_minor": 14440539198,
+      "bias_days_median": 0.0,
+      "abs_err_median": 7.0,
+      "abs_err_mean": 7.103853383458647,
+      "abs_err_p90": 13.0,
+      "within_3d_count": 0.29793233082706766,
+      "within_7d_count": 0.5944548872180451,
+      "within_3d_amount": 0.3130241313029397,
+      "within_7d_amount": 0.602292872291402,
+      "abs_err_median_amount_weighted": 6.0
+     }
+    }
+   },
+   "out": {
+    "flow_minor": 1219066467631,
+    "flow_ex_financing_minor": null,
+    "ceiling_share": 0.2346783657177882,
+    "ceiling_share_median_window": 0.05387544796423559,
+    "predicted_in_window_share": 0.2496165474277556,
+    "hit_share": 0.2346783657177882,
+    "hit_share_median_window": 0.05387544796423559,
+    "hit_share_of_ex_financing": null,
+    "precision_amount": 0.940155483024254,
+    "recall_vs_ceiling": 1.0,
+    "windows_with_flow": 1539,
+    "n_windows_ceiling_positive": 967,
+    "events": 4934,
+    "events_unique_documents": 2540,
+    "date_error_all": {
+     "n": 4934,
+     "amount_minor": 304299162735,
+     "bias_days_median": 2.0,
+     "abs_err_median": 5.0,
+     "abs_err_mean": 5.574989866234293,
+     "abs_err_p90": 10.0,
+     "within_3d_count": 0.37353060397243615,
+     "within_7d_count": 0.771990271584921,
+     "within_3d_amount": 0.27916283226509614,
+     "within_7d_amount": 0.5270308047204952,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "date_error_actual_in_window": {
+     "n": 4865,
+     "amount_minor": 286088526325,
+     "bias_days_median": 2.0,
+     "abs_err_median": 5.0,
+     "abs_err_mean": 5.276464542651593,
+     "abs_err_p90": 10.0,
+     "within_3d_count": 0.3788283658787256,
+     "within_7d_count": 0.7829393627954779,
+     "within_3d_amount": 0.2969326215777591,
+     "within_7d_amount": 0.5605783450043433,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "date_error_expected_in_window": {
+     "n": 4934,
+     "amount_minor": 304299162735,
+     "bias_days_median": 2.0,
+     "abs_err_median": 5.0,
+     "abs_err_mean": 5.574989866234293,
+     "abs_err_p90": 10.0,
+     "within_3d_count": 0.37353060397243615,
+     "within_7d_count": 0.771990271584921,
+     "within_3d_amount": 0.27916283226509614,
+     "within_7d_amount": 0.5270308047204952,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "share_actual_inside_q10_q90": 0.7843534657478719,
+    "by_level": {
+     "client": {
+      "n": 0
+     },
+     "industry": {
+      "n": 0
+     },
+     "global": {
+      "n": 4931,
+      "amount_minor": 303964356258,
+      "bias_days_median": 2.0,
+      "abs_err_median": 5.0,
+      "abs_err_mean": 5.575542486311093,
+      "abs_err_p90": 10.0,
+      "within_3d_count": 0.37355505982559317,
+      "within_7d_count": 0.7718515514094504,
+      "within_3d_amount": 0.2792633717288551,
+      "within_7d_amount": 0.5265098451186838,
+      "abs_err_median_amount_weighted": 7.0
+     },
+     "fallback": {
+      "n": 3,
+      "amount_minor": 334806477,
+      "bias_days_median": 5.0,
+      "abs_err_median": 5.0,
+      "abs_err_mean": 4.666666666666667,
+      "abs_err_p90": 6.6,
+      "within_3d_count": 0.3333333333333333,
+      "within_7d_count": 1.0,
+      "within_3d_amount": 0.18788498825845595,
+      "within_7d_amount": 1.0,
+      "abs_err_median_amount_weighted": 7.0
+     }
+    },
+    "by_mechanism": {
+     "invoice": {
+      "n": 4934,
+      "amount_minor": 304299162735,
+      "bias_days_median": 2.0,
+      "abs_err_median": 5.0,
+      "abs_err_mean": 5.574989866234293,
+      "abs_err_p90": 10.0,
+      "within_3d_count": 0.37353060397243615,
+      "within_7d_count": 0.771990271584921,
+      "within_3d_amount": 0.27916283226509614,
+      "within_7d_amount": 0.5270308047204952,
+      "abs_err_median_amount_weighted": 7.0
+     },
+     "contract_settlement": {
+      "n": 0
+     }
+    }
+   },
+   "contract_amount_error": {
+    "n": 2128,
+    "median_abs_rel": 0.4999998356081408,
+    "mean_abs_rel": 0.4972940713234638,
+    "median_signed_rel": 0.4999998356081408,
+    "within_10pct": 0.46146616541353386,
+    "p90_abs_rel": 1.33333342663622
+   },
+   "by_industry_in": {
+    "IT-услуги и разработка": {
+     "flow_minor": 66455284668,
+     "ceiling_share": 0.4374996823239851,
+     "hit_share": 0.4374996823239851
+    },
+    "Автосервис": {
+     "flow_minor": 12882081883,
+     "ceiling_share": 0.12947810417205372,
+     "hit_share": 0.12947810417205372
+    },
+    "Гостиница / база отдыха": {
+     "flow_minor": 12487625768,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Грузоперевозки": {
+     "flow_minor": 64835815856,
+     "ceiling_share": 0.61970896632562,
+     "hit_share": 0.61970896632562
+    },
+    "Медицинская клиника / стоматология": {
+     "flow_minor": 42280708772,
+     "ceiling_share": 0.13901288932252623,
+     "hit_share": 0.13901288932252623
+    },
+    "Образовательный центр для детей": {
+     "flow_minor": 15416605810,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Общепит (кофейня, кафе)": {
+     "flow_minor": 31913822982,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Оптовая торговля": {
+     "flow_minor": 587601468151,
+     "ceiling_share": 0.6116849250207039,
+     "hit_share": 0.6116849250207039
+    },
+    "Продажи на маркетплейсах": {
+     "flow_minor": 36592460509,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Производство мебели на заказ": {
+     "flow_minor": 60190762015,
+     "ceiling_share": 0.47769327041971327,
+     "hit_share": 0.4735315501720518
+    },
+    "Розница: одежда и обувь": {
+     "flow_minor": 26260668715,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Розница: продуктовый магазин": {
+     "flow_minor": 70860975451,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Салон красоты": {
+     "flow_minor": 16897805636,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Сельское хозяйство (растениеводство)": {
+     "flow_minor": 12210616999,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Строительство и ремонт": {
+     "flow_minor": 155859113811,
+     "ceiling_share": 0.6023741414367896,
+     "hit_share": 0.6023741414367896
+    }
+   }
+  }
+ },
+ "calibration_split": {
+  "calibration": {
+   "windows_total": 750,
+   "windows_eligible": 557,
+   "companies_eligible": 116,
+   "origins": 5,
+   "in": {
+    "flow_minor": 359716554091,
+    "flow_ex_financing_minor": 348796554091,
+    "ceiling_share": 0.4914579026304064,
+    "ceiling_share_median_window": 0.0,
+    "predicted_in_window_share": 0.5337843027163705,
+    "hit_share": 0.4313892054568709,
+    "hit_share_median_window": 0.0,
+    "hit_share_of_ex_financing": 0.44489498717500103,
+    "precision_amount": 0.808171396688846,
+    "recall_vs_ceiling": 0.8777744810856988,
+    "windows_with_flow": 545,
+    "n_windows_ceiling_positive": 254,
+    "events": 6154,
+    "events_unique_documents": 2305,
+    "date_error_all": {
+     "n": 6154,
+     "amount_minor": 252810093436,
+     "bias_days_median": 0.0,
+     "abs_err_median": 7.0,
+     "abs_err_mean": 10.651608709782256,
+     "abs_err_p90": 23.0,
+     "within_3d_count": 0.298017549561261,
+     "within_7d_count": 0.542086447838804,
+     "within_3d_amount": 0.2887635706502394,
+     "within_7d_amount": 0.5009250394627112,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "date_error_actual_in_window": {
+     "n": 4465,
+     "amount_minor": 179027119458,
+     "bias_days_median": 3.0,
+     "abs_err_median": 6.0,
+     "abs_err_mean": 7.227547592385219,
+     "abs_err_p90": 16.0,
+     "within_3d_count": 0.3534154535274356,
+     "within_7d_count": 0.6335946248600224,
+     "within_3d_amount": 0.3555486861750744,
+     "within_7d_amount": 0.6009580792157037,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "date_error_expected_in_window": {
+     "n": 4667,
+     "amount_minor": 192011050001,
+     "bias_days_median": 0.0,
+     "abs_err_median": 7.0,
+     "abs_err_mean": 8.979858581529891,
+     "abs_err_p90": 19.0,
+     "within_3d_count": 0.33661881294193274,
+     "within_7d_count": 0.5997428755088923,
+     "within_3d_amount": 0.32980240305789793,
+     "within_7d_amount": 0.5561536713196654,
+     "abs_err_median_amount_weighted": 7.0
+    },
+    "share_actual_inside_q10_q90": 0.8022424439389015,
+    "by_level": {
+     "client": {
+      "n": 5349,
+      "amount_minor": 208905994825,
+      "bias_days_median": 0.0,
+      "abs_err_median": 7.0,
+      "abs_err_mean": 10.677135913254814,
+      "abs_err_p90": 24.0,
+      "within_3d_count": 0.3120209384931763,
+      "within_7d_count": 0.556926528323051,
+      "within_3d_amount": 0.30239119393829966,
+      "within_7d_amount": 0.5204359035750806,
+      "abs_err_median_amount_weighted": 7.0
+     },
+     "industry": {
+      "n": 773,
+      "amount_minor": 42944353963,
+      "bias_days_median": 6.0,
+      "abs_err_median": 8.0,
+      "abs_err_mean": 10.369987063389392,
+      "abs_err_p90": 17.0,
+      "within_3d_count": 0.19663648124191463,
+      "within_7d_count": 0.4385510996119017,
+      "within_3d_amount": 0.22232086278968993,
+      "within_7d_amount": 0.4086190996869788,
+      "abs_err_median_amount_weighted": 8.0
+     },
+     "global": {
+      "n": 22,
+      "amount_minor": 787789584,
+      "bias_days_median": -2.0,
+      "abs_err_median": 10.0,
+      "abs_err_mean": 18.09090909090909,
+      "abs_err_p90": 49.30000000000001,
+      "within_3d_count": 0.13636363636363635,
+      "within_7d_count": 0.36363636363636365,
+      "within_3d_amount": 0.1417017872122564,
+      "within_7d_amount": 0.2499240139737618,
+      "abs_err_median_amount_weighted": 9.0
+     },
+     "fallback": {
+      "n": 10,
+      "amount_minor": 171955064,
+      "bias_days_median": 3.0,
+      "abs_err_median": 3.0,
+      "abs_err_mean": 2.4,
+      "abs_err_p90": 3.0,
+      "within_3d_count": 1.0,
+      "within_7d_count": 1.0,
+      "within_3d_amount": 1.0,
+      "within_7d_amount": 1.0,
+      "abs_err_median_amount_weighted": 3.0
+     }
+    },
+    "by_mechanism": {
+     "invoice": {
+      "n": 5291,
+      "amount_minor": 247763426992,
+      "bias_days_median": 0.0,
+      "abs_err_median": 7.0,
+      "abs_err_mean": 11.367038367038367,
+      "abs_err_p90": 26.0,
+      "within_3d_count": 0.28803628803628806,
+      "within_7d_count": 0.5242865242865243,
+      "within_3d_amount": 0.2874325349168643,
+      "within_7d_amount": 0.4978500058645976,
+      "abs_err_median_amount_weighted": 8.0
+     },
+     "contract_settlement": {
+      "n": 863,
+      "amount_minor": 5046666444,
+      "bias_days_median": 0.0,
+      "abs_err_median": 6.0,
+      "abs_err_mean": 6.265353418308227,
+      "abs_err_p90": 14.0,
+      "within_3d_count": 0.35921205098493625,
+      "within_7d_count": 0.6512166859791425,
+      "within_3d_amount": 0.35411006786958554,
+      "within_7d_amount": 0.6518921919064719,
+      "abs_err_median_amount_weighted": 6.0
+     }
+    }
+   },
+   "out": {
+    "flow_minor": 364868723803,
+    "flow_ex_financing_minor": null,
+    "ceiling_share": 0.24156449038528224,
+    "ceiling_share_median_window": 0.037718450902159355,
+    "predicted_in_window_share": 0.2425051054931568,
+    "hit_share": 0.24156449038528224,
+    "hit_share_median_window": 0.037718450902159355,
+    "hit_share_of_ex_financing": null,
+    "precision_amount": 0.9961212564743258,
+    "recall_vs_ceiling": 1.0,
+    "windows_with_flow": 557,
+    "n_windows_ceiling_positive": 335,
+    "events": 1738,
+    "events_unique_documents": 975,
+    "date_error_all": {
+     "n": 1738,
+     "amount_minor": 93859678055,
+     "bias_days_median": 0.0,
+     "abs_err_median": 0.0,
+     "abs_err_mean": 0.7836593785960875,
+     "abs_err_p90": 2.0,
+     "within_3d_count": 0.9349827387802071,
+     "within_7d_count": 0.9689298043728424,
+     "within_3d_amount": 0.8032768010755351,
+     "within_7d_amount": 0.9187429413562354,
+     "abs_err_median_amount_weighted": 0.0
+    },
+    "date_error_actual_in_window": {
+     "n": 1709,
+     "amount_minor": 88139327323,
+     "bias_days_median": 0.0,
+     "abs_err_median": 0.0,
+     "abs_err_mean": 0.7794031597425395,
+     "abs_err_p90": 2.0,
+     "within_3d_count": 0.9350497366881217,
+     "within_7d_count": 0.9695728496196606,
+     "within_3d_amount": 0.7944030703049026,
+     "within_7d_amount": 0.9173631050835198,
+     "abs_err_median_amount_weighted": 0.0
+    },
+    "date_error_expected_in_window": {
+     "n": 1711,
+     "amount_minor": 88482528357,
+     "bias_days_median": 0.0,
+     "abs_err_median": 0.0,
+     "abs_err_mean": 0.7948568088836937,
+     "abs_err_p90": 2.0,
+     "within_3d_count": 0.9339567504383401,
+     "within_7d_count": 0.9684395090590298,
+     "within_3d_amount": 0.7913217845391818,
+     "within_7d_amount": 0.9138048888789847,
+     "abs_err_median_amount_weighted": 0.0
+    },
+    "share_actual_inside_q10_q90": 0.9683544303797469,
+    "by_level": {
+     "client": {
+      "n": 1458,
+      "amount_minor": 73038895152,
+      "bias_days_median": 0.0,
+      "abs_err_median": 0.0,
+      "abs_err_mean": 0.15637860082304528,
+      "abs_err_p90": 0.0,
+      "within_3d_count": 0.9890260631001372,
+      "within_7d_count": 0.9965706447187929,
+      "within_3d_amount": 0.8959528295823092,
+      "within_7d_amount": 0.9636494371324387,
+      "abs_err_median_amount_weighted": 0.0
+     },
+     "industry": {
+      "n": 255,
+      "amount_minor": 20318218706,
+      "bias_days_median": 1.0,
+      "abs_err_median": 1.0,
+      "abs_err_mean": 4.250980392156863,
+      "abs_err_p90": 14.0,
+      "within_3d_count": 0.6196078431372549,
+      "within_7d_count": 0.807843137254902,
+      "within_3d_amount": 0.46526386475052645,
+      "within_7d_amount": 0.7553054976944493,
+      "abs_err_median_amount_weighted": 4.0
+     },
+     "global": {
+      "n": 25,
+      "amount_minor": 502564197,
+      "bias_days_median": 2.0,
+      "abs_err_median": 2.0,
+      "abs_err_mean": 2.0,
+      "abs_err_p90": 3.0,
+      "within_3d_count": 1.0,
+      "within_7d_count": 1.0,
+      "within_3d_amount": 1.0,
+      "within_7d_amount": 1.0,
+      "abs_err_median_amount_weighted": 1.0
+     },
+     "fallback": {
+      "n": 0
+     }
+    },
+    "by_mechanism": {
+     "invoice": {
+      "n": 1738,
+      "amount_minor": 93859678055,
+      "bias_days_median": 0.0,
+      "abs_err_median": 0.0,
+      "abs_err_mean": 0.7836593785960875,
+      "abs_err_p90": 2.0,
+      "within_3d_count": 0.9349827387802071,
+      "within_7d_count": 0.9689298043728424,
+      "within_3d_amount": 0.8032768010755351,
+      "within_7d_amount": 0.9187429413562354,
+      "abs_err_median_amount_weighted": 0.0
+     },
+     "contract_settlement": {
+      "n": 0
+     }
+    }
+   },
+   "contract_amount_error": {
+    "n": 863,
+    "median_abs_rel": 0.3333330572492166,
+    "mean_abs_rel": 0.4064608356109246,
+    "median_signed_rel": 0.0,
+    "within_10pct": 0.4495944380069525,
+    "p90_abs_rel": 1.3333333333333333
+   },
+   "by_industry_in": {
+    "IT-услуги и разработка": {
+     "flow_minor": 27339007216,
+     "ceiling_share": 0.4950354282462544,
+     "hit_share": 0.45781291050960304
+    },
+    "Автосервис": {
+     "flow_minor": 6185594228,
+     "ceiling_share": 0.2102165242449848,
+     "hit_share": 0.20025308359104993
+    },
+    "Гостиница / база отдыха": {
+     "flow_minor": 2288411263,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Грузоперевозки": {
+     "flow_minor": 19473105908,
+     "ceiling_share": 0.7122167232861537,
+     "hit_share": 0.6284753566184939
+    },
+    "Медицинская клиника / стоматология": {
+     "flow_minor": 13469690217,
+     "ceiling_share": 0.16631840442570736,
+     "hit_share": 0.10697930685750677
+    },
+    "Образовательный центр для детей": {
+     "flow_minor": 4816204691,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Общепит (кофейня, кафе)": {
+     "flow_minor": 8523578528,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Оптовая торговля": {
+     "flow_minor": 193900881643,
+     "ceiling_share": 0.6463558162347556,
+     "hit_share": 0.556625993566731
+    },
+    "Продажи на маркетплейсах": {
+     "flow_minor": 13940147350,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Производство мебели на заказ": {
+     "flow_minor": 19817913914,
+     "ceiling_share": 0.5383704782097581,
+     "hit_share": 0.5030603649437166
+    },
+    "Розница: одежда и обувь": {
+     "flow_minor": 7233144229,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Розница: продуктовый магазин": {
+     "flow_minor": 17760430428,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Салон красоты": {
+     "flow_minor": 4866074399,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Сельское хозяйство (растениеводство)": {
+     "flow_minor": 2335979827,
+     "ceiling_share": 0.0,
+     "hit_share": 0.0
+    },
+    "Строительство и ремонт": {
+     "flow_minor": 17766390250,
+     "ceiling_share": 0.5540675585463963,
+     "hit_share": 0.5540675585463963
+    }
+   }
+  }
+ }
+}

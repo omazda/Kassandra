@@ -1,0 +1,2349 @@
+{
+ "note": "API v1.1, третья итерация: календарь платежей, правка и удаление, фильтры операций и структура. C003 «Агро-191», срез 26.04.2026, модель hgb. Ответы сняты с копии базы, на стенде ничего не менялось.",
+ "base_run_id": "d9ef8c13-4072-4758-9c05-117dc729efc8",
+ "calendar": {
+  "run_id": "d9ef8c13-4072-4758-9c05-117dc729efc8",
+  "account_id": "C003",
+  "as_of": "2026-04-26",
+  "date_to": "2026-05-26",
+  "items": [
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-04",
+    "date": "2026-05-04",
+    "due_date": "2026-05-04",
+    "direction": "out",
+    "amount_minor": 37430117,
+    "label": "Зарплата · повтор по истории",
+    "title": "Зарплата",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ПАО «Банк»",
+    "counterparty_inn": "0068275202",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "regular:C003:component:4dc0eb2a8062f9b3:2026-05-13",
+    "date": "2026-05-13",
+    "due_date": "2026-05-13",
+    "direction": "out",
+    "amount_minor": 530000,
+    "label": "ПО и учётные системы · повтор по истории",
+    "title": "ПО и учётные системы",
+    "component_id": "component:4dc0eb2a8062f9b3",
+    "category": "software",
+    "category_label": "ПО и учётные системы",
+    "group": "fixed",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ООО «Учетные системы-520»",
+    "counterparty_inn": "0092299998",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-18",
+    "date": "2026-05-18",
+    "due_date": "2026-05-18",
+    "direction": "out",
+    "amount_minor": 37430117,
+    "label": "Зарплата · повтор по истории",
+    "title": "Зарплата",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ПАО «Банк»",
+    "counterparty_inn": "0068275202",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   }
+  ],
+  "totals": {
+   "count": 3,
+   "inflow_minor": 0,
+   "outflow_minor": 75390234
+  },
+  "facets": {
+   "sources": [
+    {
+     "code": "regular",
+     "label": "По истории",
+     "count": 3
+    }
+   ],
+   "categories": [
+    {
+     "code": "salary",
+     "label": "Зарплата",
+     "count": 2
+    },
+    {
+     "code": "software",
+     "label": "ПО и учётные системы",
+     "count": 1
+    }
+   ],
+   "directions": [
+    {
+     "code": "out",
+     "label": "Списания",
+     "count": 3
+    }
+   ],
+   "obligatory": 3,
+   "cancelled": 0
+  }
+ },
+ "calendar_obligatory_out": {
+  "run_id": "d9ef8c13-4072-4758-9c05-117dc729efc8",
+  "account_id": "C003",
+  "as_of": "2026-04-26",
+  "date_to": "2026-05-26",
+  "items": [
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-04",
+    "date": "2026-05-04",
+    "due_date": "2026-05-04",
+    "direction": "out",
+    "amount_minor": 37430117,
+    "label": "Зарплата · повтор по истории",
+    "title": "Зарплата",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ПАО «Банк»",
+    "counterparty_inn": "0068275202",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "regular:C003:component:4dc0eb2a8062f9b3:2026-05-13",
+    "date": "2026-05-13",
+    "due_date": "2026-05-13",
+    "direction": "out",
+    "amount_minor": 530000,
+    "label": "ПО и учётные системы · повтор по истории",
+    "title": "ПО и учётные системы",
+    "component_id": "component:4dc0eb2a8062f9b3",
+    "category": "software",
+    "category_label": "ПО и учётные системы",
+    "group": "fixed",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ООО «Учетные системы-520»",
+    "counterparty_inn": "0092299998",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-18",
+    "date": "2026-05-18",
+    "due_date": "2026-05-18",
+    "direction": "out",
+    "amount_minor": 37430117,
+    "label": "Зарплата · повтор по истории",
+    "title": "Зарплата",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ПАО «Банк»",
+    "counterparty_inn": "0068275202",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   }
+  ],
+  "totals": {
+   "count": 3,
+   "inflow_minor": 0,
+   "outflow_minor": 75390234
+  },
+  "facets": {
+   "sources": [
+    {
+     "code": "regular",
+     "label": "По истории",
+     "count": 3
+    }
+   ],
+   "categories": [
+    {
+     "code": "salary",
+     "label": "Зарплата",
+     "count": 2
+    },
+    {
+     "code": "software",
+     "label": "ПО и учётные системы",
+     "count": 1
+    }
+   ],
+   "directions": [
+    {
+     "code": "out",
+     "label": "Списания",
+     "count": 3
+    }
+   ],
+   "obligatory": 3,
+   "cancelled": 0
+  }
+ },
+ "event_created": {
+  "id": "manual-demo-repair",
+  "account_id": "C003",
+  "component_id": "manual",
+  "category": "operating_expense",
+  "amount_minor": 15000000,
+  "direction": "out",
+  "due_date": "2026-05-15",
+  "expected_date": "2026-05-15",
+  "known_at": "2026-04-26",
+  "source": "manual",
+  "status": "confirmed",
+  "paid_minor": 0,
+  "replacement_id": null,
+  "decision": "additional",
+  "label": "Ремонт техники",
+  "counterparty_inn": null,
+  "counterparty_name": null,
+  "document_ref": null,
+  "certainty": "agreed"
+ },
+ "event_edited": {
+  "id": "manual-demo-repair",
+  "account_id": "C003",
+  "component_id": "manual",
+  "category": "operating_expense",
+  "amount_minor": 12000000,
+  "direction": "out",
+  "due_date": "2026-05-15",
+  "expected_date": "2026-05-19",
+  "known_at": "2026-04-26",
+  "source": "manual",
+  "status": "confirmed",
+  "paid_minor": 0,
+  "replacement_id": null,
+  "decision": "additional",
+  "label": "Ремонт техники",
+  "counterparty_inn": null,
+  "counterparty_name": null,
+  "document_ref": null,
+  "certainty": "agreed"
+ },
+ "calendar_with_event": {
+  "run_id": "5d4b1491-9b1b-4fcd-80ec-a584b86047ec",
+  "account_id": "C003",
+  "as_of": "2026-04-26",
+  "date_to": "2026-05-26",
+  "items": [
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-04",
+    "date": "2026-05-04",
+    "due_date": "2026-05-04",
+    "direction": "out",
+    "amount_minor": 37430117,
+    "label": "Зарплата · повтор по истории",
+    "title": "Зарплата",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ПАО «Банк»",
+    "counterparty_inn": "0068275202",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "regular:C003:component:4dc0eb2a8062f9b3:2026-05-13",
+    "date": "2026-05-13",
+    "due_date": "2026-05-13",
+    "direction": "out",
+    "amount_minor": 530000,
+    "label": "ПО и учётные системы · повтор по истории",
+    "title": "ПО и учётные системы",
+    "component_id": "component:4dc0eb2a8062f9b3",
+    "category": "software",
+    "category_label": "ПО и учётные системы",
+    "group": "fixed",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ООО «Учетные системы-520»",
+    "counterparty_inn": "0092299998",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-18",
+    "date": "2026-05-18",
+    "due_date": "2026-05-18",
+    "direction": "out",
+    "amount_minor": 37430117,
+    "label": "Зарплата · повтор по истории",
+    "title": "Зарплата",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ПАО «Банк»",
+    "counterparty_inn": "0068275202",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "manual-demo-repair",
+    "date": "2026-05-19",
+    "due_date": "2026-05-15",
+    "direction": "out",
+    "amount_minor": 12000000,
+    "label": "Ремонт техники",
+    "title": "Ремонт техники",
+    "component_id": "manual",
+    "category": "operating_expense",
+    "category_label": "Основные расходы",
+    "group": "operations",
+    "source": "manual",
+    "source_label": "Ручной ввод",
+    "source_short": "Вручную",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "agreed",
+    "certainty_label": "Подписан договор",
+    "counterparty_name": null,
+    "counterparty_inn": null,
+    "obligatory": false,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   }
+  ],
+  "totals": {
+   "count": 4,
+   "inflow_minor": 0,
+   "outflow_minor": 87390234
+  },
+  "facets": {
+   "sources": [
+    {
+     "code": "regular",
+     "label": "По истории",
+     "count": 3
+    },
+    {
+     "code": "manual",
+     "label": "Вручную",
+     "count": 1
+    }
+   ],
+   "categories": [
+    {
+     "code": "salary",
+     "label": "Зарплата",
+     "count": 2
+    },
+    {
+     "code": "operating_expense",
+     "label": "Основные расходы",
+     "count": 1
+    },
+    {
+     "code": "software",
+     "label": "ПО и учётные системы",
+     "count": 1
+    }
+   ],
+   "directions": [
+    {
+     "code": "out",
+     "label": "Списания",
+     "count": 4
+    }
+   ],
+   "obligatory": 3,
+   "cancelled": 0
+  }
+ },
+ "event_deleted": {
+  "id": "manual-demo-repair",
+  "account_id": "C003",
+  "component_id": "manual",
+  "category": "operating_expense",
+  "amount_minor": 12000000,
+  "direction": "out",
+  "due_date": "2026-05-15",
+  "expected_date": "2026-05-19",
+  "known_at": "2026-04-26",
+  "source": "manual",
+  "status": "cancelled",
+  "paid_minor": 0,
+  "replacement_id": null,
+  "decision": "additional",
+  "label": "Ремонт техники",
+  "counterparty_inn": null,
+  "counterparty_name": null,
+  "document_ref": null,
+  "certainty": "agreed"
+ },
+ "assumption_edited": {
+  "id": "override:regular:C003:component:475c003c562563be:2026-05-04",
+  "account_id": "C003",
+  "component_id": "component:475c003c562563be",
+  "category": "salary",
+  "amount_minor": 37430117,
+  "direction": "out",
+  "due_date": "2026-05-04",
+  "expected_date": "2026-05-06",
+  "known_at": "2026-04-26",
+  "source": "manual",
+  "status": "confirmed",
+  "paid_minor": 0,
+  "replacement_id": "regular:C003:component:475c003c562563be:2026-05-04",
+  "decision": "replace",
+  "label": "Зарплата · повтор по истории",
+  "counterparty_inn": "0068275202",
+  "counterparty_name": "ПАО «Банк»",
+  "document_ref": null,
+  "certainty": "agreed"
+ },
+ "refresh_after_edits": {
+  "mode": "events_only",
+  "elapsed_ms": 116.3,
+  "previous": {
+   "run_id": "d9ef8c13-4072-4758-9c05-117dc729efc8",
+   "as_of": "2026-04-26",
+   "first_gap_date": "2026-05-21",
+   "liquidity_need_minor": 39202853
+  },
+  "changes": {
+   "gap_appeared": false,
+   "gap_resolved": false,
+   "gap_shift_days": 0,
+   "need_delta_minor": 0,
+   "minimum_delta_minor": 0
+  },
+  "forecast_run_id": "b5515d7e-2b58-4b1c-ac97-359d9a950548"
+ },
+ "calendar_after_edits": {
+  "run_id": "b5515d7e-2b58-4b1c-ac97-359d9a950548",
+  "account_id": "C003",
+  "as_of": "2026-04-26",
+  "date_to": "2026-05-26",
+  "items": [
+   {
+    "id": "override:regular:C003:component:475c003c562563be:2026-05-04",
+    "date": "2026-05-06",
+    "due_date": "2026-05-04",
+    "direction": "out",
+    "amount_minor": 37430117,
+    "label": "Зарплата · повтор по истории",
+    "title": "Зарплата",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "manual",
+    "source_label": "Ручной ввод",
+    "source_short": "Вручную",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "agreed",
+    "certainty_label": "Подписан договор",
+    "counterparty_name": "ПАО «Банк»",
+    "counterparty_inn": "0068275202",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "regular:C003:component:4dc0eb2a8062f9b3:2026-05-13",
+    "date": "2026-05-13",
+    "due_date": "2026-05-13",
+    "direction": "out",
+    "amount_minor": 530000,
+    "label": "ПО и учётные системы · повтор по истории",
+    "title": "ПО и учётные системы",
+    "component_id": "component:4dc0eb2a8062f9b3",
+    "category": "software",
+    "category_label": "ПО и учётные системы",
+    "group": "fixed",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ООО «Учетные системы-520»",
+    "counterparty_inn": "0092299998",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "regular:C003:component:475c003c562563be:2026-05-18",
+    "date": "2026-05-18",
+    "due_date": "2026-05-18",
+    "direction": "out",
+    "amount_minor": 37430117,
+    "label": "Зарплата · повтор по истории",
+    "title": "Зарплата",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ПАО «Банк»",
+    "counterparty_inn": "0068275202",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "manual-demo-repair",
+    "date": "2026-05-19",
+    "due_date": "2026-05-15",
+    "direction": "out",
+    "amount_minor": 12000000,
+    "label": "Ремонт техники",
+    "title": "Ремонт техники",
+    "component_id": "manual",
+    "category": "operating_expense",
+    "category_label": "Основные расходы",
+    "group": "operations",
+    "source": "manual",
+    "source_label": "Ручной ввод",
+    "source_short": "Вручную",
+    "kind": "registered",
+    "status": "cancelled",
+    "certainty": "agreed",
+    "certainty_label": "Подписан договор",
+    "counterparty_name": null,
+    "counterparty_inn": null,
+    "obligatory": false,
+    "overdue": false,
+    "actions": []
+   }
+  ],
+  "totals": {
+   "count": 4,
+   "inflow_minor": 0,
+   "outflow_minor": 75390234
+  },
+  "facets": {
+   "sources": [
+    {
+     "code": "regular",
+     "label": "По истории",
+     "count": 2
+    },
+    {
+     "code": "manual",
+     "label": "Вручную",
+     "count": 1
+    }
+   ],
+   "categories": [
+    {
+     "code": "salary",
+     "label": "Зарплата",
+     "count": 2
+    },
+    {
+     "code": "software",
+     "label": "ПО и учётные системы",
+     "count": 1
+    }
+   ],
+   "directions": [
+    {
+     "code": "out",
+     "label": "Списания",
+     "count": 3
+    }
+   ],
+   "obligatory": 3,
+   "cancelled": 1
+  }
+ },
+ "transactions_page": {
+  "items": [
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000409",
+    "operation_date": "2026-04-20",
+    "amount_minor": 54178406,
+    "direction": "out",
+    "counterparty_inn": "0067371263",
+    "counterparty_name": "АО «Агрохимия-448»",
+    "payment_purpose": "Оплата по счету № 1505 от 19.04.2026 за средства защиты растений. в том числе НДС (22%) 97 698.77 руб.",
+    "balance_eod_minor": 209902886,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000408",
+    "operation_date": "2026-04-20",
+    "amount_minor": 52530000,
+    "direction": "out",
+    "counterparty_inn": "0068275202",
+    "counterparty_name": "ПАО «Банк»",
+    "payment_purpose": "Перечисление заработной платы (аванс) за апрель 2026 г. по реестру № 65 от 20.04.2026. НДС не облагается",
+    "balance_eod_minor": 209902886,
+    "category": "salary"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000407",
+    "operation_date": "2026-04-20",
+    "amount_minor": 26000000,
+    "direction": "out",
+    "counterparty_inn": "0062343230",
+    "counterparty_name": "ООО «Топливная компания-660»",
+    "payment_purpose": "Пополнение лицевого счета по договору № 4926 (топливные карты). В т.ч. НДС 22% - 46885.25",
+    "balance_eod_minor": 209902886,
+    "category": "logistics"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000406",
+    "operation_date": "2026-04-15",
+    "amount_minor": 36540000,
+    "direction": "out",
+    "counterparty_inn": "",
+    "counterparty_name": "Участник общества (физическое лицо)",
+    "payment_purpose": "Выплата дивидендов за 1 квартал 2026 г. согласно решению участника. НДФЛ удержан. НДС не облагается",
+    "balance_eod_minor": 342611292,
+    "category": "owner_withdrawal"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000405",
+    "operation_date": "2026-04-15",
+    "amount_minor": 83028081,
+    "direction": "out",
+    "counterparty_inn": "0043270523",
+    "counterparty_name": "ООО «Семена-676»",
+    "payment_purpose": "Оплата по счету № 1504 от 15.04.2026 за семена. Сумма 830280-81 В т.ч. НДС 22% 149722-77",
+    "balance_eod_minor": 342611292,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000404",
+    "operation_date": "2026-04-14",
+    "amount_minor": 530000,
+    "direction": "out",
+    "counterparty_inn": "0092299998",
+    "counterparty_name": "ООО «Учетные системы-520»",
+    "payment_purpose": "Оплата по счету № 9665 за предоставление права использования ПО (подписка) за апрель 2026 г. НДС не облагается",
+    "balance_eod_minor": 462179373,
+    "category": "software"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000403",
+    "operation_date": "2026-04-13",
+    "amount_minor": 25500000,
+    "direction": "out",
+    "counterparty_inn": "0062343230",
+    "counterparty_name": "ООО «Топливная компания-660»",
+    "payment_purpose": "Пополнение лицевого счета по договору № 3458 (топливные карты). В т.ч. НДС 22% - 45983.61",
+    "balance_eod_minor": 462709373,
+    "category": "logistics"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000402",
+    "operation_date": "2026-04-09",
+    "amount_minor": 581205,
+    "direction": "out",
+    "counterparty_inn": "0008494584",
+    "counterparty_name": "ПАО «Телеком-129»",
+    "payment_purpose": "Оплата услуг связи и доступа в Интернет по лицевому счету 2209686 за апрель 2026 г. Сумма 5870-00 В т.ч. НДС 22% 1058-52",
+    "balance_eod_minor": 488209373,
+    "category": "telecom"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000401",
+    "operation_date": "2026-04-06",
+    "amount_minor": 28600000,
+    "direction": "out",
+    "counterparty_inn": "0062343230",
+    "counterparty_name": "ООО «Топливная компания-660»",
+    "payment_purpose": "Пополнение лицевого счета по договору № 8096 (топливные карты). в том числе НДС (22%) 51 573.77 руб.",
+    "balance_eod_minor": 488790578,
+    "category": "logistics"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000400",
+    "operation_date": "2026-04-06",
+    "amount_minor": 48635705,
+    "direction": "out",
+    "counterparty_inn": "0067371263",
+    "counterparty_name": "АО «Агрохимия-448»",
+    "payment_purpose": "Оплата по счету № 1503 от 06.04.2026 за средства защиты растений. в том числе НДС (22%) 87 703.73 руб.",
+    "balance_eod_minor": 488790578,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000399",
+    "operation_date": "2026-04-03",
+    "amount_minor": 39591727,
+    "direction": "out",
+    "counterparty_inn": "0068275202",
+    "counterparty_name": "ПАО «Банк»",
+    "payment_purpose": "Перечисление заработной платы (окончательный расчет) за март 2026 г. по реестру № 64 от 03.04.2026. НДС не облагается",
+    "balance_eod_minor": 566026283,
+    "category": "salary"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000398",
+    "operation_date": "2026-04-02",
+    "amount_minor": 58363020,
+    "direction": "out",
+    "counterparty_inn": "0075143084",
+    "counterparty_name": "ООО «Элеватор-Услуги-017»",
+    "payment_purpose": "Оплата по счету № 1502 от 02.04.2026 за услуги хранения и подработки. в том числе НДС (22%) 105 244.79 руб.",
+    "balance_eod_minor": 605618010,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000397",
+    "operation_date": "2026-04-01",
+    "amount_minor": 149000,
+    "direction": "out",
+    "counterparty_inn": "0068275202",
+    "counterparty_name": "ПАО «Банк»",
+    "payment_purpose": "Комиссия за ведение счета за март 2026 г. Без НДС",
+    "balance_eod_minor": 663981030,
+    "category": "bank_fee"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000396",
+    "operation_date": "2026-03-30",
+    "amount_minor": 15000000,
+    "direction": "out",
+    "counterparty_inn": "0062343230",
+    "counterparty_name": "ООО «Топливная компания-660»",
+    "payment_purpose": "Пополнение лицевого счета по договору № 5134 (топливные карты). Сумма 150000.00 В т.ч. НДС 22% 27049.18",
+    "balance_eod_minor": 664130030,
+    "category": "logistics"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000395",
+    "operation_date": "2026-03-30",
+    "amount_minor": 97750000,
+    "direction": "out",
+    "counterparty_inn": "7727406020",
+    "counterparty_name": "Казначейство России (ФНС России)",
+    "payment_purpose": "Единый налоговый платеж",
+    "balance_eod_minor": 664130030,
+    "category": "tax"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000394",
+    "operation_date": "2026-03-30",
+    "amount_minor": 66659414,
+    "direction": "out",
+    "counterparty_inn": "0043270523",
+    "counterparty_name": "ООО «Семена-676»",
+    "payment_purpose": "Оплата по счету № 1501 от 30.03.2026 за семена. В т.ч. НДС 22% - 120 205.50",
+    "balance_eod_minor": 664130030,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000393",
+    "operation_date": "2026-03-23",
+    "amount_minor": 102883826,
+    "direction": "out",
+    "counterparty_inn": "0097362153",
+    "counterparty_name": "ООО «Семена-076»",
+    "payment_purpose": "Оплата по счету № 1500 от 23.03.2026 за семена. НДС не облагается.",
+    "balance_eod_minor": 843539444,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000392",
+    "operation_date": "2026-03-23",
+    "amount_minor": 19500000,
+    "direction": "out",
+    "counterparty_inn": "0062343230",
+    "counterparty_name": "ООО «Топливная компания-660»",
+    "payment_purpose": "Пополнение лицевого счета по договору № 8940 (топливные карты). Сумма 195000.00 В т.ч. НДС 22% 35163.93",
+    "balance_eod_minor": 843539444,
+    "category": "logistics"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000391",
+    "operation_date": "2026-03-20",
+    "amount_minor": 26390000,
+    "direction": "out",
+    "counterparty_inn": "0068275202",
+    "counterparty_name": "ПАО «Банк»",
+    "payment_purpose": "Перечисление заработной платы (аванс) за март 2026 г. по реестру № 63 от 20.03.2026. НДС не облагается",
+    "balance_eod_minor": 965923270,
+    "category": "salary"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000390",
+    "operation_date": "2026-03-18",
+    "amount_minor": 80320782,
+    "direction": "out",
+    "counterparty_inn": "0043270523",
+    "counterparty_name": "ООО «Семена-676»",
+    "payment_purpose": "Оплата по счету № 1499 от 18.03.2026 за семена. в том числе НДС (22%) 144840-75 руб.",
+    "balance_eod_minor": 992313270,
+    "category": "supplier"
+   }
+  ],
+  "page": 1,
+  "page_size": 20,
+  "total": 409,
+  "totals": {
+   "count": 409,
+   "inflow_minor": 15348095313,
+   "outflow_minor": 15153337171
+  },
+  "facets": {
+   "categories": [
+    {
+     "code": "supplier",
+     "label": "Поставщики и закупки",
+     "group": "operations",
+     "count": 134
+    },
+    {
+     "code": "logistics",
+     "label": "Логистика и топливо",
+     "group": "operations",
+     "count": 82
+    },
+    {
+     "code": "salary",
+     "label": "Зарплата",
+     "group": "payroll",
+     "count": 38
+    },
+    {
+     "code": "tax",
+     "label": "Налоги",
+     "group": "tax",
+     "count": 26
+    },
+    {
+     "code": "owner_withdrawal",
+     "label": "Выводы владельца",
+     "group": "financing",
+     "count": 21
+    },
+    {
+     "code": "bank_fee",
+     "label": "Банковские комиссии",
+     "group": "fixed",
+     "count": 19
+    },
+    {
+     "code": "telecom",
+     "label": "Связь",
+     "group": "fixed",
+     "count": 19
+    },
+    {
+     "code": "debt_service",
+     "label": "Обслуживание долга",
+     "group": "financing",
+     "count": 18
+    },
+    {
+     "code": "software",
+     "label": "ПО и учётные системы",
+     "group": "fixed",
+     "count": 15
+    },
+    {
+     "code": "loan_in",
+     "label": "Кредит и заём (поступление)",
+     "group": "financing",
+     "count": 11
+    },
+    {
+     "code": "contract_prepayment",
+     "label": "Предоплата по договору",
+     "group": "revenue",
+     "count": 6
+    },
+    {
+     "code": "contract_settlement",
+     "label": "Окончательный расчёт по договору",
+     "group": "revenue",
+     "count": 6
+    },
+    {
+     "code": "owner_funding",
+     "label": "Финансирование владельцем",
+     "group": "financing",
+     "count": 6
+    },
+    {
+     "code": "customer_payment",
+     "label": "Оплата клиентов",
+     "group": "revenue",
+     "count": 5
+    },
+    {
+     "code": "rent",
+     "label": "Аренда",
+     "group": "fixed",
+     "count": 2
+    },
+    {
+     "code": "other_income",
+     "label": "Прочие доходы (субсидии, страховые выплаты)",
+     "group": "other",
+     "count": 1
+    }
+   ],
+   "counterparties": [
+    {
+     "name": "ПАО «Банк»",
+     "inn": "0068275202",
+     "count": 88,
+     "amount_minor": 10121147520
+    },
+    {
+     "name": "ООО «Топливная компания-660»",
+     "inn": "0062343230",
+     "count": 82,
+     "amount_minor": 1349500000
+    },
+    {
+     "name": "Казначейство России (ФНС России)",
+     "inn": "7727406020",
+     "count": 26,
+     "amount_minor": 1193571065
+    },
+    {
+     "name": "Учредитель (физическое лицо)",
+     "inn": "",
+     "count": 23,
+     "amount_minor": 2950000000
+    },
+    {
+     "name": "ООО «Семена-076»",
+     "inn": "0097362153",
+     "count": 23,
+     "amount_minor": 854755134
+    },
+    {
+     "name": "ООО «Семена-676»",
+     "inn": "0043270523",
+     "count": 21,
+     "amount_minor": 665167851
+    },
+    {
+     "name": "АО «Семена-078»",
+     "inn": "0052973970",
+     "count": 21,
+     "amount_minor": 566166028
+    },
+    {
+     "name": "ПАО «Телеком-129»",
+     "inn": "0008494584",
+     "count": 19,
+     "amount_minor": 11161492
+    },
+    {
+     "name": "ООО «Элеватор-Услуги-017»",
+     "inn": "0075143084",
+     "count": 17,
+     "amount_minor": 472040701
+    },
+    {
+     "name": "ООО «Учетные системы-520»",
+     "inn": "0092299998",
+     "count": 15,
+     "amount_minor": 7950000
+    },
+    {
+     "name": "АО «Агрохимия-448»",
+     "inn": "0067371263",
+     "count": 14,
+     "amount_minor": 421806418
+    },
+    {
+     "name": "ООО «Запчасти для сельхозтехники-056»",
+     "inn": "0027687831",
+     "count": 13,
+     "amount_minor": 504761664
+    },
+    {
+     "name": "ООО «Запчасти для сельхозтехники-877»",
+     "inn": "0006094950",
+     "count": 6,
+     "amount_minor": 111110517
+    },
+    {
+     "name": "ООО «Маслозавод-431»",
+     "inn": "0093526192",
+     "count": 6,
+     "amount_minor": 2285097022
+    },
+    {
+     "name": "ООО «Мукомольный комбинат-935»",
+     "inn": "0003688561",
+     "count": 5,
+     "amount_minor": 2378875595
+    },
+    {
+     "name": "ООО «Экспорт-Зерно-224»",
+     "inn": "0072940758",
+     "count": 4,
+     "amount_minor": 4543362132
+    },
+    {
+     "name": "Участник общества (физическое лицо)",
+     "inn": "",
+     "count": 4,
+     "amount_minor": 783000000
+    },
+    {
+     "name": "ООО «Агрохимия-181»",
+     "inn": "0028375955",
+     "count": 3,
+     "amount_minor": 76982672
+    },
+    {
+     "name": "ООО «Удобрения-383»",
+     "inn": "0080998462",
+     "count": 2,
+     "amount_minor": 15811872
+    },
+    {
+     "name": "ООО «Зернотрейдер-169»",
+     "inn": "0078408250",
+     "count": 2,
+     "amount_minor": 749457640
+    }
+   ]
+  }
+ },
+ "transactions_filtered": {
+  "items": [
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000350",
+    "operation_date": "2026-01-14",
+    "amount_minor": 263610000,
+    "direction": "out",
+    "counterparty_inn": "",
+    "counterparty_name": "Участник общества (физическое лицо)",
+    "payment_purpose": "Выплата дивидендов за 4 квартал 2025 г. согласно решению участника. НДФЛ удержан. НДС не облагается",
+    "balance_eod_minor": 451633959,
+    "category": "owner_withdrawal"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000387",
+    "operation_date": "2026-03-11",
+    "amount_minor": 145535442,
+    "direction": "out",
+    "counterparty_inn": "0075143084",
+    "counterparty_name": "ООО «Элеватор-Услуги-017»",
+    "payment_purpose": "Оплата по счету № 1498 от 11.03.2026 за услуги хранения и подработки. Сумма 1 455 354.42 В т.ч. НДС 22% 262 440.96",
+    "balance_eod_minor": 1092334052,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000393",
+    "operation_date": "2026-03-23",
+    "amount_minor": 102883826,
+    "direction": "out",
+    "counterparty_inn": "0097362153",
+    "counterparty_name": "ООО «Семена-076»",
+    "payment_purpose": "Оплата по счету № 1500 от 23.03.2026 за семена. НДС не облагается.",
+    "balance_eod_minor": 843539444,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000395",
+    "operation_date": "2026-03-30",
+    "amount_minor": 97750000,
+    "direction": "out",
+    "counterparty_inn": "7727406020",
+    "counterparty_name": "Казначейство России (ФНС России)",
+    "payment_purpose": "Единый налоговый платеж",
+    "balance_eod_minor": 664130030,
+    "category": "tax"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000405",
+    "operation_date": "2026-04-15",
+    "amount_minor": 83028081,
+    "direction": "out",
+    "counterparty_inn": "0043270523",
+    "counterparty_name": "ООО «Семена-676»",
+    "payment_purpose": "Оплата по счету № 1504 от 15.04.2026 за семена. Сумма 830280-81 В т.ч. НДС 22% 149722-77",
+    "balance_eod_minor": 342611292,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000390",
+    "operation_date": "2026-03-18",
+    "amount_minor": 80320782,
+    "direction": "out",
+    "counterparty_inn": "0043270523",
+    "counterparty_name": "ООО «Семена-676»",
+    "payment_purpose": "Оплата по счету № 1499 от 18.03.2026 за семена. в том числе НДС (22%) 144840-75 руб.",
+    "balance_eod_minor": 992313270,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000394",
+    "operation_date": "2026-03-30",
+    "amount_minor": 66659414,
+    "direction": "out",
+    "counterparty_inn": "0043270523",
+    "counterparty_name": "ООО «Семена-676»",
+    "payment_purpose": "Оплата по счету № 1501 от 30.03.2026 за семена. В т.ч. НДС 22% - 120 205.50",
+    "balance_eod_minor": 664130030,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000384",
+    "operation_date": "2026-03-06",
+    "amount_minor": 64784307,
+    "direction": "out",
+    "counterparty_inn": "0027687831",
+    "counterparty_name": "ООО «Запчасти для сельхозтехники-056»",
+    "payment_purpose": "Оплата по счету № 1497 от 06.03.2026 за запчасти. НДС не облагается.",
+    "balance_eod_minor": 6699494,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000378",
+    "operation_date": "2026-03-02",
+    "amount_minor": 63865671,
+    "direction": "out",
+    "counterparty_inn": "0027687831",
+    "counterparty_name": "ООО «Запчасти для сельхозтехники-056»",
+    "payment_purpose": "Оплата по счету № 1496 от 01.03.2026 за запчасти. НДС не облагается",
+    "balance_eod_minor": 109623770,
+    "category": "supplier"
+   },
+   {
+    "account_id": "C003",
+    "operation_id": "C003-000372",
+    "operation_date": "2026-02-19",
+    "amount_minor": 62291613,
+    "direction": "out",
+    "counterparty_inn": "0027687831",
+    "counterparty_name": "ООО «Запчасти для сельхозтехники-056»",
+    "payment_purpose": "Оплата по счету № 1494 от 19.02.2026 за запчасти. НДС не облагается.",
+    "balance_eod_minor": 337422882,
+    "category": "supplier"
+   }
+  ],
+  "page": 1,
+  "page_size": 10,
+  "total": 66,
+  "totals": {
+   "count": 66,
+   "inflow_minor": 0,
+   "outflow_minor": 2170357485
+  },
+  "facets": {
+   "categories": [
+    {
+     "code": "supplier",
+     "label": "Поставщики и закупки",
+     "group": "operations",
+     "count": 25
+    },
+    {
+     "code": "logistics",
+     "label": "Логистика и топливо",
+     "group": "operations",
+     "count": 16
+    },
+    {
+     "code": "salary",
+     "label": "Зарплата",
+     "group": "payroll",
+     "count": 7
+    },
+    {
+     "code": "bank_fee",
+     "label": "Банковские комиссии",
+     "group": "fixed",
+     "count": 4
+    },
+    {
+     "code": "software",
+     "label": "ПО и учётные системы",
+     "group": "fixed",
+     "count": 4
+    },
+    {
+     "code": "tax",
+     "label": "Налоги",
+     "group": "tax",
+     "count": 4
+    },
+    {
+     "code": "telecom",
+     "label": "Связь",
+     "group": "fixed",
+     "count": 4
+    },
+    {
+     "code": "owner_withdrawal",
+     "label": "Выводы владельца",
+     "group": "financing",
+     "count": 2
+    },
+    {
+     "code": "customer_payment",
+     "label": "Оплата клиентов",
+     "group": "revenue",
+     "count": 1
+    },
+    {
+     "code": "loan_in",
+     "label": "Кредит и заём (поступление)",
+     "group": "financing",
+     "count": 1
+    }
+   ],
+   "counterparties": [
+    {
+     "name": "ООО «Топливная компания-660»",
+     "inn": "0062343230",
+     "count": 16,
+     "amount_minor": 227700000
+    },
+    {
+     "name": "ПАО «Банк»",
+     "inn": "0068275202",
+     "count": 12,
+     "amount_minor": 1496987869
+    },
+    {
+     "name": "АО «Агрохимия-448»",
+     "inn": "0067371263",
+     "count": 5,
+     "amount_minor": 176896322
+    },
+    {
+     "name": "ООО «Семена-676»",
+     "inn": "0043270523",
+     "count": 5,
+     "amount_minor": 276957154
+    },
+    {
+     "name": "ПАО «Телеком-129»",
+     "inn": "0008494584",
+     "count": 4,
+     "amount_minor": 2316197
+    },
+    {
+     "name": "ООО «Учетные системы-520»",
+     "inn": "0092299998",
+     "count": 4,
+     "amount_minor": 2120000
+    },
+    {
+     "name": "АО «Семена-078»",
+     "inn": "0052973970",
+     "count": 4,
+     "amount_minor": 87542626
+    },
+    {
+     "name": "ООО «Запчасти для сельхозтехники-056»",
+     "inn": "0027687831",
+     "count": 4,
+     "amount_minor": 202108972
+    },
+    {
+     "name": "Казначейство России (ФНС России)",
+     "inn": "7727406020",
+     "count": 4,
+     "amount_minor": 188880100
+    },
+    {
+     "name": "ООО «Семена-076»",
+     "inn": "0097362153",
+     "count": 3,
+     "amount_minor": 209043087
+    },
+    {
+     "name": "Участник общества (физическое лицо)",
+     "inn": "",
+     "count": 2,
+     "amount_minor": 300150000
+    },
+    {
+     "name": "ООО «Элеватор-Услуги-017»",
+     "inn": "0075143084",
+     "count": 2,
+     "amount_minor": 203898462
+    },
+    {
+     "name": "ООО «Запчасти для сельхозтехники-371»",
+     "inn": "0027105667",
+     "count": 1,
+     "amount_minor": 16118452
+    },
+    {
+     "name": "ООО «Удобрения-205»",
+     "inn": "0077597975",
+     "count": 1,
+     "amount_minor": 29638244
+    },
+    {
+     "name": "ООО «Мукомольный комбинат-935»",
+     "inn": "0003688561",
+     "count": 1,
+     "amount_minor": 360742922
+    }
+   ]
+  }
+ },
+ "categories_summary_90d": {
+  "date_from": "2026-01-27",
+  "date_to": "2026-04-26",
+  "inflow_minor": 1610742922,
+  "outflow_minor": 1765896088,
+  "rows": [
+   {
+    "direction": "in",
+    "category": "loan_in",
+    "label": "Кредит и заём (поступление)",
+    "group": "financing",
+    "amount_minor": 1250000000,
+    "operations": 1,
+    "share": 0.776
+   },
+   {
+    "direction": "in",
+    "category": "customer_payment",
+    "label": "Оплата клиентов",
+    "group": "revenue",
+    "amount_minor": 360742922,
+    "operations": 1,
+    "share": 0.224
+   },
+   {
+    "direction": "out",
+    "category": "supplier",
+    "label": "Поставщики и закупки",
+    "group": "operations",
+    "amount_minor": 1118211120,
+    "operations": 19,
+    "share": 0.6332
+   },
+   {
+    "direction": "out",
+    "category": "salary",
+    "label": "Зарплата",
+    "group": "payroll",
+    "amount_minor": 220281869,
+    "operations": 6,
+    "share": 0.1247
+   },
+   {
+    "direction": "out",
+    "category": "logistics",
+    "label": "Логистика и топливо",
+    "group": "operations",
+    "amount_minor": 198200000,
+    "operations": 12,
+    "share": 0.1122
+   },
+   {
+    "direction": "out",
+    "category": "tax",
+    "label": "Налоги",
+    "group": "tax",
+    "amount_minor": 188880100,
+    "operations": 4,
+    "share": 0.107
+   },
+   {
+    "direction": "out",
+    "category": "owner_withdrawal",
+    "label": "Выводы владельца",
+    "group": "financing",
+    "amount_minor": 36540000,
+    "operations": 1,
+    "share": 0.0207
+   },
+   {
+    "direction": "out",
+    "category": "telecom",
+    "label": "Связь",
+    "group": "fixed",
+    "amount_minor": 1745999,
+    "operations": 3,
+    "share": 0.001
+   },
+   {
+    "direction": "out",
+    "category": "software",
+    "label": "ПО и учётные системы",
+    "group": "fixed",
+    "amount_minor": 1590000,
+    "operations": 3,
+    "share": 0.0009
+   },
+   {
+    "direction": "out",
+    "category": "bank_fee",
+    "label": "Банковские комиссии",
+    "group": "fixed",
+    "amount_minor": 447000,
+    "operations": 3,
+    "share": 0.0003
+   }
+  ],
+  "groups": [
+   {
+    "direction": "in",
+    "group": "financing",
+    "label": "Кредиты и собственник",
+    "amount_minor": 1250000000,
+    "operations": 1,
+    "share": 0.776
+   },
+   {
+    "direction": "in",
+    "group": "revenue",
+    "label": "Выручка",
+    "amount_minor": 360742922,
+    "operations": 1,
+    "share": 0.224
+   },
+   {
+    "direction": "out",
+    "group": "operations",
+    "label": "Закупки и подрядчики",
+    "amount_minor": 1316411120,
+    "operations": 31,
+    "share": 0.7455
+   },
+   {
+    "direction": "out",
+    "group": "payroll",
+    "label": "Зарплата",
+    "amount_minor": 220281869,
+    "operations": 6,
+    "share": 0.1247
+   },
+   {
+    "direction": "out",
+    "group": "tax",
+    "label": "Налоги",
+    "amount_minor": 188880100,
+    "operations": 4,
+    "share": 0.107
+   },
+   {
+    "direction": "out",
+    "group": "financing",
+    "label": "Кредиты и собственник",
+    "amount_minor": 36540000,
+    "operations": 1,
+    "share": 0.0207
+   },
+   {
+    "direction": "out",
+    "group": "fixed",
+    "label": "Постоянные расходы",
+    "amount_minor": 3782999,
+    "operations": 9,
+    "share": 0.0021
+   }
+  ]
+ },
+ "categories_summary_year_out": {
+  "date_from": "2025-04-27",
+  "date_to": "2026-04-26",
+  "inflow_minor": 0,
+  "outflow_minor": 9688532078,
+  "rows": [
+   {
+    "direction": "out",
+    "category": "debt_service",
+    "label": "Обслуживание долга",
+    "group": "financing",
+    "amount_minor": 2449154466,
+    "operations": 10,
+    "share": 0.2528
+   },
+   {
+    "direction": "out",
+    "category": "supplier",
+    "label": "Поставщики и закупки",
+    "group": "operations",
+    "amount_minor": 2351886336,
+    "operations": 85,
+    "share": 0.2427
+   },
+   {
+    "direction": "out",
+    "category": "salary",
+    "label": "Зарплата",
+    "group": "payroll",
+    "amount_minor": 1146712690,
+    "operations": 24,
+    "share": 0.1184
+   },
+   {
+    "direction": "out",
+    "category": "owner_withdrawal",
+    "label": "Выводы владельца",
+    "group": "financing",
+    "amount_minor": 1113210000,
+    "operations": 9,
+    "share": 0.1149
+   },
+   {
+    "direction": "out",
+    "category": "logistics",
+    "label": "Логистика и топливо",
+    "group": "operations",
+    "amount_minor": 991600000,
+    "operations": 52,
+    "share": 0.1023
+   },
+   {
+    "direction": "out",
+    "category": "tax",
+    "label": "Налоги",
+    "group": "tax",
+    "amount_minor": 961973169,
+    "operations": 17,
+    "share": 0.0993
+   },
+   {
+    "direction": "out",
+    "category": "rent",
+    "label": "Аренда",
+    "group": "fixed",
+    "amount_minor": 660377492,
+    "operations": 1,
+    "share": 0.0682
+   },
+   {
+    "direction": "out",
+    "category": "telecom",
+    "label": "Связь",
+    "group": "fixed",
+    "amount_minor": 7059925,
+    "operations": 12,
+    "share": 0.0007
+   },
+   {
+    "direction": "out",
+    "category": "software",
+    "label": "ПО и учётные системы",
+    "group": "fixed",
+    "amount_minor": 4770000,
+    "operations": 9,
+    "share": 0.0005
+   },
+   {
+    "direction": "out",
+    "category": "bank_fee",
+    "label": "Банковские комиссии",
+    "group": "fixed",
+    "amount_minor": 1788000,
+    "operations": 12,
+    "share": 0.0002
+   }
+  ],
+  "groups": [
+   {
+    "direction": "out",
+    "group": "financing",
+    "label": "Кредиты и собственник",
+    "amount_minor": 3562364466,
+    "operations": 19,
+    "share": 0.3677
+   },
+   {
+    "direction": "out",
+    "group": "operations",
+    "label": "Закупки и подрядчики",
+    "amount_minor": 3343486336,
+    "operations": 137,
+    "share": 0.3451
+   },
+   {
+    "direction": "out",
+    "group": "payroll",
+    "label": "Зарплата",
+    "amount_minor": 1146712690,
+    "operations": 24,
+    "share": 0.1184
+   },
+   {
+    "direction": "out",
+    "group": "tax",
+    "label": "Налоги",
+    "amount_minor": 961973169,
+    "operations": 17,
+    "share": 0.0993
+   },
+   {
+    "direction": "out",
+    "group": "fixed",
+    "label": "Постоянные расходы",
+    "amount_minor": 673995417,
+    "operations": 34,
+    "share": 0.0696
+   }
+  ]
+ },
+ "dictionaries_groups": [
+  {
+   "code": "revenue",
+   "label": "Выручка"
+  },
+  {
+   "code": "financing",
+   "label": "Кредиты и собственник"
+  },
+  {
+   "code": "tax",
+   "label": "Налоги"
+  },
+  {
+   "code": "payroll",
+   "label": "Зарплата"
+  },
+  {
+   "code": "fixed",
+   "label": "Постоянные расходы"
+  },
+  {
+   "code": "operations",
+   "label": "Закупки и подрядчики"
+  },
+  {
+   "code": "other",
+   "label": "Прочее"
+  },
+  {
+   "code": "unknown",
+   "label": "Без категории"
+  }
+ ],
+ "demo_sources_run_id": "bcde354a-3a8f-4b8e-a6a1-6223dafd5d04",
+ "demo_sources_risk": {
+  "first_gap_date": "2026-05-18",
+  "liquidity_need_minor": 56352816,
+  "minimum_balance_minor": -56352816,
+  "probability_30d": 0.826
+ },
+ "demo_sources_calendar": {
+  "run_id": "bcde354a-3a8f-4b8e-a6a1-6223dafd5d04",
+  "account_id": "C003",
+  "as_of": "2026-04-26",
+  "date_to": "2026-05-26",
+  "items": [
+   {
+    "id": "contract:C003:5126a9f44299",
+    "date": "2026-04-28",
+    "due_date": "2026-04-28",
+    "direction": "in",
+    "amount_minor": 13500000,
+    "label": "Поставка зерна №МЗ-44/2026 · предоплата",
+    "title": "Поставка зерна №МЗ-44/2026 · предоплата",
+    "component_id": "contract:МЗ-44/2026",
+    "category": "contract_prepayment",
+    "category_label": "Предоплата по договору",
+    "group": "revenue",
+    "source": "contract",
+    "source_label": "Договор",
+    "source_short": "Договор",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "agreed",
+    "certainty_label": "Подписан договор",
+    "counterparty_name": "ООО «Маслозавод-431»",
+    "counterparty_inn": "0093526192",
+    "obligatory": false,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "bank-order:C003:d169aef29ab9",
+    "date": "2026-04-29",
+    "due_date": "2026-04-29",
+    "direction": "out",
+    "amount_minor": 12000000,
+    "label": "Платёжное поручение №512: Оплата по счету №С-71 от 20.04.2026 за семена",
+    "title": "Платёжное поручение №512: Оплата по счету №С-71 от 20.04.2026 за семена",
+    "component_id": "order:512",
+    "category": "supplier",
+    "category_label": "Поставщики и закупки",
+    "group": "operations",
+    "source": "bank",
+    "source_label": "Банк: кредиты, зарплатный проект, платёжки",
+    "source_short": "Банк",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "documented",
+    "certainty_label": "Выставлен счёт / платёжный документ",
+    "counterparty_name": "ООО «Семена-676»",
+    "counterparty_inn": "0043270523",
+    "obligatory": false,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "invoice:C003:4edb7387233c",
+    "date": "2026-04-30",
+    "due_date": "2026-04-30",
+    "direction": "out",
+    "amount_minor": 80091827,
+    "label": "Счёт №1506 · ООО «Семена-676»",
+    "title": "Счёт №1506 · ООО «Семена-676»",
+    "component_id": "invoice:0043270523",
+    "category": "supplier",
+    "category_label": "Поставщики и закупки",
+    "group": "operations",
+    "source": "invoice",
+    "source_label": "Счёт",
+    "source_short": "Счёт",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "documented",
+    "certainty_label": "Выставлен счёт / платёжный документ",
+    "counterparty_name": "ООО «Семена-676»",
+    "counterparty_inn": "0043270523",
+    "obligatory": false,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "invoice:C003:adaca3ed03ea",
+    "date": "2026-05-04",
+    "due_date": "2026-05-04",
+    "direction": "in",
+    "amount_minor": 38000000,
+    "label": "Счёт №214 · ООО «Мукомольный комбинат-935»",
+    "title": "Счёт №214 · ООО «Мукомольный комбинат-935»",
+    "component_id": "invoice:0003688561",
+    "category": "customer_payment",
+    "category_label": "Оплата клиентов",
+    "group": "revenue",
+    "source": "invoice",
+    "source_label": "Счёт",
+    "source_short": "Счёт",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "documented",
+    "certainty_label": "Выставлен счёт / платёжный документ",
+    "counterparty_name": "ООО «Мукомольный комбинат-935»",
+    "counterparty_inn": "0003688561",
+    "obligatory": false,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "bank-payroll:C003:6e37416f2c52",
+    "date": "2026-05-04",
+    "due_date": "2026-05-04",
+    "direction": "out",
+    "amount_minor": 37430100,
+    "label": "Зарплатный проект: аванс",
+    "title": "Зарплатный проект: аванс",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "bank",
+    "source_label": "Банк: кредиты, зарплатный проект, платёжки",
+    "source_short": "Банк",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "documented",
+    "certainty_label": "Выставлен счёт / платёжный документ",
+    "counterparty_name": null,
+    "counterparty_inn": null,
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "invoice:C003:9ca870aba28d",
+    "date": "2026-05-06",
+    "due_date": "2026-05-06",
+    "direction": "out",
+    "amount_minor": 9650000,
+    "label": "Счёт №С-77 · ООО «Семена-676»",
+    "title": "Счёт №С-77 · ООО «Семена-676»",
+    "component_id": "invoice:0043270523",
+    "category": "supplier",
+    "category_label": "Поставщики и закупки",
+    "group": "operations",
+    "source": "invoice",
+    "source_label": "Счёт",
+    "source_short": "Счёт",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "documented",
+    "certainty_label": "Выставлен счёт / платёжный документ",
+    "counterparty_name": "ООО «Семена-676»",
+    "counterparty_inn": "0043270523",
+    "obligatory": false,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "regular:C003:component:4dc0eb2a8062f9b3:2026-05-13",
+    "date": "2026-05-13",
+    "due_date": "2026-05-13",
+    "direction": "out",
+    "amount_minor": 530000,
+    "label": "ПО и учётные системы · повтор по истории",
+    "title": "ПО и учётные системы",
+    "component_id": "component:4dc0eb2a8062f9b3",
+    "category": "software",
+    "category_label": "ПО и учётные системы",
+    "group": "fixed",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ООО «Учетные системы-520»",
+    "counterparty_inn": "0092299998",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "bank-payroll:C003:44c9c84ee67c",
+    "date": "2026-05-18",
+    "due_date": "2026-05-18",
+    "direction": "out",
+    "amount_minor": 37430100,
+    "label": "Зарплатный проект: зарплата",
+    "title": "Зарплатный проект: зарплата",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "bank",
+    "source_label": "Банк: кредиты, зарплатный проект, платёжки",
+    "source_short": "Банк",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "documented",
+    "certainty_label": "Выставлен счёт / платёжный документ",
+    "counterparty_name": null,
+    "counterparty_inn": null,
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "contract:C003:11bf9d24295d",
+    "date": "2026-05-19",
+    "due_date": "2026-05-19",
+    "direction": "in",
+    "amount_minor": 31500000,
+    "label": "Поставка зерна №МЗ-44/2026 · окончательный расчёт",
+    "title": "Поставка зерна №МЗ-44/2026 · окончательный расчёт",
+    "component_id": "contract:МЗ-44/2026",
+    "category": "contract_settlement",
+    "category_label": "Окончательный расчёт по договору",
+    "group": "revenue",
+    "source": "contract",
+    "source_label": "Договор",
+    "source_short": "Договор",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "agreed",
+    "certainty_label": "Подписан договор",
+    "counterparty_name": "ООО «Маслозавод-431»",
+    "counterparty_inn": "0093526192",
+    "obligatory": false,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "bank-loan:C003:ca7135365874",
+    "date": "2026-05-25",
+    "due_date": "2026-05-25",
+    "direction": "out",
+    "amount_minor": 17150000,
+    "label": "Кредит КЛ-2025/118: тело 150 000,00 ₽, проценты 21 500,00 ₽",
+    "title": "Кредит КЛ-2025/118: тело 150 000,00 ₽, проценты 21 500,00 ₽",
+    "component_id": "loan:КЛ-2025/118",
+    "category": "debt_service",
+    "category_label": "Обслуживание долга",
+    "group": "financing",
+    "source": "bank",
+    "source_label": "Банк: кредиты, зарплатный проект, платёжки",
+    "source_short": "Банк",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "documented",
+    "certainty_label": "Выставлен счёт / платёжный документ",
+    "counterparty_name": "ПАО «Банк»",
+    "counterparty_inn": null,
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   }
+  ],
+  "totals": {
+   "count": 10,
+   "inflow_minor": 83000000,
+   "outflow_minor": 194282027
+  },
+  "facets": {
+   "sources": [
+    {
+     "code": "bank",
+     "label": "Банк",
+     "count": 4
+    },
+    {
+     "code": "invoice",
+     "label": "Счёт",
+     "count": 3
+    },
+    {
+     "code": "contract",
+     "label": "Договор",
+     "count": 2
+    },
+    {
+     "code": "regular",
+     "label": "По истории",
+     "count": 1
+    }
+   ],
+   "categories": [
+    {
+     "code": "supplier",
+     "label": "Поставщики и закупки",
+     "count": 3
+    },
+    {
+     "code": "salary",
+     "label": "Зарплата",
+     "count": 2
+    },
+    {
+     "code": "contract_prepayment",
+     "label": "Предоплата по договору",
+     "count": 1
+    },
+    {
+     "code": "contract_settlement",
+     "label": "Окончательный расчёт по договору",
+     "count": 1
+    },
+    {
+     "code": "customer_payment",
+     "label": "Оплата клиентов",
+     "count": 1
+    },
+    {
+     "code": "debt_service",
+     "label": "Обслуживание долга",
+     "count": 1
+    },
+    {
+     "code": "software",
+     "label": "ПО и учётные системы",
+     "count": 1
+    }
+   ],
+   "directions": [
+    {
+     "code": "out",
+     "label": "Списания",
+     "count": 7
+    },
+    {
+     "code": "in",
+     "label": "Поступления",
+     "count": 3
+    }
+   ],
+   "obligatory": 4,
+   "cancelled": 0
+  }
+ },
+ "demo_sources_calendar_obligatory": {
+  "run_id": "bcde354a-3a8f-4b8e-a6a1-6223dafd5d04",
+  "account_id": "C003",
+  "as_of": "2026-04-26",
+  "date_to": "2026-05-26",
+  "items": [
+   {
+    "id": "bank-payroll:C003:6e37416f2c52",
+    "date": "2026-05-04",
+    "due_date": "2026-05-04",
+    "direction": "out",
+    "amount_minor": 37430100,
+    "label": "Зарплатный проект: аванс",
+    "title": "Зарплатный проект: аванс",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "bank",
+    "source_label": "Банк: кредиты, зарплатный проект, платёжки",
+    "source_short": "Банк",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "documented",
+    "certainty_label": "Выставлен счёт / платёжный документ",
+    "counterparty_name": null,
+    "counterparty_inn": null,
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "regular:C003:component:4dc0eb2a8062f9b3:2026-05-13",
+    "date": "2026-05-13",
+    "due_date": "2026-05-13",
+    "direction": "out",
+    "amount_minor": 530000,
+    "label": "ПО и учётные системы · повтор по истории",
+    "title": "ПО и учётные системы",
+    "component_id": "component:4dc0eb2a8062f9b3",
+    "category": "software",
+    "category_label": "ПО и учётные системы",
+    "group": "fixed",
+    "source": "regular",
+    "source_label": "Повтор по истории",
+    "source_short": "По истории",
+    "kind": "assumption",
+    "status": "assumption",
+    "certainty": null,
+    "certainty_label": null,
+    "counterparty_name": "ООО «Учетные системы-520»",
+    "counterparty_inn": "0092299998",
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "skip"
+    ]
+   },
+   {
+    "id": "bank-payroll:C003:44c9c84ee67c",
+    "date": "2026-05-18",
+    "due_date": "2026-05-18",
+    "direction": "out",
+    "amount_minor": 37430100,
+    "label": "Зарплатный проект: зарплата",
+    "title": "Зарплатный проект: зарплата",
+    "component_id": "component:475c003c562563be",
+    "category": "salary",
+    "category_label": "Зарплата",
+    "group": "payroll",
+    "source": "bank",
+    "source_label": "Банк: кредиты, зарплатный проект, платёжки",
+    "source_short": "Банк",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "documented",
+    "certainty_label": "Выставлен счёт / платёжный документ",
+    "counterparty_name": null,
+    "counterparty_inn": null,
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   },
+   {
+    "id": "bank-loan:C003:ca7135365874",
+    "date": "2026-05-25",
+    "due_date": "2026-05-25",
+    "direction": "out",
+    "amount_minor": 17150000,
+    "label": "Кредит КЛ-2025/118: тело 150 000,00 ₽, проценты 21 500,00 ₽",
+    "title": "Кредит КЛ-2025/118: тело 150 000,00 ₽, проценты 21 500,00 ₽",
+    "component_id": "loan:КЛ-2025/118",
+    "category": "debt_service",
+    "category_label": "Обслуживание долга",
+    "group": "financing",
+    "source": "bank",
+    "source_label": "Банк: кредиты, зарплатный проект, платёжки",
+    "source_short": "Банк",
+    "kind": "registered",
+    "status": "confirmed",
+    "certainty": "documented",
+    "certainty_label": "Выставлен счёт / платёжный документ",
+    "counterparty_name": "ПАО «Банк»",
+    "counterparty_inn": null,
+    "obligatory": true,
+    "overdue": false,
+    "actions": [
+     "edit",
+     "delete"
+    ]
+   }
+  ],
+  "totals": {
+   "count": 4,
+   "inflow_minor": 0,
+   "outflow_minor": 92540200
+  },
+  "facets": {
+   "sources": [
+    {
+     "code": "bank",
+     "label": "Банк",
+     "count": 4
+    },
+    {
+     "code": "invoice",
+     "label": "Счёт",
+     "count": 3
+    },
+    {
+     "code": "contract",
+     "label": "Договор",
+     "count": 2
+    },
+    {
+     "code": "regular",
+     "label": "По истории",
+     "count": 1
+    }
+   ],
+   "categories": [
+    {
+     "code": "supplier",
+     "label": "Поставщики и закупки",
+     "count": 3
+    },
+    {
+     "code": "salary",
+     "label": "Зарплата",
+     "count": 2
+    },
+    {
+     "code": "contract_prepayment",
+     "label": "Предоплата по договору",
+     "count": 1
+    },
+    {
+     "code": "contract_settlement",
+     "label": "Окончательный расчёт по договору",
+     "count": 1
+    },
+    {
+     "code": "customer_payment",
+     "label": "Оплата клиентов",
+     "count": 1
+    },
+    {
+     "code": "debt_service",
+     "label": "Обслуживание долга",
+     "count": 1
+    },
+    {
+     "code": "software",
+     "label": "ПО и учётные системы",
+     "count": 1
+    }
+   ],
+   "directions": [
+    {
+     "code": "out",
+     "label": "Списания",
+     "count": 7
+    },
+    {
+     "code": "in",
+     "label": "Поступления",
+     "count": 3
+    }
+   ],
+   "obligatory": 4,
+   "cancelled": 0
+  }
+ }
+}

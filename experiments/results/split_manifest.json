@@ -1,0 +1,7814 @@
+[
+  {
+    "split": "calibration",
+    "account_id": "C001",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C002",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C003",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C004",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C006",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C008",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C009",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C010",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C011",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C012",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C014",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C015",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C017",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C019",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C020",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C021",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C022",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C023",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C024",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C025",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C026",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C028",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C030",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C031",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C032",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C033",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C040",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C041",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C042",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C043",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C044",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C045",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C047",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C048",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C050",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C051",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C052",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C053",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C054",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C055",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C057",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C058",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C060",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C061",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C062",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C063",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C064",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C067",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C069",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C070",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C071",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C072",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C073",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C074",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C075",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C076",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C077",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C079",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C080",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C082",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": true
+  },
+  {
+    "split": "calibration",
+    "account_id": "C083",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C084",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": true
+  },
+  {
+    "split": "calibration",
+    "account_id": "C085",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C086",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C087",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C091",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C092",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C093",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C094",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C095",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C096",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C097",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C099",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C100",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C102",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C103",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C104",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C106",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C107",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C108",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C109",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C111",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C112",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C113",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C114",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C115",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C116",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C117",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C119",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C120",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C123",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C124",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C125",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C126",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C127",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C128",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C129",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C130",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C131",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C132",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C133",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C134",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C137",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C138",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C140",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C141",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C144",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C145",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C146",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C147",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C148",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C149",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C150",
+    "origin": "2026-01-01",
+    "target_end": "2026-01-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C001",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C002",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C003",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C004",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C006",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C008",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C009",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C010",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C011",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C012",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C014",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C015",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C017",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C019",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C020",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C021",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C022",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C023",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C024",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C025",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C026",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C028",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C030",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C031",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C032",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C033",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C040",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C041",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C042",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C043",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C044",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C045",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C047",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C048",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C050",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C051",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C052",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C054",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C055",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C057",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C058",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C060",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C061",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C062",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C063",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C064",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C067",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C069",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C070",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C071",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C072",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C073",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C074",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C075",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C076",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C077",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C079",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C082",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": true
+  },
+  {
+    "split": "calibration",
+    "account_id": "C083",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C084",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": true
+  },
+  {
+    "split": "calibration",
+    "account_id": "C085",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C086",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C087",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C091",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C092",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C093",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C094",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C095",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C096",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C097",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C099",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C100",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C102",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C103",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C104",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C106",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C107",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C108",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C109",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C111",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C112",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C113",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C114",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C115",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C116",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C117",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C119",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C120",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C121",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C123",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C124",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C125",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C126",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C127",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C128",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C129",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C130",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C131",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C132",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C133",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C134",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C137",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C138",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C140",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C141",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C144",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C145",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C146",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C147",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C148",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C149",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C150",
+    "origin": "2026-01-08",
+    "target_end": "2026-02-07",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C001",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C002",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C003",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C004",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C006",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C008",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C009",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C010",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C011",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C012",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C014",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C015",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C017",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C019",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C020",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C021",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C022",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C023",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C024",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C025",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C026",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C028",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C030",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C031",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C032",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C033",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C040",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C041",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C042",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C043",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C044",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C045",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C047",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C048",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C050",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C051",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C052",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C054",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C055",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C057",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C058",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C060",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C061",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C062",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C063",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C064",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C067",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C069",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C070",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C071",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C072",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C073",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C074",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C075",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C076",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C077",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C079",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C082",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C083",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C084",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": true
+  },
+  {
+    "split": "calibration",
+    "account_id": "C085",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C086",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C087",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C091",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C092",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C093",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C094",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C095",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C096",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C097",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C099",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C100",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C102",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C103",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C104",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C106",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C108",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C109",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C111",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C112",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C113",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C114",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C115",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C116",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C119",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C120",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C121",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C123",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C124",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C125",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C126",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C127",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C128",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C129",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C130",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C131",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C132",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C133",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C134",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C137",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C138",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C140",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C141",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C144",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C145",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C146",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C147",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C148",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C149",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C150",
+    "origin": "2026-01-15",
+    "target_end": "2026-02-14",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C001",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C002",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C003",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C004",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": true
+  },
+  {
+    "split": "calibration",
+    "account_id": "C006",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C008",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C009",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C010",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C011",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C012",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C014",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C015",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C017",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C019",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C020",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C021",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C022",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C023",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C024",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C025",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C026",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C028",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C030",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C031",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C032",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C033",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C040",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C041",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C042",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C043",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C044",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C045",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C047",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C048",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C050",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C051",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C052",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C054",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C055",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C057",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C058",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C060",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C061",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C062",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C063",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C064",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C067",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C069",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C070",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C071",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C072",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C073",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C074",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C075",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C076",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C077",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C079",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C082",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C083",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C084",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C085",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C086",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C087",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C091",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C092",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C093",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C094",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C095",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C096",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C097",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C099",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C100",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C102",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C103",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C104",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C106",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C108",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C109",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C111",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C112",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C113",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C114",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C115",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C116",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C119",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C120",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C121",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C123",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C124",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C125",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C126",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C127",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C128",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C129",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C130",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C131",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C132",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C133",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C134",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C137",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C138",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C140",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C141",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C144",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C145",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C146",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C147",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C148",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C149",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C150",
+    "origin": "2026-01-22",
+    "target_end": "2026-02-21",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C001",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C002",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C003",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C004",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C006",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C008",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C009",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C010",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C011",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C012",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C014",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C015",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C017",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C019",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C020",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C021",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C022",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C023",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C024",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C025",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C026",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C028",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C030",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C031",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C032",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C033",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C037",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C040",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C041",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C042",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C043",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C044",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C045",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C047",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C048",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C050",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C051",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C052",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C054",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C055",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C057",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C058",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C060",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C061",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C062",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C063",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C064",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C067",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C069",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C070",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C071",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C072",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C073",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C074",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C075",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C076",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C077",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C079",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C082",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C083",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C084",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C085",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C086",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C087",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C091",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C092",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C093",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C094",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C095",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C096",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C097",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C099",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C100",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C102",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C103",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C104",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C106",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C108",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C109",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C111",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C112",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C113",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C114",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C115",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C116",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C119",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C120",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C121",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C123",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C124",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C125",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C126",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C127",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C128",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C129",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C130",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C131",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C132",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C133",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C134",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C137",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C138",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C140",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C141",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C143",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C144",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C145",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C146",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C147",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C148",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C149",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "calibration",
+    "account_id": "C150",
+    "origin": "2026-01-29",
+    "target_end": "2026-02-28",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C001",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C002",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C003",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C004",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": true
+  },
+  {
+    "split": "selection",
+    "account_id": "C006",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C007",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C008",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C009",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C010",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C011",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C012",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C014",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C015",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C017",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C019",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C020",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C021",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C022",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C023",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C024",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C025",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C026",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C028",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C030",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C031",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C033",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C035",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C037",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C040",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C041",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C042",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C043",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C044",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C045",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C047",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C048",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C050",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C051",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C052",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C054",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C055",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C057",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C058",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C060",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C061",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C062",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C063",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C064",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C066",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C067",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C069",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C070",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C071",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C072",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C073",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C074",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C075",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C076",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C077",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C079",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C082",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C083",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C084",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C085",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C086",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C087",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C091",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C092",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C094",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C095",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C096",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C099",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C100",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C102",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C103",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C104",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C106",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C108",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C109",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C111",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C112",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C115",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C116",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C118",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C119",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C120",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C121",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C123",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C124",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": true
+  },
+  {
+    "split": "selection",
+    "account_id": "C125",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C126",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C127",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C128",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C129",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C130",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C131",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C132",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C133",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C134",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C137",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C138",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C139",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C140",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C141",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C143",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C144",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C145",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C146",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C148",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C149",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C150",
+    "origin": "2026-03-01",
+    "target_end": "2026-03-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C001",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C002",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C003",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C004",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C006",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C007",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C008",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C009",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C011",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C012",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C013",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C014",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C015",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C017",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C019",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C020",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C021",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C022",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C023",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C024",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C026",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C027",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C028",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C030",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C031",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C033",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C035",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C037",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C040",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C041",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C042",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C043",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C044",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C045",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C047",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C048",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C050",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C051",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C052",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C054",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C055",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C057",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C058",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C060",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C062",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C063",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C064",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C066",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C067",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C069",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C070",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C071",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C072",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C073",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C074",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C075",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C076",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C077",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C079",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C082",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C083",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C084",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C085",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C086",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C087",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C091",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C094",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C095",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C096",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C099",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C100",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C102",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C103",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C104",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C106",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C108",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C109",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C111",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C112",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C115",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C116",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": true
+  },
+  {
+    "split": "selection",
+    "account_id": "C119",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C120",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C121",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C123",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C124",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": true
+  },
+  {
+    "split": "selection",
+    "account_id": "C126",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C127",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C128",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C129",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C130",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C131",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C132",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C133",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C134",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C135",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C137",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C138",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C139",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C140",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C141",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C143",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C144",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C145",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C146",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C148",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C149",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C150",
+    "origin": "2026-04-01",
+    "target_end": "2026-05-01",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C001",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C002",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C003",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C004",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C006",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C007",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C008",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C009",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C011",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C012",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C013",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C014",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C015",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C016",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C017",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C019",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C020",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C021",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C022",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C023",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C024",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C026",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C027",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C028",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C029",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C030",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C031",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C033",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C035",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C037",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C040",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C041",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C042",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C043",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C044",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C045",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C047",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C048",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C050",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C051",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C052",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C054",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C055",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C057",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C058",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C060",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C062",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C063",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C064",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C066",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C067",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C069",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C070",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C071",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C072",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C073",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C074",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C075",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C076",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C077",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C079",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C082",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C083",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C084",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C085",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C086",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C087",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C091",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C094",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C095",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C096",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C099",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C100",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C102",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C103",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C104",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C106",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C108",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C109",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C111",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C112",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C115",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C116",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C119",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C120",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C121",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C123",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C124",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C126",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C127",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C128",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C129",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C130",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C131",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C132",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C133",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C135",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C137",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C138",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C139",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C140",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C141",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C143",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C144",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C145",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C146",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C148",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C149",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "selection",
+    "account_id": "C150",
+    "origin": "2026-05-01",
+    "target_end": "2026-05-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C001",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C002",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C003",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C006",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C007",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C008",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C009",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C011",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C013",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C014",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C015",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C016",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C017",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C018",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C019",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C020",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C021",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C022",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C023",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C024",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C026",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C027",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C028",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C029",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C030",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C031",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C033",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C035",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C037",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": true
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C038",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C039",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C040",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C041",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C042",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C043",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C044",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C045",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C047",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C048",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C050",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C051",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C052",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C054",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C055",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C057",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C058",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C060",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C062",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C063",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C064",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C065",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C066",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": true
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C067",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C069",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C070",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C071",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C072",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C073",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C074",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C075",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C076",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C079",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C080",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C083",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C084",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C085",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C086",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C087",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C091",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C094",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C095",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C096",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C099",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C100",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C102",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C104",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C106",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C108",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C109",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C111",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C112",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C114",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C115",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C116",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C119",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C120",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C121",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C123",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C124",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C126",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C127",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C128",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C129",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C130",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C131",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C132",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C133",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C135",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C137",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C138",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C139",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C141",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C143",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C144",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C145",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C146",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C147",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C148",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C149",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C150",
+    "origin": "2026-07-01",
+    "target_end": "2026-07-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C001",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C002",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C003",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C005",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C006",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C007",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C008",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C009",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C010",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C011",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C013",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C014",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C015",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C016",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C017",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C018",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C019",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C020",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C021",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C022",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C023",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C024",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C026",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C027",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C028",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C029",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C030",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C031",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C033",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C034",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C035",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C037",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C038",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C039",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C040",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C041",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C042",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C043",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C044",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C045",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C046",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C047",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C048",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C050",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C051",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C052",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C053",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C054",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C055",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C056",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C057",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C058",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C060",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C062",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C063",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C064",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C065",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C066",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": true
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C067",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C069",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C070",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C071",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C072",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C073",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C074",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C075",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C076",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C078",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C079",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C080",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C083",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C084",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C085",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C086",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C087",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C091",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C095",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C096",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C097",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C099",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C100",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C102",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C104",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C105",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C106",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C108",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C109",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C111",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C112",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C113",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C114",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C115",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C116",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C119",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C120",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C121",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C123",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C124",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C125",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C126",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C127",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C128",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C129",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": true
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C130",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C131",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C132",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C133",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C135",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C136",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C137",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C138",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C139",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C141",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C143",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C144",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C145",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C146",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C147",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C148",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C149",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  },
+  {
+    "split": "retrospective",
+    "account_id": "C150",
+    "origin": "2026-08-01",
+    "target_end": "2026-08-31",
+    "new_gap_window": false
+  }
+]

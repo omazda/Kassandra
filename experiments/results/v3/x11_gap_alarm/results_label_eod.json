@@ -1,0 +1,61 @@
+{
+ "artifact": {
+  "version": "x11-2026-05-31",
+  "fitted_on": "selection 2026-03-01…2026-05-24, ensemble, windows with non-negative start",
+  "windows": 780,
+  "positives": 14,
+  "threshold": 0.06
+ },
+ "selection": {
+  "trajectory_rule": {
+   "tp": 4,
+   "fp": 54,
+   "fn": 10,
+   "tn": 712,
+   "precision": 0.069,
+   "recall": 0.2857,
+   "f1": 0.1111,
+   "accuracy": 0.9179
+  },
+  "calibrated_alarm": {
+   "tp": 6,
+   "fp": 63,
+   "fn": 8,
+   "tn": 703,
+   "precision": 0.087,
+   "recall": 0.4286,
+   "f1": 0.1446,
+   "accuracy": 0.909
+  },
+  "brier_raw": 0.133,
+  "brier_calibrated": 0.0159,
+  "base_rate": 0.0179
+ },
+ "retro": {
+  "windows": 583,
+  "positives": 11,
+  "trajectory_rule": {
+   "tp": 1,
+   "fp": 43,
+   "fn": 10,
+   "tn": 529,
+   "precision": 0.0227,
+   "recall": 0.0909,
+   "f1": 0.0364,
+   "accuracy": 0.9091
+  },
+  "calibrated_alarm": {
+   "tp": 1,
+   "fp": 53,
+   "fn": 10,
+   "tn": 519,
+   "precision": 0.0185,
+   "recall": 0.0909,
+   "f1": 0.0308,
+   "accuracy": 0.8919
+  },
+  "brier_raw": 0.145,
+  "brier_calibrated": 0.0218,
+  "base_rate": 0.0189
+ }
+}
