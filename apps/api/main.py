@@ -127,10 +127,9 @@ def create_app(service=None, users=None, auth_mode=None, assistant=None):
     mcp = MCPServer(svc)
 
     def principal(authorization: Annotated[str | None, Header()] = None):
-        if authorization:
-            token = (
-                authorization.removeprefix("Bearer ") if authorization.startswith("Bearer ") else ""
-            )
+        # Only a Bearer token is ours: a browser may keep sending a site password (Basic).
+        if authorization and authorization[:7].lower() == "bearer ":
+            token = authorization[7:]
             for candidate, identity in user_map.items():
                 if secrets.compare_digest(token, candidate):
                     return {"id": identity["id"], "accounts": identity.get("accounts", [])}

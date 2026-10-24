@@ -40,11 +40,11 @@
 <table>
 <tr>
 <td width="50%"><img src="docs/screenshots/gaps.jpg" alt="Матрица ошибок по разрывам: TP 40, FP 52, FN 39, TN 430; precision, recall, F1, Brier, ROC-AUC"></td>
-<td width="50%"><img src="docs/screenshots/company.jpg" alt="Компания на странице отладки: прогноз с коридором, прогноз против факта, пошаговый журнал расчёта"></td>
+<td width="50%"><img src="docs/screenshots/company.jpg" alt="C124 на странице отладки: прогноз на 30 дней с коридором P10–P90 и проверка от 20.07: тревога на 10-й день, разрыв на 11-й"></td>
 </tr>
 <tr>
 <td align="center">Метрики на загруженном датасете</td>
-<td align="center">Прогноз против факта и журнал расчёта</td>
+<td align="center">Прогноз против факта: тревога за день до разрыва</td>
 </tr>
 </table>
 
@@ -123,7 +123,7 @@
 | MAE остатка / RMSE | 1,50 млн ₽ / 4,23 млн ₽ (у «не изменится» 1,46 / 4,14) |
 | MAE минимума месяца | 1,12 млн ₽ против 1,42 млн ₽ — на 21% точнее |
 
-<p align="center"><img src="docs/screenshots/metrics.jpg" alt="Страница «Отладка»: прогноз на последнюю дату, точность остатка (MAE, RMSE, MSE, WAPE, skill), ошибка по горизонту и матрица ошибок" width="760"></p>
+<p align="center"><img src="docs/screenshots/metrics.jpg" alt="Страница «Отладка»: прогноз на последнюю дату и точность остатка — MAE, RMSE, MSE, WAPE, skill, ошибка по горизонту" width="760"></p>
 
 Ограничения:
 

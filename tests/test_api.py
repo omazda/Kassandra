@@ -139,6 +139,22 @@ def test_demo_does_not_expose_private_imports(svc):
     )
 
 
+def test_a_leftover_site_password_is_not_a_bad_token(svc):
+    from fastapi.testclient import TestClient
+
+    from apps.api.main import create_app
+
+    # A browser keeps sending the Basic password of a site that no longer asks for it.
+    demo = TestClient(create_app(svc, users={}, auth_mode="demo"))
+    basic = {"Authorization": "Basic Y2FzaGZsb3c6b2xk"}
+    assert demo.get("/api/v1/accounts", headers=basic).status_code == 200
+    assert demo.get("/api/v1/accounts", headers={"Authorization": "Bearer nope"}).status_code == 403
+    strict = TestClient(create_app(svc, users={"t": {"id": "alice"}}, auth_mode="token"))
+    answer = strict.get("/api/v1/accounts", headers=basic)
+    assert answer.status_code == 403 and answer.json()["detail"] == "Требуется Bearer-авторизация"
+    assert strict.get("/api/v1/accounts", headers={"Authorization": "bearer t"}).status_code == 200
+
+
 def test_api_new_scenarios_top_clients_and_explanation(client, auth):
     bob = {"Authorization": "Bearer bob-token"}
     body = {"account_id": "A", "as_of": "2026-04-30", "model": "mean"}
