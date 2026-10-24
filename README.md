@@ -10,7 +10,6 @@
 Остаток на 30 дней вперёд, разрыв — с датой, суммой и вероятностью, причина и что сделать.<br>
 Решение кейса хакатона «Осень 2026».
 
-[![CI](https://github.com/omazda/Kassandra/actions/workflows/ci.yml/badge.svg)](https://github.com/omazda/Kassandra/actions/workflows/ci.yml)
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-1E6E70)
 ![FastAPI](https://img.shields.io/badge/API-FastAPI-1E6E70)
 ![Flutter](https://img.shields.io/badge/client-Flutter%20web-1E6E70)
@@ -124,6 +123,8 @@
 | MAE остатка / RMSE | 1,50 млн ₽ / 4,23 млн ₽ (у «не изменится» 1,46 / 4,14) |
 | MAE минимума месяца | 1,12 млн ₽ против 1,42 млн ₽ — на 21% точнее |
 
+<p align="center"><img src="docs/screenshots/metrics.jpg" alt="Страница «Отладка»: прогноз на последнюю дату, точность остатка (MAE, RMSE, MSE, WAPE, skill), ошибка по горизонту и матрица ошибок" width="760"></p>
+
 Ограничения:
 
 - траектория остатка по дням не лучше константы;
@@ -233,7 +234,7 @@ flowchart LR
 ## Разработка
 
 - Стиль Python — ruff (длина строки 100), Dart — `flutter analyze`. Деньги — только целые копейки (`*_minor`), без float.
-- Любая логика ML и предметной области — с тестом в `tests/`. Перед коммитом — `make check` и `flutter test`; CI проверяет то же на каждый push и pull request.
+- Любая логика ML и предметной области — с тестом в `tests/`. Перед коммитом — `make check` и `flutter test`; то же запускает workflow `.github/workflows/ci.yml`.
 - Новый эксперимент — запись в `experiments/registry.json` и раздел в `docs/ml_results.md`; результаты прошлых прогонов не перезаписываются.
 - Уязвимости — по правилам из [SECURITY.md](SECURITY.md).
 
