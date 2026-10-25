@@ -24,6 +24,7 @@ class PaymentEditor extends StatefulWidget {
     required this.onSave,
     required this.onDelete,
     required this.onSkip,
+    this.onClose,
     this.compact = false,
   });
 
@@ -31,9 +32,14 @@ class PaymentEditor extends StatefulWidget {
   final List<ForecastPoint> points;
   final DateTime knownAt;
   final List<CodeLabel> categories;
-  final Future<void> Function(Map<String, dynamic> changed) onSave;
+
+  /// True when the change was saved; on an error the editor stays open with the message shown.
+  final Future<bool> Function(Map<String, dynamic> changed) onSave;
   final Future<void> Function() onDelete;
   final Future<void> Function() onSkip;
+
+  /// Closes the side panel on wide screens; the phone sheet closes through the navigator.
+  final VoidCallback? onClose;
   final bool compact;
 
   @override
@@ -124,10 +130,11 @@ class _PaymentEditorState extends State<PaymentEditor> {
                 ).copyWith(letterSpacing: 0.8),
               ),
             ),
-            if (widget.compact)
+            if (widget.compact || widget.onClose != null)
               IconButton(
+                key: const Key('edit-close'),
                 tooltip: 'Закрыть',
-                onPressed: () => Navigator.pop(context),
+                onPressed: _busy ? null : _close,
                 icon: const Icon(Icons.close),
               ),
           ],
@@ -275,16 +282,8 @@ class _PaymentEditorState extends State<PaymentEditor> {
             ),
             const SizedBox(width: 8),
             TextButton(
-              onPressed: _busy
-                  ? null
-                  : () {
-                      if (widget.compact) {
-                        Navigator.pop(context);
-                      } else {
-                        _reset(item);
-                        setState(() {});
-                      }
-                    },
+              key: const Key('edit-cancel'),
+              onPressed: _busy ? null : _close,
               child: const Text('Отмена'),
             ),
           ],
@@ -359,15 +358,27 @@ class _PaymentEditorState extends State<PaymentEditor> {
             certainty: _certainty,
           );
     if (changed.isEmpty) {
-      if (widget.compact && mounted) Navigator.pop(context);
+      _close();
       return;
     }
     setState(() => _busy = true);
+    var saved = false;
     try {
-      await widget.onSave(changed);
-      if (widget.compact && mounted) Navigator.pop(context);
+      saved = await widget.onSave(changed);
     } finally {
       if (mounted) setState(() => _busy = false);
+    }
+    if (saved && mounted) _close();
+  }
+
+  /// Cancel and the cross leave without saving: the sheet pops, the side panel closes.
+  void _close() {
+    if (!mounted) return;
+    if (widget.compact) {
+      Navigator.pop(context);
+    } else {
+      _reset(widget.item);
+      widget.onClose?.call();
     }
   }
 

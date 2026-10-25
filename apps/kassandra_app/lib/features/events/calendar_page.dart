@@ -286,6 +286,7 @@ class _CalendarPageState extends ConsumerState<CalendarPage> {
                     onSave: (changed) => _save(selected, changed),
                     onDelete: () => _delete(selected),
                     onSkip: () => _skip(selected),
+                    onClose: () => setState(() => _selectedId = null),
                   ),
                 ),
               ),
@@ -391,11 +392,15 @@ class _CalendarPageState extends ConsumerState<CalendarPage> {
     }
   }
 
-  Future<void> _save(CalendarItem item, Map<String, dynamic> changed) async {
+  Future<bool> _save(CalendarItem item, Map<String, dynamic> changed) async {
     final session = ref.read(sessionProvider);
     final knownAt = session.asOf;
     final runId = ref.read(forecastBundleProvider).valueOrNull?.forecast.runId;
-    if (knownAt == null || runId == null) return;
+    if (knownAt == null || runId == null) {
+      ref.read(noticeProvider.notifier).state =
+          'Прогноз ещё считается — сохраните через пару секунд';
+      return false;
+    }
     final body = {...changed, 'known_at': isoDate(knownAt)};
     try {
       if (item.assumption) {
@@ -407,14 +412,17 @@ class _CalendarPageState extends ConsumerState<CalendarPage> {
         await ref.read(apiProvider).patchEvent(item.id, body);
       }
       ref.read(sessionProvider.notifier).refresh();
+      return true;
     } on ConflictException catch (error) {
       ref.read(noticeProvider.notifier).state = error.message;
       if (error.eventId != null) {
         ref.read(sessionProvider.notifier).refresh();
         setState(() => _pendingOpen = error.eventId);
       }
+      return false;
     } on ApiException catch (error) {
       ref.read(noticeProvider.notifier).state = error.message;
+      return false;
     }
   }
 
